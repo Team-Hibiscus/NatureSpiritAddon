@@ -1,0 +1,30 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nature:tiger_lily"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "pattern": [
+      "   ",
+      "# &",
+      "   "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:red_flower",
+        "data": 10
+      },
+      "&": {
+        "item": "minecraft:red_flower",
+        "data": 5
+      }
+    },
+    "result": {
+      "item": "nature:tiger_lily_item",
+      "count": 2
+    }
+  }
+}

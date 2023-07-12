@@ -1,0 +1,15 @@
+
+{
+    "format_version": "1.13.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "nature:random_pink_flower_feature"
+        },
+        "features": [
+            ["nature:pink_rose", 10],
+            ["nature:pink_rose_2", 10],
+            ["nature:pink_rose_4", 1],
+            ["nature:pink_rose_3", 20]
+        ]
+    }
+}

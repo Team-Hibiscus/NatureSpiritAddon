@@ -1,0 +1,50 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "nature:random_fir_flower_feature"
+        },
+        "features": [
+            [
+                "nature:lavender_feature",
+                10
+            ],
+            [
+                "nature:lavender_feature_2",
+                7
+            ],
+            [
+                "nature:lavender_feature_3",
+                9
+            ],
+            [
+                "nature:purple_orchid",
+                7
+            ],
+            [
+                "nature:purple_orchid_2",
+                3
+            ],
+            [
+                "nature:purple_orchid_3",
+                5
+            ],
+            [
+                "nature:purple_orchid_4",
+                9
+            ],
+            [
+                "nature:wolfsbane",
+                7
+            ],
+            [
+                "nature:large_wolfsbane",
+                4
+            ],
+            [
+                "nature:wolfsbane_3",
+                6
+            ]
+        ]
+    }
+}

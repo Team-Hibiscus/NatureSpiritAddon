@@ -1,0 +1,20 @@
+	{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "nature:short_white_bleeding_heart_into_tall_white_bleeding_heart"
+		},
+		"tags": [
+			"splicing_table"
+		],
+		"ingredients": [
+			{
+				"item": "nature:white_bleeding_heart_item",
+				"count": 2
+			}
+		],
+		"result": {
+			"item": "nature:white_bleeding_heart_tall_item"
+		}
+	}
+}

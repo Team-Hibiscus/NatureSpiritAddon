@@ -1,0 +1,20 @@
+{
+	"format_version": "1.16.200",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "nature:yellow_maple_tree"
+		},
+		"structure_name": "mystructure:yellow_maple_tree",
+		"adjustment_radius": 8,
+		"facing_direction": "south",
+		"constraints": {
+			"grounded": {},
+			"unburied": {},
+			"block_intersection": {
+                "block_allowlist": [
+						"minecraft:air"
+                ]
+            }
+		}
+	}
+}

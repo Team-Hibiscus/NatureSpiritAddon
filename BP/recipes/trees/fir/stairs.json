@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "nature:stairs_from_fir_wood"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "W  ",
+            "WW ",
+            "WWW"
+        ],
+        "key": {
+            "W": {
+                "item": "nature:fir_planks"
+            }
+        },
+        "result": {
+            "item": "nature:fir_stairs",
+            "count": 4
+        }
+    }
+}

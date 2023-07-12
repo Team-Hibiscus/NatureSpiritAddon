@@ -1,0 +1,21 @@
+	{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "nature:short_sunflower_into_tall_sunflower"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "ingredients": [
+      {
+        "item": "nature:sunflower_item",
+        "count": 2
+      }
+    ],
+    "result": {
+      "item": "minecraft:double_plant",
+      "data": 0
+    }
+  }
+}

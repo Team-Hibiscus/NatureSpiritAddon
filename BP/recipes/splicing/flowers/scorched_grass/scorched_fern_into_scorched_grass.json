@@ -1,0 +1,21 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "nature:scorched_fern_into_scorched_grass"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "ingredients": [
+      {
+        "item": "nature:scorched_fern_item",
+        "count": 1
+      }
+    ],
+    "result": {
+      "item": "nature:scorched_grass_item",
+      "count": 9
+    }
+  }
+}

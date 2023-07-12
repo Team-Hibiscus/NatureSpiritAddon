@@ -1,0 +1,20 @@
+		{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "nature:tall_nasturtium_into_large_nasturtium"
+        },
+        "tags": [
+            "splicing_table"
+        ],
+        "ingredients": [
+            {
+                "item": "nature:nasturtium_tall_item",
+                "count": 2
+            }
+        ],
+        "result": {
+            "item": "nature:nasturtium_large_item"
+        }
+    }
+}

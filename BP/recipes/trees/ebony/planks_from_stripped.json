@@ -1,0 +1,24 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:ebony_planks_from_stripped_log"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"group": "planks",
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "nature:stripped_ebony_log"
+			}
+		},
+		"result": {
+			"item": "nature:ebony_planks",
+			"count": 4
+		}
+	}
+}

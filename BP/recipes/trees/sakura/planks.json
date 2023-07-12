@@ -1,0 +1,24 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:sakura_planks"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"group": "planks",
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "nature:sakura_log"
+			}
+		},
+		"result": {
+			"item": "nature:sakura_planks",
+			"count": 4
+		}
+	}
+}

@@ -1,0 +1,50 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "nature:violet_tallgrass"
+		},
+		"components": {
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"up"
+						],
+						"block_filter": [
+							"minecraft:grass",
+							"minecraft:dirt",
+							"minecraft:podzol",
+							"minecraft:moss_block",
+							"minecraft:netherrack",
+							"minecraft:soul_sand",
+							"minecraft:soul_soil",
+							"minecraft:magma",
+							"minecraft:crimson_nylium",
+							"minecraft:warped_nylium",
+							"minecraft:warped_wart_block",
+							"minecraft:nether_wart_block",
+							"nature:corrupted_moss_block",
+							"nature:violet_grass"
+						]
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/blocks/grass/violet_tallgrass.json",
+			"minecraft:geometry": "geometry.cross",
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "alpha_test",
+					"texture": "violet_tallgrass",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:entity_collision": false,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:destroy_time": 0,
+			"minecraft:block_light_emission": 0.2,
+			"minecraft:breathability": "air"
+		}
+	}
+}

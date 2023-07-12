@@ -1,0 +1,21 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "nature:tundra_rock_scatter"
+    },
+    "places_feature": "nature:tundra_rock",
+    "project_input_to_floor": true,
+    "iterations": 1,
+    "scatter_chance": 99,
+    "x": {
+      "distribution": "uniform",
+      "extent": [ -20, 20 ]
+    },
+    "y": 0,
+    "z": {
+      "distribution": "uniform",
+      "extent": [ -20, 20 ]
+    }
+  }
+}

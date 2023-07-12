@@ -1,0 +1,20 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "nature:short_cyan_rose_into_normal_cyan_rose"
+		},
+		"tags": [
+			"splicing_table"
+		],
+		"ingredients": [
+			{
+				"item": "nature:cyan_rose_short_item"
+			}
+		],
+		"result": {
+			"item": "nature:cyan_rose_item",
+			"count": 2
+		}
+	}
+}

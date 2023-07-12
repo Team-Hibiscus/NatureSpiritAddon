@@ -1,0 +1,20 @@
+	{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "nature:normal_daffodil_into_short_daffodil"
+		},
+		"tags": [
+			"splicing_table"
+		],
+		"ingredients": [
+			{
+				"item": "nature:daffodil_item"
+			}
+		],
+		"result": {
+			"item": "nature:daffodil_short_item",
+			"count": 2
+		}
+	}
+}

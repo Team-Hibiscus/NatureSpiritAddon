@@ -1,0 +1,25 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:willow_wood"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"group": "wood",
+		"pattern": [
+			"##",
+			"##"
+		],
+		"key": {
+			"#": {
+				"item": "nature:willow_log"
+			}
+		},
+		"result": {
+			"item": "nature:willow_wood",
+			"count": 3
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:soul_campfire_from_palo_verde_log2"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" A ",
+			"ABA",
+			"CCC"
+		],
+		"key": {
+			"A": {
+				"item": "stick"
+			},
+			"B": {
+				"item": "soul_sand"
+			},
+			"C": {
+				"item": "nature:palo_verde_log"
+			}
+		},
+		"result": {
+			"item": "soul_campfire",
+			"count": 1
+		},
+		"priority": 2
+	}
+}

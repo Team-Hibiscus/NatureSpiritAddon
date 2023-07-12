@@ -1,0 +1,52 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "nature:autumn_flower_2",
+      "places_feature": "nature:autumn_flower_cluster_feature"
+    },
+    "conditions": {
+      "placement_pass": "after_surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "all_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "savanna"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "mutated"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 40,
+      "x": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          16
+        ]
+      },
+      "y": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          "query.heightmap(variable.worldx, variable.worldz) + 32"
+        ]
+      },
+      "z": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          16
+        ]
+      }
+    }
+  }
+}

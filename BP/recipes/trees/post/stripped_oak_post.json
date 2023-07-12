@@ -1,0 +1,25 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "nature:stripped_oak_post"
+    },
+    "tags": [ 
+      "crafting_table" 
+    ],
+    "group": "wooden_trap_door",
+    "pattern": [
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:stripped_oak_log"
+      }
+    },
+    "result": {
+      "item": "nature:stripped_oak_post",
+      "count": 6
+    }
+  }
+}

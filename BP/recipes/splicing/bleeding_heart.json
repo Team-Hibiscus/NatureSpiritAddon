@@ -1,0 +1,29 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nature:bleeding_heart"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "pattern": [
+      "   ",
+      "# &",
+      "   "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:red_flower",
+        "data": 7
+      },
+      "&": {
+        "item": "nature:tiger_lily_item"
+      }
+    },
+    "result": {
+      "item": "nature:pink_bleeding_heart_item",
+      "count": 2
+    }
+  }
+}

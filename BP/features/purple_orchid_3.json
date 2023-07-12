@@ -1,0 +1,14 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "nature:purple_orchid_3"
+    },
+    "places_block": "nature:purple_orchid_short",
+    "enforce_survivability_rules": true,
+    "enforce_placement_rules": false,
+    "may_replace": [
+      "minecraft:air"
+    ]
+  }
+}

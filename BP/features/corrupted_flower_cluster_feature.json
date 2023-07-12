@@ -1,0 +1,26 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "nature:corrupted_flower_cluster_feature"
+    },
+    "places_feature": "nature:random_corrupted_flower_feature",
+    "iterations": 35,
+    "scatter_chance": 50,
+    "x": {
+      "distribution": "uniform",
+      "extent": [
+        -10,
+        10
+      ]
+    },
+    "y": 0,
+    "z": {
+      "distribution": "uniform",
+      "extent": [
+        -10,
+        10
+      ]
+    }
+  }
+}

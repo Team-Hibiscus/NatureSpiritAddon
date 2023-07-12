@@ -1,0 +1,29 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nature:carnation"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "pattern": [
+      "   ",
+      "# &",
+      "   "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:red_flower",
+        "data": 0
+      },
+      "&": {
+        "item": "nature:rose_item"
+      }
+    },
+    "result": {
+      "item": "nature:carnation_item",
+      "count": 2
+    }
+  }
+}

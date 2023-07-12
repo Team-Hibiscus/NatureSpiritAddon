@@ -1,0 +1,60 @@
+{
+  "format_version": "1.19.10",
+  "minecraft:block": {
+    "description": {
+      "identifier": "nature:lotus_flower"
+    },
+    "components": {
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "up"
+            ],
+            "block_filter": [
+              "water"
+            ]
+          }
+        ]
+      },
+      "minecraft:loot": "loot_tables/blocks/flowers/lotus_flower/lotus_flower.json",
+      "minecraft:material_instances": {
+        "*": {
+          "render_method": "alpha_test",
+          "texture": "lotus_flower",
+          "face_dimming": false,
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:geometry": "geometry.lotus_flower",
+      "minecraft:collision_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          1,
+          16
+        ]
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:destroy_time": 0,
+      "minecraft:breathability": "air",
+      "tag:water_plant": {},
+      "minecraft:selection_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          4,
+          16
+        ]
+      }
+    }
+  }
+}

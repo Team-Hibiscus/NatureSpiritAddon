@@ -1,0 +1,19 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:vegetation_patch_feature": {
+        "description": {
+            "identifier": "nature:large_snapdragon"
+        },
+        "horizontal_radius": 0,
+        "surface": "floor",
+        "ground_block": "minecraft:grass",
+        "replaceable_blocks": [
+            "minecraft:dirt",
+            "minecraft:grass"
+        ],
+        "vegetation_feature": "nature:snapdragon_2",
+        "vegetation_chance": 1,
+        "vertical_range": 0,
+        "depth": 1
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nature:marigold"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "pattern": [
+      "   ",
+      "# &",
+      "   "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:yellow_flower"
+      },
+      "&": {
+        "item": "minecraft:red_flower",
+        "data": 5
+      }
+    },
+    "result": {
+      "item": "nature:marigold_item",
+      "count": 2
+    }
+  }
+}

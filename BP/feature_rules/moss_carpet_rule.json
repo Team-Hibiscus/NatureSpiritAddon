@@ -1,0 +1,41 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "nature:moss_carpet_rule",
+      "places_feature": "nature:moss_carpet_feature"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "lush_plains"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "yellow_plains"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 200,
+      "scatter_chance": 100.0,
+      "x": {
+        "distribution": "uniform",
+        "extent": [ 0, 64 ]
+      },
+      "y": "query.above_top_solid(variable.worldx, variable.worldz)",
+      "z": {
+        "distribution": "uniform",
+        "extent": [ 0, 64 ]
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+//bridge-file-version: #0
+{
+	"tiers": [
+		{
+			"total_exp_required": 0,
+			"groups": [
+				{
+					"num_to_select": 1,
+					"trades": [
+						{
+							"wants": [
+								{
+									"item": "minecraft:diamond",
+                  "quantity": 20,
+									"price_multiplier": 0.2
+								},
+								{
+									"item": "minecraft:book",
+									"quantity": 1,
+									"price_multiplier": 0.2
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:diamond_pickaxe",
+									"quantity": 1,
+									"functions": [
+										{
+											"function": "specific_enchants",
+											"enchants": [
+												{
+													"id": "efficiency",
+													"level": [
+														6,
+														6
+													]
+												}
+											]
+										}
+									]
+								}
+							],
+							"trader_exp": 1,
+							"max_uses": 12,
+							"reward_exp": false
+						}
+					]
+				}
+			]
+		}
+	]
+}

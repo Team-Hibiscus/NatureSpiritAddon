@@ -1,0 +1,36 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "nature:violet_treelight"
+    },
+    "components": {
+      "minecraft:destroy_time": 0.5,
+      "minecraft:block_light_emission": 0.67,
+      "minecraft:loot": "loot_tables/blocks/misc/violet_treelight.json",
+      "minecraft:creative_category": {
+        "group": "itemGroup.name.sndstone",
+        "category": "nature"
+      },
+      "minecraft:queued_ticking": {
+        "looping": true,
+        "interval_range": [
+          200,
+          250
+        ],
+        "on_tick": {
+          "event": "grow"
+        }
+      }
+    },
+    "events": {
+      "grow": {
+        "run_command": {
+          "command": [
+            "particle nature:violet ~ ~ ~"
+          ]
+        }
+      }
+    }
+  }
+}

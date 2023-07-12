@@ -1,0 +1,82 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "nature:random_sunflower_plains_flower_feature"
+        },
+        "features": [
+            [
+                "nature:buttercup_3",
+                4
+            ],
+            [
+                "nature:buttercup_2",
+                3
+            ],
+            [
+                "nature:buttercup",
+                6
+            ],
+            [
+                "nature:dandelion_3",
+                4
+            ],
+            [
+                "nature:dandelion",
+                3
+            ],
+            [
+                "nature:dandelion_2",
+                6
+            ],
+            [
+                "minecraft:yellow_flower_feature",
+                6
+            ],
+            [
+                "nature:angels_trumpet",
+                6
+            ],
+            [
+                "nature:daffodil",
+                6
+            ],
+            [
+                "nature:daffodil_2",
+                3
+            ],
+            [
+                "nature:daffodil_3",
+                6
+            ],
+            [
+                "nature:daffodil_4",
+                4
+            ],
+            [
+                "nature:yellow_tulip",
+                6
+            ],
+            [
+                "nature:yellow_tulip_2",
+                3
+            ],
+            [
+                "nature:yellow_tulip_3",
+                6
+            ],
+            [
+                "nature:yellow_tulip_4",
+                4
+            ],
+            [
+                "nature:sunflower",
+                6
+            ],
+            [
+                "nature:large_sunflower",
+                4
+            ]
+        ]
+    }
+}

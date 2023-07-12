@@ -1,0 +1,15 @@
+
+{
+    "format_version": "1.13.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "nature:random_flower_feature"
+        },
+        "features": [
+            ["nature:red_flower_feature", 10],
+            ["nature:red_tulip_feature", 10],
+            ["nature:rose_double_plant_patch_feature", 1],
+            ["nature:rose_flower_feature", 20]
+        ]
+    }
+}

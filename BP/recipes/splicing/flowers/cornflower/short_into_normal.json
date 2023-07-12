@@ -1,0 +1,21 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "nature:short_cornflower_into_normal_cornflower"
+        },
+        "tags": [
+            "splicing_table"
+        ],
+        "ingredients": [
+            {
+                "item": "nature:cornflower_short_item"
+            }
+        ],
+        "result": {
+            "item": "minecraft:red_flower",
+            "data": 9,
+            "count": 2
+        }
+    }
+}

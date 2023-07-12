@@ -1,0 +1,29 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "nature:corrupted_moss_block_rule",
+      "places_feature": "nature:corrupted_moss_block"
+    },
+    "conditions": {
+      "placement_pass": "final_pass",
+      "minecraft:biome_filter": [
+        {
+          "all_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "placeholder"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 32,
+      "x": 0,
+      "y": "query.above_top_solid(variable.worldx, variable.worldz)",
+      "z": 0
+    }
+  }
+}

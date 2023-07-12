@@ -1,0 +1,20 @@
+	{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "nature:tall_azalea_flower_into_large_azalea_flower"
+        },
+        "tags": [
+            "splicing_table"
+        ],
+        "ingredients": [
+            {
+                "item": "nature:azalea_flower_tall_item",
+                "count": 2
+            }
+        ],
+        "result": {
+            "item": "nature:azalea_flower_large_item"
+        }
+    }
+}

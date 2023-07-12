@@ -1,0 +1,48 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "nature:violet_grass_rule",
+      "places_feature": "nature:violet_grass_block"
+    },
+    "conditions": {
+      "placement_pass": "final_pass",
+      "minecraft:biome_filter": [
+        {
+          "all_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "placeholder"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "scatter_chance": 100,
+      "iterations": 300,
+      "x": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          16
+        ]
+      },
+      "y": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          "query.heightmap(variable.worldx, variable.worldz) * 2"
+        ]
+      },
+      "z": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          16
+        ]
+      }
+    }
+  }
+}

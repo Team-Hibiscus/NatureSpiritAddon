@@ -1,0 +1,46 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:feature_rules": {
+        "description": {
+            "identifier": "nature:deccan_grass_rule_3",
+            "places_feature": "nature:deccan_grass_3"
+        },
+        "conditions": {
+            "placement_pass": "before_surface_pass",
+            "minecraft:biome_filter": [
+                {
+                    "all_of": [
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "jungle"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "!=",
+                            "value": "bamboo"
+                        }
+                    ]
+                }
+            ]
+        },
+        "distribution": {
+            "iterations": 5,
+            "x": {
+                "distribution": "uniform",
+                "extent": [
+                    -16,
+                    16
+                ]
+            },
+            "y": "query.above_top_solid(variable.worldx, variable.worldz)",
+            "z": {
+                "distribution": "uniform",
+                "extent": [
+                    -16,
+                    16
+                ]
+            }
+        }
+    }
+}

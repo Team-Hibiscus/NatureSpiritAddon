@@ -1,0 +1,20 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "nature:tall_deccan_grass_into_large_deccan_grass"
+		},
+		"tags": [
+			"splicing_table"
+		],
+		"ingredients": [
+			{
+				"item": "nature:deccan_grass_tall_item",
+				"count": 2
+			}
+		],
+		"result": {
+			"item": "nature:deccan_grass_large_item"
+		}
+	}
+}

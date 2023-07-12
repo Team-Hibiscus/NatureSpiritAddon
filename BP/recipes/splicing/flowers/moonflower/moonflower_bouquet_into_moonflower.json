@@ -1,0 +1,21 @@
+			{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "nature:moonflower_bouquet_into_moonflower"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "ingredients": [
+      {
+        "item": "nature:moonflower_bouquet_item",
+        "count": 1
+      }
+    ],
+    "result": {
+      "item": "nature:moonflower_item",
+      "count": 9
+    }
+  }
+}

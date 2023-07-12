@@ -1,0 +1,28 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:loom_from_fir_planks"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AA",
+			"BB"
+		],
+		"key": {
+			"A": {
+				"item": "string"
+			},
+			"B": {
+				"item": "nature:fir_planks"
+			}
+		},
+		"result": {
+			"item": "loom",
+			"count": 1
+		},
+		"priority": 2
+	}
+}

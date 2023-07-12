@@ -1,0 +1,20 @@
+	{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "nature:tall_daffodil_into_large_daffodil"
+		},
+		"tags": [
+			"splicing_table"
+		],
+		"ingredients": [
+			{
+				"item": "nature:daffodil_tall_item",
+				"count": 2
+			}
+		],
+		"result": {
+			"item": "nature:daffodil_large_item"
+		}
+	}
+}

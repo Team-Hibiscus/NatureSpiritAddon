@@ -1,0 +1,42 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "nature:corrupt_moss_carpet_rule",
+      "places_feature": "nature:corrupted_moss_carpet_feature"
+    },
+    "conditions": {
+      "placement_pass": "before_surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "all_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "placeholder"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 20,
+      "scatter_chance": 100.0,
+      "x": {
+        "distribution": "uniform",
+        "extent": [
+          -32,
+          64
+        ]
+      },
+      "y": "query.above_top_solid(variable.worldx, variable.worldz)",
+      "z": {
+        "distribution": "uniform",
+        "extent": [
+          -32,
+          64
+        ]
+      }
+    }
+  }
+}

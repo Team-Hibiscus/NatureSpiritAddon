@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:wooden_hoe_from_palo_verde_planks"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AA ",
+			" B ",
+			" B "
+		],
+		"key": {
+			"A": {
+				"item": "nature:palo_verde_planks"
+			},
+			"B": {
+				"item": "stick"
+			}
+		},
+		"result": {
+			"item": "wooden_hoe",
+			"count": 1
+		},
+		"priority": 2
+	}
+}

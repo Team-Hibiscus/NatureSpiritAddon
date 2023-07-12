@@ -1,0 +1,24 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:willow_planks_from_stripped_willow_wood"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"group": "planks",
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "nature:stripped_willow_wood"
+			}
+		},
+		"result": {
+			"item": "nature:willow_planks",
+			"count": 4
+		}
+	}
+}

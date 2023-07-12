@@ -1,0 +1,21 @@
+			{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "nature:normal_lily_valley_into_short_lily_valley"
+        },
+        "tags": [
+            "splicing_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:red_flower",
+                "data": 10,
+                "count": 2
+            }
+        ],
+        "result": {
+            "item": "nature:lily_valley_short_item"
+        }
+    }
+}

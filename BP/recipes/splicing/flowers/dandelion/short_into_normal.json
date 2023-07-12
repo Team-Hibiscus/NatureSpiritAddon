@@ -1,0 +1,20 @@
+			{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "nature:short_dandelion_into_normal_dandelion"
+        },
+        "tags": [
+            "splicing_table"
+        ],
+        "ingredients": [
+            {
+                "item": "nature:dandelion_short_item"
+            }
+        ],
+        "result": {
+            "item": "minecraft:yellow_flower",
+            "count": 2
+        }
+    }
+}

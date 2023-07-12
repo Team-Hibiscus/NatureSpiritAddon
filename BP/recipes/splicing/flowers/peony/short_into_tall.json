@@ -1,0 +1,21 @@
+			{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "nature:short_peony_into_tall_peony"
+        },
+        "tags": [
+            "splicing_table"
+        ],
+        "ingredients": [
+            {
+                "item": "nature:peony_short_item",
+                "count": 2
+            }
+        ],
+        "result": {
+            "item": "minecraft:double_plant",
+            "data": 5
+        }
+    }
+}

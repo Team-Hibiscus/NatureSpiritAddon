@@ -1,0 +1,21 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "nature:bluebell_bouquet_into_bluebell"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "ingredients": [
+      {
+        "item": "nature:bluebell_bouquet_item",
+        "count": 1
+      }
+    ],
+    "result": {
+      "item": "nature:bluebell_item",
+      "count": 9
+    }
+  }
+}

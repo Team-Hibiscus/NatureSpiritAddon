@@ -1,0 +1,26 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "nature:jungle_post"
+    },
+    "tags": [ 
+      "crafting_table" 
+    ],
+    "group": "wooden_trap_door",
+    "pattern": [
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:log",
+        "data": 3
+      }
+    },
+    "result": {
+      "item": "nature:jungle_post",
+      "count": 6
+    }
+  }
+}

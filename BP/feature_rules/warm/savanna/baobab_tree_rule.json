@@ -1,0 +1,35 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:feature_rules": {
+      "description": {
+        "identifier": "nature:baobab_tree_rule",
+        "places_feature": "nature:baobab_tree"
+      },
+      "conditions": {
+        "placement_pass": "surface_pass",
+        "minecraft:biome_filter": [
+          {
+            "all_of": [
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "savanna"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "!=",
+                "value": "mountain"
+              }
+            ]
+          }
+        ]
+      },
+      "distribution": {
+        "iterations": 1,
+        "scatter_chance" : 5,
+        "x": 0,
+        "y": "query.heightmap(variable.worldx, variable.worldz)",
+        "z": 0
+      }
+    }
+  }

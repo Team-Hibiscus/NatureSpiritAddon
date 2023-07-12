@@ -1,0 +1,28 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nature:angels_trumpet"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "pattern": [
+      "   ",
+      "# &",
+      "   "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:yellow_flower"
+      },
+      "&": {
+        "item": "minecraft:wither_rose"
+      }
+    },
+    "result": {
+      "item": "nature:angels_trumpet_item",
+      "count": 2
+    }
+  }
+}

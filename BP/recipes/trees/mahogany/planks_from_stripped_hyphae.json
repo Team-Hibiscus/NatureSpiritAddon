@@ -1,0 +1,24 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:mahogany_planks_from_stripped_mahogany_wood"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"group": "planks",
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "nature:stripped_mahogany_wood"
+			}
+		},
+		"result": {
+			"item": "nature:mahogany_planks",
+			"count": 4
+		}
+	}
+}

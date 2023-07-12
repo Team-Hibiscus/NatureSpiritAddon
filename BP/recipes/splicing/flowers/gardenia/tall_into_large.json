@@ -1,0 +1,20 @@
+	{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "nature:tall_gardenia_into_large_gardenia"
+        },
+        "tags": [
+            "splicing_table"
+        ],
+        "ingredients": [
+            {
+                "item": "nature:gardenia_tall_item",
+                "count": 2
+            }
+        ],
+        "result": {
+            "item": "nature:gardenia_large_item"
+        }
+    }
+}

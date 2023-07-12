@@ -1,0 +1,30 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:pinebed5"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"BBB",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "nature:pine_planks"
+			},
+			"B": {
+				"item": "minecraft:wool",
+				"data": 5
+			}
+		},
+		"result": {
+			"item": "minecraft:bed",
+			"data": 5,
+			"count": 1
+		},
+		"priority": 2
+	}
+}

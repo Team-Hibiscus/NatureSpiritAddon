@@ -1,0 +1,20 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "nature:tall_azalea_bush_into_short_azalea_bush"
+        },
+        "tags": [
+            "splicing_table"
+        ],
+        "ingredients": [
+            {
+                "item": "nature:azalea_bush_tall_item"
+            }
+        ],
+        "result": {
+            "item": "nature:azalea_bush_item",
+            "count": 2
+        }
+    }
+}

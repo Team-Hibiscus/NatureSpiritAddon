@@ -1,0 +1,170 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "nature:maple_plank_slab",
+			"properties": {
+				"mbms:slab_type": [
+					"down",
+					"up",
+					"double"
+				]
+			}
+		},
+		"components": {
+			"tag:wood": {},
+			"minecraft:flammable": {
+				"burn_odds": 20,
+				"flame_odds": 5
+			},
+			"minecraft:loot": "loot_tables/blocks/slabs/slab_maple.json",
+			"minecraft:destroy_time": 1,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "maple_planks",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:light_dampening": 0,
+			"minecraft:on_player_placing": {
+				"condition": "query.target_x_rotation <= 0",
+				"event": "up"
+			},
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.slab",
+				"category": "construction"
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('mbms:slab_type') == 'double'",
+				"components": {
+					"minecraft:loot": "loot_tables/blocks/slabs/slab_maple_double.json",
+					"minecraft:light_dampening": 1,
+					"minecraft:unit_cube": {},
+					"minecraft:collision_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							16,
+							16
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							16,
+							16
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('mbms:slab_type') == 'down'",
+				"components": {
+					"minecraft:geometry": "geometry.custom_slab_lower",
+					"minecraft:on_interact": {
+						"condition": "query.get_equipped_item_name =='maple_plank_slab' && query.block_property('mbms:slab_type') != 'double'",
+						"event": "double"
+					},
+					"minecraft:collision_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('mbms:slab_type') == 'up'",
+				"components": {
+					"minecraft:geometry": "geometry.custom_slab_upper",
+					"minecraft:on_interact": {
+						"condition": "query.get_equipped_item_name =='maple_plank_slab' && query.block_property('mbms:slab_type') != 'double'",
+						"event": "double"
+					},
+					"minecraft:collision_box": {
+						"origin": [
+							-8,
+							8,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							8,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					}
+				}
+			}
+		],
+		"events": {
+			"double": {
+				"sequence": [
+					{
+						"set_block_property": {
+							"mbms:slab_type": "'double'"
+						},
+						"decrement_stack": {}
+					},
+					{
+						"run_command": {
+							"command": [
+								"playsound use.wood @a[r=5] ~ ~ ~ 0.4 1.0"
+							]
+						}
+					}
+				]
+			},
+			"down": {
+				"set_block_property": {
+					"mbms:slab_type": "'down'"
+				}
+			},
+			"up": {
+				"set_block_property": {
+					"mbms:slab_type": "'up'"
+				}
+			}
+		}
+	}
+}

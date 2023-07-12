@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "nature:stairs_from_willow_wood"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "W  ",
+            "WW ",
+            "WWW"
+        ],
+        "key": {
+            "W": {
+                "item": "nature:willow_planks"
+            }
+        },
+        "result": {
+            "item": "nature:willow_stairs",
+            "count": 4
+        }
+    }
+}

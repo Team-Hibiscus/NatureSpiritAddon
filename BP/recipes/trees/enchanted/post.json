@@ -1,0 +1,25 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:enchanted_post"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"group": "wooden_trap_door",
+		"pattern": [
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "nature:enchanted_log"
+			}
+		},
+		"result": {
+			"item": "nature:enchanted_post",
+			"count": 6
+		}
+	}
+}

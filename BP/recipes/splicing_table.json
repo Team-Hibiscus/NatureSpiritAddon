@@ -1,0 +1,41 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:splicing_table"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"abc",
+			"fef",
+			"ddd"
+		],
+		"key": {
+			"a": {
+				"item": "nature:periwinkle_item"
+			},
+			"b": {
+				"item": "nature:daffodil_item"
+			},
+			"c": {
+				"item": "nature:rose_item"
+			},
+			"d": {
+				"item": "nature:aspen_planks"
+			},
+			"e": {
+				"item": "minecraft:moss_block"
+			},
+			"f": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"result": {
+			"item": "nature:splicing_table",
+			"count": 1
+		},
+		"priority": 2
+	}
+}

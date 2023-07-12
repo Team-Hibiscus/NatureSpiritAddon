@@ -1,0 +1,20 @@
+	{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "nature:tall_blue_dragon_rose_into_short_blue_dragon_rose"
+        },
+        "tags": [
+            "splicing_table"
+        ],
+        "ingredients": [
+            {
+                "item": "nature:blue_dragon_rose_tall_item"
+            }
+        ],
+        "result": {
+            "item": "nature:blue_dragon_rose_short_item",
+            "count": 2
+        }
+    }
+}

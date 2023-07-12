@@ -1,0 +1,41 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:feature_rules": {
+        "description": {
+            "identifier": "nature:sedge_grass_rule",
+            "places_feature": "nature:sedge_grass"
+        },
+        "conditions": {
+            "placement_pass": "before_surface_pass",
+            "minecraft:biome_filter": [
+                {
+                    "any_of": [
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "swamp"
+                        }
+                    ]
+                }
+            ]
+        },
+        "distribution": {
+            "iterations": 16,
+            "x": {
+                "distribution": "uniform",
+                "extent": [
+                    -16,
+                    16
+                ]
+            },
+            "y": "query.above_top_solid(variable.worldx, variable.worldz)",
+            "z": {
+                "distribution": "uniform",
+                "extent": [
+                    -16,
+                    16
+                ]
+            }
+        }
+    }
+}

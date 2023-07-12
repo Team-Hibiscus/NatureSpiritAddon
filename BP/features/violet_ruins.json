@@ -1,0 +1,37 @@
+{
+	"format_version": "1.16.200",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "nature:violet_ruins"
+		},
+		"structure_name": "mystructure:violet_ruins",
+		"adjustment_radius": 14,
+		"facing_direction": "random",
+		"constraints": {
+			"unburied":{},
+			"grounded":{},
+			"block_intersection": {
+                "block_allowlist": [
+						"minecraft:air",
+						"minecraft:grass",
+						"minecraft:sand",
+						"nature:corrupted_moss_block",
+						"nature:distorted_log",
+						"nature:corrupted_moss_carpet",
+						"nature:corrupted_sprouts",
+						"nature:bluebell",
+						"nature:distorted_roots",
+						"nature:corrupted_vines",
+						"nature:distorted_sapling",
+						"nature:violet_grass",
+						"nature:violet_log",
+						"nature:violet_tallgrass",
+						"nature:grieving_lavender",
+						"nature:violet_roots",
+						"nature:grieving_vines",
+						"nature:violet_sapling"
+                ]
+            }
+		}
+	}
+}

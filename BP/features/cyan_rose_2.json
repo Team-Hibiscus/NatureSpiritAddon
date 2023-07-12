@@ -1,0 +1,14 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "nature:cyan_rose_2"
+    },
+    "places_block": "nature:cyan_rose_large",
+    "enforce_survivability_rules": true,
+    "enforce_placement_rules": false,
+    "may_replace": [
+      "minecraft:air"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+		{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "nature:purple_orchid_bouquet_into_purple_orchid"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "ingredients": [
+      {
+        "item": "nature:purple_orchid_bouquet_item",
+        "count": 1
+      }
+    ],
+    "result": {
+      "item": "nature:purple_orchid_item",
+      "count": 9
+    }
+  }
+}

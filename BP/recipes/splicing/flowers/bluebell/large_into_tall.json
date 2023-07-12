@@ -1,0 +1,20 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "nature:large_bluebell_into_tall_bluebell"
+		},
+		"tags": [
+			"splicing_table"
+		],
+		"ingredients": [
+			{
+				"item": "nature:bluebell_large_item"
+			}
+		],
+		"result": {
+			"item": "nature:bluebell_tall_item",
+			"count": 2
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"format_version": "1.16.200",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "nature:palm_tree_4"
+		},
+		"structure_name": "mystructure:palm_tree_4",
+		"adjustment_radius": 16,
+		"facing_direction": "south",
+		"constraints": {
+			"grounded": {},
+			"unburied": {},
+			"block_intersection": {
+                "block_allowlist": [
+						"minecraft:air"
+                ]
+            }
+		}
+	}
+}

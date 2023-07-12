@@ -1,0 +1,28 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nature:black_bleeding_heart"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "pattern": [
+      "   ",
+      "# &",
+      "   "
+    ],
+    "key": {
+      "#": {
+        "item": "nature:pink_bleeding_heart_item"
+      },
+      "&": {
+        "item": "minecraft:wither_rose"
+      }
+    },
+    "result": {
+      "item": "nature:black_bleeding_heart_item",
+      "count": 2
+    }
+  }
+}

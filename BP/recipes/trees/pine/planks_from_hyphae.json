@@ -1,0 +1,24 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:pine_planks_from_pine_wood"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"group": "planks",
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "nature:pine_wood"
+			}
+		},
+		"result": {
+			"item": "nature:pine_planks",
+			"count": 4
+		}
+	}
+}

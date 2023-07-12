@@ -1,0 +1,27 @@
+{
+    "format_version": "1.16",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "nature:palo_verde_fence_gate"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "CBC",
+            "CBC"
+        ],
+        "key": {
+            "B": {
+                "item": "nature:palo_verde_planks"
+            },
+            "C": {
+                "item": "stick"
+            }
+        },
+        "result": {
+            "item": "nature:palo_verde_fence_gate",
+            "count": 1
+        }
+    }
+}

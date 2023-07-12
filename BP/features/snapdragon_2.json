@@ -1,0 +1,20 @@
+{
+  "format_version": "1.16.200",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "nature:snapdragon_2"
+    },
+    "structure_name": "mystructure:large_snapdragon",
+    "adjustment_radius": 16,
+    "facing_direction": "south",
+    "constraints": {
+      "grounded": {},
+      "unburied": {},
+      "block_intersection": {
+        "block_allowlist": [
+          "minecraft:air"
+        ]
+      }
+    }
+  }
+}

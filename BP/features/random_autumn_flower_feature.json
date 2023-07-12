@@ -1,0 +1,78 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "nature:random_autumn_flower_feature"
+        },
+        "features": [
+            [
+                "nature:marigold_2",
+                1
+            ],
+            [
+                "nature:marigold_3",
+                5
+            ],
+            [
+                "nature:marigold",
+                10
+            ],
+            [
+                "nature:gold_rose_2",
+                10
+            ],
+            [
+                "nature:gold_rose_4",
+                5
+            ],
+            [
+                "nature:gold_rose_3",
+                3
+            ],
+            [
+                "nature:gold_rose",
+                1
+            ],
+            [
+                "nature:buttercup_3",
+                10
+            ],
+            [
+                "nature:buttercup_2",
+                5
+            ],
+            [
+                "nature:buttercup",
+                1
+            ],
+            [
+                "nature:nasturtium_3",
+                10
+            ],
+            [
+                "nature:nasturtium_2",
+                5
+            ],
+            [
+                "nature:nasturtium",
+                1
+            ],
+            [
+                "nature:yellow_tulip_2",
+                10
+            ],
+            [
+                "nature:yellow_tulip_4",
+                5
+            ],
+            [
+                "nature:yellow_tulip_3",
+                3
+            ],
+            [
+                "nature:yellow_tulip",
+                1
+            ]
+        ]
+    }
+}

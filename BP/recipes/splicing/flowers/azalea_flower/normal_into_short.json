@@ -1,0 +1,25 @@
+	{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:normal_azalea_flower_into_short_azalea_flower"
+		},
+		"tags": [
+			"splicing_table"
+		],
+		"pattern": [
+			"   ",
+			"&  ",
+			"   "
+		],
+		"key": {
+			"&": {
+				"item": "nature:azalea_flower_item"
+			}
+		},
+		"result": {
+			"item": "nature:azalea_flower_short_item",
+			"count": 2
+		}
+	}
+}

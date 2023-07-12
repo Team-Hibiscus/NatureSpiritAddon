@@ -1,0 +1,20 @@
+		{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "nature:large_blue_orchid_into_tall_blue_orchid"
+        },
+        "tags": [
+            "splicing_table"
+        ],
+        "ingredients": [
+            {
+                "item": "nature:blue_orchid_large_item"
+            }
+        ],
+        "result": {
+            "item": "nature:blue_orchid_tall_item",
+            "count": 2
+        }
+    }
+}

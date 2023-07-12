@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:wooden_shovel_from_willow_planks"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A",
+			"B",
+			"B"
+		],
+		"key": {
+			"A": {
+				"item": "nature:willow_planks"
+			},
+			"B": {
+				"item": "stick"
+			}
+		},
+		"result": {
+			"item": "wooden_shovel",
+			"count": 1
+		},
+		"priority": 2
+	}
+}

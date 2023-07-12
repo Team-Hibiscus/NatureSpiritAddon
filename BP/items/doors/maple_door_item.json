@@ -1,0 +1,23 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "nature:maple_door_item",
+            "category": "construction"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "nature:maple_door_item"
+            },
+            "minecraft:block_placer": {
+                "block": "nature:maple_door_bottom"
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.door"
+            },
+            "minecraft:fuel": {
+                "duration": 10
+            }
+        }
+    }
+}

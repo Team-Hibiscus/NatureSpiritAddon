@@ -1,0 +1,23 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nature:rose_into_small_rose_bush"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "pattern": [
+      "#",
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "nature:rose_item"
+      }
+    },
+    "result": {
+      "item": "nature:rose_short_item"
+    }
+  }
+}

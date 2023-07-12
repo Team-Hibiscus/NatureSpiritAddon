@@ -1,0 +1,25 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:redwood_wood"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"group": "wood",
+		"pattern": [
+			"##",
+			"##"
+		],
+		"key": {
+			"#": {
+				"item": "nature:redwood_log"
+			}
+		},
+		"result": {
+			"item": "nature:redwood_wood",
+			"count": 3
+		}
+	}
+}

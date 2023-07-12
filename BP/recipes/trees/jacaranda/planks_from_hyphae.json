@@ -1,0 +1,24 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:jacaranda_planks_from_jacaranda_wood"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"group": "planks",
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "nature:jacaranda_wood"
+			}
+		},
+		"result": {
+			"item": "nature:jacaranda_planks",
+			"count": 4
+		}
+	}
+}

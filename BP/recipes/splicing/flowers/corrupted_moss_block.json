@@ -1,0 +1,23 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:corrupted_moss_carpet"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"##"
+		],
+		"key": {
+			"#": {
+				"item": "nature:corrupted_moss_block"
+			}
+		},
+		"result": {
+			"item": "nature:corrupted_moss_carpet",
+			"count": 3
+		}
+	}
+}

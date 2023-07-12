@@ -1,0 +1,21 @@
+	{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "nature:buttercup_into_buttercup_bouquet"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "ingredients": [
+      {
+        "item": "nature:buttercup_item",
+        "count": 9
+      }
+    ],
+    "result": {
+      "item": "nature:buttercup_bouquet_item",
+      "count": 1
+    }
+  }
+}

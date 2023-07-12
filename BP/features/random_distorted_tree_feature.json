@@ -1,0 +1,15 @@
+
+{
+    "format_version": "1.13.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "nature:random_distorted_tree_feature"
+        },
+        "features": [
+            ["nature:distorted_tree", 1],
+            ["nature:distorted_tree_2", 1],
+            ["nature:distorted_tree_3", 1],
+            ["nature:distorted_tree_4", 1]
+        ]
+    }
+}

@@ -1,0 +1,1 @@
+			{"format_version":"1.12","minecraft:recipe_shapeless":{"description":{"identifier":"nature:short_azure_bluet_into_tall_azure_bluet"},"tags":["splicing_table"],"ingredients":[{"item":"nature:azure_bluet_short_item","count":2}],"result":{"item":"nature:azure_bluet_tall_item"}}}

@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:shield_from_pine_planks"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"ABA",
+			"AAA",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "nature:pine_planks"
+			},
+			"B": {
+				"item": "iron_ingot"
+			}
+		},
+		"result": {
+			"item": "shield",
+			"count": 1
+		},
+		"priority": 2
+	}
+}

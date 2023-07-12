@@ -1,0 +1,26 @@
+{
+    "format_version": "1.16",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "nature:dye_from_periwinkle"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "   ",
+            "  &",
+            "   "
+        ],
+        "key": {
+            "&": {
+                "item": "nature:periwinkle_item"
+            }
+        },
+        "result": {
+            "item": "minecraft:dye",
+            "data": 9,
+            "count": 1
+        }
+    }
+}

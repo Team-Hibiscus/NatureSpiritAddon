@@ -1,0 +1,29 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nature:white_rose"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "pattern": [
+      "   ",
+      "# &",
+      "   "
+    ],
+    "key": {
+      "#": {
+        "item": "nature:rose_item"
+      },
+      "&": {
+        "item": "minecraft:red_flower",
+        "data": 10
+      }
+    },
+    "result": {
+      "item": "nature:white_rose_item",
+      "count": 2
+    }
+  }
+}

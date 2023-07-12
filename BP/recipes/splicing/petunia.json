@@ -1,0 +1,29 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nature:petunia"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "pattern": [
+      "   ",
+      "# &",
+      "   "
+    ],
+    "key": {
+      "#": {
+        "item": "nature:carnation_item"
+      },
+      "&": {
+        "item": "minecraft:red_flower",
+        "data": 7
+      }
+    },
+    "result": {
+      "item": "nature:petunia_item",
+      "count": 2
+    }
+  }
+}

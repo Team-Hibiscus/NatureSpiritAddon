@@ -1,0 +1,1 @@
+			{"format_version":"1.12","minecraft:recipe_shapeless":{"description":{"identifier":"nature:tall_chocolate_cosmos_into_short_chocolate_cosmos"},"tags":["splicing_table"],"ingredients":[{"item":"nature:chocolate_cosmos_tall_item"}],"result":{"item":"nature:chocolate_cosmos_item","count":2}}}

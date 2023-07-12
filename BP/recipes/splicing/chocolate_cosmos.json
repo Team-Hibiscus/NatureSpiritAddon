@@ -1,0 +1,29 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nature:chocolate_cosmos"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "pattern": [
+      "   ",
+      "# &",
+      "   "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:red_flower",
+        "data": 0
+      },
+      "&": {
+        "item": "minecraft:wither_rose"
+      }
+    },
+    "result": {
+      "item": "nature:chocolate_cosmos_item",
+      "count": 2
+    }
+  }
+}

@@ -1,0 +1,21 @@
+	{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "nature:large_rose_into_tall_rose"
+        },
+        "tags": [
+            "splicing_table"
+        ],
+        "ingredients": [
+            {
+                "item": "nature:rose_large_item"
+            }
+        ],
+        "result": {
+            "item": "minecraft:double_plant",
+            "data": 4,
+            "count": 2
+        }
+    }
+}

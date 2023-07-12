@@ -1,0 +1,26 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nature:big_oak_post"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "group": "wooden_trap_door",
+    "pattern": [
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:log2",
+        "data": 1
+      }
+    },
+    "result": {
+      "item": "nature:dark_oak_post",
+      "count": 6
+    }
+  }
+}

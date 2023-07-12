@@ -1,0 +1,29 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nature:periwinkle"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "pattern": [
+      "   ",
+      "# &",
+      "   "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:red_flower",
+        "data": 3
+      },
+      "&": {
+        "item": "nature:foxglove_item"
+      }
+    },
+    "result": {
+      "item": "nature:periwinkle_item",
+      "count": 2
+    }
+  }
+}

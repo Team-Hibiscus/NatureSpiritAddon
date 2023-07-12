@@ -1,0 +1,100 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:tree_feature": {
+		"description": {
+			"identifier": "nature:distorted_bush"
+		},
+		"fancy_trunk": {
+			"trunk_height": {
+				"base": 1,
+				"variance": 2,
+				"scale": 0.527
+			},
+			"trunk_width": 1,
+			"trunk_block": {
+				"name": "nature:distorted_treelight"
+			},
+			"width_scale": 1,
+			"foliage_altitude_factor": 0.379,
+			"branches": {
+				"slope": 0,
+				"density": 0.0,
+				"min_altitude_factor": 0.0
+			}
+		},
+		"fancy_canopy": {
+			"height": 2,
+			"radius": 3,
+			"leaf_block": {
+				"name": "nature:distorted_leaves"
+			}
+		},
+		"base_block": [
+			"nature:corrupted_moss_block",
+			"minecraft:dirt"
+		],
+		"may_grow_on": [
+			"minecraft:grass",
+			"minecraft:moss_block",
+			"minecraft:dirt",
+			"nature:corrupted_moss_block"
+		],
+		"may_replace": [
+			"minecraft:air",
+			{
+				"name": "minecraft:leaves",
+				"states": {
+					"old_leaf_type": "oak"
+				}
+			},
+			{
+				"name": "minecraft:leaves",
+				"states": {
+					"old_leaf_type": "spruce"
+				}
+			},
+			{
+				"name": "minecraft:leaves",
+				"states": {
+					"old_leaf_type": "birch"
+				}
+			},
+			{
+				"name": "minecraft:leaves",
+				"states": {
+					"old_leaf_type": "jungle"
+				}
+			},
+			{
+				"name": "minecraft:leaves2",
+				"states": {
+					"new_leaf_type": "acacia"
+				}
+			},
+			{
+				"name": "minecraft:leaves2",
+				"states": {
+					"new_leaf_type": "dark_oak"
+				}
+			},
+			"minecraft:tallgrass",
+			"nature:corrupted_moss_block",
+			"nature:corrupted_moss_carpet",
+			"nature:corrupted_sprouts",
+			"nature:bluebell",
+			"nature:distorted_sapling"
+		],
+		"may_grow_through": [
+			"minecraft:dirt",
+			"minecraft:grass",
+			"nature:corrupted_moss_block",
+			{
+				"name": "minecraft:dirt",
+				"states": {
+					"dirt_type": "coarse"
+				}
+			},
+			"minecraft:sand"
+		]
+	}
+}

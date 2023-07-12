@@ -1,0 +1,20 @@
+	{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "nature:normal_anemone_into_short_anemone"
+		},
+		"tags": [
+			"splicing_table"
+		],
+		"ingredients": [
+			{
+				"item": "nature:anemone_item"
+			}
+		],
+		"result": {
+			"item": "nature:anemone_short_item",
+			"count": 2
+		}
+	}
+}

@@ -1,0 +1,21 @@
+	{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "nature:gardenia_bouquet_into_gardenia"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "ingredients": [
+      {
+        "item": "nature:gardenia_bouquet_item",
+        "count": 1
+      }
+    ],
+    "result": {
+      "item": "nature:gardenia_item",
+      "count": 9
+    }
+  }
+}

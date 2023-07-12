@@ -1,0 +1,20 @@
+	{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "nature:large_poppy_into_tall_poppy"
+        },
+        "tags": [
+            "splicing_table"
+        ],
+        "ingredients": [
+            {
+                "item": "nature:poppy_large_item"
+            }
+        ],
+        "result": {
+            "item": "nature:poppy_tall_item",
+            "count": 2
+        }
+    }
+}

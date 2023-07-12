@@ -1,0 +1,24 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:enchanted_planks"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"group": "planks",
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "nature:enchanted_log"
+			}
+		},
+		"result": {
+			"item": "nature:enchanted_planks",
+			"count": 4
+		}
+	}
+}

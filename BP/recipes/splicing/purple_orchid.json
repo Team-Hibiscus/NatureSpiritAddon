@@ -1,0 +1,30 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nature:purple_orchid"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "pattern": [
+      "   ",
+      "# &",
+      "   "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:red_flower",
+        "data": 1
+      },
+      "&": {
+        "item": "minecraft:red_flower",
+        "data": 2
+      }
+    },
+    "result": {
+      "item": "nature:purple_orchid_item",
+      "count": 2
+    }
+  }
+}

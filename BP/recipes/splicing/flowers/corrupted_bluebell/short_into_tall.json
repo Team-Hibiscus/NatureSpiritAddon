@@ -1,0 +1,20 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "nature:short_corrupted_bluebell_into_tall_corrupted_bluebell"
+		},
+		"tags": [
+			"splicing_table"
+		],
+		"ingredients": [
+			{
+				"item": "nature:corrupted_bluebell_item",
+				"count": 2
+			}
+		],
+		"result": {
+			"item": "nature:corrupted_bluebell_tall_item"
+		}
+	}
+}

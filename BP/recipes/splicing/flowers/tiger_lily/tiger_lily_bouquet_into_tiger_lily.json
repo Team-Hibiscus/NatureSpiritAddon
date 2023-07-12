@@ -1,0 +1,21 @@
+			{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "nature:tiger_lily_bouquet_into_tiger_lily"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "ingredients": [
+      {
+        "item": "nature:tiger_lily_bouquet_item",
+        "count": 1
+      }
+    ],
+    "result": {
+      "item": "nature:tiger_lily_item",
+      "count": 9
+    }
+  }
+}

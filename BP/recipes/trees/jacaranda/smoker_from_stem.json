@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:smoker_from_jacaranda_log"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" A ",
+			"ABA",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "nature:jacaranda_log"
+			},
+			"B": {
+				"item": "furnace"
+			}
+		},
+		"result": {
+			"item": "smoker",
+			"count": 1
+		},
+		"priority": 2
+	}
+}

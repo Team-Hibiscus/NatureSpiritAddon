@@ -1,0 +1,27 @@
+{
+    "format_version": "1.16",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "nature:mahogany_fence_gate"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "CBC",
+            "CBC"
+        ],
+        "key": {
+            "B": {
+                "item": "nature:mahogany_planks"
+            },
+            "C": {
+                "item": "stick"
+            }
+        },
+        "result": {
+            "item": "nature:mahogany_fence_gate",
+            "count": 1
+        }
+    }
+}

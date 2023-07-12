@@ -1,0 +1,25 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:willow_post"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"group": "wooden_trap_door",
+		"pattern": [
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "nature:willow_log"
+			}
+		},
+		"result": {
+			"item": "nature:willow_post",
+			"count": 6
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "nature:short_gold_rose_into_normal_gold_rose"
+		},
+		"tags": [
+			"splicing_table"
+		],
+		"ingredients": [
+			{
+				"item": "nature:gold_rose_short_item"
+			}
+		],
+		"result": {
+			"item": "nature:gold_rose_item",
+			"count": 2
+		}
+	}
+}

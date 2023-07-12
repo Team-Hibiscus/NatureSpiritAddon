@@ -1,0 +1,20 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "nature:flower_forest_cluster_feature"
+    },
+    "places_feature": "nature:random_flower_forest_feature",
+    "iterations": 40,
+    "scatter_chance": 99.0,
+    "x": {
+      "distribution": "uniform",
+      "extent": [ -30, 30 ]
+    },
+    "y": 0,
+    "z": {
+      "distribution": "uniform",
+      "extent": [ -30, 30 ]
+    }
+  }
+}

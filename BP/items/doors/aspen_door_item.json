@@ -1,0 +1,23 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "nature:aspen_door_item",
+            "category": "construction"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "nature:aspen_door_item"
+            },
+            "minecraft:block_placer": {
+                "block": "nature:aspen_door_bottom"
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.door"
+            },
+            "minecraft:fuel": {
+                "duration": 10
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+	{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "nature:short_marigold_into_tall_marigold"
+		},
+		"tags": [
+			"splicing_table"
+		],
+		"ingredients": [
+			{
+				"item": "nature:marigold_item",
+				"count": 2
+			}
+		],
+		"result": {
+			"item": "nature:marigold_tall_item"
+		}
+	}
+}

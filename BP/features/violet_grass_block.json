@@ -1,0 +1,20 @@
+{
+  "format_version": "1.17.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "nature:violet_grass_block"
+    },
+    "count": 100,
+    "replace_rules": [
+      {
+        "places_block": "nature:violet_grass",
+        "may_replace": [
+          "minecraft:air",
+          "minecraft:hardened_clay",
+          "minecraft:sand",
+          "minecraft:stained_hardened_clay"
+        ]
+      }
+    ]
+  }
+}

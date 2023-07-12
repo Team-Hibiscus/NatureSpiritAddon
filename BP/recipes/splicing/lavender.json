@@ -1,0 +1,28 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nature:lavender"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "pattern": [
+      "   ",
+      "# &",
+      "   "
+    ],
+    "key": {
+      "&": {
+        "item": "nature:dandelion_large_item"
+      },
+      "#": {
+        "item": "nature:grieving_lavender_item"
+      }
+    },
+    "result": {
+      "item": "nature:lavender_item",
+      "count": 2
+    }
+  }
+}

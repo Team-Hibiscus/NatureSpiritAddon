@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "nature:stairs_from_sakura_wood"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "W  ",
+            "WW ",
+            "WWW"
+        ],
+        "key": {
+            "W": {
+                "item": "nature:sakura_planks"
+            }
+        },
+        "result": {
+            "item": "nature:sakura_stairs",
+            "count": 4
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:aggregate_feature": {
+    "description": {
+      "identifier": "nature:rose_double_plant_feature"
+    },
+    "early_out": "first_failure",
+    "features": [
+      "nature:rose_double_plant_lower_feature",
+      "nature:fixup_rose_double_plant_upper_position_feature"
+    ]
+  }
+}

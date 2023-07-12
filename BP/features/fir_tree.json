@@ -1,0 +1,20 @@
+{
+	"format_version": "1.16.200",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "nature:fir_tree"
+		},
+		"structure_name": "mystructure:fir_tree",
+		"adjustment_radius": 2,
+		"facing_direction": "south",
+		"constraints": {
+			"grounded": {},
+			"unburied": {},
+			"block_intersection": {
+                "block_allowlist": [
+						"minecraft:air"
+                ]
+            }
+		}
+	}
+}

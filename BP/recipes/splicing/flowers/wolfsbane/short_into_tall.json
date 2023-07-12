@@ -1,0 +1,20 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "nature:short_wolfsbane_into_tall_wolfsbane"
+		},
+		"tags": [
+			"splicing_table"
+		],
+		"ingredients": [
+			{
+				"item": "nature:wolfsbane_item",
+				"count": 2
+			}
+		],
+		"result": {
+			"item": "nature:wolfsbane_tall_item"
+		}
+	}
+}

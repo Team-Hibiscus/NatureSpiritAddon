@@ -1,0 +1,20 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "nature:tall_petunia_into_short_petunia"
+		},
+		"tags": [
+			"splicing_table"
+		],
+		"ingredients": [
+			{
+				"item": "nature:petunia_tall_item"
+			}
+		],
+		"result": {
+			"item": "nature:petunia_short_item",
+			"count": 2
+		}
+	}
+}

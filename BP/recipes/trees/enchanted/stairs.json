@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "nature:stairs_from_enchanted_wood"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "W  ",
+            "WW ",
+            "WWW"
+        ],
+        "key": {
+            "W": {
+                "item": "nature:enchanted_planks"
+            }
+        },
+        "result": {
+            "item": "nature:enchanted_stairs",
+            "count": 4
+        }
+    }
+}

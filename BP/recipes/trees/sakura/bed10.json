@@ -1,0 +1,30 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:sakurabed10"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"BBB",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "nature:sakura_planks"
+			},
+			"B": {
+				"item": "minecraft:wool",
+				"data": 10
+			}
+		},
+		"result": {
+			"item": "minecraft:bed",
+			"data": 10,
+			"count": 1
+		},
+		"priority": 2
+	}
+}

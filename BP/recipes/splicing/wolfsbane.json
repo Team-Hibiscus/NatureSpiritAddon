@@ -1,0 +1,29 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nature:wolfsbane"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "pattern": [
+      "   ",
+      "# &",
+      "   "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:red_flower",
+        "data": 9
+      },
+      "&": {
+        "item": "minecraft:wither_rose"
+      }
+    },
+    "result": {
+      "item": "nature:wolfsbane_item",
+      "count": 2
+    }
+  }
+}

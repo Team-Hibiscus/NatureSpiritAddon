@@ -1,0 +1,97 @@
+{
+  "format_version": "1.19.10",
+  "minecraft:block": {
+    "description": {
+      "identifier": "nature:wither_rose_large",
+      "properties": {
+        "nature:stood_on": [
+          false,
+          true
+        ]
+      }
+    },
+    "components": {
+      "minecraft:selection_box": {
+        "origin": [
+          -7,
+          0,
+          -7
+        ],
+        "size": [
+          14,
+          16,
+          14
+        ]
+      },
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "up"
+            ],
+            "block_filter": [
+              "minecraft:grass",
+              "minecraft:dirt",
+              "minecraft:podzol",
+              "minecraft:dirt_with_roots",
+              "minecraft:moss_block",
+              "minecraft:netherrack",
+              "minecraft:soul_sand"
+            ]
+          }
+        ]
+      },
+      "minecraft:geometry": "geometry.blue_bell",
+      "minecraft:breathability": "air",
+      "tag:flower": {},
+      "minecraft:material_instances": {
+        "*": {
+          "render_method": "alpha_test",
+          "texture": "wither_rose_large",
+          "face_dimming": false,
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:light_emission": 0.14,
+      "minecraft:collision_box": false,
+      "minecraft:light_dampening": 0,
+      "minecraft:on_step_on": {
+        "event": "nature:step_on"
+      },
+      "minecraft:on_step_off": {
+        "event": "nature:step_off"
+      },
+      "minecraft:queued_ticking": {
+        "looping": true,
+        "interval_range": [
+          1,
+          1
+        ],
+        "on_tick": {
+          "event": "nature:add_effect",
+          "target": "self",
+          "condition": "q.block_property('nature:stood_on')"
+        }
+      },
+      "minecraft:destroy_time": 0,
+      "minecraft:loot": "loot_tables/blocks/flowers/wither_rose/wither_rose_large.json"
+    },
+    "events": {
+      "nature:step_on": {
+        "set_block_property": {
+          "nature:stood_on": true
+        }
+      },
+      "nature:step_off": {
+        "set_block_property": {
+          "nature:stood_on": false
+        }
+      },
+      "nature:add_effect": {
+        "run_command": {
+          "command": "effect @e[r=1] wither 2 2"
+        }
+      }
+    }
+  }
+}

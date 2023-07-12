@@ -1,0 +1,25 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "nature:warped_post"
+    },
+    "tags": [ 
+      "crafting_table" 
+    ],
+    "group": "wooden_trap_door",
+    "pattern": [
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:warped_stem"
+      }
+    },
+    "result": {
+      "item": "nature:warped_post",
+      "count": 6
+    }
+  }
+}

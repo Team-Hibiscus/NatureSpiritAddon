@@ -1,0 +1,20 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "nature:tall_cornflower_into_short_cornflower"
+		},
+		"tags": [
+			"splicing_table"
+		],
+		"ingredients": [
+			{
+				"item": "nature:cornflower_tall_item"
+			}
+		],
+		"result": {
+			"item": "nature:cornflower_short_item",
+			"count": 2
+		}
+	}
+}

@@ -1,0 +1,21 @@
+	{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "nature:normal_blue_orchid_into_short_blue_orchid"
+        },
+        "tags": [
+            "splicing_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:red_flower",
+                "data": 1,
+                "count": 2
+            }
+        ],
+        "result": {
+            "item": "nature:blue_orchid_short_item"
+        }
+    }
+}

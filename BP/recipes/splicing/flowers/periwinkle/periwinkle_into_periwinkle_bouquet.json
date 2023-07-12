@@ -1,0 +1,21 @@
+			{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "nature:periwinkle_into_periwinkle_bouquet"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "ingredients": [
+      {
+        "item": "nature:periwinkle_item",
+        "count": 9
+      }
+    ],
+    "result": {
+      "item": "nature:periwinkle_bouquet_item",
+      "count": 1
+    }
+  }
+}

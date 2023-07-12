@@ -1,0 +1,21 @@
+		{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "nature:hibiscus_into_hibiscus_bouquet"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "ingredients": [
+      {
+        "item": "nature:hibiscus_item",
+        "count": 9
+      }
+    ],
+    "result": {
+      "item": "nature:hibiscus_bouquet_item",
+      "count": 1
+    }
+  }
+}

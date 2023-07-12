@@ -1,0 +1,20 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "nature:tundra_flower_cluster_feature"
+    },
+    "places_feature": "nature:random_tundra_flower_feature",
+    "iterations": 30,
+    "scatter_chance": 50.0,
+    "x": {
+      "distribution": "uniform",
+      "extent": [ -7, 7 ]
+    },
+    "y": 0,
+    "z": {
+      "distribution": "uniform",
+      "extent": [ -7, 7 ]
+    }
+  }
+}

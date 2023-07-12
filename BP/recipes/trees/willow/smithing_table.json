@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:smithing_table_from_willow_planks"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AA",
+			"BB",
+			"BB"
+		],
+		"key": {
+			"A": {
+				"item": "iron_ingot"
+			},
+			"B": {
+				"item": "nature:willow_planks"
+			}
+		},
+		"result": {
+			"item": "smithing_table",
+			"count": 1
+		},
+		"priority": 2
+	}
+}

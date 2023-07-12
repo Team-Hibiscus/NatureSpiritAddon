@@ -1,0 +1,21 @@
+	{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "nature:short_allium_into_normal_allium"
+        },
+        "tags": [
+            "splicing_table"
+        ],
+        "ingredients": [
+            {
+                "item": "nature:allium_short_item"
+            }
+        ],
+        "result": {
+            "item": "minecraft:red_flower",
+            "data": 2,
+            "count": 2
+        }
+    }
+}

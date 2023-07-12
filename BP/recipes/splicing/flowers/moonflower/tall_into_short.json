@@ -1,0 +1,20 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "nature:tall_moonflower_into_short_moonflower"
+		},
+		"tags": [
+			"splicing_table"
+		],
+		"ingredients": [
+			{
+				"item": "nature:moonflower_tall_item"
+			}
+		],
+		"result": {
+			"item": "nature:moonflower_item",
+			"count": 2
+		}
+	}
+}

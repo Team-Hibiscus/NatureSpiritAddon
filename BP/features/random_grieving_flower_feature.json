@@ -1,0 +1,62 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "nature:random_grieving_flower_feature"
+        },
+        "features": [
+            [
+                "nature:violet_roots_feature",
+                1
+            ],
+            [
+                "nature:violet_roots_feature_2",
+                1
+            ],
+            [
+                "nature:violet_roots_feature_3",
+                1
+            ],
+            [
+                "nature:violet_sapling",
+                10
+            ],
+            [
+                "nature:violet_bush",
+                1
+            ],
+            [
+                "nature:violet_tallgrass",
+                20
+            ],
+            [
+                "nature:grieving_lavender",
+                10
+            ],
+            [
+                "nature:grieving_lavender_2",
+                10
+            ],
+            [
+                "nature:grieving_lavender_3",
+                10
+            ],
+            [
+                "nature:grieving_rose",
+                10
+            ],
+            [
+                "nature:grieving_rose_2",
+                10
+            ],
+            [
+                "nature:grieving_rose_3",
+                10
+            ],
+            [
+                "nature:grieving_rose_4",
+                10
+            ]
+        ]
+    }
+}

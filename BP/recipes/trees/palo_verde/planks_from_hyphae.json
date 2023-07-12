@@ -1,0 +1,24 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:palo_verde_planks_from_palo_verde_wood"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"group": "planks",
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "nature:palo_verde_wood"
+			}
+		},
+		"result": {
+			"item": "nature:palo_verde_planks",
+			"count": 4
+		}
+	}
+}

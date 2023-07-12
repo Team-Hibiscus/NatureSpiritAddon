@@ -1,0 +1,25 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:enchanted_wood"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"group": "wood",
+		"pattern": [
+			"##",
+			"##"
+		],
+		"key": {
+			"#": {
+				"item": "nature:enchanted_log"
+			}
+		},
+		"result": {
+			"item": "nature:enchanted_wood",
+			"count": 3
+		}
+	}
+}

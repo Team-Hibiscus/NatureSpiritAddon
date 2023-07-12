@@ -1,0 +1,27 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:fir_fence_gate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"CBC",
+			"CBC"
+		],
+		"key": {
+			"B": {
+				"item": "nature:fir_planks"
+			},
+			"C": {
+				"item": "stick"
+			}
+		},
+		"result": {
+			"item": "nature:fir_fence_gate",
+			"count": 1
+		}
+	}
+}

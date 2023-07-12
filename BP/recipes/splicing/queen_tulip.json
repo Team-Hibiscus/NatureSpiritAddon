@@ -1,0 +1,29 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nature:queen_tulip"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "pattern": [
+      "   ",
+      "# &",
+      "   "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:red_flower",
+        "data": 4
+      },
+      "&": {
+        "item": "minecraft:wither_rose"
+      }
+    },
+    "result": {
+      "item": "nature:queen_tulip_item",
+      "count": 2
+    }
+  }
+}

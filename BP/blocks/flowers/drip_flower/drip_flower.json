@@ -1,0 +1,86 @@
+{
+    "format_version": "1.19.10",
+    "minecraft:block": {
+        "description": {
+            "identifier": "nature:drip_flower"
+        },
+        "components": {
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": [
+                            "up"
+                        ],
+                        "block_filter": [
+                            "grass",
+                            "dirt",
+                            "podzol",
+                            "moss_block",
+                            "dirt_with_roots",
+                            "big_dripleaf",
+                            "azalea_leaves",
+                            "azalea_leaves_flowered",
+                            "flowering_azalea",
+                            "azalea"
+                        ]
+                    }
+                ]
+            },
+            "minecraft:loot": "loot_tables/blocks/flowers/drip_flower/drip_flower.json",
+            "minecraft:geometry": "geometry.drip_flower",
+            "minecraft:material_instances": {
+                "*": {
+                    "render_method": "alpha_test",
+                    "texture": "drip_flower",
+                    "face_dimming": true,
+                    "ambient_occlusion": true
+                }
+            },
+            "minecraft:collision_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    7,
+                    16
+                ]
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:destroy_time": 0,
+            "minecraft:on_interact": {
+                "condition": "q.get_equipped_item_name=='bone_meal'",
+                "event": "fertilize_block"
+            },
+            "minecraft:breathability": "air",
+            "tag:flower": {},
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    7,
+                    16
+                ]
+            }
+        },
+        "events": {
+            "fertilize_block": {
+                "spawn_loot": {
+                    "table": "loot_tables/blocks/flowers/drip_flower/drip_flower.json"
+                },
+                "decrement_stack": {},
+                "run_command": {
+                    "command": [
+                        "particle minecraft:crop_growth_emitter ~ ~ ~"
+                    ]
+                }
+            }
+        }
+    }
+}

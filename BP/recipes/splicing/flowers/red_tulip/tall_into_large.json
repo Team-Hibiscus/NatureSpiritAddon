@@ -1,0 +1,20 @@
+	{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "nature:tall_red_tulip_into_large_red_tulip"
+        },
+        "tags": [
+            "splicing_table"
+        ],
+        "ingredients": [
+            {
+                "item": "nature:red_tulip_tall_item",
+                "count": 2
+            }
+        ],
+        "result": {
+            "item": "nature:red_tulip_large_item"
+        }
+    }
+}

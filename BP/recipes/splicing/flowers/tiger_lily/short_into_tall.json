@@ -1,0 +1,20 @@
+	{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "nature:short_tiger_lily_into_tall_tiger_lily"
+        },
+        "tags": [
+            "splicing_table"
+        ],
+        "ingredients": [
+            {
+                "item": "nature:tiger_lily_item",
+                "count": 2
+            }
+        ],
+        "result": {
+            "item": "nature:tiger_lily_tall_item"
+        }
+    }
+}

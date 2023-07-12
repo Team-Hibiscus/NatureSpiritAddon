@@ -1,0 +1,531 @@
+{
+	"format_version": "1.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "nature:larch_fence",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.fence"
+			},
+			"properties": {
+				"nature:north": [
+					0,
+					1
+				],
+				"nature:south": [
+					0,
+					1
+				],
+				"nature:east": [
+					0,
+					1
+				],
+				"nature:west": [
+					0,
+					1
+				],
+				"nature:is_placed": [
+					0,
+					1
+				]
+			}
+		},
+		"components": {
+			"minecraft:flammable": {
+				"destroy_chance_modifier": 45,
+				"catch_chance_modifier": 80
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.5
+			},
+			"minecraft:collision_box": {
+				"origin": [
+					-6,
+					0,
+					-6
+				],
+				"size": [
+					12,
+					16,
+					12
+				]
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-2,
+					0,
+					-2
+				],
+				"size": [
+					4,
+					12,
+					4
+				]
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "larch_planks",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:queued_ticking": {
+				"looping": true,
+				"interval_range": [
+					0,
+					0
+				],
+				"on_tick": {
+					"event": "nature:refresh_sides"
+				}
+			},
+			"minecraft:geometry": {
+				"identifier": "geometry.fence",
+				"bone_visibility": {
+					"preview": true,
+					"fence": false,
+					"north": false,
+					"south": false,
+					"east": false,
+					"west": false
+				}
+			},
+			"minecraft:on_placed": {
+				"event": "nature:placed"
+			},
+			"minecraft:loot": "loot_tables/blocks/fences/larch_fence.json",
+			"minecraft:destructible_by_explosion": true,
+			"minecraft:breathability": "solid",
+			"tag:fence": {},
+			"tag:wood": {}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('nature:north') == 1",
+				"components": {
+					"minecraft:geometry": {
+						"identifier": "geometry.fence",
+						"bone_visibility": {
+							"preview": false,
+							"fence": true,
+							"south": false,
+							"east": false,
+							"west": false,
+							"north": true
+						}
+					},
+					"minecraft:transformation": {
+						"translation": [
+							0.0,
+							0.255,
+							0.0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('nature:south') == 1",
+				"components": {
+					"minecraft:geometry": {
+						"identifier": "geometry.fence",
+						"bone_visibility": {
+							"preview": false,
+							"fence": true,
+							"south": true,
+							"east": false,
+							"west": false,
+							"north": false
+						}
+					},
+					"minecraft:transformation": {
+						"translation": [
+							0.0,
+							0.255,
+							0.0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('nature:east') == 1",
+				"components": {
+					"minecraft:geometry": {
+						"identifier": "geometry.fence",
+						"bone_visibility": {
+							"preview": false,
+							"fence": true,
+							"south": false,
+							"east": true,
+							"west": false,
+							"north": false
+						}
+					},
+					"minecraft:transformation": {
+						"translation": [
+							0.0,
+							0.255,
+							0.0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('nature:west') == 1",
+				"components": {
+					"minecraft:geometry": {
+						"identifier": "geometry.fence",
+						"bone_visibility": {
+							"preview": false,
+							"fence": true,
+							"south": false,
+							"east": false,
+							"west": true,
+							"north": false
+						}
+					},
+					"minecraft:transformation": {
+						"translation": [
+							0.0,
+							0.255,
+							0.0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('nature:north') == 1 && query.block_property('nature:south') == 1",
+				"components": {
+					"minecraft:geometry": {
+						"identifier": "geometry.fence",
+						"bone_visibility": {
+							"preview": false,
+							"fence": true,
+							"south": true,
+							"east": false,
+							"west": false,
+							"north": true
+						}
+					},
+					"minecraft:transformation": {
+						"translation": [
+							0.0,
+							0.255,
+							0.0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('nature:west') == 1 && query.block_property('nature:east') == 1",
+				"components": {
+					"minecraft:geometry": {
+						"identifier": "geometry.fence",
+						"bone_visibility": {
+							"preview": false,
+							"fence": true,
+							"south": false,
+							"east": true,
+							"west": true,
+							"north": false
+						}
+					},
+					"minecraft:transformation": {
+						"translation": [
+							0.0,
+							0.255,
+							0.0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('nature:north') == 1 && query.block_property('nature:east') == 1",
+				"components": {
+					"minecraft:geometry": {
+						"identifier": "geometry.fence",
+						"bone_visibility": {
+							"preview": false,
+							"fence": true,
+							"south": false,
+							"east": true,
+							"west": false,
+							"north": true
+						}
+					},
+					"minecraft:transformation": {
+						"translation": [
+							0.0,
+							0.255,
+							0.0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('nature:north') == 1 && query.block_property('nature:west') == 1",
+				"components": {
+					"minecraft:geometry": {
+						"identifier": "geometry.fence",
+						"bone_visibility": {
+							"preview": false,
+							"fence": true,
+							"south": false,
+							"east": false,
+							"west": true,
+							"north": true
+						}
+					},
+					"minecraft:transformation": {
+						"translation": [
+							0.0,
+							0.255,
+							0.0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('nature:south') == 1 && query.block_property('nature:west') == 1",
+				"components": {
+					"minecraft:geometry": {
+						"identifier": "geometry.fence",
+						"bone_visibility": {
+							"preview": false,
+							"fence": true,
+							"south": true,
+							"east": false,
+							"west": true,
+							"north": false
+						}
+					},
+					"minecraft:transformation": {
+						"translation": [
+							0.0,
+							0.255,
+							0.0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('nature:south') == 1 && query.block_property('nature:east') == 1",
+				"components": {
+					"minecraft:geometry": {
+						"identifier": "geometry.fence",
+						"bone_visibility": {
+							"preview": false,
+							"fence": true,
+							"south": true,
+							"east": true,
+							"west": false,
+							"north": false
+						}
+					},
+					"minecraft:transformation": {
+						"translation": [
+							0.0,
+							0.255,
+							0.0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('nature:south') == 1 && query.block_property('nature:east') == 1 && query.block_property('nature:west') == 1",
+				"components": {
+					"minecraft:geometry": {
+						"identifier": "geometry.fence",
+						"bone_visibility": {
+							"preview": false,
+							"fence": true,
+							"south": true,
+							"east": true,
+							"west": true,
+							"north": false
+						}
+					},
+					"minecraft:transformation": {
+						"translation": [
+							0.0,
+							0.255,
+							0.0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('nature:south') == 1 && query.block_property('nature:east') == 1 && query.block_property('nature:north') == 1",
+				"components": {
+					"minecraft:geometry": {
+						"identifier": "geometry.fence",
+						"bone_visibility": {
+							"preview": false,
+							"fence": true,
+							"south": true,
+							"east": true,
+							"west": false,
+							"north": true
+						}
+					},
+					"minecraft:transformation": {
+						"translation": [
+							0.0,
+							0.255,
+							0.0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('nature:south') == 1 && query.block_property('nature:west') == 1 && query.block_property('nature:north') == 1",
+				"components": {
+					"minecraft:geometry": {
+						"identifier": "geometry.fence",
+						"bone_visibility": {
+							"preview": false,
+							"fence": true,
+							"south": true,
+							"east": false,
+							"west": true,
+							"north": true
+						}
+					},
+					"minecraft:transformation": {
+						"translation": [
+							0.0,
+							0.255,
+							0.0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('nature:east') == 1 && query.block_property('nature:west') == 1 && query.block_property('nature:north') == 1",
+				"components": {
+					"minecraft:geometry": {
+						"identifier": "geometry.fence",
+						"bone_visibility": {
+							"preview": false,
+							"fence": true,
+							"south": false,
+							"east": true,
+							"west": true,
+							"north": true
+						}
+					},
+					"minecraft:transformation": {
+						"translation": [
+							0.0,
+							0.255,
+							0.0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('nature:east') == 1 && query.block_property('nature:west') == 1 && query.block_property('nature:north') == 1 && query.block_property('nature:south') == 1",
+				"components": {
+					"minecraft:geometry": {
+						"identifier": "geometry.fence",
+						"bone_visibility": {
+							"preview": false,
+							"fence": true,
+							"south": true,
+							"east": true,
+							"west": true,
+							"north": true
+						}
+					},
+					"minecraft:transformation": {
+						"translation": [
+							0.0,
+							0.255,
+							0.0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('nature:east') == 0 && query.block_property('nature:west') == 0 && query.block_property('nature:north') == 0 && query.block_property('nature:south') == 0 && query.block_property('nature:is_placed') == 1",
+				"components": {
+					"minecraft:geometry": {
+						"identifier": "geometry.fence",
+						"bone_visibility": {
+							"preview": false,
+							"fence": true,
+							"south": false,
+							"east": false,
+							"west": false,
+							"north": false
+						}
+					},
+					"minecraft:transformation": {
+						"translation": [
+							0.0,
+							0.255,
+							0.0
+						]
+					}
+				}
+			}
+		],
+		"events": {
+			"nature:placed": {
+				"set_block_property": {
+					"nature:is_placed": 1
+				}
+			},
+			"nature:refresh_sides": {
+				"sequence": [
+					{
+						"condition": "query.block_neighbor_has_any_tag(0,0,-1,'custom_fence','metal','wood','stone','wood_pick_diggable','stone_pick_diggable','iron_pick_diggable','diamond_pick_diggable','netherite_pick_diggable','dirt','sand','gravel','grass','snow')",
+						"set_block_property": {
+							"nature:north": 1
+						}
+					},
+					{
+						"condition": "!query.block_neighbor_has_any_tag(0,0,-1,'custom_fence','metal','wood','stone','wood_pick_diggable','stone_pick_diggable','iron_pick_diggable','diamond_pick_diggable','netherite_pick_diggable','dirt','sand','gravel','grass','snow')",
+						"set_block_property": {
+							"nature:north": 0
+						}
+					},
+					{
+						"condition": "query.block_neighbor_has_any_tag(0,0,1,'custom_fence','metal','wood','stone','wood_pick_diggable','stone_pick_diggable','iron_pick_diggable','diamond_pick_diggable','netherite_pick_diggable','dirt','sand','gravel','grass','snow')",
+						"set_block_property": {
+							"nature:south": 1
+						}
+					},
+					{
+						"condition": "!query.block_neighbor_has_any_tag(0,0,1,'custom_fence','metal','wood','stone','wood_pick_diggable','stone_pick_diggable','iron_pick_diggable','diamond_pick_diggable','netherite_pick_diggable','dirt','sand','gravel','grass','snow')",
+						"set_block_property": {
+							"nature:south": 0
+						}
+					},
+					{
+						"condition": "query.block_neighbor_has_any_tag(-1,0,0,'custom_fence','metal','wood','stone','wood_pick_diggable','stone_pick_diggable','iron_pick_diggable','diamond_pick_diggable','netherite_pick_diggable','dirt','sand','gravel','grass','snow')",
+						"set_block_property": {
+							"nature:west": 1
+						}
+					},
+					{
+						"condition": "!query.block_neighbor_has_any_tag(-1,0,0,'custom_fence','metal','wood','stone','wood_pick_diggable','stone_pick_diggable','iron_pick_diggable','diamond_pick_diggable','netherite_pick_diggable','dirt','sand','gravel','grass','snow')",
+						"set_block_property": {
+							"nature:west": 0
+						}
+					},
+					{
+						"condition": "query.block_neighbor_has_any_tag(1,0,0,'custom_fence','metal','wood','stone','wood_pick_diggable','stone_pick_diggable','iron_pick_diggable','diamond_pick_diggable','netherite_pick_diggable','dirt','sand','gravel','grass','snow')",
+						"set_block_property": {
+							"nature:east": 1
+						}
+					},
+					{
+						"condition": "!query.block_neighbor_has_any_tag(1,0,0,'custom_fence','metal','wood','stone','wood_pick_diggable','stone_pick_diggable','iron_pick_diggable','diamond_pick_diggable','netherite_pick_diggable','dirt','sand','gravel','grass','snow')",
+						"set_block_property": {
+							"nature:east": 0
+						}
+					}
+				]
+			}
+		}
+	}
+}

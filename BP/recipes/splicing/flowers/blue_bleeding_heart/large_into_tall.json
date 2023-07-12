@@ -1,0 +1,20 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "nature:large_blue_bleeding_heart_into_tall_blue_bleeding_heart"
+		},
+		"tags": [
+			"splicing_table"
+		],
+		"ingredients": [
+			{
+				"item": "nature:blue_bleeding_heart_large_item"
+			}
+		],
+		"result": {
+			"item": "nature:blue_bleeding_heart_tall_item",
+			"count": 2
+		}
+	}
+}

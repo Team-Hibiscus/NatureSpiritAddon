@@ -1,0 +1,24 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:aspen_planks_from_aspen_wood"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"group": "planks",
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "nature:aspen_wood"
+			}
+		},
+		"result": {
+			"item": "nature:aspen_planks",
+			"count": 4
+		}
+	}
+}

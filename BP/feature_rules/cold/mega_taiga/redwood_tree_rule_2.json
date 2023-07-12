@@ -1,0 +1,47 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "nature:redwood_tree_rule_2",
+      "places_feature": "nature:redwood_tree_2"
+    },
+    "conditions": {
+      "placement_pass": "before_surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "all_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "taiga"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "mega"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "scatter_chance": "30",
+      "iterations": 6,
+      "x": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          16
+        ]
+      },
+      "y": "query.heightmap(variable.worldx, variable.worldz)",
+      "z": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          16
+        ]
+      }
+    }
+  }
+}

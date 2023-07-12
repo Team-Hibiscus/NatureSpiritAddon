@@ -1,0 +1,15 @@
+
+{
+    "format_version": "1.13.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "nature:random_violet_tree_feature"
+        },
+        "features": [
+            ["nature:violet_tree", 1],
+            ["nature:violet_tree_2", 1],
+            ["nature:violet_tree_3", 1],
+            ["nature:violet_tree_4", 1]
+        ]
+    }
+}

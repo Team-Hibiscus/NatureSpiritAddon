@@ -1,0 +1,20 @@
+	{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "nature:dye_from_white_rose"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "nature:white_rose_item"
+			}
+		],
+		"result": {
+			"item": "minecraft:dye",
+			"data": 19
+		}
+	}
+}

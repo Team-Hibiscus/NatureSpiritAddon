@@ -1,0 +1,24 @@
+{
+	"format_version": "1.16.200",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "nature:violet_tree_2"
+		},
+		"structure_name": "mystructure:violet_tree_2",
+		"adjustment_radius": 16,
+		"facing_direction": "south",
+		"constraints": {
+			"grounded": {},
+			"unburied": {},
+			"block_intersection": {
+                "block_allowlist": [
+					"minecraft:air",
+					"nature:violet_leaves",
+					"nature:violet_log",
+					"nature:violet_post",
+					"nature:violet_treelight"
+                ]
+            }
+		}
+	}
+}

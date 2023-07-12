@@ -1,0 +1,21 @@
+{
+	"format_version": "1.16.200",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "nature:mahogany_tree_2"
+		},
+		"structure_name": "mystructure:mahogany_tree_2",
+		"adjustment_radius": 16,
+		"facing_direction": "south",
+		"constraints": {
+			"grounded": {},
+			"unburied": {},
+			"block_intersection": {
+                "block_allowlist": [
+					"minecraft:air",
+					 "minecraft:water"
+			]
+            }
+		}
+	}
+}

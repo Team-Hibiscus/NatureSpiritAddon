@@ -1,0 +1,21 @@
+
+{
+    "format_version": "1.13.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "nature:random_tundra_flower_feature"
+        },
+        "features": [
+            ["nature:cornflower_feature", 9],
+            ["nature:cornflower_feature_2", 4],
+            ["nature:cornflower_feature_3", 7],
+            ["nature:blue_bell", 20],
+            ["nature:blue_bell_2", 10],
+            ["nature:blue_bell_3", 6],
+            ["nature:cyan_rose_2", 10],
+            ["nature:cyan_rose_4", 5],
+            ["nature:cyan_rose_3", 5],
+            ["nature:cyan_rose", 6]
+        ]
+    }
+}

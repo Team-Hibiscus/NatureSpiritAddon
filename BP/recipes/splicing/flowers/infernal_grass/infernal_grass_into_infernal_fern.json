@@ -1,0 +1,21 @@
+	{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "nature:infernal_grass_into_infernal_fern"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "ingredients": [
+      {
+        "item": "nature:infernal_grass_item",
+        "count": 9
+      }
+    ],
+    "result": {
+      "item": "nature:infernal_fern_item",
+      "count": 1
+    }
+  }
+}

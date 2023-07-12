@@ -1,0 +1,186 @@
+{
+  "format_version": "1.19.10",
+  "minecraft:block": {
+    "description": {
+      "identifier": "nature:wither_rose_tall",
+      "properties": {
+        "nature:upper_bit": [
+          0,
+          1
+        ],
+        "nature:stood_on": [
+          false,
+          true
+        ]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_property('nature:upper_bit') == 0",
+        "components": {
+          "minecraft:on_player_destroyed": {
+            "event": "destroy_top"
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -3.5,
+              0,
+              -3.5
+            ],
+            "size": [
+              7,
+              16,
+              7
+            ]
+          },
+          "minecraft:loot": "loot_tables/blocks/flowers/wither_rose/wither_rose_tall.json"
+        }
+      },
+      {
+        "condition": "query.block_property('nature:upper_bit') == 1",
+        "components": {
+          "tag:flower_top": {},
+          "minecraft:material_instances": {
+            "*": {
+              "render_method": "alpha_test",
+              "texture": "nothing",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          },
+          "minecraft:on_player_destroyed": {
+            "event": "destroy_bottom"
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -3.5,
+              0,
+              -3.5
+            ],
+            "size": [
+              7,
+              10,
+              7
+            ]
+          }
+        }
+      }
+    ],
+    "components": {
+      "minecraft:loot": "loot_tables/empty.json",
+      "tag:flower_bottom": {},
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "up"
+            ],
+            "block_filter": [
+              "minecraft:grass",
+              "minecraft:dirt",
+              "minecraft:podzol",
+              "minecraft:dirt_with_roots",
+              "nature:wither_rose_tall",
+              "moss_block",
+              "minecraft:netherrack",
+              "minecraft:soul_sand"
+            ]
+          }
+        ]
+      },
+      "minecraft:geometry": "geometry.double_cross",
+      "minecraft:breathability": "air",
+      "tag:flower": {},
+      "minecraft:material_instances": {
+        "*": {
+          "render_method": "alpha_test",
+          "texture": "wither_rose_tall",
+          "face_dimming": false,
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:light_emission": 0.14,
+      "minecraft:collision_box": false,
+      "minecraft:on_step_on": {
+        "event": "nature:step_on"
+      },
+      "minecraft:on_step_off": {
+        "event": "nature:step_off"
+      },
+      "minecraft:queued_ticking": {
+        "looping": true,
+        "interval_range": [
+          1,
+          1
+        ],
+        "on_tick": {
+          "event": "nature:add_effect",
+          "target": "self",
+          "condition": "q.block_property('nature:stood_on')"
+        }
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:destroy_time": 0
+    },
+    "events": {
+      "check_for_bottom": {
+        "sequence": [
+          {
+            "condition": "q.block_neighbor_has_all_tags(0,-1,0,'flower_bottom')",
+            "set_block_property": {
+              "nature:upper_bit": 1
+            }
+          },
+          {
+            "trigger": {
+              "event": "add_top",
+              "target": "self"
+            }
+          }
+        ]
+      },
+      "add_top": {
+        "sequence": [
+          {
+            "condition": "!query.block_property('nature:upper_bit') == 1",
+            "set_block_at_pos": {
+              "block_offset": [
+                0,
+                1,
+                0
+              ],
+              "block_type": "nature:wither_rose_tall"
+            }
+          }
+        ]
+      },
+      "destroy_top": {
+        "run_command": {
+          "command": "fill ~ ~1 ~ ~ ~1 ~ air 0 destroy"
+        }
+      },
+      "destroy_bottom": {
+        "run_command": {
+          "command": [
+            "fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy"
+          ]
+        }
+      },
+      "nature:step_on": {
+        "set_block_property": {
+          "nature:stood_on": true
+        }
+      },
+      "nature:step_off": {
+        "set_block_property": {
+          "nature:stood_on": false
+        }
+      },
+      "nature:add_effect": {
+        "run_command": {
+          "command": "effect @e[r=1] wither 2 2"
+        }
+      }
+    }
+  }
+}

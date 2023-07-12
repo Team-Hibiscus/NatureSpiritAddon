@@ -1,0 +1,27 @@
+{
+    "format_version": "1.16",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "nature:palo_verde_fence"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "BCB",
+            "BCB"
+        ],
+        "key": {
+            "B": {
+                "item": "nature:palo_verde_planks"
+            },
+            "C": {
+                "item": "stick"
+            }
+        },
+        "result": {
+            "item": "nature:palo_verde_fence",
+            "count": 3
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "nature:tall_violet_roots_into_short_violet_roots"
+        },
+        "tags": [
+            "splicing_table"
+        ],
+        "ingredients": [
+            {
+                "item": "nature:violet_roots_tall_item"
+            }
+        ],
+        "result": {
+            "item": "nature:violet_roots_item",
+            "count": 2
+        }
+    }
+}

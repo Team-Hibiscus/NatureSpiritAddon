@@ -1,0 +1,21 @@
+	{
+  "format_version": "1.17.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "nature:corrupted_moss_block"
+    },
+    "count": 100,
+    "replace_rules": [
+      {
+        "places_block": "nature:corrupted_moss_block",
+        "may_replace": [
+          "minecraft:air",
+          "minecraft:stone",
+          "minecraft:diorite",
+          "minecraft:andesite",
+          "minecraft:gravel"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nature:hydrangea"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "pattern": [
+      "   ",
+      "# &",
+      "   "
+    ],
+    "key": {
+      "&": {
+        "item": "nature:lavender_item"
+      },
+      "#": {
+        "item": "nature:white_rose_large_item"
+      }
+    },
+    "result": {
+      "item": "nature:hydrangea_item",
+      "count": 2
+    }
+  }
+}

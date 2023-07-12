@@ -1,0 +1,30 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nature:pink_rose"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "pattern": [
+      "   ",
+      "# &",
+      "   "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:double_plant",
+        "data": 4
+      },
+      "&": {
+        "item": "minecraft:double_plant",
+        "data": 5
+      }
+    },
+    "result": {
+      "item": "nature:pink_rose_large_item",
+      "count": 2
+    }
+  }
+}

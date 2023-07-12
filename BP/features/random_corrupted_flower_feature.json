@@ -1,0 +1,62 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "nature:random_corrupted_flower_feature"
+        },
+        "features": [
+            [
+                "nature:distorted_roots_feature",
+                1
+            ],
+            [
+                "nature:distorted_roots_feature_2",
+                1
+            ],
+            [
+                "nature:distorted_roots_feature_3",
+                1
+            ],
+            [
+                "nature:distorted_sapling",
+                10
+            ],
+            [
+                "nature:distorted_bush",
+                1
+            ],
+            [
+                "nature:distorted_sprouts",
+                20
+            ],
+            [
+                "nature:corrupted_bluebell",
+                10
+            ],
+            [
+                "nature:corrupted_bluebell_2",
+                10
+            ],
+            [
+                "nature:corrupted_bluebell_3",
+                10
+            ],
+            [
+                "nature:corrupted_rose",
+                10
+            ],
+            [
+                "nature:corrupted_rose_2",
+                10
+            ],
+            [
+                "nature:corrupted_rose_3",
+                10
+            ],
+            [
+                "nature:corrupted_rose_4",
+                10
+            ]
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "nature:grieving_tree_feature"
+    },
+    "places_feature": "nature:random_violet_tree_feature",
+    "iterations": 8,
+    "scatter_chance": 70.0,
+    "x": {
+      "distribution": "uniform",
+      "extent": [ 0, 10 ]
+    },
+    "y": 0,
+    "z": {
+      "distribution": "uniform",
+      "extent": [ 0, 10 ]
+    }
+  }
+}

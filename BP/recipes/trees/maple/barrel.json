@@ -1,0 +1,29 @@
+{
+    "format_version": "1.16",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "nature:barrel_from_maple_plank_slab"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "ABA",
+            "A A",
+            "ABA"
+        ],
+        "key": {
+            "A": {
+                "item": "minecraft:stick"
+            },
+            "B": {
+                "item": "nature:maple_plank_slab"
+            }
+        },
+        "result": {
+            "item": "minecraft:barrel",
+            "count": 1
+        },
+        "priority": 2
+    }
+}

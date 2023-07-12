@@ -1,0 +1,26 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "nature:acacia_post"
+    },
+    "tags": [ 
+      "crafting_table" 
+    ],
+    "group": "wooden_trap_door",
+    "pattern": [
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:log2",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "nature:acacia_post",
+      "count": 6
+    }
+  }
+}

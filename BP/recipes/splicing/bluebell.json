@@ -1,0 +1,28 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nature:bluebell"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "pattern": [
+      "   ",
+      "# &",
+      "   "
+    ],
+    "key": {
+      "&": {
+        "item": "nature:dandelion_large_item"
+      },
+      "#": {
+        "item": "nature:corrupted_bluebell"
+      }
+    },
+    "result": {
+      "item": "nature:bluebell_item",
+      "count": 2
+    }
+  }
+}

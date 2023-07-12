@@ -1,0 +1,25 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:stripped_ebony_wood"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"group": "wood",
+		"pattern": [
+			"##",
+			"##"
+		],
+		"key": {
+			"#": {
+				"item": "nature:stripped_ebony_log"
+			}
+		},
+		"result": {
+			"item": "nature:stripped_ebony_wood",
+			"count": 3
+		}
+	}
+}

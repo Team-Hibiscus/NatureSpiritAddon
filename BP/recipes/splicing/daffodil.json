@@ -1,0 +1,29 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nature:daffodil"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "pattern": [
+      "   ",
+      "# &",
+      "   "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:red_flower",
+        "data": 8
+      },
+      "&": {
+        "item": "nature:buttercup_item"
+      }
+    },
+    "result": {
+      "item": "nature:daffodil_item",
+      "count": 2
+    }
+  }
+}

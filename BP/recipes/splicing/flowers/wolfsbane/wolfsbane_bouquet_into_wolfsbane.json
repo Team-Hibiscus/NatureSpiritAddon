@@ -1,0 +1,21 @@
+	{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "nature:wolfsbane_bouquet_into_wolfsbane"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "ingredients": [
+      {
+        "item": "nature:wolfsbane_bouquet_item",
+        "count": 1
+      }
+    ],
+    "result": {
+      "item": "nature:wolfsbane_item",
+      "count": 9
+    }
+  }
+}

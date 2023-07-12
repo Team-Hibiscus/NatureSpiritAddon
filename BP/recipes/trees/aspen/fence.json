@@ -1,0 +1,27 @@
+{
+    "format_version": "1.16",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "nature:aspen_fence"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "BCB",
+            "BCB"
+        ],
+        "key": {
+            "B": {
+                "item": "nature:aspen_planks"
+            },
+            "C": {
+                "item": "stick"
+            }
+        },
+        "result": {
+            "item": "nature:aspen_fence",
+            "count": 3
+        }
+    }
+}

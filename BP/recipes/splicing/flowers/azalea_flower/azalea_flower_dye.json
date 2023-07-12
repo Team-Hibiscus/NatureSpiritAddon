@@ -1,0 +1,26 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:dye_from_azalea_flower"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"   ",
+			"  &",
+			"   "
+		],
+		"key": {
+			"&": {
+				"item": "nature:azalea_flower_item"
+			}
+		},
+		"result": {
+			"item": "minecraft:dye",
+			"data": 13,
+			"count": 1
+		}
+	}
+}

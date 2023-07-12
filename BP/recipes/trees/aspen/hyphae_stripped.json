@@ -1,0 +1,25 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:stripped_aspen_wood"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"group": "wood",
+		"pattern": [
+			"##",
+			"##"
+		],
+		"key": {
+			"#": {
+				"item": "nature:stripped_aspen_log"
+			}
+		},
+		"result": {
+			"item": "nature:stripped_aspen_wood",
+			"count": 3
+		}
+	}
+}

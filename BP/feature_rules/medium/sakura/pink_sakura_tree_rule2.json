@@ -1,0 +1,41 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "nature:pink_sakura_tree_rule2",
+      "places_feature": "nature:pink_sakura_tree2"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "all_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "cherry_grove"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 6,
+      "x": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          8
+        ]
+      },
+      "y": "query.heightmap(variable.worldx, variable.worldz)",
+      "z": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          8
+        ]
+      }
+    }
+  }
+}

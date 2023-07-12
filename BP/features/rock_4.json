@@ -1,0 +1,25 @@
+{
+	"format_version": "1.16.200",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "nature:rock_4"
+		},
+		"structure_name": "mystructure:rock_4",
+		"adjustment_radius": 16,
+		"facing_direction": "random",
+		"constraints": {
+			"grounded": {},
+			"unburied": {},
+			"block_intersection": {
+                "block_allowlist": [
+					"minecraft:air",
+					"minecraft:dirt",
+					"minecraft:sand",
+					"minecraft:grass",
+					"minecraft:tallgrass",
+					"minecraft:water"
+			]
+            }
+		}
+	}
+}

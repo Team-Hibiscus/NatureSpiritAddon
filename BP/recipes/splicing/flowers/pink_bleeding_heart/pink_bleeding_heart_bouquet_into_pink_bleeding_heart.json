@@ -1,0 +1,21 @@
+	{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "nature:pink_bleeding_heart_bouquet_into_pink_bleeding_heart"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "ingredients": [
+      {
+        "item": "nature:pink_bleeding_heart_bouquet_item",
+        "count": 1
+      }
+    ],
+    "result": {
+      "item": "nature:pink_bleeding_heart_item",
+      "count": 9
+    }
+  }
+}

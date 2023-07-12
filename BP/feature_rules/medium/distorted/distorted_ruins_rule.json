@@ -1,0 +1,42 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "nature:distorted_ruins_rule",
+      "places_feature": "nature:distorted_ruins"
+    },
+    "conditions": {
+      "placement_pass": "before_surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "all_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "placeholder"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 1,
+      "scatter_chance": 35,
+      "x": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          8
+        ]
+      },
+      "y": "query.above_top_solid(variable.worldx, variable.worldz)",
+      "z": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          8
+        ]
+      }
+    }
+  }
+}

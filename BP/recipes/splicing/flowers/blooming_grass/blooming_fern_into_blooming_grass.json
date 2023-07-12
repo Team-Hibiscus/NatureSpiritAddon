@@ -1,0 +1,21 @@
+	{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "nature:blooming_fern_into_blooming_grass"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "ingredients": [
+      {
+        "item": "nature:blooming_fern_item",
+        "count": 1
+      }
+    ],
+    "result": {
+      "item": "nature:blooming_grass_item",
+      "count": 9
+    }
+  }
+}

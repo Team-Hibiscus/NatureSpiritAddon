@@ -1,0 +1,20 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "nature:short_birch_bush_into_tall_birch_bush"
+		},
+		"tags": [
+			"splicing_table"
+		],
+		"ingredients": [
+			{
+				"item": "nature:birch_bush_item",
+				"count": 2
+			}
+		],
+		"result": {
+			"item": "nature:birch_bush_tall_item"
+		}
+	}
+}

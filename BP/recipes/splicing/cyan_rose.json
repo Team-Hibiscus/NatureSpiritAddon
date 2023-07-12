@@ -1,0 +1,29 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nature:cyan_rose"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "pattern": [
+      "   ",
+      "# &",
+      "   "
+    ],
+    "key": {
+      "#": {
+        "item": "nature:rose_item"
+      },
+      "&": {
+        "item": "minecraft:red_flower",
+        "data": 1
+      }
+    },
+    "result": {
+      "item": "nature:cyan_rose_item",
+      "count": 2
+    }
+  }
+}

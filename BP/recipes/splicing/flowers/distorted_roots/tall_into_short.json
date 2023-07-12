@@ -1,0 +1,20 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "nature:tall_distorted_roots_into_short_distorted_roots"
+        },
+        "tags": [
+            "splicing_table"
+        ],
+        "ingredients": [
+            {
+                "item": "nature:distorted_roots_tall_item"
+            }
+        ],
+        "result": {
+            "item": "nature:distorted_roots_item",
+            "count": 2
+        }
+    }
+}

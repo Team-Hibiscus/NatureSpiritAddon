@@ -1,0 +1,28 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nature:buttercup"
+    },
+    "tags": [
+      "splicing_table"
+    ],
+    "pattern": [
+      "   ",
+      "# &",
+      "   "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:yellow_flower"
+      },
+      "&": {
+        "item": "nature:tiger_lily_item"
+      }
+    },
+    "result": {
+      "item": "nature:buttercup_item",
+      "count": 2
+    }
+  }
+}

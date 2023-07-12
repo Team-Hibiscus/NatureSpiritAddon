@@ -1,0 +1,20 @@
+	{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "nature:normal_blue_tulip_into_short_blue_tulip"
+        },
+        "tags": [
+            "splicing_table"
+        ],
+        "ingredients": [
+            {
+                "item": "nature:blue_tulip_item",
+                "count": 2
+            }
+        ],
+        "result": {
+            "item": "nature:blue_tulip_short_item"
+        }
+    }
+}

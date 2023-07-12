@@ -1,0 +1,20 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "nature:tall_frigid_grass_into_short_frigid_grass"
+        },
+        "tags": [
+            "splicing_table"
+        ],
+        "ingredients": [
+            {
+                "item": "nature:frigid_grass_tall_item"
+            }
+        ],
+        "result": {
+            "item": "nature:frigid_grass_item",
+            "count": 2
+        }
+    }
+}
