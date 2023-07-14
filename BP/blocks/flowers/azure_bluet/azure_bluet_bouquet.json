@@ -1,0 +1,39 @@
+{
+  "format_version": "1.19.10",
+  "minecraft:block": {
+    "description": {
+      "identifier": "nature:azure_bluet_bouquet"
+    },
+    "components": {
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "up"
+            ],
+            "block_filter": [
+              "minecraft:grass",
+              "minecraft:dirt",
+              "minecraft:podzol",
+              "minecraft:moss_block"
+            ]
+          }
+        ]
+      },
+      "minecraft:loot": "loot_tables/blocks/flowers/azure_bluet/azure_bluet_bouquet.json",
+      "minecraft:geometry": "geometry.large_fern",
+      "minecraft:material_instances": {
+        "*": {
+          "render_method": "alpha_test",
+          "texture": "azure_bluet_bouquet",
+          "face_dimming": false,
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:collision_box": false,
+      "minecraft:light_dampening": 0,
+      "minecraft:destroy_time": 0,
+      "minecraft:breathability": "air"
+    }
+  }
+}

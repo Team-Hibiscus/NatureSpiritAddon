@@ -1,0 +1,99 @@
+{
+  "format_version": "1.19.10",
+  "minecraft:block": {
+    "description": {
+      "identifier": "nature:azalea_bush_flowers_tall"
+    },
+    "components": {
+      "minecraft:loot": "loot_tables/empty.json",
+      "tag:flower_bottom": {},
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "up"
+            ],
+            "block_filter": [
+              "grass",
+              "dirt",
+              "podzol",
+              "moss_block",
+              "dirt_with_roots"
+            ]
+          }
+        ]
+      },
+      "minecraft:geometry": "geometry.blue_bell",
+      "minecraft:on_player_destroyed": {
+        "event": "nature:on_destroyed"
+      },
+      "minecraft:breathability": "air",
+      "tag:flower": {},
+      "minecraft:material_instances": {
+        "*": {
+          "render_method": "alpha_test",
+          "texture": "azalea_bush_flowers_tall",
+          "face_dimming": false,
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": {
+        "origin": [
+          -3.5,
+          0,
+          -3.5
+        ],
+        "size": [
+          7,
+          10,
+          7
+        ]
+      },
+      "minecraft:light_emission": 0.14,
+      "minecraft:light_dampening": 0,
+      "minecraft:destroy_time": 0,
+      "minecraft:on_interact": {
+        "condition": "q.get_equipped_item_name=='bone_meal'",
+        "event": "fertilize_block"
+      }
+    },
+    "events": {
+      "nature:on_destroyed": {
+        "sequence": [
+          {
+            "condition": "query.get_equipped_item_name=='shears'",
+            "spawn_loot": {
+              "table": "loot_tables/blocks/bushes/azalea_bush_flowers_tall_shears.json"
+            }
+          },
+          {
+            "condition": "query.get_equipped_item_name!='shears'",
+            "randomize": [
+              {
+                "weight": 10,
+                "spawn_loot": {
+                  "table": "loot_tables/blocks/bushes/azalea_bush_flowers_tall.json"
+                }
+              },
+              {
+                "weight": 90
+              }
+            ]
+          }
+        ]
+      },
+      "fertilize_block": {
+        "spawn_loot": {
+          "table": "loot_tables/blocks/bushes/azalea_bush_flowers_tall_shears.json"
+        },
+        "decrement_stack": {},
+        "run_command": {
+          "command": [
+            "particle minecraft:crop_growth_emitter ~ ~ ~"
+          ]
+        }
+      }
+    }
+  }
+}

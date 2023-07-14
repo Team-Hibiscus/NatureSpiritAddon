@@ -1,0 +1,45 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "nature:splicing_table"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"category": "items",
+				"group": "itemGroup.name.sndstone"
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					10,
+					16
+				]
+			},
+			"tag:splicing_table": {},
+			"tag:wood": {},
+			"minecraft:geometry": "geometry.splicing_table",
+			"minecraft:loot": "loot_tables/blocks/misc/splicing_table.json",
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "alpha_test",
+					"texture": "splicing_table"
+				}
+			},
+			"minecraft:crafting_table": {
+				"crafting_tags": [
+					"splicing_table"
+				],
+				"custom_description": "container.splicing_table",
+				"grid_size": 3
+			},
+			"minecraft:block_light_absorption": 0,
+			"minecraft:destroy_time": 1
+		}
+	}
+}
