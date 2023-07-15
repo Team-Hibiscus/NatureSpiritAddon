@@ -1,0 +1,149 @@
+{
+  "format_version": "1.19.10",
+  "minecraft:block": {
+    "description": {
+      "identifier": "nature:distorted_sapling"
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "distorted_sapling",
+          "render_method": "alpha_test",
+          "face_dimming": false,
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:map_color": "#569F1B",
+      "minecraft:creative_category": {
+        "category": "none"
+      },
+      "minecraft:on_interact": {
+        "event": "grow",
+        "condition": "query.get_equipped_item_name(0)=='bone_meal'"
+      },
+      "minecraft:queued_ticking": {
+        "looping": true,
+        "interval_range": [
+          20000,
+          25000
+        ],
+        "on_tick": {
+          "event": "grow"
+        }
+      },
+      "minecraft:loot": "loot_tables/blocks/saplings/sapling_distorted.json",
+      "minecraft:geometry": "geometry.blue_bell",
+      "minecraft:destructible_by_mining": 0.01,
+      "minecraft:collision_box": false,
+      "minecraft:light_dampening": 0,
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "block_filter": [
+              "minecraft:dirt",
+              "minecraft:grass",
+              "minecraft:podzol",
+              "minecraft:moss_block",
+              "minecraft:netherrack",
+              "minecraft:soul_sand",
+              "minecraft:soul_soil",
+              "minecraft:magma",
+              "minecraft:crimson_nylium",
+              "minecraft:warped_nylium",
+              "minecraft:warped_wart_block",
+              "minecraft:nether_wart_block",
+              "nature:corrupted_moss_block",
+              "nature:violet_grass"
+            ],
+            "allowed_faces": [
+              "up"
+            ]
+          }
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -6,
+          0,
+          -6
+        ],
+        "size": [
+          12,
+          13,
+          12
+        ]
+      }
+    },
+    "events": {
+      "grow": {
+        "sequence": [
+          {
+            "condition": "query.get_equipped_item_name('main_hand')=='bone_meal'",
+            "run_command": {
+              "command": [
+                "particle nature:distorted ~ ~ ~",
+                "playsound item.bone_meal.use @a ~ ~ ~"
+              ]
+            },
+            "decrement_stack": {},
+            "trigger": "fertilize"
+          },
+          {
+            "condition": "query.get_equipped_item_name('main_hand')=='bone_meal' && q.block_neighbor_has_any_tag(0,0,1,'violet_sapling')",
+            "run_command": {
+              "command": [
+                "particle nature:distorted ~ ~ ~",
+                "playsound item.bone_meal.use @a ~ ~ ~"
+              ]
+            },
+            "decrement_stack": {},
+            "trigger": "fertilize2"
+          }
+        ]
+      },
+      "fertilize": {
+        "randomize": [
+          {
+            "weight": 1,
+            "run_command": {
+              "command": [
+                "structure load distorted_tree ~-12 ~ ~-13 0_degrees"
+              ]
+            }
+          },
+          {
+            "weight": 10
+          },
+          {
+            "weight": 1,
+            "run_command": {
+              "command": [
+                "structure load distorted_tree_3 ~-9 ~ ~-8 0_degrees"
+              ]
+            }
+          },
+          {
+            "weight": 1,
+            "run_command": {
+              "command": [
+                "structure load distorted_tree_2 ~-9 ~ ~-8 0_degrees"
+              ]
+            }
+          }
+        ]
+      },
+      "fertilize2": {
+        "randomize": [
+          {
+            "weight": 1,
+            "run_command": {
+              "command": [
+                "structure load twisted_tree ~-5 ~ ~-12"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

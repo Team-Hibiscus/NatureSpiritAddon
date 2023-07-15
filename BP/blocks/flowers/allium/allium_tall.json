@@ -1,0 +1,73 @@
+{
+  "format_version": "1.19.10",
+  "minecraft:block": {
+    "description": {
+      "identifier": "nature:allium_tall"
+    },
+    "components": {
+      "minecraft:loot": "loot_tables/blocks/flowers/allium/allium_tall.json",
+      "tag:flower_bottom": {},
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "up"
+            ],
+            "block_filter": [
+              "minecraft:grass",
+              "minecraft:dirt",
+              "minecraft:podzol",
+              "minecraft:dirt_with_roots",
+              "nature:allium_tall",
+              "moss_block"
+            ]
+          }
+        ]
+      },
+      "minecraft:geometry": "geometry.double_cross",
+      "minecraft:breathability": "air",
+      "tag:flower": {},
+      "minecraft:material_instances": {
+        "*": {
+          "render_method": "alpha_test",
+          "texture": "allium_tall",
+          "face_dimming": false,
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -3.5,
+          0,
+          -3.5
+        ],
+        "size": [
+          7,
+          10,
+          7
+        ]
+      },
+      "minecraft:light_emission": 0.14,
+      "minecraft:collision_box": false,
+      "minecraft:light_dampening": 0,
+      "minecraft:destroy_time": 0,
+      "minecraft:on_interact": {
+        "condition": "q.get_equipped_item_name=='bone_meal'",
+        "event": "fertilize_block"
+      }
+    },
+    "events": {
+      "fertilize_block": {
+        "spawn_loot": {
+          "table": "loot_tables/blocks/flowers/allium/allium_tall.json"
+        },
+        "decrement_stack": {},
+        "run_command": {
+          "command": [
+            "particle minecraft:crop_growth_emitter ~ ~ ~"
+          ]
+        }
+      }
+    }
+  }
+}

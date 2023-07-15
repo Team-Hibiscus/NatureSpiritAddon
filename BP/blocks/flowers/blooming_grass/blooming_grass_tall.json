@@ -1,0 +1,104 @@
+{
+  "format_version": "1.19.10",
+  "minecraft:block": {
+    "description": {
+      "identifier": "nature:blooming_grass_tall"
+    },
+    "components": {
+      "minecraft:loot": "loot_tables/empty.json",
+      "tag:flower_bottom": {},
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "up"
+            ],
+            "block_filter": [
+              "grass",
+              "dirt",
+              "podzol",
+              "moss_block",
+              "dirt_with_roots",
+              "nature:blooming_grass_tall"
+            ]
+          }
+        ]
+      },
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": {
+        "origin": [
+          -3.5,
+          0,
+          -3.5
+        ],
+        "size": [
+          7,
+          10,
+          7
+        ]
+      },
+      "minecraft:geometry": "geometry.double_cross",
+      "minecraft:breathability": "air",
+      "tag:flower": {},
+      "minecraft:material_instances": {
+        "*": {
+          "render_method": "alpha_test",
+          "texture": "blooming_grass_tall",
+          "face_dimming": false,
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:light_emission": 0.14,
+      "minecraft:light_dampening": 0,
+      "minecraft:on_player_destroyed": {
+        "event": "nature:on_destroyed"
+      },
+      "minecraft:destroy_time": 0,
+      "minecraft:on_interact": {
+        "event": "fertilize_block"
+      }
+    },
+    "events": {
+      "fertilize_block": {
+        "sequence": [
+          {
+            "condition": "q.get_equipped_item_name=='bone_meal'",
+            "spawn_loot": {
+              "table": "loot_tables/blocks/grass/blooming_grass_tall.json"
+            },
+            "decrement_stack": {},
+            "run_command": {
+              "command": [
+                "particle minecraft:crop_growth_emitter ~ ~ ~"
+              ]
+            }
+          }
+        ]
+      },
+      "nature:on_destroyed": {
+        "sequence": [
+          {
+            "condition": "query.get_equipped_item_name=='shears'",
+            "spawn_loot": {
+              "table": "loot_tables/blocks/grass/blooming_grass_tall.json"
+            }
+          },
+          {
+            "condition": "query.get_equipped_item_name!='shears'",
+            "randomize": [
+              {
+                "weight": 10,
+                "spawn_loot": {
+                  "table": "loot_tables/blocks/grass/seeds.json"
+                }
+              },
+              {
+                "weight": 90
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+	"format_version": "1.19.10",
+	"minecraft:block": {
+		"description": {
+			"identifier": "nature:corrupted_moss_block"
+		},
+		"components": {
+			"tag:grass": {},
+			"minecraft:unit_cube": {},
+			"minecraft:light_dampening": 0,
+			"minecraft:destroy_time": 0.1,
+			"minecraft:loot": "loot_tables/blocks/misc/corrupted_moss_block.json",
+			"minecraft:on_interact": {
+				"event": "grow",
+				"condition": "query.get_equipped_item_name(0)=='bone_meal'"
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "opaque",
+					"texture": "corrupted_moss_block"
+				}
+			},
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.sndstone",
+				"category": "nature"
+			}
+		},
+		"events": {
+			"grow": {
+				"sequence": [
+					{
+						"condition": "query.get_equipped_item_name('main_hand')=='bone_meal'",
+						"run_command": {
+							"command": [
+								"particle minecraft:crop_growth_emitter ~ ~1 ~",
+								"playsound item.bone_meal.use @a ~ ~1 ~"
+							]
+						},
+						"decrement_stack": {},
+						"trigger": "fertilize"
+					}
+				]
+			},
+			"fertilize": {
+				"randomize": [
+					{
+						"weight": 1,
+						"run_command": {
+							"command": [
+								"fill ~-5 ~ ~-5 ~5 ~ ~5 nature:corrupted_moss_block 0 replace grass 1"
+							]
+						}
+					},
+					{
+						"weight": 25
+					},
+					{
+						"weight": 1,
+						"run_command": {
+							"command": [
+								"fill ~-5 ~ ~-5 ~5 ~ ~5 nature:corrupted_moss_block 0 replace grass 1"
+							]
+						}
+					},
+					{
+						"weight": 1,
+						"run_command": {
+							"command": [
+								"fill ~-5 ~ ~-5 ~5 ~ ~5 nature:corrupted_moss_block 0 replace grass 1"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}
