@@ -1,38 +1,42 @@
 {
-	"format_version": "1.16.0",
+	"format_version": "1.20.0",
 	"minecraft:block": {
 		"description": {
 			"identifier": "nature:palo_verde_plank_slab",
+			"menu_category": {
+				"group": "itemGroup.name.slab",
+				"category": "construction"
+			  },
 			"properties": {
 				"mbms:slab_type": [
-					"down",
-					"up",
 					"double"
 				]
+			},
+			"traits": {
+				"minecraft:placement_position": {
+					"enabled_states": [
+						"minecraft:vertical_half"
+					]
+				}
 			}
 		},
 		"components": {
 			"tag:wood": {},
-			"minecraft:flammable": {
-				"burn_odds": 20,
-				"flame_odds": 5
-			},
+			"tag:slab": {},
+			"minecraft:light_dampening": 0,
 			"minecraft:loot": "loot_tables/blocks/slabs/slab_palo_verde.json",
-			"minecraft:destroy_time": 1,
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1
+			},
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "palo_verde_planks",
 					"render_method": "opaque"
 				}
 			},
-			"minecraft:block_light_absorption": 0,
-			"minecraft:on_player_placing": {
-				"condition": "query.target_x_rotation <= 0",
-				"event": "up"
-			},
-			"minecraft:creative_category": {
-				"group": "itemGroup.name.slab",
-				"category": "construction"
+			"minecraft:flammable": {
+				"destroy_chance_modifier": 20,
+				"catch_chance_modifier": 5
 			}
 		},
 		"permutations": [
@@ -40,9 +44,9 @@
 				"condition": "query.block_property('mbms:slab_type') == 'double'",
 				"components": {
 					"minecraft:loot": "loot_tables/blocks/slabs/slab_palo_verde_double.json",
-					"minecraft:block_light_absorption": 1,
+					"minecraft:light_dampening": 1,
 					"minecraft:unit_cube": {},
-					"minecraft:entity_collision": {
+					"minecraft:collision_box": {
 						"origin": [
 							-8,
 							0,
@@ -54,7 +58,7 @@
 							16
 						]
 					},
-					"minecraft:pick_collision": {
+					"minecraft:selection_box": {
 						"origin": [
 							-8,
 							0,
@@ -69,14 +73,14 @@
 				}
 			},
 			{
-				"condition": "query.block_property('mbms:slab_type') == 'down'",
+				"condition": "query.block_property('minecraft:vertical_half') == 'bottom'",
 				"components": {
 					"minecraft:geometry": "geometry.custom_slab_lower",
 					"minecraft:on_interact": {
 						"condition": "query.get_equipped_item_name =='palo_verde_plank_slab' && query.block_property('mbms:slab_type') != 'double'",
 						"event": "double"
 					},
-					"minecraft:entity_collision": {
+					"minecraft:collision_box": {
 						"origin": [
 							-8,
 							0,
@@ -88,7 +92,7 @@
 							16
 						]
 					},
-					"minecraft:pick_collision": {
+					"minecraft:selection_box": {
 						"origin": [
 							-8,
 							0,
@@ -103,14 +107,14 @@
 				}
 			},
 			{
-				"condition": "query.block_property('mbms:slab_type') == 'up'",
+				"condition": "query.block_property('minecraft:vertical_half') == 'top'",
 				"components": {
 					"minecraft:geometry": "geometry.custom_slab_upper",
 					"minecraft:on_interact": {
 						"condition": "query.get_equipped_item_name =='palo_verde_plank_slab' && query.block_property('mbms:slab_type') != 'double'",
 						"event": "double"
 					},
-					"minecraft:entity_collision": {
+					"minecraft:collision_box": {
 						"origin": [
 							-8,
 							8,
@@ -122,7 +126,7 @@
 							16
 						]
 					},
-					"minecraft:pick_collision": {
+					"minecraft:selection_box": {
 						"origin": [
 							-8,
 							8,
@@ -154,16 +158,6 @@
 						}
 					}
 				]
-			},
-			"down": {
-				"set_block_property": {
-					"mbms:slab_type": "'down'"
-				}
-			},
-			"up": {
-				"set_block_property": {
-					"mbms:slab_type": "'up'"
-				}
 			}
 		}
 	}
