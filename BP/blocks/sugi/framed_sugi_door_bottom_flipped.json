@@ -1,8 +1,8 @@
-	{
+{
 	"format_version": "1.20",
 	"minecraft:block": {
 		"description": {
-			"identifier": "nature:sakura_door_bottom_flipped",
+			"identifier": "nature:framed_sugi_door_bottom_flipped",
 			"menu_category": {
 				"category": "none",
 				"group": "none"
@@ -27,7 +27,7 @@
 		"components": {
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "sakura_door_bottom",
+					"texture": "framed_sugi_door_bottom",
 					"render_method": "alpha_test",
 					"face_dimming": true,
 					"ambient_occlusion": false
@@ -41,7 +41,7 @@
 						],
 						"block_filter": [
 							{
-								"tags": "!query.any_tag('nature_sakura_door_flipped')"
+								"tags": "!query.any_tag('nature_framed_sugi_door_flipped')"
 							}
 						]
 					}
@@ -83,7 +83,7 @@
 			"minecraft:loot": "loot_tables/empty.json",
 			"minecraft:map_color": "#52221D",
 			"minecraft:light_dampening": 0,
-			"tag:nature_sakura_door_flipped": {},
+			"tag:nature_framed_sugi_door_flipped": {},
 			"tag:wood": {}
 		},
 		"permutations": [
@@ -171,7 +171,7 @@
 							"open": false
 						}
 					},
-					"tag:nature:closed_sakura_door": {}
+					"tag:nature:closed_framed_sugi_door": {}
 				}
 			},
 			{
@@ -210,7 +210,7 @@
 							"closed": false
 						}
 					},
-					"tag:nature:open_sakura_door": {}
+					"tag:nature:open_framed_sugi_door": {}
 				}
 			}
 		],
@@ -218,7 +218,7 @@
 			"nature:door_tick": {
 				"sequence": [
 					{
-						"condition": "!q.block_neighbor_has_any_tag(0,1,0,'nature_sakura_door_top')",
+						"condition": "!q.block_neighbor_has_any_tag(0,1,0,'nature_framed_sugi_door_top')",
 						"run_command": {
 							"command": [
 								"setblock ~~~ air"
@@ -259,7 +259,7 @@
 						"condition": "query.block_property('nature:direction')==0&&query.block_property('nature:is_open')==false",
 						"run_command": {
 							"command": [
-								"setblock ~~1~ nature:sakura_door_top_flipped [\"nature:direction\":0, \"nature:is_open\":false]"
+								"setblock ~~1~ nature:framed_sugi_door_top_flipped [\"nature:direction\":0, \"nature:is_open\":false]"
 							]
 						}
 					},
@@ -267,7 +267,7 @@
 						"condition": "query.block_property('nature:direction')==1&&query.block_property('nature:is_open')==false",
 						"run_command": {
 							"command": [
-								"setblock ~~1~ nature:sakura_door_top_flipped [\"nature:direction\":1, \"nature:is_open\":false]"
+								"setblock ~~1~ nature:framed_sugi_door_top_flipped [\"nature:direction\":1, \"nature:is_open\":false]"
 							]
 						}
 					},
@@ -275,7 +275,7 @@
 						"condition": "query.block_property('nature:direction')==2&&query.block_property('nature:is_open')==false",
 						"run_command": {
 							"command": [
-								"setblock ~~1~ nature:sakura_door_top_flipped [\"nature:direction\":2, \"nature:is_open\":false]"
+								"setblock ~~1~ nature:framed_sugi_door_top_flipped [\"nature:direction\":2, \"nature:is_open\":false]"
 							]
 						}
 					},
@@ -283,7 +283,7 @@
 						"condition": "query.block_property('nature:direction')==3&&query.block_property('nature:is_open')==false",
 						"run_command": {
 							"command": [
-								"setblock ~~1~ nature:sakura_door_top_flipped [\"nature:direction\":3, \"nature:is_open\":false]"
+								"setblock ~~1~ nature:framed_sugi_door_top_flipped [\"nature:direction\":3, \"nature:is_open\":false]"
 							]
 						}
 					},
@@ -291,7 +291,7 @@
 						"condition": "query.block_property('nature:direction')==0&&query.block_property('nature:is_open')==true",
 						"run_command": {
 							"command": [
-								"setblock ~~1~ nature:sakura_door_top_flipped [\"nature:direction\":0, \"nature:is_open\":true]"
+								"setblock ~~1~ nature:framed_sugi_door_top_flipped [\"nature:direction\":0, \"nature:is_open\":true]"
 							]
 						}
 					},
@@ -299,7 +299,7 @@
 						"condition": "query.block_property('nature:direction')==1&&query.block_property('nature:is_open')==true",
 						"run_command": {
 							"command": [
-								"setblock ~~1~ nature:sakura_door_top_flipped [\"nature:direction\":1, \"nature:is_open\":true]"
+								"setblock ~~1~ nature:framed_sugi_door_top_flipped [\"nature:direction\":1, \"nature:is_open\":true]"
 							]
 						}
 					},
@@ -307,7 +307,7 @@
 						"condition": "query.block_property('nature:direction')==2&&query.block_property('nature:is_open')==true",
 						"run_command": {
 							"command": [
-								"setblock ~~1~ nature:sakura_door_top_flipped [\"nature:direction\":2, \"nature:is_open\":true]"
+								"setblock ~~1~ nature:framed_sugi_door_top_flipped [\"nature:direction\":2, \"nature:is_open\":true]"
 							]
 						}
 					},
@@ -315,7 +315,7 @@
 						"condition": "query.block_property('nature:direction')==3&&query.block_property('nature:is_open')==true",
 						"run_command": {
 							"command": [
-								"setblock ~~1~ nature:sakura_door_top_flipped [\"nature:direction\":3, \"nature:is_open\":true]"
+								"setblock ~~1~ nature:framed_sugi_door_top_flipped [\"nature:direction\":3, \"nature:is_open\":true]"
 							]
 						}
 					}
@@ -369,7 +369,7 @@
 				"sequence": [
 					{
 						"spawn_loot": {
-							"table": "loot_tables/blocks/doors/door_sakura.json"
+							"table": "loot_tables/blocks/doors/door_framed_sugi.json"
 						}
 					},
 					{

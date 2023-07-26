@@ -2,7 +2,7 @@
 	"format_version": "1.16.220",
 	"minecraft:block": {
 		"description": {
-			"identifier": "nature:stripped_sakura_post",
+			"identifier": "nature:stripped_sugi_post",
 			"properties": {
 				"nature:direction": [
 					0,
@@ -77,18 +77,18 @@
 			},
 			"minecraft:geometry": "geometry.post",
 			"minecraft:destroy_time": 1,
-			"minecraft:loot": "loot_tables/blocks/posts/stripped_post_sakura.json",
+			"minecraft:loot": "loot_tables/blocks/posts/stripped_post_sugi.json",
 			"minecraft:material_instances": {
 				"up": {
-					"texture": "stripped_wood_sakura_top",
+					"texture": "stripped_wood_sugi_top",
 					"render_method": "double_sided"
 				},
 				"down": {
-					"texture": "stripped_wood_sakura_top",
+					"texture": "stripped_wood_sugi_top",
 					"render_method": "double_sided"
 				},
 				"side": {
-					"texture": "stripped_wood_sakura",
+					"texture": "stripped_wood_sugi",
 					"render_method": "double_sided"
 				},
 				"north": "side",

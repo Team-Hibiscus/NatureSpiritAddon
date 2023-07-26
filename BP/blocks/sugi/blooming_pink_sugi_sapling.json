@@ -1,19 +1,18 @@
-	{
+{
   "format_version": "1.19.10",
   "minecraft:block": {
     "description": {
-      "identifier": "nature:sakura_sapling"
+      "identifier": "nature:blooming_pink_sugi_sapling"
     },
     "components": {
       "minecraft:material_instances": {
         "*": {
-          "texture": "sakura_sapling",
+          "texture": "blooming_pink_sugi_sapling",
           "render_method": "alpha_test",
           "face_dimming": false,
           "ambient_occlusion": false
         }
       },
-
       "minecraft:map_color": "#569F1B",
       "minecraft:creative_category": {
         "category": "none"
@@ -24,12 +23,15 @@
       },
       "minecraft:queued_ticking": {
         "looping": true,
-        "interval_range": [20000, 25000],
+        "interval_range": [
+          20000,
+          25000
+        ],
         "on_tick": {
           "event": "grow"
         }
       },
-      "minecraft:loot": "loot_tables/blocks/saplings/sapling_sakura.json",
+      "minecraft:loot": "loot_tables/blocks/saplings/sapling_blooming_pink_sugi.json",
       "minecraft:geometry": "geometry.cross",
       "minecraft:destructible_by_mining": 0.01,
       "minecraft:collision_box": false,
@@ -43,13 +45,23 @@
               "minecraft:podzol",
               "minecraft:moss_block"
             ],
-            "allowed_faces": ["up"]
+            "allowed_faces": [
+              "up"
+            ]
           }
         ]
       },
       "minecraft:selection_box": {
-        "origin": [-6, 0, -6],
-        "size": [12, 13, 12]
+        "origin": [
+          -6,
+          0,
+          -6
+        ],
+        "size": [
+          12,
+          13,
+          12
+        ]
       }
     },
     "events": {
@@ -73,7 +85,9 @@
           {
             "weight": 1,
             "run_command": {
-              "command": ["structure load pink_sakura_tree ~-6 ~ ~-8 0_degrees"]
+              "command": [
+                "structure load pink_blooming_pink_sugi_tree ~-6 ~ ~-8 0_degrees"
+              ]
             }
           },
           {
@@ -83,7 +97,7 @@
             "weight": 1,
             "run_command": {
               "command": [
-                "structure load pink_sakura_tree2 ~-6 ~ ~-6 0_degrees"
+                "structure load pink_blooming_pink_sugi_tree2 ~-6 ~ ~-6 0_degrees"
               ]
             }
           }

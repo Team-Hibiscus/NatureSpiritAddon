@@ -2,7 +2,7 @@
     "format_version": "1.20",
     "minecraft:block": {
         "description": {
-            "identifier": "nature:sakura_stairs",
+            "identifier": "nature:sugi_stairs",
             "menu_category": {
                 "category": "construction",
                 "group": "itemGroup.name.stairs"
@@ -94,11 +94,11 @@
             },
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "sakura_planks",
+                    "texture": "sugi_planks",
                     "render_method": "opaque"
                 }
             },
-            "minecraft:loot": "loot_tables/blocks/stairs/sakura_stairs.json",
+            "minecraft:loot": "loot_tables/blocks/stairs/sugi_stairs.json",
             "minecraft:destructible_by_explosion": true,
             "minecraft:breathability": "air",
             "tag:wood": {},

@@ -1,74 +1,89 @@
 {
 	"format_version": "1.19.10",
 	"minecraft:block": {
-	  "description": {
-		"identifier": "nature:white_sakura_leaves"
-	  },
-	  "components": {
-		"minecraft:creative_category": {
-		  "group": "itemGroup.name.leaves",
-		  "category": "nature"
+		"description": {
+			"identifier": "nature:blooming_white_sugi_leaves"
 		},
-		"minecraft:on_player_destroyed": {
-		  "event": "nature:on_destroyed"
-		},
-		"tag:nature:white_sakura_leaves": {},
-		"minecraft:breathability": "air",
-		"minecraft:collision_box": {
-		  "origin": [-8, 0, -8],
-		  "size": [16, 16, 16]
-		},
-		"minecraft:selection_box": {
-		  "origin": [-8, 0, -8],
-		  "size": [16, 16, 16]
-		},
-		"minecraft:destructible_by_mining": {
-		  "seconds_to_destroy": 0.3
-		},
-		"minecraft:flammable": {
-		  "catch_chance_modifier": 20,
-		  "destroy_chance_modifier": 80
-		},
-		"minecraft:map_color": "#569F1B",
-		"minecraft:block_light_filter": 0,
-		"minecraft:light_emission": 0,
-		"minecraft:loot": "loot_tables/empty.json",
-		"minecraft:unit_cube": {},
-		"minecraft:material_instances": {
-			"*": {
-			  "texture": "leaves_white_sakura",
-			  "render_method": "alpha_test",
-			  "ambient_occlusion": true,
-			  "face_dimming": true
-			}
-		  }
-	  },
-	  "events": {
-		"nature:on_destroyed": {
-		  "sequence": [
-			{
-			  "condition": "query.get_equipped_item_name=='shears'",
-			  "spawn_loot": {
-				"table": "loot_tables/blocks/leaves/shear_leaves_white_sakura.json"
-			  }
+		"components": {
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.leaves",
+				"category": "nature"
 			},
-			{
-			  "condition": "query.get_equipped_item_name!='shears'",
-			  "randomize": [
-				{
-				  "weight": 10,
-				  "spawn_loot": {
-					"table": "loot_tables/blocks/leaves/leaves_white_sakura.json"
-				  }
-				},
-				{
-				  "weight": 90
+			"minecraft:on_player_destroyed": {
+				"event": "nature:on_destroyed"
+			},
+			"tag:nature:blooming_white_sugi_leaves": {},
+			"minecraft:breathability": "air",
+			"minecraft:collision_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.3
+			},
+			"minecraft:flammable": {
+				"catch_chance_modifier": 20,
+				"destroy_chance_modifier": 80
+			},
+			"minecraft:map_color": "#569F1B",
+			"minecraft:block_light_filter": 0,
+			"minecraft:light_emission": 0,
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:unit_cube": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "leaves_blooming_white_sugi",
+					"render_method": "alpha_test",
+					"ambient_occlusion": true,
+					"face_dimming": true
 				}
-			  ]
 			}
-		  ]
+		},
+		"events": {
+			"nature:on_destroyed": {
+				"sequence": [
+					{
+						"condition": "query.get_equipped_item_name=='shears'",
+						"spawn_loot": {
+							"table": "loot_tables/blocks/leaves/shear_leaves_blooming_white_sugi.json"
+						}
+					},
+					{
+						"condition": "query.get_equipped_item_name!='shears'",
+						"randomize": [
+							{
+								"weight": 10,
+								"spawn_loot": {
+									"table": "loot_tables/blocks/leaves/leaves_blooming_white_sugi.json"
+								}
+							},
+							{
+								"weight": 90
+							}
+						]
+					}
+				]
+			}
 		}
-	  }
 	}
-  }
-  
+}

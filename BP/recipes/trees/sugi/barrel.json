@@ -2,7 +2,7 @@
     "format_version": "1.16",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "nature:barrel_from_sakura_plank_slab"
+            "identifier": "nature:barrel_from_sugi_plank_slab"
         },
         "tags": [
             "crafting_table"
@@ -17,7 +17,7 @@
                 "item": "minecraft:stick"
             },
             "B": {
-                "item": "nature:sakura_plank_slab"
+                "item": "nature:sugi_plank_slab"
             }
         },
         "result": {

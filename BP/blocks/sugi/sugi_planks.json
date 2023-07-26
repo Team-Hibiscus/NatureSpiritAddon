@@ -2,7 +2,7 @@
 	"format_version": "1.19.10",
 	"minecraft:block": {
 		"description": {
-			"identifier": "nature:sakura_planks"
+			"identifier": "nature:sugi_planks"
 		},
 		"components": {
 			"tag:wood": {},
@@ -14,13 +14,13 @@
 				"group": "itemGroup.name.planks",
 				"category": "construction"
 			},
-			"minecraft:loot": "loot_tables/blocks/planks/planks_sakura.json",
+			"minecraft:loot": "loot_tables/blocks/planks/planks_sugi.json",
 			"minecraft:unit_cube": {},
 			"minecraft:destroy_time": 1,
 			"minecraft:material_instances": {
 				"*": {
 					"render_method": "opaque",
-					"texture": "sakura_planks"
+					"texture": "sugi_planks"
 				}
 			}
 		},

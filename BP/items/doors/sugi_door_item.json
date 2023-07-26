@@ -1,16 +1,16 @@
-{
+	{
     "format_version": "1.16.100",
     "minecraft:item": {
         "description": {
-            "identifier": "nature:sakura_door_item",
+            "identifier": "nature:sugi_door_item",
             "category": "construction"
         },
         "components": {
             "minecraft:icon": {
-                "texture": "nature:sakura_door_item"
+                "texture": "nature:sugi_door_item"
             },
             "minecraft:block_placer": {
-                "block": "nature:sakura_door_bottom"
+                "block": "nature:sugi_door_bottom"
             },
             "minecraft:creative_category": {
                 "parent": "itemGroup.name.door"

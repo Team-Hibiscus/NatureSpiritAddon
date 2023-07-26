@@ -1,11 +1,11 @@
-	{
+{
     "pools": [
         {
             "rolls": 1,
             "entries": [
                 {
                     "type": "item",
-                    "name": "nature:sakura_stairs",
+                    "name": "nature:sugi_stairs",
                     "weight": 1,
                     "functions": [
                         {

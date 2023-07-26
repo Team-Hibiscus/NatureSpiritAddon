@@ -2,12 +2,12 @@
 	"format_version": "1.19.10",
 	"minecraft:block": {
 		"description": {
-			"identifier": "nature:white_sakura_sapling"
+			"identifier": "nature:blooming_white_sugi_sapling"
 		},
 		"components": {
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "white_sakura_sapling",
+					"texture": "blooming_white_sugi_sapling",
 					"render_method": "alpha_test",
 					"face_dimming": false,
 					"ambient_occlusion": false
@@ -31,7 +31,7 @@
 					"event": "grow"
 				}
 			},
-			"minecraft:loot": "loot_tables/blocks/saplings/sapling_white_sakura.json",
+			"minecraft:loot": "loot_tables/blocks/saplings/sapling_blooming_white_sugi.json",
 			"minecraft:geometry": "geometry.cross",
 			"minecraft:destructible_by_mining": 0.01,
 			"minecraft:collision_box": false,
@@ -86,7 +86,7 @@
 						"weight": 1,
 						"run_command": {
 							"command": [
-								"structure load white_sakura_tree ~-8 ~ ~-5 0_degrees"
+								"structure load blooming_white_sugi_tree ~-8 ~ ~-5 0_degrees"
 							]
 						}
 					},
@@ -97,7 +97,7 @@
 						"weight": 1,
 						"run_command": {
 							"command": [
-								"structure load white_sakura_tree2 ~-6 ~ ~-6 0_degrees"
+								"structure load blooming_white_sugi_tree2 ~-6 ~ ~-6 0_degrees"
 							]
 						}
 					}

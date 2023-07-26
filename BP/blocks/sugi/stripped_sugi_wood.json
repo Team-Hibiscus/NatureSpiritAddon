@@ -2,7 +2,7 @@
 	"format_version": "1.19.10",
 	"minecraft:block": {
 		"description": {
-			"identifier": "nature:stripped_sakura_log",
+			"identifier": "nature:stripped_sugi_log",
 			"properties": {
 				"custom:facing_direction": [
 					0,
@@ -44,25 +44,25 @@
 			}
 		],
 		"components": {
-			"tag:wood":{},
+			"tag:wood": {},
 			"minecraft:flammable": {
 				"burn_odds": 5,
 				"flame_odds": 5
 			},
-			"minecraft:loot": "loot_tables/blocks/wood/stripped_log_sakura.json",
+			"minecraft:loot": "loot_tables/blocks/wood/stripped_log_sugi.json",
 			"minecraft:unit_cube": {},
 			"minecraft:destroy_time": 1,
 			"minecraft:material_instances": {
 				"up": {
-					"texture": "stripped_wood_sakura_top",
+					"texture": "stripped_wood_sugi_top",
 					"render_method": "opaque"
 				},
 				"down": {
-					"texture": "stripped_wood_sakura_top",
+					"texture": "stripped_wood_sugi_top",
 					"render_method": "opaque"
 				},
 				"side": {
-					"texture": "stripped_wood_sakura",
+					"texture": "stripped_wood_sugi",
 					"render_method": "opaque"
 				},
 				"north": "side",

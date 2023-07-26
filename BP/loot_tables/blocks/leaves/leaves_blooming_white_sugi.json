@@ -19,18 +19,18 @@
                 }
             ],
             "conditions": [
-				{
-					"condition": "random_chance",
-					"chance": 0.2
-				}
-			]
+                {
+                    "condition": "random_chance",
+                    "chance": 0.2
+                }
+            ]
         },
         {
             "rolls": 1,
             "entries": [
                 {
                     "type": "item",
-                    "name": "nature:white_sakura_sapling_item",
+                    "name": "nature:blooming_white_sugi_sapling_item",
                     "weight": 1,
                     "functions": [
                         {
@@ -44,11 +44,11 @@
                 }
             ],
             "conditions": [
-				{
-					"condition": "random_chance",
-					"chance": 0.2
-				}
-			]
+                {
+                    "condition": "random_chance",
+                    "chance": 0.2
+                }
+            ]
         }
     ]
 }
