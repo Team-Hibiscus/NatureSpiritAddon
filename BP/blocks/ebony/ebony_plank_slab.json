@@ -9,6 +9,7 @@
 			  },
 			"properties": {
 				"mbms:slab_type": [
+					"base",
 					"double"
 				]
 			},
