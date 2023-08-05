@@ -2,7 +2,7 @@
 	"format_version": "1.16",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "nature:stripped_sakura_post"
+			"identifier": "nature:stripped_sugi_post"
 		},
 		"tags": [
 			"crafting_table"
@@ -14,11 +14,11 @@
 		],
 		"key": {
 			"#": {
-				"item": "nature:stripped_sakura_log"
+				"item": "nature:stripped_sugi_log"
 			}
 		},
 		"result": {
-			"item": "nature:stripped_sakura_post",
+			"item": "nature:stripped_sugi_post",
 			"count": 6
 		}
 	}

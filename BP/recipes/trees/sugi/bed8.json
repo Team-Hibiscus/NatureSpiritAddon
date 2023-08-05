@@ -2,7 +2,7 @@
 	"format_version": "1.16",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "nature:sakurabed8"
+			"identifier": "nature:sugibed8"
 		},
 		"tags": [
 			"crafting_table"
@@ -13,7 +13,7 @@
 		],
 		"key": {
 			"A": {
-				"item": "nature:sakura_planks"
+				"item": "nature:sugi_planks"
 			},
 			"B": {
 				"item": "minecraft:wool",

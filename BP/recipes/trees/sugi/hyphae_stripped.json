@@ -2,7 +2,7 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "nature:stripped_sakura_wood"
+			"identifier": "nature:stripped_sugi_wood"
 		},
 		"tags": [
 			"crafting_table"
@@ -14,11 +14,11 @@
 		],
 		"key": {
 			"#": {
-				"item": "nature:stripped_sakura_log"
+				"item": "nature:stripped_sugi_log"
 			}
 		},
 		"result": {
-			"item": "nature:stripped_sakura_wood",
+			"item": "nature:stripped_sugi_wood",
 			"count": 3
 		}
 	}

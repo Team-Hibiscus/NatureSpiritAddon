@@ -2,7 +2,7 @@
 	"format_version": "1.16",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "nature:wooden_pickaxe_from_sakura_planks"
+			"identifier": "nature:wooden_pickaxe_from_sugi_planks"
 		},
 		"tags": [
 			"crafting_table"
@@ -14,7 +14,7 @@
 		],
 		"key": {
 			"A": {
-				"item": "nature:sakura_planks"
+				"item": "nature:sugi_planks"
 			},
 			"B": {
 				"item": "stick"

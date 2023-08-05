@@ -2,7 +2,7 @@
     "format_version": "1.12",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "nature:stairs_from_sakura_wood"
+            "identifier": "nature:stairs_from_sugi_wood"
         },
         "tags": [
             "crafting_table"
@@ -14,11 +14,11 @@
         ],
         "key": {
             "W": {
-                "item": "nature:sakura_planks"
+                "item": "nature:sugi_planks"
             }
         },
         "result": {
-            "item": "nature:sakura_stairs",
+            "item": "nature:sugi_stairs",
             "count": 4
         }
     }

@@ -2,7 +2,7 @@
 	"format_version": "1.16",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "nature:grindstone_from_sakura_planks2"
+			"identifier": "nature:grindstone_from_sugi_planks2"
 		},
 		"tags": [
 			"crafting_table"
@@ -19,7 +19,7 @@
 				"item": "stone_slab2"
 			},
 			"C": {
-				"item": "nature:sakura_planks"
+				"item": "nature:sugi_planks"
 			}
 		},
 		"result": {

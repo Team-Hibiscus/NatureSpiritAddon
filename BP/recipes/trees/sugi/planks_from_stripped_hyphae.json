@@ -2,7 +2,7 @@
 	"format_version": "1.16",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "nature:sakura_planks_from_stripped_sakura_wood"
+			"identifier": "nature:sugi_planks_from_stripped_sugi_wood"
 		},
 		"tags": [
 			"crafting_table"
@@ -13,11 +13,11 @@
 		],
 		"key": {
 			"#": {
-				"item": "nature:stripped_sakura_wood"
+				"item": "nature:stripped_sugi_wood"
 			}
 		},
 		"result": {
-			"item": "nature:sakura_planks",
+			"item": "nature:sugi_planks",
 			"count": 4
 		}
 	}

@@ -2,7 +2,7 @@
 	"format_version": "1.16",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "nature:soul_campfire_from_stripped_sakura_log2"
+			"identifier": "nature:soul_campfire_from_stripped_sugi_log2"
 		},
 		"tags": [
 			"crafting_table"
@@ -20,7 +20,7 @@
 				"item": "soul_sand"
 			},
 			"C": {
-				"item": "nature:stripped_sakura_log"
+				"item": "nature:stripped_sugi_log"
 			}
 		},
 		"result": {

@@ -2,7 +2,7 @@
 	"format_version": "1.16",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "nature:sakura_trapdoor"
+			"identifier": "nature:sugi_trapdoor"
 		},
 		"tags": [
 			"crafting_table"
@@ -14,11 +14,11 @@
 		],
 		"key": {
 			"#": {
-				"item": "nature:sakura_planks"
+				"item": "nature:sugi_planks"
 			}
 		},
 		"result": {
-			"item": "nature:sakura_trapdoor",
+			"item": "nature:sugi_trapdoor",
 			"count": 2
 		}
 	}

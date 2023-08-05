@@ -100,7 +100,16 @@
   "nature:palm_trapdoor": {
     "sound": "wood"
   },
-  "nature:palm_door": {
+  "nature:palm_door_bottom": {
+    "sound": "wood"
+  },
+  "nature:palm_door_top": {
+    "sound": "wood"
+  },
+  "nature:palm_door_bottom_flipped": {
+    "sound": "wood"
+  },
+  "nature:palm_door_top_flipped": {
     "sound": "wood"
   },
   "nature:palm_sapling": {
@@ -140,50 +149,86 @@
   "nature:baobab_sapling": {
     "sound": "grass"
   },
-  "nature:baobab_door": {
+  "nature:baobab_door_bottom": {
     "sound": "wood"
   },
-  "nature:sakura_log": {
+  "nature:baobab_door_top": {
     "sound": "wood"
   },
-  "nature:sakura_fence": {
+  "nature:baobab_door_bottom_flipped": {
+    "sound": "wood"
+  },
+  "nature:baobab_door_top_flipped": {
+    "sound": "wood"
+  },
+  "nature:sugi_log": {
+    "sound": "wood"
+  },
+  "nature:sugi_fence": {
     "sound": "wood",
-    "textures": "sakura_planks"
+    "textures": "sugi_planks"
   },
-  "nature:sakura_fence_gate": {
+  "nature:sugi_fence_gate": {
     "sound": "wood"
   },
-  "nature:sakura_wood": {
+  "nature:sugi_wood": {
     "sound": "wood"
   },
-  "nature:sakura_planks": {
+  "nature:sugi_planks": {
     "sound": "wood"
   },
-  "nature:sakura_plank_slab": {
+  "nature:sugi_plank_slab": {
     "sound": "wood"
   },
-  "nature:stripped_sakura_log": {
+  "nature:stripped_sugi_log": {
     "sound": "wood"
   },
-  "nature:stripped_sakura_wood": {
+  "nature:stripped_sugi_wood": {
     "sound": "wood"
   },
-  "nature:sakura_leaves": {
+  "nature:sugi_leaves": {
     "sound": "grass"
   },
-  "nature:white_sakura_leaves": {
+  "nature:blooming_pink_sugi_leaves": {
     "sound": "grass"
   },
-  "nature:sakura_trapdoor": {
+  "nature:blooming_white_sugi_leaves": {
+    "sound": "grass"
+  },
+  "nature:sugi_trapdoor": {
     "sound": "wood"
   },
-  "nature:white_sakura_sapling": {
+  "nature:blooming_white_sugi_sapling": {
     "sound": "grass"
   },
-  "nature:sakura_sapling": {
+  "nature:blooming_pink_sugi_sapling": {
     "sound": "grass"
   },
-  "nature:sakura_door": {
+  "nature:sugi_sapling": {
+    "sound": "grass"
+  },
+  "nature:sugi_door_bottom": {
+    "sound": "wood"
+  },
+  "nature:sugi_door_top": {
+    "sound": "wood"
+  },
+  "nature:sugi_door_bottom_flipped": {
+    "sound": "wood"
+  },
+  "nature:sugi_door_top_flipped": {
+    "sound": "wood"
+  },
+  "nature:framed_sugi_door_bottom": {
+    "sound": "wood"
+  },
+  "nature:framed_sugi_door_top": {
+    "sound": "wood"
+  },
+  "nature:framed_sugi_door_bottom_flipped": {
+    "sound": "wood"
+  },
+  "nature:framed_sugi_door_top_flipped": {
     "sound": "wood"
   },
   "nature:pine_log": {
@@ -220,7 +265,16 @@
   "nature:pine_sapling": {
     "sound": "grass"
   },
-  "nature:pine_door": {
+  "nature:pine_door_bottom": {
+    "sound": "wood"
+  },
+  "nature:pine_door_top": {
+    "sound": "wood"
+  },
+  "nature:pine_door_bottom_flipped": {
+    "sound": "wood"
+  },
+  "nature:pine_door_top_flipped": {
     "sound": "wood"
   },
   "nature:palo_verde_log": {
@@ -257,7 +311,16 @@
   "nature:palo_verde_sapling": {
     "sound": "grass"
   },
-  "nature:palo_verde_door": {
+  "nature:palo_verde_door_bottom": {
+    "sound": "wood"
+  },
+  "nature:palo_verde_door_top": {
+    "sound": "wood"
+  },
+  "nature:palo_verde_door_bottom_flipped": {
+    "sound": "wood"
+  },
+  "nature:palo_verde_door_top_flipped": {
     "sound": "wood"
   },
   "nature:willow_fence": {
@@ -294,7 +357,16 @@
   "nature:willow_sapling": {
     "sound": "grass"
   },
-  "nature:willow_door": {
+  "nature:willow_door_bottom": {
+    "sound": "wood"
+  },
+  "nature:willow_door_top": {
+    "sound": "wood"
+  },
+  "nature:willow_door_bottom_flipped": {
+    "sound": "wood"
+  },
+  "nature:willow_door_top_flipped": {
     "sound": "wood"
   },
   "nature:collision_north": {
@@ -343,7 +415,16 @@
   "nature:mahogany_sapling": {
     "sound": "grass"
   },
-  "nature:mahogany_door": {
+  "nature:mahogany_door_bottom": {
+    "sound": "wood"
+  },
+  "nature:mahogany_door_top": {
+    "sound": "wood"
+  },
+  "nature:mahogany_door_bottom_flipped": {
+    "sound": "wood"
+  },
+  "nature:mahogany_door_top_flipped": {
     "sound": "wood"
   },
   "nature:stripped_oak_post": {
@@ -367,7 +448,7 @@
   "nature:stripped_willow_post": {
     "sound": "wood"
   },
-  "nature:stripped_sakura_post": {
+  "nature:stripped_sugi_post": {
     "sound": "wood"
   },
   "nature:stripped_palm_post": {
@@ -418,7 +499,7 @@
   "nature:willow_post": {
     "sound": "wood"
   },
-  "nature:sakura_post": {
+  "nature:sugi_post": {
     "sound": "wood"
   },
   "nature:palm_post": {
@@ -503,10 +584,13 @@
   "nature:palo_verde_persistent_leaves": {
     "sound": "grass"
   },
-  "nature:sakura_persistent_leaves": {
+  "nature:blooming_pink_sugi_persistent_leaves": {
     "sound": "grass"
   },
-  "nature:white_sakura_persistent_leaves": {
+  "nature:blooming_white_sugi_persistent_leaves": {
+    "sound": "grass"
+  },
+  "nature:sugi_persistent_leaves": {
     "sound": "grass"
   },
   "nature:palm_persistent_leaves": {
@@ -561,16 +645,16 @@
   "nature:distorted_sapling": {
     "sound": "vines"
   },
-  "nature:distorted_door": {
+  "nature:distorted_door_bottom": {
     "sound": "wood"
   },
   "nature:distorted_door_top": {
     "sound": "wood"
   },
-  "nature:distorted_door_open": {
+  "nature:distorted_door_bottom_flipped": {
     "sound": "wood"
   },
-  "nature:distorted_door_top_open": {
+  "nature:distorted_door_top_flipped": {
     "sound": "wood"
   },
   "nature:distorted_post": {
@@ -616,16 +700,16 @@
   "nature:violet_sapling": {
     "sound": "vines"
   },
-  "nature:violet_door": {
+  "nature:violet_door_bottom": {
     "sound": "wood"
   },
   "nature:violet_door_top": {
     "sound": "wood"
   },
-  "nature:violet_door_open": {
+  "nature:violet_door_bottom_flipped": {
     "sound": "wood"
   },
-  "nature:violet_door_top_open": {
+  "nature:violet_door_top_flipped": {
     "sound": "wood"
   },
   "nature:violet_post": {
@@ -671,16 +755,16 @@
   "nature:aspen_sapling": {
     "sound": "grass"
   },
-  "nature:aspen_door": {
+  "nature:aspen_door_bottom": {
     "sound": "wood"
   },
   "nature:aspen_door_top": {
     "sound": "wood"
   },
-  "nature:aspen_door_open": {
+  "nature:aspen_door_bottom_flipped": {
     "sound": "wood"
   },
-  "nature:aspen_door_top_open": {
+  "nature:aspen_door_top_flipped": {
     "sound": "wood"
   },
   "nature:aspen_post": {
@@ -726,16 +810,16 @@
   "nature:redwood_sapling": {
     "sound": "grass"
   },
-  "nature:redwood_door": {
+  "nature:redwood_door_bottom": {
     "sound": "wood"
   },
   "nature:redwood_door_top": {
     "sound": "wood"
   },
-  "nature:redwood_door_open": {
+  "nature:redwood_door_bottom_flipped": {
     "sound": "wood"
   },
-  "nature:redwood_door_top_open": {
+  "nature:redwood_door_top_flipped": {
     "sound": "wood"
   },
   "nature:redwood_post": {
@@ -781,16 +865,16 @@
   "nature:jacaranda_sapling": {
     "sound": "grass"
   },
-  "nature:jacaranda_door": {
+  "nature:jacaranda_door_bottom": {
     "sound": "wood"
   },
   "nature:jacaranda_door_top": {
     "sound": "wood"
   },
-  "nature:jacaranda_door_open": {
+  "nature:jacaranda_door_bottom_flipped": {
     "sound": "wood"
   },
-  "nature:jacaranda_door_top_open": {
+  "nature:jacaranda_door_top_flipped": {
     "sound": "wood"
   },
   "nature:jacaranda_post": {
@@ -857,16 +941,16 @@
   "nature:enchanted_sapling": {
     "sound": "grass"
   },
-  "nature:enchanted_door": {
+  "nature:enchanted_door_bottom": {
     "sound": "wood"
   },
   "nature:enchanted_door_top": {
     "sound": "wood"
   },
-  "nature:enchanted_door_open": {
+  "nature:enchanted_door_bottom_flipped": {
     "sound": "wood"
   },
-  "nature:enchanted_door_top_open": {
+  "nature:enchanted_door_top_flipped": {
     "sound": "wood"
   },
   "nature:enchanted_post": {
@@ -912,16 +996,16 @@
   "nature:fir_sapling": {
     "sound": "grass"
   },
-  "nature:fir_door": {
+  "nature:fir_door_bottom": {
     "sound": "wood"
   },
   "nature:fir_door_top": {
     "sound": "wood"
   },
-  "nature:fir_door_open": {
+  "nature:fir_door_bottom_flipped": {
     "sound": "wood"
   },
-  "nature:fir_door_top_open": {
+  "nature:fir_door_top_flipped": {
     "sound": "wood"
   },
   "nature:fir_post": {
@@ -967,16 +1051,16 @@
   "nature:ebony_sapling": {
     "sound": "grass"
   },
-  "nature:ebony_door": {
+  "nature:ebony_door_bottom": {
     "sound": "wood"
   },
   "nature:ebony_door_top": {
     "sound": "wood"
   },
-  "nature:ebony_door_open": {
+  "nature:ebony_door_bottom_flipped": {
     "sound": "wood"
   },
-  "nature:ebony_door_top_open": {
+  "nature:ebony_door_top_flipped": {
     "sound": "wood"
   },
   "nature:ebony_post": {
@@ -1022,16 +1106,16 @@
   "nature:larch_sapling": {
     "sound": "grass"
   },
-  "nature:larch_door": {
+  "nature:larch_door_bottom": {
     "sound": "wood"
   },
   "nature:larch_door_top": {
     "sound": "wood"
   },
-  "nature:larch_door_open": {
+  "nature:larch_door_bottom_flipped": {
     "sound": "wood"
   },
-  "nature:larch_door_top_open": {
+  "nature:larch_door_top_flipped": {
     "sound": "wood"
   },
   "nature:larch_post": {
@@ -2089,9 +2173,9 @@
     "sound": "wood",
     "textures": "redwood_planks"
   },
-  "nature:sakura_stairs": {
+  "nature:sugi_stairs": {
     "sound": "wood",
-    "textures": "sakura_planks"
+    "textures": "sugi_planks"
   },
   "nature:violet_stairs": {
     "sound": "wood",

@@ -243,41 +243,47 @@
     "smooth_andesite": {
       "textures": "textures/blocks/smooth/andesite"
     },
-    "sakura_planks": {
-      "textures": "textures/blocks/planks_sakura"
+    "sugi_planks": {
+      "textures": "textures/blocks/planks_sugi"
     },
-    "wood_sakura": {
-      "textures": "textures/blocks/log_sakura"
+    "wood_sugi": {
+      "textures": "textures/blocks/log_sugi"
     },
-    "wood_sakura_top": {
-      "textures": "textures/blocks/log_sakura_top"
+    "wood_sugi_top": {
+      "textures": "textures/blocks/log_sugi_top"
     },
-    "stripped_wood_sakura": {
-      "textures": "textures/blocks/stripped_sakura_log"
+    "stripped_wood_sugi": {
+      "textures": "textures/blocks/stripped_sugi_log"
     },
-    "stripped_wood_sakura_top": {
-      "textures": "textures/blocks/stripped_sakura_log_top"
+    "stripped_wood_sugi_top": {
+      "textures": "textures/blocks/stripped_sugi_log_top"
     },
-    "leaves_sakura": {
-      "textures": "textures/blocks/leaves_sakura_bushy"
+    "leaves_sugi": {
+      "textures": "textures/blocks/leaves_sugi"
     },
-    "leaves_white_sakura": {
-      "textures": "textures/blocks/leaves_white_sakura_bushy"
+    "leaves_blooming_pink_sugi": {
+      "textures": "textures/blocks/leaves_blooming_pink_sugi"
     },
-    "sakura_trapdoor": {
-      "textures": "textures/blocks/sakura_trapdoor"
+    "leaves_blooming_white_sugi": {
+      "textures": "textures/blocks/leaves_blooming_white_sugi"
     },
-    "sakura_sapling": {
-      "textures": "textures/blocks/sakura_sapling"
+    "sugi_trapdoor": {
+      "textures": "textures/blocks/sugi_trapdoor"
     },
-    "white_sakura_sapling": {
-      "textures": "textures/blocks/white_sakura_sapling"
+    "sugi_sapling": {
+      "textures": "textures/blocks/sugi_sapling"
     },
-    "sakura_door_bottom": {
-      "textures": "textures/blocks/sakura_door_bottom"
+    "blooming_pink_sugi_sapling": {
+      "textures": "textures/blocks/blooming_pink_sugi_sapling"
     },
-    "sakura_door_top": {
-      "textures": "textures/blocks/sakura_door_top"
+    "white_sugi_sapling": {
+      "textures": "textures/blocks/blooming_white_sugi_sapling"
+    },
+    "sugi_door_bottom": {
+      "textures": "textures/blocks/sugi_door_bottom"
+    },
+    "sugi_door_top": {
+      "textures": "textures/blocks/sugi_door_top"
     },
     "pine_planks": {
       "textures": "textures/blocks/planks_pine"
@@ -1710,8 +1716,8 @@
     "redwood_fence": {
       "textures": "textures/blocks/planks_redwood"
     },
-    "sakura_fence": {
-      "textures": "textures/blocks/planks_sakura"
+    "sugi_fence": {
+      "textures": "textures/blocks/planks_sugi"
     },
     "violet_fence": {
       "textures": "textures/blocks/planks_violet"
@@ -1761,8 +1767,8 @@
     "redwood_stairs": {
       "textures": "textures/blocks/planks_redwood"
     },
-    "sakura_stairs": {
-      "textures": "textures/blocks/planks_sakura"
+    "sugi_stairs": {
+      "textures": "textures/blocks/planks_sugi"
     },
     "violet_stairs": {
       "textures": "textures/blocks/planks_violet"

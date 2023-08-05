@@ -2,7 +2,7 @@
 	"format_version": "1.16",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "nature:loom_from_sakura_planks"
+			"identifier": "nature:loom_from_sugi_planks"
 		},
 		"tags": [
 			"crafting_table"
@@ -16,7 +16,7 @@
 				"item": "string"
 			},
 			"B": {
-				"item": "nature:sakura_planks"
+				"item": "nature:sugi_planks"
 			}
 		},
 		"result": {

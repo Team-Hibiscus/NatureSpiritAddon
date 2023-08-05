@@ -2,7 +2,7 @@
 	"format_version": "1.16",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "nature:daylight_detector_from_sakura_plank_slab"
+			"identifier": "nature:daylight_detector_from_sugi_plank_slab"
 		},
 		"tags": [
 			"crafting_table"
@@ -20,7 +20,7 @@
 				"item": "quartz"
 			},
 			"C": {
-				"item": "nature:sakura_plank_slab"
+				"item": "nature:sugi_plank_slab"
 			}
 		},
 		"result": {

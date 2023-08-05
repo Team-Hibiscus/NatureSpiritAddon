@@ -2,7 +2,7 @@
 	"format_version": "1.16",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "nature:campfire_from_stripped_sakura_log"
+			"identifier": "nature:campfire_from_stripped_sugi_log"
 		},
 		"tags": [
 			"crafting_table"
@@ -20,7 +20,7 @@
 				"item": "coal"
 			},
 			"C": {
-				"item": "nature:stripped_sakura_log"
+				"item": "nature:stripped_sugi_log"
 			}
 		},
 		"result": {

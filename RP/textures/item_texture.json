@@ -16,11 +16,14 @@
     "nature:pine_sapling_item": {
       "textures": "textures/blocks/pine_sapling"
     },
-    "nature:sakura_sapling_item": {
-      "textures": "textures/blocks/sakura_sapling"
+    "nature:sugi_sapling_item": {
+      "textures": "textures/blocks/sugi_sapling"
     },
-    "nature:white_sakura_sapling_item": {
-      "textures": "textures/blocks/white_sakura_sapling"
+    "nature:blooming_pink_sugi_sapling_item": {
+      "textures": "textures/blocks/blooming_pink_sugi_sapling"
+    },
+    "nature:blooming_white_sugi_sapling_item": {
+      "textures": "textures/blocks/blooming_white_sugi_sapling"
     },
     "nature:palm_sapling_item": {
       "textures": "textures/blocks/palm_sapling"
@@ -1060,8 +1063,11 @@
     "nature:redwood_door_item": {
       "textures": "textures/items/redwood_door_item"
     },
-    "nature:sakura_door_item": {
-      "textures": "textures/items/sakura_door_item"
+    "nature:sugi_door_item": {
+      "textures": "textures/items/sugi_door_item"
+    },
+    "nature:framed_sugi_door_item": {
+      "textures": "textures/items/framed_sugi_door_item"
     },
     "nature:violet_door_item": {
       "textures": "textures/items/violet_door_item"
@@ -1070,7 +1076,7 @@
       "textures": "textures/items/willow_door_item"
     },
     "nature:violet_tallgrass_item": {
-    "textures": "textures/blocks/violet_tallgrass"
+      "textures": "textures/blocks/violet_tallgrass"
     }
   },
   "texture_name": "atlas.items"

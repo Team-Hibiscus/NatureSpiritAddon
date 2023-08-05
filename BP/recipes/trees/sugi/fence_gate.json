@@ -2,7 +2,7 @@
     "format_version": "1.16",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "nature:sakura_fence_gate"
+            "identifier": "nature:sugi_fence_gate"
         },
         "tags": [
             "crafting_table"
@@ -13,14 +13,14 @@
         ],
         "key": {
             "B": {
-                "item": "nature:sakura_planks"
+                "item": "nature:sugi_planks"
             },
             "C": {
                 "item": "stick"
             }
         },
         "result": {
-            "item": "nature:sakura_fence_gate",
+            "item": "nature:sugi_fence_gate",
             "count": 1
         }
     }

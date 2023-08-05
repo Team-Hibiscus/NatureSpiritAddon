@@ -2,7 +2,7 @@
 	"format_version": "1.16",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "nature:smoker_from_sakura_log"
+			"identifier": "nature:smoker_from_sugi_log"
 		},
 		"tags": [
 			"crafting_table"
@@ -14,7 +14,7 @@
 		],
 		"key": {
 			"A": {
-				"item": "nature:sakura_log"
+				"item": "nature:sugi_log"
 			},
 			"B": {
 				"item": "furnace"
