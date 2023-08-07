@@ -1,13 +1,13 @@
 {
-	"format_version": "1.12",
+	"format_version": "1.16",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "nature:framed_sugi_door"
+			"identifier": "nature:framed_sugi_trapdoor"
 		},
 		"tags": [
 			"crafting_table"
 		],
-		"group": "wooden_door",
+		"group": "wooden_trap_door",
 		"pattern": [
 			"###",
 			"#x#",
@@ -18,12 +18,12 @@
 				"item": "nature:sugi_planks"
 			},
 			"x": {
-				"item": "nature:sugi_door_item"
+				"item": "nature:sugi_trapdoor"
 			}
 		},
 		"result": {
-			"item": "nature:framed_sugi_door_item",
-			"count": 3
+			"item": "nature:framed_sugi_trapdoor",
+			"count": 2
 		}
 	}
 }

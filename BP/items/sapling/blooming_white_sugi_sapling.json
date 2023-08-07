@@ -2,12 +2,12 @@
 	"format_version": "1.19.50",
 	"minecraft:item": {
 		"description": {
-			"identifier": "nature:white_sakura_sapling_item",
+			"identifier": "nature:blooming_white_sugi_sapling_item",
 			"category": "nature"
 		},
 		"components": {
 			"minecraft:block_placer": {
-				"block": "nature:white_sakura_sapling",
+				"block": "nature:blooming_white_sugi_sapling",
 				"use_on": [
 					"grass",
 					"dirt",
@@ -16,7 +16,7 @@
 				]
 			},
 			"minecraft:icon": {
-				"texture": "nature:white_sakura_sapling_item"
+				"texture": "nature:blooming_white_sugi_sapling_item"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.sapling"
@@ -24,8 +24,8 @@
 			"minecraft:max_stack_size": 64,
 			"minecraft:stacked_by_data": true,
 			"minecraft:display_name": {
-				"value": "White Sakura Sapling"
-			  },
+				"value": "Blooming White Sugi Sapling"
+			},
 			"minecraft:on_use_on": {
 				"on_use_on": {
 					"event": "sound"
@@ -43,5 +43,3 @@
 		}
 	}
 }
-
-

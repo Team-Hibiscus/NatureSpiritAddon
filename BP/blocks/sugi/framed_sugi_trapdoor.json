@@ -1,0 +1,322 @@
+{
+	"format_version": "1.19.10",
+	"minecraft:block": {
+		"description": {
+			"identifier": "nature:framed_sugi_trapdoor",
+			"register_to_creative_menu": true,
+			"properties": {
+				"custom:model": [
+					0,
+					1,
+					2,
+					3
+				],
+				"custom:direction": [
+					2,
+					3,
+					4,
+					5
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('custom:direction') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('custom:direction') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('custom:direction') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('custom:direction') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						270,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('custom:model') == 0",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							3,
+							16
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							3,
+							16
+						]
+					},
+					"minecraft:geometry": "geometry.trapdoor_down",
+					"minecraft:on_interact": {
+						"event": "down_open"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('custom:model') == 1",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [
+							-8,
+							13,
+							-8
+						],
+						"size": [
+							16,
+							3,
+							16
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							13,
+							-8
+						],
+						"size": [
+							16,
+							3,
+							16
+						]
+					},
+					"minecraft:geometry": "geometry.trapdoor_up",
+					"minecraft:on_interact": {
+						"event": "up_open"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('custom:model') == 2",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							16,
+							3
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							16,
+							3
+						]
+					},
+					"minecraft:geometry": "geometry.trapdoor_open_down",
+					"minecraft:on_interact": {
+						"event": "down"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('custom:model') == 3",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							16,
+							3
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							16,
+							3
+						]
+					},
+					"minecraft:geometry": "geometry.trapdoor_open",
+					"minecraft:on_interact": {
+						"event": "up"
+					}
+				}
+			}
+		],
+		"components": {
+			"tag:wood": {},
+			"minecraft:loot": "loot_tables/blocks/trapdoors/trapdoor_framed_sugi.json",
+			"minecraft:collision_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					3,
+					16
+				]
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					3,
+					16
+				]
+			},
+			"minecraft:destroy_time": 1,
+			"minecraft:light_dampening": 0,
+			"minecraft:geometry": "geometry.trapdoor_down",
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.trapdoor",
+				"category": "construction"
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "alpha_test",
+					"texture": "framed_sugi_trapdoor"
+				}
+			},
+			"minecraft:on_player_placing": {
+				"event": "trapdoor"
+			}
+		},
+		"events": {
+			"trapdoor": {
+				"sequence": [
+					{
+						"set_block_property": {
+							"custom:direction": "query.cardinal_facing_2d"
+						}
+					},
+					{
+						"condition": "query.target_x_rotation <=0",
+						"trigger": {
+							"event": "up"
+						}
+					}
+				]
+			},
+			"up": {
+				"sequence": [
+					{
+						"set_block_property": {
+							"custom:model": 1
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"playsound random.door_close @a[r=5] ~ ~ ~ 0.4 1.0"
+							]
+						}
+					}
+				]
+			},
+			"down": {
+				"sequence": [
+					{
+						"set_block_property": {
+							"custom:model": 0
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"playsound random.door_close @a[r=5] ~ ~ ~ 0.4 1.0"
+							]
+						}
+					}
+				]
+			},
+			"up_open": {
+				"sequence": [
+					{
+						"set_block_property": {
+							"custom:model": 3
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"playsound random.door_close @a[r=5] ~ ~ ~ 0.4 1.0"
+							]
+						}
+					}
+				]
+			},
+			"down_open": {
+				"sequence": [
+					{
+						"set_block_property": {
+							"custom:model": 2
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"playsound random.door_close @a[r=5] ~ ~ ~ 0.4 1.0"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

@@ -198,6 +198,12 @@
   "nature:sugi_trapdoor": {
     "sound": "wood"
   },
+  "nature:framed_sugi_trapdoor": {
+    "sound": "wood"
+  },
+  "nature:blooming_sugi_trapdoor": {
+    "sound": "wood"
+  },
   "nature:blooming_white_sugi_sapling": {
     "sound": "grass"
   },
@@ -229,6 +235,18 @@
     "sound": "wood"
   },
   "nature:framed_sugi_door_top_flipped": {
+    "sound": "wood"
+  },
+  "nature:blooming_sugi_door_bottom": {
+    "sound": "wood"
+  },
+  "nature:blooming_sugi_door_top": {
+    "sound": "wood"
+  },
+  "nature:blooming_sugi_door_bottom_flipped": {
+    "sound": "wood"
+  },
+  "nature:blooming_sugi_door_top_flipped": {
     "sound": "wood"
   },
   "nature:pine_log": {

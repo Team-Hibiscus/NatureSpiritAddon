@@ -270,13 +270,19 @@
     "sugi_trapdoor": {
       "textures": "textures/blocks/sugi_trapdoor"
     },
+    "framed_sugi_trapdoor": {
+      "textures": "textures/blocks/framed_sugi_trapdoor"
+    },
+    "blooming_sugi_trapdoor": {
+      "textures": "textures/blocks/blooming_sugi_trapdoor"
+    },
     "sugi_sapling": {
       "textures": "textures/blocks/sugi_sapling"
     },
     "blooming_pink_sugi_sapling": {
       "textures": "textures/blocks/blooming_pink_sugi_sapling"
     },
-    "white_sugi_sapling": {
+    "blooming_white_sugi_sapling": {
       "textures": "textures/blocks/blooming_white_sugi_sapling"
     },
     "sugi_door_bottom": {
@@ -284,6 +290,18 @@
     },
     "sugi_door_top": {
       "textures": "textures/blocks/sugi_door_top"
+    },
+    "framed_sugi_door_bottom": {
+      "textures": "textures/blocks/framed_sugi_door_bottom"
+    },
+    "framed_sugi_door_top": {
+      "textures": "textures/blocks/framed_sugi_door_top"
+    },
+    "blooming_sugi_door_bottom": {
+      "textures": "textures/blocks/blooming_sugi_door_bottom"
+    },
+    "blooming_sugi_door_top": {
+      "textures": "textures/blocks/blooming_sugi_door_top"
     },
     "pine_planks": {
       "textures": "textures/blocks/planks_pine"

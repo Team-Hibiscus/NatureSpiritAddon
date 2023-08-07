@@ -2,7 +2,7 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "nature:framed_sugi_door"
+			"identifier": "nature:blooming_sugi_door"
 		},
 		"tags": [
 			"crafting_table"
@@ -22,7 +22,7 @@
 			}
 		},
 		"result": {
-			"item": "nature:framed_sugi_door_item",
+			"item": "nature:blooming_sugi_door_item",
 			"count": 3
 		}
 	}
