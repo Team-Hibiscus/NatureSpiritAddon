@@ -1,0 +1,109 @@
+{
+  "format_version": "1.19.10",
+  "minecraft:block": {
+    "description": {
+      "identifier": "nature:purple_wisteria_leaves"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "group": "itemGroup.name.leaves",
+        "category": "nature"
+      },
+      "minecraft:on_player_placing": {
+        "event": "nature:stop_decay",
+        "target": "self"
+      },
+      "minecraft:on_player_destroyed": {
+        "event": "nature:on_destroyed"
+      },
+      "minecraft:queued_ticking": {
+        "looping": true,
+        "interval_range": [
+          0,
+          0
+        ],
+        "on_tick": {
+          "event": "check"
+        }
+      },
+      "minecraft:random_ticking": {
+        "on_tick": {
+          "event": "check",
+          "target": "block"
+        }
+      },
+      "tag:nature:wisteria_leaves": {},
+      "minecraft:breathability": "air",
+      "minecraft:collision_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          16,
+          16
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          16,
+          16
+        ]
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.3
+      },
+      "minecraft:flammable": {
+        "catch_chance_modifier": 20,
+        "destroy_chance_modifier": 80
+      },
+      "minecraft:map_color": "#569F1B",
+      "minecraft:block_light_filter": 0,
+      "minecraft:light_emission": 0,
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:unit_cube": {},
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "leaves_purple_wisteria",
+          "render_method": "blend",
+          "ambient_occlusion": true,
+          "face_dimming": true
+        }
+      }
+    },
+    "events": {
+      "nature:on_destroyed": {
+        "sequence": [
+          {
+            "condition": "query.get_equipped_item_name=='shears'",
+            "spawn_loot": {
+              "table": "loot_tables/blocks/leaves/shear_leaves_purple_wisteria.json"
+            }
+          },
+          {
+            "condition": "query.get_equipped_item_name!='shears'",
+            "randomize": [
+              {
+                "weight": 10,
+                "spawn_loot": {
+                  "table": "loot_tables/blocks/leaves/leaves_purple_wisteria.json"
+                }
+              },
+              {
+                "weight": 90
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
