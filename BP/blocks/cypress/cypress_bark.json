@@ -1,0 +1,123 @@
+{
+	"format_version": "1.19.10",
+	"minecraft:block": {
+		"description": {
+			"identifier": "nature:cypress_wood",
+			"properties": {
+				"custom:texture": [
+					0,
+					1
+				],
+				"custom:facing_direction": [
+					0,
+					1,
+					2
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('custom:facing_direction') == 0",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('custom:facing_direction') == 1",
+				"components": {
+					"minecraft:rotation": [
+						90,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('custom:facing_direction') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						90
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('custom:texture') == 1",
+				"components": {
+					"minecraft:loot": "loot_tables/blocks/wood/stripped_wood_cypress.json",
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "stripped_wood_cypress",
+							"render_method": "opaque"
+						},
+						"down": {
+							"texture": "stripped_wood_cypress",
+							"render_method": "opaque"
+						},
+						"*": {
+							"texture": "stripped_wood_cypress",
+							"render_method": "opaque"
+						}
+					}
+				}
+			}
+		],
+		"components": {
+			"tag:wood": {},
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.wood",
+				"category": "nature"
+			},
+			"minecraft:flammable": {
+				"burn_odds": 5,
+				"flame_odds": 5
+			},
+			"minecraft:loot": "loot_tables/blocks/wood/wood_cypress.json",
+			"minecraft:unit_cube": {},
+			"minecraft:destroy_time": 1,
+			"minecraft:material_instances": {
+				"up": {
+					"texture": "wood_cypress",
+					"render_method": "opaque"
+				},
+				"down": {
+					"texture": "wood_cypress",
+					"render_method": "opaque"
+				},
+				"*": {
+					"texture": "wood_cypress",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:on_interact": {
+				"condition": "q.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_axe')",
+				"event": "update_texture"
+			},
+			"minecraft:on_player_placing": {
+				"event": "update_facing_direction"
+			}
+		},
+		"events": {
+			"update_facing_direction": {
+				"set_block_property": {
+					"custom:facing_direction": "math.floor(query.cardinal_block_face_placed_on / 2.0)"
+				}
+			},
+			"update_texture": {
+				"set_block_property": {
+					"custom:texture": 1
+				},
+				"damage": {
+					"amount": 1,
+					"type": "durability",
+					"target": "item"
+				}
+			}
+		}
+	}
+}

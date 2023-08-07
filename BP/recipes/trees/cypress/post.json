@@ -1,0 +1,25 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:cypress_post"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"group": "wooden_trap_door",
+		"pattern": [
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "nature:cypress_log"
+			}
+		},
+		"result": {
+			"item": "nature:cypress_post",
+			"count": 6
+		}
+	}
+}

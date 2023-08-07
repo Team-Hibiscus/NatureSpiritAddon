@@ -249,6 +249,162 @@
   "nature:blooming_sugi_door_top_flipped": {
     "sound": "wood"
   },
+  "nature:cypress_fence": {
+    "sound": "wood",
+    "textures": "cypress_planks"
+  },
+  "nature:cypress_fence_gate": {
+    "sound": "wood"
+  },
+  "nature:cypress_log": {
+    "sound": "wood"
+  },
+  "nature:cypress_wood": {
+    "sound": "wood"
+  },
+  "nature:cypress_planks": {
+    "sound": "wood"
+  },
+  "nature:cypress_plank_slab": {
+    "sound": "wood"
+  },
+  "nature:stripped_cypress_log": {
+    "sound": "wood"
+  },
+  "nature:stripped_cypress_wood": {
+    "sound": "wood"
+  },
+  "nature:cypress_leaves": {
+    "sound": "grass"
+  },
+  "nature:cypress_trapdoor": {
+    "sound": "wood"
+  },
+  "nature:cypress_door_bottom": {
+    "sound": "wood"
+  },
+  "nature:cypress_door_top": {
+    "sound": "wood"
+  },
+  "nature:cypress_door_bottom_flipped": {
+    "sound": "wood"
+  },
+  "nature:cypress_door_top_flipped": {
+    "sound": "wood"
+  },
+  "nature:cypress_sapling": {
+    "sound": "grass"
+  },
+  "nature:olive_fence": {
+    "sound": "wood",
+    "textures": "olive_planks"
+  },
+  "nature:olive_fence_gate": {
+    "sound": "wood"
+  },
+  "nature:olive_log": {
+    "sound": "wood"
+  },
+  "nature:olive_wood": {
+    "sound": "wood"
+  },
+  "nature:olive_planks": {
+    "sound": "wood"
+  },
+  "nature:olive_plank_slab": {
+    "sound": "wood"
+  },
+  "nature:stripped_olive_log": {
+    "sound": "wood"
+  },
+  "nature:stripped_olive_wood": {
+    "sound": "wood"
+  },
+  "nature:olive_leaves": {
+    "sound": "grass"
+  },
+  "nature:olive_trapdoor": {
+    "sound": "wood"
+  },
+  "nature:olive_door_bottom": {
+    "sound": "wood"
+  },
+  "nature:olive_door_top": {
+    "sound": "wood"
+  },
+  "nature:olive_door_bottom_flipped": {
+    "sound": "wood"
+  },
+  "nature:olive_door_top_flipped": {
+    "sound": "wood"
+  },
+  "nature:olive_sapling": {
+    "sound": "grass"
+  },
+  "nature:wisteria_fence": {
+    "sound": "wood",
+    "textures": "wisteria_planks"
+  },
+  "nature:wisteria_fence_gate": {
+    "sound": "wood"
+  },
+  "nature:wisteria_log": {
+    "sound": "wood"
+  },
+  "nature:wisteria_wood": {
+    "sound": "wood"
+  },
+  "nature:wisteria_planks": {
+    "sound": "wood"
+  },
+  "nature:wisteria_plank_slab": {
+    "sound": "wood"
+  },
+  "nature:stripped_wisteria_log": {
+    "sound": "wood"
+  },
+  "nature:stripped_wisteria_wood": {
+    "sound": "wood"
+  },
+  "nature:blue_wisteria_leaves": {
+    "sound": "grass"
+  },
+  "nature:pink_wisteria_leaves": {
+    "sound": "grass"
+  },
+  "nature:purple_wisteria_leaves": {
+    "sound": "grass"
+  },
+  "nature:white_wisteria_leaves": {
+    "sound": "grass"
+  },
+  "nature:wisteria_trapdoor": {
+    "sound": "wood"
+  },
+  "nature:wisteria_door_bottom": {
+    "sound": "wood"
+  },
+  "nature:wisteria_door_top": {
+    "sound": "wood"
+  },
+  "nature:wisteria_door_bottom_flipped": {
+    "sound": "wood"
+  },
+  "nature:wisteria_door_top_flipped": {
+    "sound": "wood"
+  },
+  "nature:blue_wisteria_sapling": {
+    "sound": "grass"
+  },
+  "nature:pink_wisteria_sapling": {
+    "sound": "grass"
+  },
+  "nature:purple_wisteria_sapling": {
+    "sound": "grass"
+  },
+  "nature:white_wisteria_sapling": {
+    "sound": "grass"
+  },
   "nature:pine_log": {
     "sound": "wood"
   },

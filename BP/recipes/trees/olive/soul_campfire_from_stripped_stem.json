@@ -1,0 +1,32 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:soul_campfire_from_stripped_olive_log"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" A ",
+			"ABA",
+			"CCC"
+		],
+		"key": {
+			"A": {
+				"item": "stick"
+			},
+			"B": {
+				"item": "soul_soil"
+			},
+			"C": {
+				"item": "nature:stripped_olive_log"
+			}
+		},
+		"result": {
+			"item": "soul_campfire",
+			"count": 1
+		},
+		"priority": 2
+	}
+}

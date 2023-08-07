@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "nature:stairs_from_cypress_wood"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "W  ",
+            "WW ",
+            "WWW"
+        ],
+        "key": {
+            "W": {
+                "item": "nature:cypress_planks"
+            }
+        },
+        "result": {
+            "item": "nature:cypress_stairs",
+            "count": 4
+        }
+    }
+}

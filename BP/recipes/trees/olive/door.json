@@ -1,0 +1,26 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:olive_door"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"group": "wooden_door",
+		"pattern": [
+			"##",
+			"##",
+			"##"
+		],
+		"key": {
+			"#": {
+				"item": "nature:olive_planks"
+			}
+		},
+		"result": {
+			"item": "nature:olive_door_item",
+			"count": 3
+		}
+	}
+}

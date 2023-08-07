@@ -209,6 +209,60 @@ tile.nature:willow_post.name=Willow Post
 tile.nature:stripped_willow_post.name=Stripped Willow Post
 
 
+tile.nature:wisteria_fence.name=Wisteria Fence
+tile.nature:wisteria_fence_gate.name=Wisteria Fence Gate
+tile.nature:stripped_wisteria_log.name=Stripped Wisteria Log
+tile.nature:stripped_wisteria_wood.name=Stripped Wisteria Wood
+tile.nature:wisteria_wood.name=Wisteria Wood
+tile.nature:wisteria_log.name=Wisteria Log
+tile.nature:wisteria_planks.name=Wisteria Wood Planks
+tile.nature:wisteria_plank_slab.name=Wisteria Wood Slab
+tile.nature:blue_wisteria_leaves.name=Blue Wisteria Leaves
+tile.nature:pink_wisteria_leaves.name=Pink Wisteria Leaves
+tile.nature:purple_wisteria_leaves.name=Purple Wisteria Leaves
+tile.nature:white_wisteria_leaves.name=White Wisteria Leaves
+tile.nature:wisteria_trapdoor.name=Wisteria Trapdoor
+item.nature:blue_wisteria_sapling_item=Blue Wisteria Sapling
+item.nature:pink_wisteria_sapling_item=Pink Wisteria Sapling
+item.nature:purple_wisteria_sapling_item=Purple Wisteria Sapling
+item.nature:white_wisteria_sapling_item=White Wisteria Sapling
+tile.nature:wisteria_door.name=Wisteria Door
+tile.nature:wisteria_post.name=Wisteria Post
+tile.nature:stripped_wisteria_post.name=Stripped Wisteria Post
+
+
+tile.nature:cypress_fence.name=Cypress Fence
+tile.nature:cypress_fence_gate.name=Cypress Fence Gate
+tile.nature:stripped_cypress_log.name=Stripped Cypress Log
+tile.nature:stripped_cypress_wood.name=Stripped Cypress Wood
+tile.nature:cypress_wood.name=Cypress Wood
+tile.nature:cypress_log.name=Cypress Log
+tile.nature:cypress_planks.name=Cypress Planks
+tile.nature:cypress_plank_slab.name=Cypress Plank Slab
+tile.nature:cypress_leaves.name=Cypress Leaves
+tile.nature:cypress_trapdoor.name=Cypress Trapdoor
+item.nature:cypress_sapling_item=Cypress Sapling
+tile.nature:cypress_door.name=Cypress Door
+tile.nature:cypress_post.name=Cypress Post
+tile.nature:stripped_cypress_post.name=Stripped Cypress Post
+
+
+tile.nature:olive_fence.name=Olive Fence
+tile.nature:olive_fence_gate.name=Olive Fence Gate
+tile.nature:stripped_olive_log.name=Stripped Olive Log
+tile.nature:stripped_olive_wood.name=Stripped Olive Wood
+tile.nature:olive_wood.name=Olive Wood
+tile.nature:olive_log.name=Olive Log
+tile.nature:olive_planks.name=Olive Planks
+tile.nature:olive_plank_slab.name=Olive Plank Slab
+tile.nature:olive_leaves.name=Olive Leaves
+tile.nature:olive_trapdoor.name=Olive Trapdoor
+item.nature:olive_sapling_item=Olive Sapling
+tile.nature:olive_door.name=Olive Door
+tile.nature:olive_post.name=Olive Post
+tile.nature:stripped_olive_post.name=Stripped Olive Post
+
+
 tile.nature:distorted_fence.name=Distorted Fence
 tile.nature:distorted_fence_gate.name=Distorted Fence Gate
 tile.nature:stripped_distorted_log.name=Stripped Distorted Log
@@ -727,6 +781,9 @@ item.nature:framed_sugi_door_item=Framed Sugi Door
 item.nature:blooming_sugi_door_item=Blooming Sugi Door
 item.nature:violet_door_item=Violet Door
 item.nature:willow_door_item=Willow Door
+item.nature:wisteria_door_item=Wisteria Door
+item.nature:cypress_door_item=Cypress Door
+item.nature:olive_door_item=Olive Door
 
 item.nature:shrub1_item=Neighborhood Shrub
 tile.nature:aspen_stairs.name=Aspen Stairs
@@ -746,3 +803,6 @@ tile.nature:redwood_stairs.name=Redwood Stairs
 tile.nature:sugi_stairs.name=Sugi Stairs
 tile.nature:violet_stairs.name=Violet Stairs
 tile.nature:willow_stairs.name=Willow Stairs
+tile.nature:wisteria_stairs.name=Wisteria Stairs
+tile.nature:cypress_stairs.name=Cypress Stairs
+tile.nature:olive_stairs.name=Olive Stairs

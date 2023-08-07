@@ -303,6 +303,36 @@
     "blooming_sugi_door_top": {
       "textures": "textures/blocks/blooming_sugi_door_top"
     },
+    "olive_planks": {
+      "textures": "textures/blocks/planks_olive"
+    },
+    "wood_olive": {
+      "textures": "textures/blocks/log_olive"
+    },
+    "wood_olive_top": {
+      "textures": "textures/blocks/log_olive_top"
+    },
+    "stripped_wood_olive": {
+      "textures": "textures/blocks/stripped_olive_log"
+    },
+    "stripped_wood_olive_top": {
+      "textures": "textures/blocks/stripped_olive_log_top"
+    },
+    "leaves_olive": {
+      "textures": "textures/blocks/leaves_olive"
+    },
+    "olive_trapdoor": {
+      "textures": "textures/blocks/olive_trapdoor"
+    },
+    "olive_sapling": {
+      "textures": "textures/blocks/olive_sapling"
+    },
+    "olive_door_bottom": {
+      "textures": "textures/blocks/olive_door_bottom"
+    },
+    "olive_door_top": {
+      "textures": "textures/blocks/olive_door_top"
+    },
     "pine_planks": {
       "textures": "textures/blocks/planks_pine"
     },
@@ -330,6 +360,36 @@
     "pine_door_bottom": {
       "textures": "textures/blocks/pine_door_bottom"
     },
+    "cypress_planks": {
+      "textures": "textures/blocks/planks_cypress"
+    },
+    "wood_cypress": {
+      "textures": "textures/blocks/log_cypress"
+    },
+    "wood_cypress_top": {
+      "textures": "textures/blocks/log_cypress_top"
+    },
+    "stripped_wood_cypress": {
+      "textures": "textures/blocks/stripped_cypress_log"
+    },
+    "stripped_wood_cypress_top": {
+      "textures": "textures/blocks/stripped_cypress_log_top"
+    },
+    "leaves_cypress": {
+      "textures": "textures/blocks/leaves_cypress"
+    },
+    "cypress_trapdoor": {
+      "textures": "textures/blocks/cypress_trapdoor"
+    },
+    "cypress_sapling": {
+      "textures": "textures/blocks/cypress_sapling"
+    },
+    "cypress_door_bottom": {
+      "textures": "textures/blocks/cypress_door_bottom"
+    },
+    "cypress_door_top": {
+      "textures": "textures/blocks/cypress_door_top"
+    },
     "willow_planks": {
       "textures": "textures/blocks/planks_willow"
     },
@@ -356,6 +416,54 @@
     },
     "willow_door_bottom": {
       "textures": "textures/blocks/willow_door_bottom"
+    },
+    "wisteria_planks": {
+      "textures": "textures/blocks/planks_wisteria"
+    },
+    "wood_wisteria": {
+      "textures": "textures/blocks/log_wisteria"
+    },
+    "wood_wisteria_top": {
+      "textures": "textures/blocks/log_wisteria_top"
+    },
+    "stripped_wood_wisteria": {
+      "textures": "textures/blocks/stripped_wisteria_log"
+    },
+    "stripped_wood_wisteria_top": {
+      "textures": "textures/blocks/stripped_wisteria_log_top"
+    },
+    "leaves_blue_wisteria": {
+      "textures": "textures/blocks/leaves_blue_wisteria"
+    },
+    "leaves_pink_wisteria": {
+      "textures": "textures/blocks/leaves_pink_wisteria"
+    },
+    "leaves_purple_wisteria": {
+      "textures": "textures/blocks/leaves_purple_wisteria"
+    },
+    "leaves_white_wisteria": {
+      "textures": "textures/blocks/leaves_white_wisteria"
+    },
+    "wisteria_trapdoor": {
+      "textures": "textures/blocks/wisteria_trapdoor"
+    },
+    "blue_wisteria_sapling": {
+      "textures": "textures/blocks/blue_wisteria_sapling"
+    },
+    "pink_wisteria_sapling": {
+      "textures": "textures/blocks/pink_wisteria_sapling"
+    },
+    "purple_wisteria_sapling": {
+      "textures": "textures/blocks/purple_wisteria_sapling"
+    },
+    "white_wisteria_sapling": {
+      "textures": "textures/blocks/white_wisteria_sapling"
+    },
+    "wisteria_door_bottom": {
+      "textures": "textures/blocks/wisteria_door_bottom"
+    },
+    "wisteria_door_top": {
+      "textures": "textures/blocks/wisteria_door_top"
     },
     "nothing": {
       "textures": "textures/blocks/nothing"
@@ -410,12 +518,6 @@
     },
     "willow_wood_top": {
       "textures": "textures/blocks/log_willow_top"
-    },
-    "baobab_wood": {
-      "textures": "textures/blocks/log_baobab"
-    },
-    "baobab_wood_top": {
-      "textures": "textures/blocks/log_baobab_top"
     },
     "wood_maple": {
       "textures": "textures/blocks/log_maple"
@@ -1707,6 +1809,15 @@
     "enchanted_fence": {
       "textures": "textures/blocks/planks_enchanted"
     },
+    "cypress_fence": {
+      "textures": "textures/blocks/planks_cypress"
+    },
+    "olive_fence": {
+      "textures": "textures/blocks/planks_olive"
+    },
+    "wisteria_fence": {
+      "textures": "textures/blocks/planks_wisteria"
+    },
     "fir_fence": {
       "textures": "textures/blocks/planks_fir"
     },
@@ -1748,6 +1859,15 @@
     },
     "baobab_stairs": {
       "textures": "textures/blocks/planks_baobab"
+    },
+    "cypress_stairs": {
+      "textures": "textures/blocks/planks_cypress"
+    },
+    "olive_stairs": {
+      "textures": "textures/blocks/planks_olive"
+    },
+    "wisteria_stairs": {
+      "textures": "textures/blocks/planks_wisteria"
     },
     "distorted_stairs": {
       "textures": "textures/blocks/planks_distorted"

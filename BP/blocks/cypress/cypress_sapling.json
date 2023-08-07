@@ -1,0 +1,137 @@
+{
+  "format_version": "1.19.10",
+  "minecraft:block": {
+    "description": {
+      "identifier": "nature:cypress_sapling"
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "cypress_sapling",
+          "render_method": "alpha_test",
+          "face_dimming": false,
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:map_color": "#569F1B",
+      "minecraft:creative_category": {
+        "category": "none"
+      },
+      "minecraft:on_interact": {
+        "event": "grow",
+        "condition": "query.get_equipped_item_name(0)=='bone_meal'"
+      },
+      "minecraft:queued_ticking": {
+        "looping": true,
+        "interval_range": [
+          20000,
+          25000
+        ],
+        "on_tick": {
+          "event": "grow"
+        }
+      },
+      "minecraft:loot": "loot_tables/blocks/saplings/sapling_cypress.json",
+      "minecraft:geometry": "geometry.cross",
+      "minecraft:destructible_by_mining": 0.01,
+      "minecraft:collision_box": false,
+      "minecraft:light_dampening": 0,
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "block_filter": [
+              "minecraft:dirt",
+              "minecraft:grass",
+              "minecraft:podzol",
+              "minecraft:moss_block"
+            ],
+            "allowed_faces": [
+              "up"
+            ]
+          }
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -6,
+          0,
+          -6
+        ],
+        "size": [
+          12,
+          13,
+          12
+        ]
+      }
+    },
+    "events": {
+      "grow": {
+        "sequence": [
+          {
+            "condition": "query.get_equipped_item_name('main_hand')=='bone_meal'",
+            "run_command": {
+              "command": [
+                "particle minecraft:crop_growth_emitter ~ ~ ~",
+                "playsound item.bone_meal.use @a ~ ~ ~"
+              ]
+            },
+            "decrement_stack": {},
+            "trigger": "fertilize"
+          }
+        ]
+      },
+      "fertilize": {
+        "randomize": [
+          {
+            "weight": 1,
+            "run_command": {
+              "command": [
+                "structure load cypress_tree ~-3 ~ ~-4",
+                "setblock ~ ~ ~ air"
+              ]
+            }
+          },
+          {
+            "weight": 19
+          },
+          {
+            "weight": 1,
+            "run_command": {
+              "command": [
+                "structure load cypress_tree_2 ~-2 ~ ~-2",
+                "setblock ~ ~ ~ air"
+              ]
+            }
+          },
+          {
+            "weight": 1,
+            "run_command": {
+              "command": [
+                "structure load cypress_tree_3 ~-1 ~ ~-1",
+                "setblock ~ ~ ~ air"
+              ]
+            }
+          },
+          {
+            "weight": 1,
+            "run_command": {
+              "command": [
+                "structure load cypress_tree_4 ~-6 ~ ~-4",
+                "setblock ~ ~ ~ air"
+              ]
+            }
+          },
+          {
+            "weight": 1,
+            "run_command": {
+              "command": [
+                "structure load cypress_tree_5 ~-3 ~ ~-5",
+                "setblock ~ ~ ~ air"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

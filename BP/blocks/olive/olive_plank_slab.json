@@ -1,0 +1,165 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "nature:olive_plank_slab",
+			"menu_category": {
+				"group": "itemGroup.name.slab",
+				"category": "construction"
+			},
+			"properties": {
+				"mbms:slab_type": [
+					"base",
+					"double"
+				]
+			},
+			"traits": {
+				"minecraft:placement_position": {
+					"enabled_states": [
+						"minecraft:vertical_half"
+					]
+				}
+			}
+		},
+		"components": {
+			"tag:wood": {},
+			"tag:slab": {},
+			"minecraft:light_dampening": 0,
+			"minecraft:loot": "loot_tables/blocks/slabs/slab_olive.json",
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "olive_planks",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:flammable": {
+				"destroy_chance_modifier": 20,
+				"catch_chance_modifier": 5
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('mbms:slab_type') == 'double'",
+				"components": {
+					"minecraft:loot": "loot_tables/blocks/slabs/slab_olive_double.json",
+					"minecraft:light_dampening": 1,
+					"minecraft:unit_cube": {},
+					"minecraft:collision_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							16,
+							16
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							16,
+							16
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('minecraft:vertical_half') == 'bottom'",
+				"components": {
+					"minecraft:geometry": "geometry.custom_slab_lower",
+					"minecraft:on_interact": {
+						"condition": "query.get_equipped_item_name =='olive_plank_slab' && query.block_property('mbms:slab_type') != 'double'",
+						"event": "double"
+					},
+					"minecraft:collision_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('minecraft:vertical_half') == 'top'",
+				"components": {
+					"minecraft:geometry": "geometry.custom_slab_upper",
+					"minecraft:on_interact": {
+						"condition": "query.get_equipped_item_name =='olive_plank_slab' && query.block_property('mbms:slab_type') != 'double'",
+						"event": "double"
+					},
+					"minecraft:collision_box": {
+						"origin": [
+							-8,
+							8,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							8,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					}
+				}
+			}
+		],
+		"events": {
+			"double": {
+				"sequence": [
+					{
+						"set_block_property": {
+							"mbms:slab_type": "'double'"
+						},
+						"decrement_stack": {}
+					},
+					{
+						"run_command": {
+							"command": [
+								"playsound use.wood @a[r=5] ~ ~ ~ 0.4 1.0"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

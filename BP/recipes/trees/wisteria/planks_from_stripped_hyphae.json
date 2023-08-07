@@ -1,0 +1,24 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nature:wisteria_planks_from_stripped_wisteria_wood"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"group": "planks",
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "nature:stripped_wisteria_wood"
+			}
+		},
+		"result": {
+			"item": "nature:wisteria_planks",
+			"count": 4
+		}
+	}
+}
