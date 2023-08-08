@@ -6,17 +6,16 @@
 			"properties": {
 				"nature:growth": [
 					0,
-					1,
-					2
+					1
 				]
 			}
 		},
 		"permutations": [
 			//controls base vine components
 			{
-				"condition": "query.block_property('nature:growth') == 1",
+				"condition": "query.block_property('nature:growth') == 0",
 				"components": {
-					"minecraft:loot": "loot_tables/blocks/vines/corrupted_vines.json",
+					"minecraft:loot": "loot_tables/items/corrupted_vines.json",
 					"minecraft:material_instances": {
 						"*": {
 							"render_method": "alpha_test",
@@ -25,6 +24,7 @@
 							"ambient_occlusion": false
 						}
 					},
+					"tag:vine_body": {},
 					"minecraft:on_player_destroyed": {
 						"event": "destroy"
 					},
@@ -38,15 +38,24 @@
 					}
 				}
 			},
-			//destroy state
 			{
-				"condition": "query.block_property('nature:growth') == 2",
+				"condition": "query.block_property('nature:growth') == 1",
 				"components": {
-					"minecraft:on_placed": {
-						"event": "destroy2"
+					"minecraft:loot": "loot_tables/blocks/vines/corrupted_vines.json",
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "alpha_test",
+							"texture": "corrupted_vines_tip",
+							"face_dimming": false,
+							"ambient_occlusion": false
+						}
 					},
+					"tag:vine_tip": {},
 					"minecraft:on_player_destroyed": {
-						"event": "destroy2"
+						"event": "destroy"
+					},
+					"minecraft:on_placed": {
+						"event": "tip_state"
 					}
 				}
 			}
@@ -79,40 +88,47 @@
 				"event": "grow_stage_2"
 			},
 			"minecraft:entity_collision": false,
+			"minecraft:geometry": "geometry.cross",
+			"minecraft:block_light_absorption": 0,
+			"minecraft:on_placed": {
+				"event": "beginning"
+			},
+			"minecraft:destroy_time": 0,
 			"minecraft:random_ticking": {
 				"on_tick": {
 					"event": "grow_stage"
 				}
-			},
-			"minecraft:block_light_absorption": 0,
-			"minecraft:loot": "loot_tables/blocks/vines/corrupted_vines.json",
-			"minecraft:geometry": "geometry.cross",
-			"minecraft:destroy_time": 0,
-			"minecraft:material_instances": {
-				"*": {
-					"render_method": "alpha_test",
-					"texture": "corrupted_vines_tip",
-					"face_dimming": false,
-					"ambient_occlusion": false
-				}
-			},
-			"minecraft:on_player_destroyed": {
-				"event": "destroy"
-			},
-			"minecraft:on_placed": {
-				"event": "update_texture"
 			},
 			"minecraft:breathability": "air"
 		},
 		"events": {
 			"null": {},
 			//when vine is placed/grown replaces vine before with base texture
-			"update_texture": {
+			"beginning": {
+				"sequence": [
+					{
+						"condition": "q.block_neighbor_has_any_tag(0,1,0 'corrupted_leaves')",
+						"event": "place_tip"
+					},
+					{
+						"condition": "q.block_neighbor_has_any_tag(0,1,0 'vine_body')&&q.block_neighbor_has_any_tag(0,-1,0 'air')",
+						"event": "place_tip"
+					}
+				]
+			},
+			//
+			//
+			//
+			//
+			//
+			//
+			//
+			//
+			//
+			"tip_state": {
+				"condition": "q.block_neighbor_has_any_tag(0,1,0,'vine_body')",
 				"run_command": {
-					"command": [
-						"summon nature:corrupted_moss_plant_growth ~ ~ ~",
-						"execute @e[type=nature:corrupted_moss_plant_growth] ~ ~ ~ detect ~ ~1 ~ nature:corrupted_vines 0 structure load vine:base_corrupted_vine ~ ~1 ~"
-					]
+					"command": []
 				}
 			},
 			//places tip vine when base vine is placed 
