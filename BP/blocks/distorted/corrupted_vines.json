@@ -7,6 +7,10 @@
 				"nature:growth": [
 					0,
 					1
+				],
+				"nature:vinestate": [
+					"tip",
+					"end"
 				]
 			}
 		},
@@ -27,9 +31,6 @@
 					"tag:vine_body": {},
 					"minecraft:on_player_destroyed": {
 						"event": "destroy"
-					},
-					"minecraft:on_placed": {
-						"event": "update_texture_2"
 					},
 					"minecraft:random_ticking": {
 						"on_tick": {
@@ -53,9 +54,6 @@
 					"tag:vine_tip": {},
 					"minecraft:on_player_destroyed": {
 						"event": "destroy"
-					},
-					"minecraft:on_placed": {
-						"event": "tip_state"
 					}
 				}
 			}
@@ -90,13 +88,13 @@
 			"minecraft:entity_collision": false,
 			"minecraft:geometry": "geometry.cross",
 			"minecraft:block_light_absorption": 0,
-			"minecraft:on_placed": {
+			"minecraft:on_player_placing": {
 				"event": "beginning"
 			},
 			"minecraft:destroy_time": 0,
 			"minecraft:random_ticking": {
 				"on_tick": {
-					"event": "grow_stage"
+					"event": "grow_sta"
 				}
 			},
 			"minecraft:breathability": "air"
@@ -107,12 +105,21 @@
 			"beginning": {
 				"sequence": [
 					{
-						"condition": "q.block_neighbor_has_any_tag(0,1,0 'corrupted_leaves')",
-						"event": "place_tip"
+						"condition": "q.block_neighbor_has_any_tag(0,1,0, 'vine_tip') || q.block_neighbor_has_any_tag(0,1,0, 'vine_body')",
+						"set_block_property": {
+							"nature:growth": 1
+						},
+						"run_command": {
+							"command": [
+								"setblock ~ ~1~ nature:corrupted_vines [\"nature:growth\":\"0\"]"
+							]
+						}
 					},
 					{
-						"condition": "q.block_neighbor_has_any_tag(0,1,0 'vine_body')&&q.block_neighbor_has_any_tag(0,-1,0 'air')",
-						"event": "place_tip"
+						"condition": "!q.block_neighbor_has_any_tag(0,1,0, 'vine_tip') ",
+						"set_block_property": {
+							"nature:growth": 1
+						}
 					}
 				]
 			},
