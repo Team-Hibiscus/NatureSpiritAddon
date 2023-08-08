@@ -52,15 +52,15 @@
 					"minecraft:loot": "loot_tables/blocks/wood/stripped_log_redwood.json",
 					"minecraft:material_instances": {
 						"up": {
-							"texture": "stripped_wood_redwood_top",
+							"texture": "stripped_redwood_log_top",
 							"render_method": "opaque"
 						},
 						"down": {
-							"texture": "stripped_wood_redwood_top",
+							"texture": "stripped_redwood_log_top",
 							"render_method": "opaque"
 						},
 						"side": {
-							"texture": "stripped_wood_redwood",
+							"texture": "stripped_redwood_log",
 							"render_method": "opaque"
 						},
 						"north": "side",
@@ -89,15 +89,15 @@
 			},
 			"minecraft:material_instances": {
 				"up": {
-					"texture": "wood_redwood_top",
+					"texture": "redwood_log_top",
 					"render_method": "opaque"
 				},
 				"down": {
-					"texture": "wood_redwood_top",
+					"texture": "redwood_log_top",
 					"render_method": "opaque"
 				},
 				"side": {
-					"texture": "wood_redwood",
+					"texture": "redwood_log",
 					"render_method": "opaque"
 				},
 				"north": "side",

@@ -52,15 +52,15 @@
 					"minecraft:loot": "loot_tables/blocks/stripped_log_willow.json",
 					"minecraft:material_instances": {
 						"up": {
-							"texture": "stripped_wood_willow_top",
+							"texture": "stripped_willow_log_top",
 							"render_method": "opaque"
 						},
 						"down": {
-							"texture": "stripped_wood_willow_top",
+							"texture": "stripped_willow_log_top",
 							"render_method": "opaque"
 						},
 						"side": {
-							"texture": "stripped_wood_willow",
+							"texture": "stripped_willow_log",
 							"render_method": "opaque"
 						},
 						"north": "side",
@@ -85,15 +85,15 @@
 			},
 			"minecraft:material_instances": {
 				"up": {
-					"texture": "wood_willow_top",
+					"texture": "willow_log_top",
 					"render_method": "opaque"
 				},
 				"down": {
-					"texture": "wood_willow_top",
+					"texture": "willow_log_top",
 					"render_method": "opaque"
 				},
 				"side": {
-					"texture": "wood_willow",
+					"texture": "willow_log",
 					"render_method": "opaque"
 				},
 				"north": "side",

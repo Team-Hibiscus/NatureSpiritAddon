@@ -80,15 +80,15 @@
 			"minecraft:loot": "loot_tables/blocks/posts/stripped_post_distorted.json",
 			"minecraft:material_instances": {
 				"up": {
-					"texture": "stripped_wood_distorted_top",
+					"texture": "stripped_distorted_log_top",
 					"render_method": "double_sided"
 				},
 				"down": {
-					"texture": "stripped_wood_distorted_top",
+					"texture": "stripped_distorted_log_top",
 					"render_method": "double_sided"
 				},
 				"side": {
-					"texture": "stripped_wood_distorted",
+					"texture": "stripped_distorted_log",
 					"render_method": "double_sided"
 				},
 				"north": "side",

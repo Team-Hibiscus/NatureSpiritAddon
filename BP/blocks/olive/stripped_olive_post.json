@@ -80,15 +80,15 @@
 			"minecraft:loot": "loot_tables/blocks/posts/stripped_post_olive.json",
 			"minecraft:material_instances": {
 				"up": {
-					"texture": "stripped_wood_olive_top",
+					"texture": "stripped_olive_log_top",
 					"render_method": "double_sided"
 				},
 				"down": {
-					"texture": "stripped_wood_olive_top",
+					"texture": "stripped_olive_log_top",
 					"render_method": "double_sided"
 				},
 				"side": {
-					"texture": "stripped_wood_olive",
+					"texture": "stripped_olive_log",
 					"render_method": "double_sided"
 				},
 				"north": "side",

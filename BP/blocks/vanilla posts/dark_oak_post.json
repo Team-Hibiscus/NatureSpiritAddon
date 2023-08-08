@@ -61,7 +61,7 @@
 							"render_method": "double_sided"
 						},
 						"side": {
-							"texture": "stripped_dark_oak_log_side",
+							"texture": "stripped_dark_oak_log",
 							"render_method": "double_sided"
 						},
 						"north": "side",

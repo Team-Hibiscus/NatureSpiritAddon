@@ -48,15 +48,15 @@
 					"minecraft:loot": "loot_tables/blocks/posts/stripped_post_mahogany.json",
 					"minecraft:material_instances": {
 						"up": {
-							"texture": "stripped_wood_mahogany_top",
+							"texture": "stripped_mahogany_log_top",
 							"render_method": "double_sided"
 						},
 						"down": {
-							"texture": "stripped_wood_mahogany_top",
+							"texture": "stripped_mahogany_log_top",
 							"render_method": "double_sided"
 						},
 						"side": {
-							"texture": "stripped_wood_mahogany",
+							"texture": "stripped_mahogany_log",
 							"render_method": "double_sided"
 						},
 						"north": "side",
@@ -103,15 +103,15 @@
 			"minecraft:destroy_time": 1,
 			"minecraft:material_instances": {
 				"up": {
-					"texture": "wood_mahogany_top",
+					"texture": "mahogany_log_top",
 					"render_method": "double_sided"
 				},
 				"down": {
-					"texture": "wood_mahogany_top",
+					"texture": "mahogany_log_top",
 					"render_method": "double_sided"
 				},
 				"side": {
-					"texture": "wood_mahogany",
+					"texture": "mahogany_log",
 					"render_method": "double_sided"
 				},
 				"north": "side",

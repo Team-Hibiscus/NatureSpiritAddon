@@ -5,100 +5,100 @@
       "textures": "textures/items/natures_axe"
     },
     "nature:baobab_sapling_item": {
-      "textures": "textures/blocks/baobab_sapling"
+      "textures": "textures/blocks/trees/baobab/baobab_sapling"
     },
     "nature:palo_verde_sapling_item": {
-      "textures": "textures/blocks/palo_verde_sapling"
+      "textures": "textures/blocks/trees/palo_verde/palo_verde_sapling"
     },
     "nature:willow_sapling_item": {
-      "textures": "textures/blocks/willow_sapling"
+      "textures": "textures/blocks/trees/willow/willow_sapling"
     },
     "nature:pine_sapling_item": {
-      "textures": "textures/blocks/pine_sapling"
+      "textures": "textures/blocks/trees/pine/pine_sapling"
     },
     "nature:olive_sapling_item": {
-      "textures": "textures/blocks/olive_sapling"
+      "textures": "textures/blocks/trees/olive/olive_sapling"
     },
     "nature:cypress_sapling_item": {
-      "textures": "textures/blocks/cypress_sapling"
+      "textures": "textures/blocks/trees/cypress/cypress_sapling"
     },
     "nature:blue_wisteria_sapling_item": {
-      "textures": "textures/blocks/blue_wisteria_sapling"
+      "textures": "textures/blocks/trees/wisteria/blue_wisteria_sapling"
     },
     "nature:pink_wisteria_sapling_item": {
-      "textures": "textures/blocks/pink_wisteria_sapling"
+      "textures": "textures/blocks/trees/wisteria/pink_wisteria_sapling"
     },
     "nature:purple_wisteria_sapling_item": {
-      "textures": "textures/blocks/purple_wisteria_sapling"
+      "textures": "textures/blocks/trees/wisteria/purple_wisteria_sapling"
     },
     "nature:white_wisteria_sapling_item": {
-      "textures": "textures/blocks/white_wisteria_sapling"
+      "textures": "textures/blocks/trees/wisteria/white_wisteria_sapling"
     },
     "nature:sugi_sapling_item": {
-      "textures": "textures/blocks/sugi_sapling"
+      "textures": "textures/blocks/trees/sugi/sugi_sapling"
     },
     "nature:blooming_pink_sugi_sapling_item": {
-      "textures": "textures/blocks/blooming_pink_sugi_sapling"
+      "textures": "textures/blocks/trees/sugi/blooming_pink_sugi_sapling"
     },
     "nature:blooming_white_sugi_sapling_item": {
-      "textures": "textures/blocks/blooming_white_sugi_sapling"
+      "textures": "textures/blocks/trees/sugi/blooming_white_sugi_sapling"
     },
     "nature:palm_sapling_item": {
-      "textures": "textures/blocks/palm_sapling"
+      "textures": "textures/blocks/trees/palm/palm_sapling"
     },
     "nature:mahogany_sapling_item": {
-      "textures": "textures/blocks/mahogany_sapling"
+      "textures": "textures/blocks/trees/mahogany/mahogany_sapling"
     },
     "nature:red_maple_sapling_item": {
-      "textures": "textures/blocks/red_maple_sapling"
+      "textures": "textures/blocks/trees/maple/red_maple_sapling"
     },
     "nature:orange_maple_sapling_item": {
-      "textures": "textures/blocks/orange_maple_sapling"
+      "textures": "textures/blocks/trees/maple/orange_maple_sapling"
     },
     "nature:yellow_maple_sapling_item": {
-      "textures": "textures/blocks/yellow_maple_sapling"
+      "textures": "textures/blocks/trees/maple/yellow_maple_sapling"
     },
     "nature:distorted_sapling_item": {
-      "textures": "textures/blocks/distorted_sapling_item"
+      "textures": "textures/blocks/trees/distorted/distorted_sapling_item"
     },
     "nature:violet_sapling_item": {
-      "textures": "textures/blocks/violet_sapling_item"
+      "textures": "textures/blocks/trees/violet/violet_sapling_item"
     },
     "nature:aspen_sapling_item": {
-      "textures": "textures/blocks/aspen_sapling"
+      "textures": "textures/blocks/trees/aspen/aspen_sapling"
     },
     "nature:redwood_sapling_item": {
-      "textures": "textures/blocks/redwood_sapling"
+      "textures": "textures/blocks/trees/redwood/redwood_sapling"
     },
     "nature:jacaranda_sapling_item": {
-      "textures": "textures/blocks/jacaranda_sapling"
+      "textures": "textures/blocks/trees/jacaranda/jacaranda_sapling"
     },
     "nature:larch_sapling_item": {
-      "textures": "textures/blocks/larch_sapling"
+      "textures": "textures/blocks/trees/larch/larch_sapling"
     },
     "nature:fir_sapling_item": {
-      "textures": "textures/blocks/fir_sapling"
+      "textures": "textures/blocks/trees/fir/fir_sapling"
     },
     "nature:ebony_sapling_item": {
-      "textures": "textures/blocks/ebony_sapling"
+      "textures": "textures/blocks/trees/ebony/ebony_sapling"
     },
     "nature:enchanted_sapling_item": {
-      "textures": "textures/blocks/enchanted_sapling"
+      "textures": "textures/blocks/trees/enchanted/enchanted_sapling"
     },
     "azalea_flower": {
-      "textures": "textures/blocks/azalea_flower/azalea_flower"
+      "textures": "textures/blocks/plants/azalea_flower/azalea_flower"
     },
     "lotus_flower": {
       "textures": "textures/items/lotus_flower/lotus_flower"
     },
     "hibiscus": {
-      "textures": "textures/blocks/hibiscus/hibiscus"
+      "textures": "textures/blocks/plants/hibiscus/hibiscus"
     },
     "carnation": {
-      "textures": "textures/blocks/carnation/carnation"
+      "textures": "textures/blocks/plants/carnation/carnation"
     },
     "marigold": {
-      "textures": "textures/blocks/marigold/marigold"
+      "textures": "textures/blocks/plants/marigold/marigold"
     },
     "marigold_tall": {
       "textures": "textures/items/marigold/marigold_tall"
@@ -107,10 +107,10 @@
       "textures": "textures/items/marigold/marigold_large"
     },
     "tiger_lily": {
-      "textures": "textures/blocks/tiger_lily/tiger_lily"
+      "textures": "textures/blocks/plants/tiger_lily/tiger_lily"
     },
     "gold_rose": {
-      "textures": "textures/blocks/gold_rose/gold_rose"
+      "textures": "textures/blocks/plants/gold_rose/gold_rose"
     },
     "gold_rose_tall": {
       "textures": "textures/items/gold_rose/gold_rose_tall"
@@ -119,7 +119,7 @@
       "textures": "textures/items/gold_rose/gold_rose_large"
     },
     "gold_rose_short": {
-      "textures": "textures/blocks/gold_rose/gold_rose_short"
+      "textures": "textures/blocks/plants/gold_rose/gold_rose_short"
     },
     "tiger_lily_tall": {
       "textures": "textures/items/tiger_lily/tiger_lily_tall"
@@ -128,19 +128,19 @@
       "textures": "textures/items/tiger_lily/tiger_lily_large"
     },
     "rose": {
-      "textures": "textures/blocks/rose/rose"
+      "textures": "textures/blocks/plants/rose/rose"
     },
     "rose_large": {
       "textures": "textures/items/rose/rose_large"
     },
     "rose_short": {
-      "textures": "textures/blocks/rose/rose_short"
+      "textures": "textures/blocks/plants/rose/rose_short"
     },
     "daffodil": {
-      "textures": "textures/blocks/daffodil/daffodil"
+      "textures": "textures/blocks/plants/daffodil/daffodil"
     },
     "angels_trumpet": {
-      "textures": "textures/blocks/angels_trumpet/angels_trumpet"
+      "textures": "textures/blocks/plants/angels_trumpet/angels_trumpet"
     },
     "dandelion_tall": {
       "textures": "textures/items/dandelion/dandelion_tall"
@@ -149,7 +149,7 @@
       "textures": "textures/items/dandelion/dandelion_large"
     },
     "dandelion_short": {
-      "textures": "textures/blocks/dandelion/dandelion_short"
+      "textures": "textures/blocks/plants/dandelion/dandelion_short"
     },
     "wither_rose_tall": {
       "textures": "textures/items/wither_rose/wither_rose_tall"
@@ -158,10 +158,10 @@
       "textures": "textures/items/wither_rose/wither_rose_large"
     },
     "wither_rose_short": {
-      "textures": "textures/blocks/wither_rose/wither_rose_short"
+      "textures": "textures/blocks/plants/wither_rose/wither_rose_short"
     },
     "buttercup": {
-      "textures": "textures/blocks/buttercup/buttercup"
+      "textures": "textures/blocks/plants/buttercup/buttercup"
     },
     "buttercup_tall": {
       "textures": "textures/items/buttercup/buttercup_tall"
@@ -170,10 +170,10 @@
       "textures": "textures/items/buttercup/buttercup_large"
     },
     "anemone": {
-      "textures": "textures/blocks/anemone/anemone"
+      "textures": "textures/blocks/plants/anemone/anemone"
     },
     "pink_bleeding_heart": {
-      "textures": "textures/blocks/pink_bleeding_heart/pink_bleeding_heart"
+      "textures": "textures/blocks/plants/pink_bleeding_heart/pink_bleeding_heart"
     },
     "pink_bleeding_heart_tall": {
       "textures": "textures/items/pink_bleeding_heart/pink_bleeding_heart_tall"
@@ -182,7 +182,7 @@
       "textures": "textures/items/pink_bleeding_heart/pink_bleeding_heart_large"
     },
     "pink_rose": {
-      "textures": "textures/blocks/pink_rose/pink_rose"
+      "textures": "textures/blocks/plants/pink_rose/pink_rose"
     },
     "pink_rose_tall": {
       "textures": "textures/items/pink_rose/pink_rose_tall"
@@ -191,55 +191,55 @@
       "textures": "textures/items/pink_rose/pink_rose_large"
     },
     "pink_rose_short": {
-      "textures": "textures/blocks/pink_rose/pink_rose_short"
+      "textures": "textures/blocks/plants/pink_rose/pink_rose_short"
     },
     "petunia": {
-      "textures": "textures/blocks/petunia/petunia"
+      "textures": "textures/blocks/plants/petunia/petunia"
     },
     "periwinkle": {
-      "textures": "textures/blocks/periwinkle/periwinkle"
+      "textures": "textures/blocks/plants/periwinkle/periwinkle"
     },
     "purple_orchid": {
-      "textures": "textures/blocks/purple_orchid/purple_orchid"
+      "textures": "textures/blocks/plants/purple_orchid/purple_orchid"
     },
     "hemlock": {
-      "textures": "textures/blocks/hemlock/hemlock"
+      "textures": "textures/blocks/plants/hemlock/hemlock"
     },
     "chocolate_cosmos": {
-      "textures": "textures/blocks/chocolate_cosmos/chocolate_cosmos"
+      "textures": "textures/blocks/plants/chocolate_cosmos/chocolate_cosmos"
     },
     "queen_tulip": {
-      "textures": "textures/blocks/queen_tulip/queen_tulip"
+      "textures": "textures/blocks/plants/queen_tulip/queen_tulip"
     },
     "snapdragon": {
-      "textures": "textures/blocks/snapdragon/snapdragon"
+      "textures": "textures/blocks/plants/snapdragon/snapdragon"
     },
     "snapdragon_tall": {
       "textures": "textures/items/snapdragon/snapdragon_tall"
     },
     "foxglove": {
-      "textures": "textures/blocks/foxglove/foxglove"
+      "textures": "textures/blocks/plants/foxglove/foxglove"
     },
     "foxglove_tall": {
       "textures": "textures/items/foxglove/foxglove_tall"
     },
     "wolfsbane": {
-      "textures": "textures/blocks/wolfsbane/wolfsbane"
+      "textures": "textures/blocks/plants/wolfsbane/wolfsbane"
     },
     "wolfsbane_tall": {
       "textures": "textures/items/wolfsbane/wolfsbane_tall"
     },
     "gardenia": {
-      "textures": "textures/blocks/gardenia/gardenia"
+      "textures": "textures/blocks/plants/gardenia/gardenia"
     },
     "gardenia_tall": {
       "textures": "textures/items/gardenia/gardenia_tall"
     },
     "grieving_vines_item": {
-      "textures": "textures/blocks/grieving_vines"
+      "textures": "textures/blocks/trees/violet/grieving_vines"
     },
     "grieving_rose": {
-      "textures": "textures/blocks/grieving_rose/grieving_rose"
+      "textures": "textures/blocks/plants/grieving_rose/grieving_rose"
     },
     "grieving_rose_tall": {
       "textures": "textures/items/grieving_rose/grieving_rose_tall"
@@ -248,16 +248,16 @@
       "textures": "textures/items/grieving_rose/grieving_rose_large"
     },
     "grieving_rose_short": {
-      "textures": "textures/blocks/grieving_rose/grieving_rose_short"
+      "textures": "textures/blocks/plants/grieving_rose/grieving_rose_short"
     },
     "corrupted_vines_item": {
-      "textures": "textures/blocks/corrupted_vines"
+      "textures": "textures/blocks/trees/distorted/corrupted_vines"
     },
     "corrupted_sprouts": {
-      "textures": "textures/blocks/corrupted_sprouts"
+      "textures": "textures/blocks/plants/corrupted_sprouts"
     },
     "corrupted_rose": {
-      "textures": "textures/blocks/corrupted_rose/corrupted_rose"
+      "textures": "textures/blocks/plants/corrupted_rose/corrupted_rose"
     },
     "corrupted_rose_tall": {
       "textures": "textures/items/corrupted_rose/corrupted_rose_tall"
@@ -266,10 +266,10 @@
       "textures": "textures/items/corrupted_rose/corrupted_rose_large"
     },
     "corrupted_rose_short": {
-      "textures": "textures/blocks/corrupted_rose/corrupted_rose_short"
+      "textures": "textures/blocks/plants/corrupted_rose/corrupted_rose_short"
     },
     "cyan_rose": {
-      "textures": "textures/blocks/cyan_rose/cyan_rose"
+      "textures": "textures/blocks/plants/cyan_rose/cyan_rose"
     },
     "cyan_rose_tall": {
       "textures": "textures/items/cyan_rose/cyan_rose_tall"
@@ -278,10 +278,10 @@
       "textures": "textures/items/cyan_rose/cyan_rose_large"
     },
     "cyan_rose_short": {
-      "textures": "textures/blocks/cyan_rose/cyan_rose_short"
+      "textures": "textures/blocks/plants/cyan_rose/cyan_rose_short"
     },
     "white_rose": {
-      "textures": "textures/blocks/white_rose/white_rose"
+      "textures": "textures/blocks/plants/white_rose/white_rose"
     },
     "white_rose_tall": {
       "textures": "textures/items/white_rose/white_rose_tall"
@@ -290,10 +290,10 @@
       "textures": "textures/items/white_rose/white_rose_large"
     },
     "white_rose_short": {
-      "textures": "textures/blocks/white_rose/white_rose_short"
+      "textures": "textures/blocks/plants/white_rose/white_rose_short"
     },
     "blue_bleeding_heart": {
-      "textures": "textures/blocks/blue_bleeding_heart/blue_bleeding_heart"
+      "textures": "textures/blocks/plants/blue_bleeding_heart/blue_bleeding_heart"
     },
     "blue_bleeding_heart_tall": {
       "textures": "textures/items/blue_bleeding_heart/blue_bleeding_heart_tall"
@@ -302,7 +302,7 @@
       "textures": "textures/items/blue_bleeding_heart/blue_bleeding_heart_large"
     },
     "white_bleeding_heart": {
-      "textures": "textures/blocks/white_bleeding_heart/white_bleeding_heart"
+      "textures": "textures/blocks/plants/white_bleeding_heart/white_bleeding_heart"
     },
     "white_bleeding_heart_tall": {
       "textures": "textures/items/white_bleeding_heart/white_bleeding_heart_tall"
@@ -311,7 +311,7 @@
       "textures": "textures/items/white_bleeding_heart/white_bleeding_heart_large"
     },
     "black_bleeding_heart": {
-      "textures": "textures/blocks/black_bleeding_heart/black_bleeding_heart"
+      "textures": "textures/blocks/plants/black_bleeding_heart/black_bleeding_heart"
     },
     "black_bleeding_heart_tall": {
       "textures": "textures/items/black_bleeding_heart/black_bleeding_heart_tall"
@@ -320,7 +320,7 @@
       "textures": "textures/items/black_bleeding_heart/black_bleeding_heart_large"
     },
     "lavender": {
-      "textures": "textures/blocks/lavender/lavender"
+      "textures": "textures/blocks/plants/lavender/lavender"
     },
     "lavender_tall": {
       "textures": "textures/items/lavender/lavender_tall"
@@ -329,7 +329,7 @@
       "textures": "textures/items/lavender/lavender_large"
     },
     "grieving_lavender": {
-      "textures": "textures/blocks/grieving_lavender/grieving_lavender"
+      "textures": "textures/blocks/plants/grieving_lavender/grieving_lavender"
     },
     "grieving_lavender_tall": {
       "textures": "textures/items/grieving_lavender/grieving_lavender_tall"
@@ -338,7 +338,7 @@
       "textures": "textures/items/grieving_lavender/grieving_lavender_large"
     },
     "bluebell": {
-      "textures": "textures/blocks/bluebell/bluebell"
+      "textures": "textures/blocks/plants/bluebell/bluebell"
     },
     "bluebell_tall": {
       "textures": "textures/items/bluebell/bluebell_tall"
@@ -347,7 +347,7 @@
       "textures": "textures/items/bluebell/bluebell_large"
     },
     "corrupted_bluebell": {
-      "textures": "textures/blocks/corrupted_bluebell/corrupted_bluebell"
+      "textures": "textures/blocks/plants/corrupted_bluebell/corrupted_bluebell"
     },
     "corrupted_bluebell_tall": {
       "textures": "textures/items/corrupted_bluebell/corrupted_bluebell_tall"
@@ -362,22 +362,22 @@
       "textures": "textures/items/sunflower/sunflower_large"
     },
     "lilac": {
-      "textures": "textures/blocks/lilac/lilac"
+      "textures": "textures/blocks/plants/lilac/lilac"
     },
     "lilac_large": {
       "textures": "textures/items/lilac/lilac_large"
     },
     "peony": {
-      "textures": "textures/blocks/peony/peony"
+      "textures": "textures/blocks/plants/peony/peony"
     },
     "peony_large": {
       "textures": "textures/items/peony/peony_large"
     },
     "peony_short": {
-      "textures": "textures/blocks/peony/peony_short"
+      "textures": "textures/blocks/plants/peony/peony_short"
     },
     "blue_dragon_rose": {
-      "textures": "textures/blocks/blue_dragon_rose/blue_dragon_rose"
+      "textures": "textures/blocks/plants/blue_dragon_rose/blue_dragon_rose"
     },
     "blue_dragon_rose_tall": {
       "textures": "textures/items/blue_dragon_rose/blue_dragon_rose_tall"
@@ -386,7 +386,7 @@
       "textures": "textures/items/blue_dragon_rose/blue_dragon_rose_large"
     },
     "blue_dragon_rose_short": {
-      "textures": "textures/blocks/blue_dragon_rose/blue_dragon_rose_short"
+      "textures": "textures/blocks/plants/blue_dragon_rose/blue_dragon_rose_short"
     },
     "allium_tall": {
       "textures": "textures/items/allium/allium_tall"
@@ -395,7 +395,7 @@
       "textures": "textures/items/allium/allium_large"
     },
     "allium_short": {
-      "textures": "textures/blocks/allium/allium_short"
+      "textures": "textures/blocks/plants/allium/allium_short"
     },
     "poppy_tall": {
       "textures": "textures/items/poppy/poppy_tall"
@@ -404,7 +404,7 @@
       "textures": "textures/items/poppy/poppy_large"
     },
     "poppy_short": {
-      "textures": "textures/blocks/poppy/poppy_short"
+      "textures": "textures/blocks/plants/poppy/poppy_short"
     },
     "lily_valley_tall": {
       "textures": "textures/items/lily_valley/lily_valley_tall"
@@ -413,7 +413,7 @@
       "textures": "textures/items/lily_valley/lily_valley_large"
     },
     "lily_valley_short": {
-      "textures": "textures/blocks/lily_valley/lily_valley_short"
+      "textures": "textures/blocks/plants/lily_valley/lily_valley_short"
     },
     "white_tulip_tall": {
       "textures": "textures/items/white_tulip/white_tulip_tall"
@@ -422,7 +422,7 @@
       "textures": "textures/items/white_tulip/white_tulip_large"
     },
     "white_tulip_short": {
-      "textures": "textures/blocks/white_tulip/white_tulip_short"
+      "textures": "textures/blocks/plants/white_tulip/white_tulip_short"
     },
     "red_tulip_tall": {
       "textures": "textures/items/red_tulip/red_tulip_tall"
@@ -431,7 +431,7 @@
       "textures": "textures/items/red_tulip/red_tulip_large"
     },
     "red_tulip_short": {
-      "textures": "textures/blocks/red_tulip/red_tulip_short"
+      "textures": "textures/blocks/plants/red_tulip/red_tulip_short"
     },
     "pink_tulip_tall": {
       "textures": "textures/items/pink_tulip/pink_tulip_tall"
@@ -440,7 +440,7 @@
       "textures": "textures/items/pink_tulip/pink_tulip_large"
     },
     "pink_tulip_short": {
-      "textures": "textures/blocks/pink_tulip/pink_tulip_short"
+      "textures": "textures/blocks/plants/pink_tulip/pink_tulip_short"
     },
     "orange_tulip_tall": {
       "textures": "textures/items/orange_tulip/orange_tulip_tall"
@@ -449,10 +449,10 @@
       "textures": "textures/items/orange_tulip/orange_tulip_large"
     },
     "orange_tulip_short": {
-      "textures": "textures/blocks/orange_tulip/orange_tulip_short"
+      "textures": "textures/blocks/plants/orange_tulip/orange_tulip_short"
     },
     "yellow_tulip": {
-      "textures": "textures/blocks/yellow_tulip/yellow_tulip"
+      "textures": "textures/blocks/plants/yellow_tulip/yellow_tulip"
     },
     "yellow_tulip_tall": {
       "textures": "textures/items/yellow_tulip/yellow_tulip_tall"
@@ -461,10 +461,10 @@
       "textures": "textures/items/yellow_tulip/yellow_tulip_large"
     },
     "yellow_tulip_short": {
-      "textures": "textures/blocks/yellow_tulip/yellow_tulip_short"
+      "textures": "textures/blocks/plants/yellow_tulip/yellow_tulip_short"
     },
     "purple_tulip": {
-      "textures": "textures/blocks/purple_tulip/purple_tulip"
+      "textures": "textures/blocks/plants/purple_tulip/purple_tulip"
     },
     "purple_tulip_tall": {
       "textures": "textures/items/purple_tulip/purple_tulip_tall"
@@ -473,10 +473,10 @@
       "textures": "textures/items/purple_tulip/purple_tulip_large"
     },
     "purple_tulip_short": {
-      "textures": "textures/blocks/purple_tulip/purple_tulip_short"
+      "textures": "textures/blocks/plants/purple_tulip/purple_tulip_short"
     },
     "green_tulip": {
-      "textures": "textures/blocks/green_tulip/green_tulip"
+      "textures": "textures/blocks/plants/green_tulip/green_tulip"
     },
     "green_tulip_tall": {
       "textures": "textures/items/green_tulip/green_tulip_tall"
@@ -485,10 +485,10 @@
       "textures": "textures/items/green_tulip/green_tulip_large"
     },
     "green_tulip_short": {
-      "textures": "textures/blocks/green_tulip/green_tulip_short"
+      "textures": "textures/blocks/plants/green_tulip/green_tulip_short"
     },
     "blue_tulip": {
-      "textures": "textures/blocks/blue_tulip/blue_tulip"
+      "textures": "textures/blocks/plants/blue_tulip/blue_tulip"
     },
     "blue_tulip_tall": {
       "textures": "textures/items/blue_tulip/blue_tulip_tall"
@@ -497,7 +497,7 @@
       "textures": "textures/items/blue_tulip/blue_tulip_large"
     },
     "blue_tulip_short": {
-      "textures": "textures/blocks/blue_tulip/blue_tulip_short"
+      "textures": "textures/blocks/plants/blue_tulip/blue_tulip_short"
     },
     "oxeye_daisy_tall": {
       "textures": "textures/items/oxeye_daisy/oxeye_daisy_tall"
@@ -506,7 +506,7 @@
       "textures": "textures/items/oxeye_daisy/oxeye_daisy_large"
     },
     "oxeye_daisy_short": {
-      "textures": "textures/blocks/oxeye_daisy/oxeye_daisy_short"
+      "textures": "textures/blocks/plants/oxeye_daisy/oxeye_daisy_short"
     },
     "blue_orchid_tall": {
       "textures": "textures/items/blue_orchid/blue_orchid_tall"
@@ -515,7 +515,7 @@
       "textures": "textures/items/blue_orchid/blue_orchid_large"
     },
     "blue_orchid_short": {
-      "textures": "textures/blocks/blue_orchid/blue_orchid_short"
+      "textures": "textures/blocks/plants/blue_orchid/blue_orchid_short"
     },
     "purple_orchid_tall": {
       "textures": "textures/items/purple_orchid/purple_orchid_tall"
@@ -524,7 +524,7 @@
       "textures": "textures/items/purple_orchid/purple_orchid_large"
     },
     "purple_orchid_short": {
-      "textures": "textures/blocks/purple_orchid/purple_orchid_short"
+      "textures": "textures/blocks/plants/purple_orchid/purple_orchid_short"
     },
     "azure_bluet_tall": {
       "textures": "textures/items/azure_bluet/azure_bluet_tall"
@@ -533,7 +533,7 @@
       "textures": "textures/items/azure_bluet/azure_bluet_large"
     },
     "azure_bluet_short": {
-      "textures": "textures/blocks/azure_bluet/azure_bluet_short"
+      "textures": "textures/blocks/plants/azure_bluet/azure_bluet_short"
     },
     "cornflower_tall": {
       "textures": "textures/items/cornflower/cornflower_tall"
@@ -542,7 +542,7 @@
       "textures": "textures/items/cornflower/cornflower_large"
     },
     "cornflower_short": {
-      "textures": "textures/blocks/cornflower/cornflower_short"
+      "textures": "textures/blocks/plants/cornflower/cornflower_short"
     },
     "queen_tulip_tall": {
       "textures": "textures/items/queen_tulip/queen_tulip_tall"
@@ -551,7 +551,7 @@
       "textures": "textures/items/queen_tulip/queen_tulip_large"
     },
     "queen_tulip_short": {
-      "textures": "textures/blocks/queen_tulip/queen_tulip_short"
+      "textures": "textures/blocks/plants/queen_tulip/queen_tulip_short"
     },
     "petunia_tall": {
       "textures": "textures/items/petunia/petunia_tall"
@@ -560,7 +560,7 @@
       "textures": "textures/items/petunia/petunia_large"
     },
     "petunia_short": {
-      "textures": "textures/blocks/petunia/petunia_short"
+      "textures": "textures/blocks/plants/petunia/petunia_short"
     },
     "allium_bouquet": {
       "textures": "textures/items/allium/allium_bouquet"
@@ -737,7 +737,7 @@
       "textures": "textures/items/dead_bush/dead_bush_tall"
     },
     "anemone_short": {
-      "textures": "textures/blocks/anemone/anemone_short"
+      "textures": "textures/blocks/plants/anemone/anemone_short"
     },
     "anemone_large": {
       "textures": "textures/items/anemone/anemone_large"
@@ -746,7 +746,7 @@
       "textures": "textures/items/anemone/anemone_tall"
     },
     "azalea_flower_short": {
-      "textures": "textures/blocks/azalea_flower/azalea_flower_short"
+      "textures": "textures/blocks/plants/azalea_flower/azalea_flower_short"
     },
     "azalea_flower_large": {
       "textures": "textures/items/azalea_flower/azalea_flower_large"
@@ -755,7 +755,7 @@
       "textures": "textures/items/azalea_flower/azalea_flower_tall"
     },
     "chocolate_cosmos_short": {
-      "textures": "textures/blocks/chocolate_cosmos/chocolate_cosmos_short"
+      "textures": "textures/blocks/plants/chocolate_cosmos/chocolate_cosmos_short"
     },
     "chocolate_cosmos_large": {
       "textures": "textures/items/chocolate_cosmos/chocolate_cosmos_large"
@@ -764,7 +764,7 @@
       "textures": "textures/items/chocolate_cosmos/chocolate_cosmos_tall"
     },
     "daffodil_short": {
-      "textures": "textures/blocks/daffodil/daffodil_short"
+      "textures": "textures/blocks/plants/daffodil/daffodil_short"
     },
     "daffodil_large": {
       "textures": "textures/items/daffodil/daffodil_large"
@@ -785,7 +785,7 @@
       "textures": "textures/items/hydrangea/hydrangea_bouquet"
     },
     "hydrangea_short": {
-      "textures": "textures/blocks/hydrangea/hydrangea_short"
+      "textures": "textures/blocks/plants/hydrangea/hydrangea_short"
     },
     "hydrangea_large": {
       "textures": "textures/items/hydrangea/hydrangea_large"
@@ -794,7 +794,7 @@
       "textures": "textures/items/hydrangea/hydrangea_tall"
     },
     "hydrangea": {
-      "textures": "textures/blocks/hydrangea/hydrangea"
+      "textures": "textures/blocks/plants/hydrangea/hydrangea"
     },
     "moonflower_bouquet": {
       "textures": "textures/items/moonflower/moonflower_bouquet"
@@ -818,10 +818,10 @@
       "textures": "textures/items/nasturtium/nasturtium_tall"
     },
     "nasturtium": {
-      "textures": "textures/blocks/nasturtium/nasturtium"
+      "textures": "textures/blocks/plants/nasturtium/nasturtium"
     },
     "periwinkle_short": {
-      "textures": "textures/blocks/periwinkle/periwinkle_short"
+      "textures": "textures/blocks/plants/periwinkle/periwinkle_short"
     },
     "periwinkle_large": {
       "textures": "textures/items/periwinkle/periwinkle_large"
@@ -839,25 +839,25 @@
       "textures": "textures/items/acacia_bush/acacia_bush_tall"
     },
     "acacia_bush": {
-      "textures": "textures/blocks/acacia_bush/acacia_bush"
+      "textures": "textures/blocks/plants/acacia_bush/acacia_bush"
     },
     "azalea_bush_flowers_tall": {
       "textures": "textures/items/azalea_bush_flowers/azalea_bush_flowers_tall"
     },
     "azalea_bush_flowers": {
-      "textures": "textures/blocks/azalea_bush_flowers/azalea_bush_flowers"
+      "textures": "textures/blocks/plants/azalea_bush_flowers/azalea_bush_flowers"
     },
     "azalea_bush_tall": {
       "textures": "textures/items/azalea_bush/azalea_bush_tall"
     },
     "azalea_bush": {
-      "textures": "textures/blocks/azalea_bush/azalea_bush"
+      "textures": "textures/blocks/plants/azalea_bush/azalea_bush"
     },
     "birch_bush_tall": {
       "textures": "textures/items/birch_bush/birch_bush_tall"
     },
     "birch_bush": {
-      "textures": "textures/blocks/birch_bush/birch_bush"
+      "textures": "textures/blocks/plants/birch_bush/birch_bush"
     },
     "blooming_fern": {
       "textures": "textures/items/blooming_grass/blooming_fern"
@@ -869,13 +869,13 @@
       "textures": "textures/items/blooming_grass/blooming_grass_tall"
     },
     "blooming_grass": {
-      "textures": "textures/blocks/blooming_grass/blooming_grass"
+      "textures": "textures/blocks/plants/blooming_grass/blooming_grass"
     },
     "dark_oak_bush_tall": {
       "textures": "textures/items/dark_oak_bush/dark_oak_bush_tall"
     },
     "dark_oak_bush": {
-      "textures": "textures/blocks/dark_oak_bush/dark_oak_bush"
+      "textures": "textures/blocks/plants/dark_oak_bush/dark_oak_bush"
     },
     "deccan_fern": {
       "textures": "textures/items/deccan_grass/deccan_fern"
@@ -887,7 +887,7 @@
       "textures": "textures/items/deccan_grass/deccan_grass_tall"
     },
     "deccan_grass": {
-      "textures": "textures/blocks/deccan_grass/deccan_grass"
+      "textures": "textures/blocks/plants/deccan_grass/deccan_grass"
     },
     "distorted_roots_large": {
       "textures": "textures/items/distorted_roots/distorted_roots_large"
@@ -908,7 +908,7 @@
       "textures": "textures/items/elymus_grass/elymus_grass_tall"
     },
     "elymus_grass": {
-      "textures": "textures/blocks/elymus_grass/elymus_grass"
+      "textures": "textures/blocks/plants/elymus_grass/elymus_grass"
     },
     "enchanted_fern": {
       "textures": "textures/items/enchanted_grass/enchanted_fern"
@@ -920,7 +920,7 @@
       "textures": "textures/items/enchanted_grass/enchanted_grass_tall"
     },
     "enchanted_grass": {
-      "textures": "textures/blocks/enchanted_grass/enchanted_grass"
+      "textures": "textures/blocks/plants/enchanted_grass/enchanted_grass"
     },
     "frigid_fern": {
       "textures": "textures/items/frigid_grass/frigid_fern"
@@ -932,7 +932,7 @@
       "textures": "textures/items/frigid_grass/frigid_grass_tall"
     },
     "frigid_grass": {
-      "textures": "textures/blocks/frigid_grass/frigid_grass"
+      "textures": "textures/blocks/plants/frigid_grass/frigid_grass"
     },
     "infernal_fern": {
       "textures": "textures/items/infernal_grass/infernal_fern"
@@ -944,7 +944,7 @@
       "textures": "textures/items/infernal_grass/infernal_grass_tall"
     },
     "infernal_grass": {
-      "textures": "textures/blocks/infernal_grass/infernal_grass"
+      "textures": "textures/blocks/plants/infernal_grass/infernal_grass"
     },
     "jungle_bush_tall": {
       "textures": "textures/items/jungle_bush/jungle_bush_tall"
@@ -962,13 +962,13 @@
       "textures": "textures/items/lush_grass/lush_grass_tall"
     },
     "lush_grass": {
-      "textures": "textures/blocks/lush_grass/lush_grass"
+      "textures": "textures/blocks/plants/lush_grass/lush_grass"
     },
     "oak_bush_tall": {
       "textures": "textures/items/oak_bush/oak_bush_tall"
     },
     "oak_bush": {
-      "textures": "textures/blocks/oak_bush/oak_bush"
+      "textures": "textures/blocks/plants/oak_bush/oak_bush"
     },
     "scorched_fern": {
       "textures": "textures/items/scorched_grass/scorched_fern"
@@ -980,7 +980,7 @@
       "textures": "textures/items/scorched_grass/scorched_grass_tall"
     },
     "scorched_grass": {
-      "textures": "textures/blocks/scorched_grass/scorched_grass"
+      "textures": "textures/blocks/plants/scorched_grass/scorched_grass"
     },
     "sedge_fern": {
       "textures": "textures/items/sedge_grass/sedge_fern"
@@ -992,13 +992,13 @@
       "textures": "textures/items/sedge_grass/sedge_grass_tall"
     },
     "sedge_grass": {
-      "textures": "textures/blocks/sedge_grass/sedge_grass"
+      "textures": "textures/blocks/plants/sedge_grass/sedge_grass"
     },
     "shrub": {
       "textures": "textures/items/shrub/shrub"
     },
     "shrub1": {
-      "textures": "textures/blocks/shrub/shrub1"
+      "textures": "textures/blocks/plants/shrub/shrub1"
     },
     "snowy_fern": {
       "textures": "textures/items/snowy_grass/snowy_fern"
@@ -1010,7 +1010,7 @@
       "textures": "textures/items/snowy_grass/snowy_grass_tall"
     },
     "snowy_grass": {
-      "textures": "textures/blocks/snowy_grass/snowy_grass"
+      "textures": "textures/blocks/plants/snowy_grass/snowy_grass"
     },
     "soul_fern": {
       "textures": "textures/items/soul_grass/soul_fern"
@@ -1022,13 +1022,13 @@
       "textures": "textures/items/soul_grass/soul_grass_tall"
     },
     "soul_grass": {
-      "textures": "textures/blocks/soul_grass/soul_grass"
+      "textures": "textures/blocks/plants/soul_grass/soul_grass"
     },
     "spruce_bush_tall": {
       "textures": "textures/items/spruce_bush/spruce_bush_tall"
     },
     "spruce_bush": {
-      "textures": "textures/blocks/spruce_bush/spruce_bush"
+      "textures": "textures/blocks/plants/spruce_bush/spruce_bush"
     },
     "violet_roots_large": {
       "textures": "textures/items/violet_roots/violet_roots_large"
@@ -1106,7 +1106,7 @@
       "textures": "textures/items/wisteria_door_item"
     },
     "nature:violet_tallgrass_item": {
-      "textures": "textures/blocks/violet_tallgrass"
+      "textures": "textures/blocks/plants/violet_tallgrass"
     }
   },
   "texture_name": "atlas.items"

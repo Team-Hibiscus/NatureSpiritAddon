@@ -52,15 +52,15 @@
 					"minecraft:loot": "loot_tables/blocks/wood/stripped_log_pine.json",
 					"minecraft:material_instances": {
 						"up": {
-							"texture": "stripped_wood_pine_top",
+							"texture": "stripped_pine_log_top",
 							"render_method": "opaque"
 						},
 						"down": {
-							"texture": "stripped_wood_pine_top",
+							"texture": "stripped_pine_log_top",
 							"render_method": "opaque"
 						},
 						"side": {
-							"texture": "stripped_wood_pine",
+							"texture": "stripped_pine_log",
 							"render_method": "opaque"
 						},
 						"north": "side",
@@ -85,15 +85,15 @@
 			},
 			"minecraft:material_instances": {
 				"up": {
-					"texture": "wood_pine_top",
+					"texture": "pine_log_top",
 					"render_method": "opaque"
 				},
 				"down": {
-					"texture": "wood_pine_top",
+					"texture": "pine_log_top",
 					"render_method": "opaque"
 				},
 				"side": {
-					"texture": "wood_pine",
+					"texture": "pine_log",
 					"render_method": "opaque"
 				},
 				"north": "side",

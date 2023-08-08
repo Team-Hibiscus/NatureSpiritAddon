@@ -80,15 +80,15 @@
 			"minecraft:loot": "loot_tables/blocks/posts/stripped_post_palo_verde.json",
 			"minecraft:material_instances": {
 				"up": {
-					"texture": "stripped_wood_palo_verde_top",
+					"texture": "stripped_palo_verde_log_top",
 					"render_method": "double_sided"
 				},
 				"down": {
-					"texture": "stripped_wood_palo_verde_top",
+					"texture": "stripped_palo_verde_log_top",
 					"render_method": "double_sided"
 				},
 				"side": {
-					"texture": "stripped_wood_palo_verde",
+					"texture": "stripped_palo_verde_log",
 					"render_method": "double_sided"
 				},
 				"north": "side",

@@ -52,15 +52,15 @@
 					"minecraft:loot": "loot_tables/blocks/wood/stripped_log_maple.json",
 					"minecraft:material_instances": {
 						"up": {
-							"texture": "stripped_wood_maple_top",
+							"texture": "stripped_maple_log_top",
 							"render_method": "opaque"
 						},
 						"down": {
-							"texture": "stripped_wood_maple_top",
+							"texture": "stripped_maple_log_top",
 							"render_method": "opaque"
 						},
 						"side": {
-							"texture": "stripped_wood_maple",
+							"texture": "stripped_maple_log",
 							"render_method": "opaque"
 						},
 						"north": "side",
@@ -85,15 +85,15 @@
 			},
 			"minecraft:material_instances": {
 				"up": {
-					"texture": "wood_maple_top",
+					"texture": "maple_log_top",
 					"render_method": "opaque"
 				},
 				"down": {
-					"texture": "wood_maple_top",
+					"texture": "maple_log_top",
 					"render_method": "opaque"
 				},
 				"side": {
-					"texture": "wood_maple",
+					"texture": "maple_log",
 					"render_method": "opaque"
 				},
 				"north": "side",

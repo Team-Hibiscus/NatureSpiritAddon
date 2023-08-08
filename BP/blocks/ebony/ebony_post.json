@@ -53,15 +53,15 @@
 					"minecraft:loot": "loot_tables/blocks/posts/stripped_post_ebony.json",
 					"minecraft:material_instances": {
 						"up": {
-							"texture": "stripped_wood_ebony_top",
+							"texture": "stripped_ebony_log_top",
 							"render_method": "double_sided"
 						},
 						"down": {
-							"texture": "stripped_wood_ebony_top",
+							"texture": "stripped_ebony_log_top",
 							"render_method": "double_sided"
 						},
 						"side": {
-							"texture": "stripped_wood_ebony",
+							"texture": "stripped_ebony_log",
 							"render_method": "double_sided"
 						},
 						"north": "side",
@@ -112,15 +112,15 @@
 			"minecraft:destroy_time": 1,
 			"minecraft:material_instances": {
 				"up": {
-					"texture": "wood_ebony_top",
+					"texture": "ebony_log_top",
 					"render_method": "double_sided"
 				},
 				"down": {
-					"texture": "wood_ebony_top",
+					"texture": "ebony_log_top",
 					"render_method": "double_sided"
 				},
 				"side": {
-					"texture": "wood_ebony",
+					"texture": "ebony_log",
 					"render_method": "double_sided"
 				},
 				"north": "side",

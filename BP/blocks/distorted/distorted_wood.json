@@ -52,15 +52,15 @@
 					"minecraft:loot": "loot_tables/blocks/wood/stripped_log_distorted.json",
 					"minecraft:material_instances": {
 						"up": {
-							"texture": "stripped_wood_distorted_top",
+							"texture": "stripped_distorted_log_top",
 							"render_method": "opaque"
 						},
 						"down": {
-							"texture": "stripped_wood_distorted_top",
+							"texture": "stripped_distorted_log_top",
 							"render_method": "opaque"
 						},
 						"side": {
-							"texture": "stripped_wood_distorted",
+							"texture": "stripped_distorted_log",
 							"render_method": "opaque"
 						},
 						"north": "side",
@@ -85,15 +85,15 @@
 			},
 			"minecraft:material_instances": {
 				"up": {
-					"texture": "wood_distorted_top",
+					"texture": "distorted_log_top",
 					"render_method": "opaque"
 				},
 				"down": {
-					"texture": "wood_distorted_top",
+					"texture": "distorted_log_top",
 					"render_method": "opaque"
 				},
 				"side": {
-					"texture": "wood_distorted",
+					"texture": "distorted_log",
 					"render_method": "opaque"
 				},
 				"north": "side",

@@ -52,15 +52,15 @@
 					"minecraft:loot": "loot_tables/blocks/wood/stripped_log_ebony.json",
 					"minecraft:material_instances": {
 						"up": {
-							"texture": "stripped_wood_ebony_top",
+							"texture": "stripped_ebony_log_top",
 							"render_method": "opaque"
 						},
 						"down": {
-							"texture": "stripped_wood_ebony_top",
+							"texture": "stripped_ebony_log_top",
 							"render_method": "opaque"
 						},
 						"side": {
-							"texture": "stripped_wood_ebony",
+							"texture": "stripped_ebony_log",
 							"render_method": "opaque"
 						},
 						"north": "side",
@@ -89,15 +89,15 @@
 			},
 			"minecraft:material_instances": {
 				"up": {
-					"texture": "wood_ebony_top",
+					"texture": "ebony_log_top",
 					"render_method": "opaque"
 				},
 				"down": {
-					"texture": "wood_ebony_top",
+					"texture": "ebony_log_top",
 					"render_method": "opaque"
 				},
 				"side": {
-					"texture": "wood_ebony",
+					"texture": "ebony_log",
 					"render_method": "opaque"
 				},
 				"north": "side",

@@ -80,15 +80,15 @@
 			"minecraft:loot": "loot_tables/blocks/posts/stripped_post_sugi.json",
 			"minecraft:material_instances": {
 				"up": {
-					"texture": "stripped_wood_sugi_top",
+					"texture": "stripped_sugi_log_top",
 					"render_method": "double_sided"
 				},
 				"down": {
-					"texture": "stripped_wood_sugi_top",
+					"texture": "stripped_sugi_log_top",
 					"render_method": "double_sided"
 				},
 				"side": {
-					"texture": "stripped_wood_sugi",
+					"texture": "stripped_sugi_log",
 					"render_method": "double_sided"
 				},
 				"north": "side",

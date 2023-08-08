@@ -53,15 +53,15 @@
 					"minecraft:loot": "loot_tables/blocks/posts/stripped_post_redwood.json",
 					"minecraft:material_instances": {
 						"up": {
-							"texture": "stripped_wood_redwood_top",
+							"texture": "stripped_redwood_log_top",
 							"render_method": "double_sided"
 						},
 						"down": {
-							"texture": "stripped_wood_redwood_top",
+							"texture": "stripped_redwood_log_top",
 							"render_method": "double_sided"
 						},
 						"side": {
-							"texture": "stripped_wood_redwood",
+							"texture": "stripped_redwood_log",
 							"render_method": "double_sided"
 						},
 						"north": "side",
@@ -112,15 +112,15 @@
 			"minecraft:destroy_time": 1,
 			"minecraft:material_instances": {
 				"up": {
-					"texture": "wood_redwood_top",
+					"texture": "redwood_log_top",
 					"render_method": "double_sided"
 				},
 				"down": {
-					"texture": "wood_redwood_top",
+					"texture": "redwood_log_top",
 					"render_method": "double_sided"
 				},
 				"side": {
-					"texture": "wood_redwood",
+					"texture": "redwood_log",
 					"render_method": "double_sided"
 				},
 				"north": "side",

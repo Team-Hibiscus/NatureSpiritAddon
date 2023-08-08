@@ -48,15 +48,15 @@
 					"minecraft:loot": "loot_tables/blocks/posts/stripped_post_willow.json",
 					"minecraft:material_instances": {
 						"up": {
-							"texture": "stripped_wood_willow_top",
+							"texture": "stripped_willow_log_top",
 							"render_method": "double_sided"
 						},
 						"down": {
-							"texture": "stripped_wood_willow_top",
+							"texture": "stripped_willow_log_top",
 							"render_method": "double_sided"
 						},
 						"side": {
-							"texture": "stripped_wood_willow",
+							"texture": "stripped_willow_log",
 							"render_method": "double_sided"
 						},
 						"north": "side",
@@ -103,15 +103,15 @@
 			"minecraft:destroy_time": 1,
 			"minecraft:material_instances": {
 				"up": {
-					"texture": "wood_willow_top",
+					"texture": "willow_log_top",
 					"render_method": "double_sided"
 				},
 				"down": {
-					"texture": "wood_willow_top",
+					"texture": "willow_log_top",
 					"render_method": "double_sided"
 				},
 				"side": {
-					"texture": "wood_willow",
+					"texture": "willow_log",
 					"render_method": "double_sided"
 				},
 				"north": "side",

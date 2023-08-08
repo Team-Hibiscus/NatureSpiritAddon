@@ -2,18 +2,6 @@
   "nature:splicing_table": {
     "sound": "wood"
   },
-  "nature:smooth_diorite": {
-    "sound": "stone",
-    "textures": "smooth_diorite"
-  },
-  "nature:smooth_granite": {
-    "sound": "stone",
-    "textures": "smooth_granite"
-  },
-  "nature:smooth_andesite": {
-    "sound": "stone",
-    "textures": "smooth_andesite"
-  },
   "nature:bush_savanna": {
     "sound": "grass"
   },
@@ -71,7 +59,7 @@
   },
   "nature:palm_fence": {
     "sound": "wood",
-    "textures": "palm_fence"
+    "textures": "palm_planks"
   },
   "nature:palm_fence_gate": {
     "sound": "wood"

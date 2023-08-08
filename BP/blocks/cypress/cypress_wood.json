@@ -52,15 +52,15 @@
           "minecraft:loot": "loot_tables/blocks/wood/stripped_log_cypress.json",
           "minecraft:material_instances": {
             "up": {
-              "texture": "stripped_wood_cypress_top",
+              "texture": "stripped_cypress_log_top",
               "render_method": "opaque"
             },
             "down": {
-              "texture": "stripped_wood_cypress_top",
+              "texture": "stripped_cypress_log_top",
               "render_method": "opaque"
             },
             "side": {
-              "texture": "stripped_wood_cypress",
+              "texture": "stripped_cypress_log",
               "render_method": "opaque"
             },
             "north": "side",
@@ -89,15 +89,15 @@
       },
       "minecraft:material_instances": {
         "up": {
-          "texture": "wood_cypress_top",
+          "texture": "cypress_log_top",
           "render_method": "opaque"
         },
         "down": {
-          "texture": "wood_cypress_top",
+          "texture": "cypress_log_top",
           "render_method": "opaque"
         },
         "side": {
-          "texture": "wood_cypress",
+          "texture": "cypress_log",
           "render_method": "opaque"
         },
         "north": "side",

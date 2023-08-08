@@ -80,15 +80,15 @@
 			"minecraft:loot": "loot_tables/blocks/posts/stripped_post_wisteria.json",
 			"minecraft:material_instances": {
 				"up": {
-					"texture": "stripped_wood_wisteria_top",
+					"texture": "stripped_wisteria_log_top",
 					"render_method": "double_sided"
 				},
 				"down": {
-					"texture": "stripped_wood_wisteria_top",
+					"texture": "stripped_wisteria_log_top",
 					"render_method": "double_sided"
 				},
 				"side": {
-					"texture": "stripped_wood_wisteria",
+					"texture": "stripped_wisteria_log",
 					"render_method": "double_sided"
 				},
 				"north": "side",

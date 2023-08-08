@@ -80,15 +80,15 @@
 			"minecraft:loot": "loot_tables/blocks/posts/stripped_post_cypress.json",
 			"minecraft:material_instances": {
 				"up": {
-					"texture": "stripped_wood_cypress_top",
+					"texture": "stripped_cypress_log_top",
 					"render_method": "double_sided"
 				},
 				"down": {
-					"texture": "stripped_wood_cypress_top",
+					"texture": "stripped_cypress_log_top",
 					"render_method": "double_sided"
 				},
 				"side": {
-					"texture": "stripped_wood_cypress",
+					"texture": "stripped_cypress_log",
 					"render_method": "double_sided"
 				},
 				"north": "side",

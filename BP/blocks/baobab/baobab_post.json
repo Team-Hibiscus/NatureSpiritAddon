@@ -53,15 +53,15 @@
 					"minecraft:loot": "loot_tables/blocks/posts/stripped_post_baobab.json",
 					"minecraft:material_instances": {
 						"up": {
-							"texture": "stripped_wood_baobab_top",
+							"texture": "stripped_baobab_top",
 							"render_method": "double_sided"
 						},
 						"down": {
-							"texture": "stripped_wood_baobab_top",
+							"texture": "stripped_baobab_top",
 							"render_method": "double_sided"
 						},
 						"side": {
-							"texture": "stripped_wood_baobab",
+							"texture": "stripped_baobab",
 							"render_method": "double_sided"
 						},
 						"north": "side",
@@ -108,15 +108,15 @@
 			"minecraft:destroy_time": 1,
 			"minecraft:material_instances": {
 				"up": {
-					"texture": "wood_baobab_top",
+					"texture": "baobab_log_top",
 					"render_method": "double_sided"
 				},
 				"down": {
-					"texture": "wood_baobab_top",
+					"texture": "baobab_log_top",
 					"render_method": "double_sided"
 				},
 				"side": {
-					"texture": "wood_baobab",
+					"texture": "baobab_log",
 					"render_method": "double_sided"
 				},
 				"north": "side",

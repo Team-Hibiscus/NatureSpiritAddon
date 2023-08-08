@@ -52,15 +52,15 @@
 					"minecraft:loot": "loot_tables/blocks/wood/stripped_log_mahogany.json",
 					"minecraft:material_instances": {
 						"up": {
-							"texture": "stripped_wood_mahogany_top",
+							"texture": "stripped_mahogany_log_top",
 							"render_method": "opaque"
 						},
 						"down": {
-							"texture": "stripped_wood_mahogany_top",
+							"texture": "stripped_mahogany_log_top",
 							"render_method": "opaque"
 						},
 						"side": {
-							"texture": "stripped_wood_mahogany",
+							"texture": "stripped_mahogany_log",
 							"render_method": "opaque"
 						},
 						"north": "side",
@@ -85,15 +85,15 @@
 			},
 			"minecraft:material_instances": {
 				"up": {
-					"texture": "wood_mahogany_top",
+					"texture": "mahogany_log_top",
 					"render_method": "opaque"
 				},
 				"down": {
-					"texture": "wood_mahogany_top",
+					"texture": "mahogany_log_top",
 					"render_method": "opaque"
 				},
 				"side": {
-					"texture": "wood_mahogany",
+					"texture": "mahogany_log",
 					"render_method": "opaque"
 				},
 				"north": "side",

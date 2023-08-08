@@ -52,15 +52,15 @@
 					"minecraft:loot": "loot_tables/blocks/wood/stripped_log_larch.json",
 					"minecraft:material_instances": {
 						"up": {
-							"texture": "stripped_wood_larch_top",
+							"texture": "stripped_larch_log_top",
 							"render_method": "opaque"
 						},
 						"down": {
-							"texture": "stripped_wood_larch_top",
+							"texture": "stripped_larch_log_top",
 							"render_method": "opaque"
 						},
 						"side": {
-							"texture": "stripped_wood_larch",
+							"texture": "stripped_larch_log",
 							"render_method": "opaque"
 						},
 						"north": "side",
@@ -89,15 +89,15 @@
 			},
 			"minecraft:material_instances": {
 				"up": {
-					"texture": "wood_larch_top",
+					"texture": "larch_log_top",
 					"render_method": "opaque"
 				},
 				"down": {
-					"texture": "wood_larch_top",
+					"texture": "larch_log_top",
 					"render_method": "opaque"
 				},
 				"side": {
-					"texture": "wood_larch",
+					"texture": "larch_log",
 					"render_method": "opaque"
 				},
 				"north": "side",

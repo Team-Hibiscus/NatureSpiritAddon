@@ -84,15 +84,15 @@
 			"minecraft:loot": "loot_tables/blocks/posts/stripped_post_fir.json",
 			"minecraft:material_instances": {
 				"up": {
-					"texture": "stripped_wood_fir_top",
+					"texture": "stripped_fir_log_top",
 					"render_method": "double_sided"
 				},
 				"down": {
-					"texture": "stripped_wood_fir_top",
+					"texture": "stripped_fir_log_top",
 					"render_method": "double_sided"
 				},
 				"side": {
-					"texture": "stripped_wood_fir",
+					"texture": "stripped_fir_log",
 					"render_method": "double_sided"
 				},
 				"north": "side",

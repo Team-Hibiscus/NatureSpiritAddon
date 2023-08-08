@@ -52,7 +52,7 @@
 			"minecraft:unit_cube": {},
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "leaves_redwood",
+					"texture": "redwood_leaves",
 					"render_method": "blend",
 					"ambient_occlusion": true,
 					"face_dimming": true

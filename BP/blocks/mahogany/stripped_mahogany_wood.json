@@ -54,15 +54,15 @@
 			"minecraft:destroy_time": 1,
 			"minecraft:material_instances": {
 				"up": {
-					"texture": "stripped_wood_mahogany_top",
+					"texture": "stripped_mahogany_log_top",
 					"render_method": "opaque"
 				},
 				"down": {
-					"texture": "stripped_wood_mahogany_top",
+					"texture": "stripped_mahogany_log_top",
 					"render_method": "opaque"
 				},
 				"side": {
-					"texture": "stripped_wood_mahogany",
+					"texture": "stripped_mahogany_log",
 					"render_method": "opaque"
 				},
 				"north": "side",

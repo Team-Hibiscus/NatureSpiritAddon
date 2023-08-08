@@ -75,15 +75,15 @@
 			"minecraft:loot": "loot_tables/blocks/posts/stripped_post_maple.json",
 			"minecraft:material_instances": {
 				"up": {
-					"texture": "stripped_wood_maple_top",
+					"texture": "stripped_maple_log_top",
 					"render_method": "double_sided"
 				},
 				"down": {
-					"texture": "stripped_wood_maple_top",
+					"texture": "stripped_maple_log_top",
 					"render_method": "double_sided"
 				},
 				"side": {
-					"texture": "stripped_wood_maple",
+					"texture": "stripped_maple_log",
 					"render_method": "double_sided"
 				},
 				"north": "side",

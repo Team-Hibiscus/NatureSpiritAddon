@@ -52,15 +52,15 @@
           "minecraft:loot": "loot_tables/blocks/wood/stripped_log_wisteria.json",
           "minecraft:material_instances": {
             "up": {
-              "texture": "stripped_wood_wisteria_top",
+              "texture": "stripped_wisteria_log_top",
               "render_method": "opaque"
             },
             "down": {
-              "texture": "stripped_wood_wisteria_top",
+              "texture": "stripped_wisteria_log_top",
               "render_method": "opaque"
             },
             "side": {
-              "texture": "stripped_wood_wisteria",
+              "texture": "stripped_wisteria_log",
               "render_method": "opaque"
             },
             "north": "side",
@@ -89,15 +89,15 @@
       },
       "minecraft:material_instances": {
         "up": {
-          "texture": "wood_wisteria_top",
+          "texture": "wisteria_log_top",
           "render_method": "opaque"
         },
         "down": {
-          "texture": "wood_wisteria_top",
+          "texture": "wisteria_log_top",
           "render_method": "opaque"
         },
         "side": {
-          "texture": "wood_wisteria",
+          "texture": "wisteria_log",
           "render_method": "opaque"
         },
         "north": "side",

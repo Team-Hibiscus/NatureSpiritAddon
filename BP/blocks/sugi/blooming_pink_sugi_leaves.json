@@ -52,7 +52,7 @@
 			"minecraft:unit_cube": {},
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "leaves_blooming_pink_sugi",
+					"texture": "blooming_pink_sugi_leaves",
 					"render_method": "blend",
 					"ambient_occlusion": true,
 					"face_dimming": true

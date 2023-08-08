@@ -80,15 +80,15 @@
 			"minecraft:loot": "loot_tables/blocks/posts/stripped_post_pine.json",
 			"minecraft:material_instances": {
 				"up": {
-					"texture": "stripped_wood_pine_top",
+					"texture": "stripped_pine_log_top",
 					"render_method": "double_sided"
 				},
 				"down": {
-					"texture": "stripped_wood_pine_top",
+					"texture": "stripped_pine_log_top",
 					"render_method": "double_sided"
 				},
 				"side": {
-					"texture": "stripped_wood_pine",
+					"texture": "stripped_pine_log",
 					"render_method": "double_sided"
 				},
 				"north": "side",

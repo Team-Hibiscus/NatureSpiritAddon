@@ -54,15 +54,15 @@
 			"minecraft:destroy_time": 1,
 			"minecraft:material_instances": {
 				"up": {
-					"texture": "stripped_wood_wisteria_top",
+					"texture": "stripped_wisteria_log_top",
 					"render_method": "opaque"
 				},
 				"down": {
-					"texture": "stripped_wood_wisteria_top",
+					"texture": "stripped_wisteria_log_top",
 					"render_method": "opaque"
 				},
 				"side": {
-					"texture": "stripped_wood_wisteria",
+					"texture": "stripped_wisteria_log",
 					"render_method": "opaque"
 				},
 				"north": "side",

@@ -52,15 +52,15 @@
 					"minecraft:loot": "loot_tables/blocks/wood/stripped_wood_wisteria.json",
 					"minecraft:material_instances": {
 						"up": {
-							"texture": "stripped_wood_wisteria",
+							"texture": "stripped_wisteria_log",
 							"render_method": "opaque"
 						},
 						"down": {
-							"texture": "stripped_wood_wisteria",
+							"texture": "stripped_wisteria_log",
 							"render_method": "opaque"
 						},
 						"*": {
-							"texture": "stripped_wood_wisteria",
+							"texture": "stripped_wisteria_log",
 							"render_method": "opaque"
 						}
 					}
@@ -82,15 +82,15 @@
 			"minecraft:destroy_time": 1,
 			"minecraft:material_instances": {
 				"up": {
-					"texture": "wood_wisteria",
+					"texture": "wisteria",
 					"render_method": "opaque"
 				},
 				"down": {
-					"texture": "wood_wisteria",
+					"texture": "wisteria",
 					"render_method": "opaque"
 				},
 				"*": {
-					"texture": "wood_wisteria",
+					"texture": "wisteria",
 					"render_method": "opaque"
 				}
 			},

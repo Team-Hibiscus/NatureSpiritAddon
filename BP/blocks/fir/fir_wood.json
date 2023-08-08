@@ -52,15 +52,15 @@
 					"minecraft:loot": "loot_tables/blocks/wood/stripped_log_fir.json",
 					"minecraft:material_instances": {
 						"up": {
-							"texture": "stripped_wood_fir_top",
+							"texture": "stripped_fir_log_top",
 							"render_method": "opaque"
 						},
 						"down": {
-							"texture": "stripped_wood_fir_top",
+							"texture": "stripped_fir_log_top",
 							"render_method": "opaque"
 						},
 						"side": {
-							"texture": "stripped_wood_fir",
+							"texture": "stripped_fir_log",
 							"render_method": "opaque"
 						},
 						"north": "side",
@@ -89,15 +89,15 @@
 			},
 			"minecraft:material_instances": {
 				"up": {
-					"texture": "wood_fir_top",
+					"texture": "fir_log_top",
 					"render_method": "opaque"
 				},
 				"down": {
-					"texture": "wood_fir_top",
+					"texture": "fir_log_top",
 					"render_method": "opaque"
 				},
 				"side": {
-					"texture": "wood_fir",
+					"texture": "fir_log",
 					"render_method": "opaque"
 				},
 				"north": "side",

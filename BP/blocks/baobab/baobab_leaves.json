@@ -72,7 +72,7 @@
 			"minecraft:unit_cube": {},
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "leaves_baobab",
+					"texture": "baobab_leaves",
 					"render_method": "blend",
 					"ambient_occlusion": true,
 					"face_dimming": true

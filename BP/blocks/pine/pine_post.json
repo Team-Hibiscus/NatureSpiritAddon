@@ -48,15 +48,15 @@
 					"minecraft:loot": "loot_tables/blocks/posts/stripped_post_pine.json",
 					"minecraft:material_instances": {
 						"up": {
-							"texture": "stripped_wood_pine_top",
+							"texture": "stripped_pine_log_top",
 							"render_method": "double_sided"
 						},
 						"down": {
-							"texture": "stripped_wood_pine_top",
+							"texture": "stripped_pine_log_top",
 							"render_method": "double_sided"
 						},
 						"side": {
-							"texture": "stripped_wood_pine",
+							"texture": "stripped_log_pine",
 							"render_method": "double_sided"
 						},
 						"north": "side",
@@ -103,15 +103,15 @@
 			"minecraft:destroy_time": 1,
 			"minecraft:material_instances": {
 				"up": {
-					"texture": "wood_pine_top",
+					"texture": "pine_log_top",
 					"render_method": "double_sided"
 				},
 				"down": {
-					"texture": "wood_pine_top",
+					"texture": "pine_log_top",
 					"render_method": "double_sided"
 				},
 				"side": {
-					"texture": "wood_pine",
+					"texture": "pine_log",
 					"render_method": "double_sided"
 				},
 				"north": "side",
