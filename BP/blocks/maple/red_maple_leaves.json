@@ -52,7 +52,7 @@
 			"minecraft:unit_cube": {},
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "maple_red_leaves",
+					"texture": "red_maple_leaves",
 					"render_method": "blend",
 					"ambient_occlusion": true,
 					"face_dimming": true

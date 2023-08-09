@@ -1,6 +1,10 @@
 item.nature:natures_axe=Nature's Axe
 
 item.nature:willow_vines_item=Willow Vines
+item.nature:blue_wisteria_vines_item=Blue Wisteria Vines
+item.nature:pink_wisteria_vines_item=Pink Wisteria Vines
+item.nature:purple_wisteria_vines_item=Purple Wisteria Vines
+item.nature:white_wisteria_vines_item=White Wisteria Vines
 item.nature:large_rose_bush_item=Large Rose Bush
 item.nature:large_dandelion_item=Large Dandelion
 item.nature:large_gardenia_item=Large Gardenia

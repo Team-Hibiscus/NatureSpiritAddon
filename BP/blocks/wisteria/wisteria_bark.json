@@ -82,15 +82,15 @@
 			"minecraft:destroy_time": 1,
 			"minecraft:material_instances": {
 				"up": {
-					"texture": "wisteria",
+					"texture": "wisteria_log",
 					"render_method": "opaque"
 				},
 				"down": {
-					"texture": "wisteria",
+					"texture": "wisteria_log",
 					"render_method": "opaque"
 				},
 				"*": {
-					"texture": "wisteria",
+					"texture": "wisteria_log",
 					"render_method": "opaque"
 				}
 			},
