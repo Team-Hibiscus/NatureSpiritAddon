@@ -8,6 +8,18 @@
   "nature:willow_vines": {
     "sound": "vines"
   },
+  "nature:white_wisteria_vines": {
+    "sound": "vines"
+  },
+  "nature:blue_wisteria_vines": {
+    "sound": "vines"
+  },
+  "nature:pink_wisteria_vines": {
+    "sound": "vines"
+  },
+  "nature:purple_wisteria_vines": {
+    "sound": "vines"
+  },
   "nature:corrupted_moss_block": {
     "sound": "vines"
   },

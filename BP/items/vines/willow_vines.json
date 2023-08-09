@@ -2,15 +2,15 @@
 	"format_version": "1.16.100",
 	"minecraft:item": {
 		"description": {
-			"identifier": "nature:grieving_vines_item",
+			"identifier": "nature:willow_vines_item",
 			"category": "nature"
 		},
 		"components": {
 			"minecraft:block_placer": {
-				"block": "nature:grieving_vines"
+				"block": "nature:willow_vines"
 			},
 			"minecraft:icon": {
-				"texture": "grieving_vines"
+				"texture": "willow_vines_item"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.vine"

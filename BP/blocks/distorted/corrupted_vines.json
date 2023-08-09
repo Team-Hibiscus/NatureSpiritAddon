@@ -1,70 +1,19 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.20.10",
 	"minecraft:block": {
 		"description": {
 			"identifier": "nature:corrupted_vines",
+			"menu_category": {
+				"category": "none"
+			},
 			"properties": {
-				"nature:growth": [
-					0,
-					1,
-					2
+				"nature:vine": [
+					"body",
+					"tip"
 				]
 			}
 		},
-		"permutations": [
-			//controls base vine components
-			{
-				"condition": "query.block_property('nature:growth') == 1",
-				"components": {
-					"minecraft:loot": "loot_tables/blocks/vines/corrupted_vines.json",
-					"minecraft:material_instances": {
-						"*": {
-							"render_method": "alpha_test",
-							"texture": "corrupted_vines",
-							"face_dimming": false,
-							"ambient_occlusion": false
-						}
-					},
-					"minecraft:on_player_destroyed": {
-						"event": "destroy"
-					},
-					"minecraft:on_placed": {
-						"event": "update_texture_2"
-					},
-					"minecraft:random_ticking": {
-						"on_tick": {
-							"event": "null"
-						}
-					}
-				}
-			},
-			//destroy state
-			{
-				"condition": "query.block_property('nature:growth') == 2",
-				"components": {
-					"minecraft:on_placed": {
-						"event": "destroy2"
-					},
-					"minecraft:on_player_destroyed": {
-						"event": "destroy2"
-					}
-				}
-			}
-		],
 		"components": {
-			"minecraft:pick_collision": {
-				"origin": [
-					-7,
-					0,
-					-7
-				],
-				"size": [
-					14,
-					16,
-					14
-				]
-			},
-			"minecraft:block_light_emission": 0.14,
 			"minecraft:placement_filter": {
 				"conditions": [
 					{
@@ -74,121 +23,99 @@
 					}
 				]
 			},
-			"minecraft:on_interact": {
-				"condition": "q.get_equipped_item_name=='bone_meal'",
-				"event": "grow_stage_2"
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.5
 			},
-			"minecraft:entity_collision": false,
-			"minecraft:random_ticking": {
-				"on_tick": {
-					"event": "grow_stage"
-				}
+			"minecraft:geometry": {
+				"identifier": "geometry.cross"
 			},
-			"minecraft:block_light_absorption": 0,
-			"minecraft:loot": "loot_tables/blocks/vines/corrupted_vines.json",
-			"minecraft:geometry": "geometry.cross",
-			"minecraft:destroy_time": 0,
-			"minecraft:material_instances": {
-				"*": {
-					"render_method": "alpha_test",
-					"texture": "corrupted_vines_tip",
-					"face_dimming": false,
-					"ambient_occlusion": false
-				}
-			},
-			"minecraft:on_player_destroyed": {
-				"event": "destroy"
+			"minecraft:on_player_placing": {
+				"target": "self",
+				"event": "setup"
 			},
 			"minecraft:on_placed": {
-				"event": "update_texture"
+				"event": "placedSetup"
 			},
-			"minecraft:breathability": "air"
+			"minecraft:loot": "loot_tables/blocks/violet_door.json",
+			"minecraft:map_color": "#52221D",
+			"minecraft:light_dampening": 0
 		},
+		"permutations": [
+			{
+				"condition": "query.block_property('nature:vine') == 'tip'",
+				"components": {
+					"tag:vine_tip": {},
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "alpha_test",
+							"texture": "corrupted_vines_tip",
+							"face_dimming": false,
+							"ambient_occlusion": false
+						}
+					},
+					"minecraft:on_player_placing": {
+						"target": "self",
+						"event": "setup"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('nature:vine') == 'body'",
+				"components": {
+					"tag:vine_body": {},
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "alpha_test",
+							"texture": "corrupted_vines",
+							"face_dimming": false,
+							"ambient_occlusion": false
+						}
+					},
+					"minecraft:on_player_placing": {
+						"target": "self",
+						"event": "setup"
+					}
+				}
+			}
+		],
 		"events": {
-			"null": {},
-			//when vine is placed/grown replaces vine before with base texture
-			"update_texture": {
-				"run_command": {
-					"command": [
-						"summon nature:corrupted_moss_plant_growth ~ ~ ~",
-						"execute @e[type=nature:corrupted_moss_plant_growth] ~ ~ ~ detect ~ ~1 ~ nature:corrupted_vines 0 structure load vine:base_corrupted_vine ~ ~1 ~"
-					]
-				}
-			},
-			//places tip vine when base vine is placed 
-			//replaces tip vines above when base vine placed beneath
-			"update_texture_2": {
-				"run_command": {
-					"command": [
-						"summon nature:corrupted_moss_plant_growth ~ ~ ~",
-						"execute @e[type=nature:corrupted_moss_plant_growth] ~ ~ ~ detect ~ ~1 ~ nature:corrupted_vines 0 structure load vine:base_corrupted_vine ~ ~1 ~"
-					]
-				}
-			},
-			//when vine is broken it will break base vine above and replace with tip vine
-			//it will give vine underneath a new state, this will break all vines below
-			"destroy": {
+			"setup": {
 				"sequence": [
 					{
-						"run_command": {
-							"command": [
-								"fill ~ ~1 ~ ~ ~1 ~ nature:corrupted_vines 0 replace nature:corrupted_vines"
-							]
+						"condition": "q.block_neighbor_has_any_tag(0,1,0, 'vine_tip')",
+						"set_block_property": {
+							"nature:vine": "'tip'"
+						},
+						"trigger": "setVine"
+					}
+				]
+			},
+			"placedSetup": {
+				"sequence": [
+					{
+						"condition": "q.block_neighbor_has_any_tag(0,1,0, 'vine_tip')",
+						"trigger": "setVine"
+					},
+					{
+						"condition": "q.block_neighbor_has_any_tag(0,-1,0, 'vine_tip')",
+						"set_block_property": {
+							"nature:vine": "'body'"
 						}
 					},
 					{
-						"run_command": {
-							"command": [
-								"summon nature:corrupted_moss_plant_growth ~ ~ ~",
-								"execute @e[type=nature:corrupted_moss_plant_growth] ~ ~ ~ detect ~ ~-1 ~ nature:corrupted_vines -1 structure load vine:break_corrupted_vine ~ ~-1 ~"
-							]
+						"condition": "!q.block_neighbor_has_any_tag(0,1,0, 'vine_tip') && !q.block_neighbor_has_any_tag(0,-1,0, 'vine_tip')",
+						"set_block_property": {
+							"nature:vine": "'tip'"
 						}
 					}
 				]
 			},
-			//sets destroy state into air
-			//sets below block to destroy state
-			//sets excess vines below to air
-			"destroy2": {
+			"setVine": {
 				"run_command": {
 					"command": [
-						"summon nature:corrupted_moss_plant_growth ~ ~ ~",
-						"fill ~ ~ ~ ~ ~ ~ air 0 destroy",
-						"execute @e[type=nature:corrupted_moss_plant_growth] ~ ~ ~ detect ~ ~-1 ~ nature:corrupted_vines -1 structure load vine:break_corrupted_vine ~ ~-1 ~"
+						"setblock ~~1~ nature:corrupted_vines"
 					]
 				}
-			},
-			//random growth
-			//sets any tip vines in the way with base vines
-			"grow_stage": {
-				"randomize": [
-					{
-						"weight": 10,
-						"run_command": {
-							"command": [
-								"summon nature:corrupted_moss_plant_growth ~ ~ ~",
-								"execute @e[type=nature:corrupted_moss_plant_growth] ~ ~ ~ detect ~ ~-1 ~ air 0 structure load vine:tip_corrupted_vine ~ ~-1 ~"
-							]
-						}
-					},
-					{
-						"weight": 100
-					}
-				]
-			},
-			//bonemeal and corrupt vine extensions
-			"grow_stage_2": {
-				"sequence": [
-					{
-						"decrement_stack": {},
-						"run_command": {
-							"command": [
-								"particle nature:distorted ~ ~ ~",
-								"fill ~ ~-1 ~ ~ ~-2 ~ nature:corrupted_vines 0 replace air"
-							]
-						}
-					}
-				]
 			}
 		}
 	}

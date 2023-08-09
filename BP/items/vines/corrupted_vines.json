@@ -10,7 +10,7 @@
 				"block": "nature:corrupted_vines"
 			},
 			"minecraft:icon": {
-				"texture": "corrupted_vines"
+				"texture": "corrupted_vines_item"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.vine"

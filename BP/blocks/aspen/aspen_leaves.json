@@ -72,7 +72,7 @@
       "minecraft:unit_cube": {},
       "minecraft:material_instances": {
         "*": {
-          "texture": "aspen_leaves_leaves",
+          "texture": "aspen_leaves",
           "render_method": "blend",
           "ambient_occlusion": true,
           "face_dimming": true

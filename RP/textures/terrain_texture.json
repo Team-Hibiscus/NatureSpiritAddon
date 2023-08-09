@@ -3,14 +3,12 @@
   "padding": 8,
   "resource_pack_name": "vanilla",
   "texture_data": {
-
     "splicing_table": {
       "textures": "textures/blocks/splicing_table"
     },
     "nothing": {
       "textures": "textures/blocks/nothing"
     },
-
     "log_acacia": {
       "textures": "textures/blocks/log_acacia"
     },
@@ -47,9 +45,6 @@
     "log_spruce_top": {
       "textures": "textures/blocks/log_spruce_top"
     },
-
-
-
     "willow_planks": {
       "textures": "textures/blocks/trees/willow/planks_willow"
     },
@@ -68,11 +63,35 @@
     "willow_sapling": {
       "textures": "textures/blocks/trees/willow/willow_sapling"
     },
-    "willow_vine": {
+    "willow_vines": {
       "textures": "textures/blocks/trees/willow/willow_vines_plant"
     },
-    "willow_vine_tip": {
+    "willow_vines_tip": {
       "textures": "textures/blocks/trees/willow/willow_vines"
+    },
+    "blue_wisteria_vines": {
+      "textures": "textures/blocks/trees/wisteria/blue_wisteria_vines_plant"
+    },
+    "blue_wisteria_vines_tip": {
+      "textures": "textures/blocks/trees/wisteria/blue_wisteria_vines"
+    },
+    "pink_wisteria_vines": {
+      "textures": "textures/blocks/trees/wisteria/pink_wisteria_vines_plant"
+    },
+    "pink_wisteria_vines_tip": {
+      "textures": "textures/blocks/trees/wisteria/pink_wisteria_vines"
+    },
+    "purple_wisteria_vines": {
+      "textures": "textures/blocks/trees/wisteria/purple_wisteria_vines_plant"
+    },
+    "purple_wisteria_vines_tip": {
+      "textures": "textures/blocks/trees/wisteria/purple_wisteria_vines"
+    },
+    "white_wisteria_vines": {
+      "textures": "textures/blocks/trees/wisteria/white_wisteria_vines_plant"
+    },
+    "white_wisteria_vines_tip": {
+      "textures": "textures/blocks/trees/wisteria/white_wisteria_vines"
     },
     "willow_door_bottom": {
       "textures": "textures/blocks/trees/willow/willow_door_bottom"
@@ -86,8 +105,6 @@
     "willow_log_top": {
       "textures": "textures/blocks/trees/willow/log_willow_top"
     },
-
-
     "palm_planks": {
       "textures": "textures/blocks/trees/palm/planks_palm"
     },
@@ -98,7 +115,7 @@
       "textures": "textures/blocks/trees/palm/stripped_palm_log_top"
     },
     "palm_leaves": {
-      "textures": "textures/blocks/trees/palm/leaves_palm"
+      "textures": "textures/blocks/trees/palm/leaves_palm_bushy"
     },
     "palm_trapdoor": {
       "textures": "textures/blocks/trees/palm/palm_trapdoor"
@@ -118,8 +135,6 @@
     "palm_log_top": {
       "textures": "textures/blocks/trees/palm/log_palm_top"
     },
-
-
     "mahogany_planks": {
       "textures": "textures/blocks/trees/mahogany/planks_mahogany"
     },
@@ -130,7 +145,7 @@
       "textures": "textures/blocks/trees/mahogany/stripped_mahogany_log_top"
     },
     "mahogany_leaves": {
-      "textures": "textures/blocks/trees/mahogany/leaves_mahogany"
+      "textures": "textures/blocks/trees/mahogany/leaves_mahogany_bushy"
     },
     "mahogany_trapdoor": {
       "textures": "textures/blocks/trees/mahogany/mahogany_trapdoor"
@@ -150,8 +165,6 @@
     "mahogany_log_top": {
       "textures": "textures/blocks/trees/mahogany/log_mahogany_top"
     },
-
-
     "palo_verde_planks": {
       "textures": "textures/blocks/trees/palo_verde/planks_palo_verde"
     },
@@ -162,7 +175,7 @@
       "textures": "textures/blocks/trees/palo_verde/stripped_palo_verde_log_top"
     },
     "palo_verde_leaves": {
-      "textures": "textures/blocks/trees/palo_verde/leaves_palo_verde"
+      "textures": "textures/blocks/trees/palo_verde/leaves_palo_verde_bushy"
     },
     "palo_verde_trapdoor": {
       "textures": "textures/blocks/trees/palo_verde/palo_verde_trapdoor"
@@ -182,8 +195,6 @@
     "palo_verde_log_top": {
       "textures": "textures/blocks/trees/palo_verde/log_palo_verde_top"
     },
-
-
     "aspen_planks": {
       "textures": "textures/blocks/trees/aspen/planks_aspen"
     },
@@ -214,8 +225,6 @@
     "aspen_log_top": {
       "textures": "textures/blocks/trees/aspen/log_aspen_top"
     },
-
-
     "olive_planks": {
       "textures": "textures/blocks/trees/olive/planks_olive"
     },
@@ -246,8 +255,6 @@
     "olive_log_top": {
       "textures": "textures/blocks/trees/olive/log_olive_top"
     },
-
-
     "pine_planks": {
       "textures": "textures/blocks/trees/pine/planks_pine"
     },
@@ -258,7 +265,7 @@
       "textures": "textures/blocks/trees/pine/stripped_pine_log_top"
     },
     "pine_leaves": {
-      "textures": "textures/blocks/trees/pine/leaves_pine"
+      "textures": "textures/blocks/trees/pine/leaves_pine_bushy"
     },
     "pine_trapdoor": {
       "textures": "textures/blocks/trees/pine/pine_trapdoor"
@@ -278,8 +285,6 @@
     "pine_log_top": {
       "textures": "textures/blocks/trees/pine/log_pine_top"
     },
-
-
     "cypress_planks": {
       "textures": "textures/blocks/trees/cypress/planks_cypress"
     },
@@ -310,8 +315,6 @@
     "cypress_log_top": {
       "textures": "textures/blocks/trees/cypress/log_cypress_top"
     },
-
-
     "redwood_planks": {
       "textures": "textures/blocks/trees/redwood/planks_redwood"
     },
@@ -342,8 +345,6 @@
     "redwood_log_top": {
       "textures": "textures/blocks/trees/redwood/log_redwood_top"
     },
-
-
     "larch_planks": {
       "textures": "textures/blocks/trees/larch/planks_larch"
     },
@@ -354,7 +355,7 @@
       "textures": "textures/blocks/trees/larch/stripped_larch_log_top"
     },
     "larch_leaves": {
-      "textures": "textures/blocks/trees/larch/leaves_larch"
+      "textures": "textures/blocks/trees/larch/leaves_larch_bushy"
     },
     "larch_trapdoor": {
       "textures": "textures/blocks/trees/larch/larch_trapdoor"
@@ -374,8 +375,6 @@
     "larch_log_top": {
       "textures": "textures/blocks/trees/larch/log_larch_top"
     },
-
-
     "ebony_planks": {
       "textures": "textures/blocks/trees/ebony/planks_ebony"
     },
@@ -406,8 +405,6 @@
     "ebony_log_top": {
       "textures": "textures/blocks/trees/ebony/log_ebony_top"
     },
-
-
     "fir_planks": {
       "textures": "textures/blocks/trees/fir/planks_fir"
     },
@@ -438,8 +435,6 @@
     "fir_log_top": {
       "textures": "textures/blocks/trees/fir/log_fir_top"
     },
-
-    
     "enchanted_planks": {
       "textures": "textures/blocks/trees/enchanted/planks_enchanted"
     },
@@ -450,7 +445,7 @@
       "textures": "textures/blocks/trees/enchanted/stripped_enchanted_log_top"
     },
     "enchanted_leaves": {
-      "textures": "textures/blocks/trees/enchanted/leaves_enchanted"
+      "textures": "textures/blocks/trees/enchanted/leaves_enchanted_bushy"
     },
     "enchanted_trapdoor": {
       "textures": "textures/blocks/trees/enchanted/enchanted_trapdoor"
@@ -470,8 +465,6 @@
     "enchanted_log_top": {
       "textures": "textures/blocks/trees/enchanted/log_enchanted_top"
     },
-
-
     "baobab_planks": {
       "textures": "textures/blocks/trees/baobab/planks_baobab"
     },
@@ -482,7 +475,7 @@
       "textures": "textures/blocks/trees/baobab/stripped_baobab_log_top"
     },
     "baobab_leaves": {
-      "textures": "textures/blocks/trees/baobab/leaves_baobab"
+      "textures": "textures/blocks/trees/baobab/leaves_baobab_bushy"
     },
     "baobab_trapdoor": {
       "textures": "textures/blocks/trees/baobab/baobab_trapdoor"
@@ -502,8 +495,6 @@
     "baobab_log_top": {
       "textures": "textures/blocks/trees/baobab/log_baobab_top"
     },
-
-
     "sugi_planks": {
       "textures": "textures/blocks/trees/sugi/planks_sugi"
     },
@@ -564,8 +555,6 @@
     "blooming_sugi_door_top": {
       "textures": "textures/blocks/trees/sugi/blooming_sugi_door_top"
     },
-
-
     "violet_treelight": {
       "textures": "textures/blocks/trees/violet/violet_treelight"
     },
@@ -584,8 +573,6 @@
     "grieving_vines_tip": {
       "textures": "textures/blocks/trees/violet/grieving_vines_tip"
     },
-
-
     "wisteria_planks": {
       "textures": "textures/blocks/trees/wisteria/planks_wisteria"
     },
@@ -634,8 +621,6 @@
     "wisteria_door_top": {
       "textures": "textures/blocks/trees/wisteria/wisteria_door_top"
     },
-
-
     "maple_planks": {
       "textures": "textures/blocks/trees/maple/planks_maple"
     },
@@ -675,8 +660,9 @@
     "maple_door_bottom": {
       "textures": "textures/blocks/trees/maple/maple_door_bottom"
     },
-
-    
+    "maple_door_top": {
+      "textures": "textures/blocks/trees/maple/maple_door_top"
+    },
     "distorted_planks": {
       "textures": "textures/blocks/trees/distorted/planks_distorted"
     },
@@ -707,8 +693,6 @@
     "distorted_door_top": {
       "textures": "textures/blocks/trees/distorted/distorted_door_top"
     },
-
-
     "violet_planks": {
       "textures": "textures/blocks/trees/violet/planks_violet"
     },
@@ -739,8 +723,6 @@
     "violet_door_top": {
       "textures": "textures/blocks/trees/violet/violet_door_top"
     },
-
-
     "jacaranda_planks": {
       "textures": "textures/blocks/trees/jacaranda/planks_jacaranda"
     },
@@ -771,27 +753,24 @@
     "jacaranda_door_top": {
       "textures": "textures/blocks/trees/jacaranda/jacaranda_door_top"
     },
-      
-  "corrupted_sprouts": {
-    "textures": "textures/blocks/plants/corrupted_sprouts"
-  },
-  "violet_tallgrass": {
-    "textures": "textures/blocks/plants/violet_tallgrass"
-  },
-  "corrupted_moss_block": {
-    "textures": "textures/blocks/plants/corrupted_moss_block"
-  },
-  "cattail": {
-    "textures": "textures/blocks/plants/cattail"
-  },
-  "violet_grass": {
-    "textures": "textures/blocks/plants/violet_grass"
-  },
-  "violet_grass_side": {
-    "textures": "textures/blocks/plants/violet_grass_side"
-  },
-
-  
+    "corrupted_sprouts": {
+      "textures": "textures/blocks/plants/corrupted_sprouts"
+    },
+    "violet_tallgrass": {
+      "textures": "textures/blocks/plants/violet_tallgrass"
+    },
+    "corrupted_moss_block": {
+      "textures": "textures/blocks/plants/corrupted_moss_block"
+    },
+    "cattail": {
+      "textures": "textures/blocks/plants/cattail"
+    },
+    "violet_grass": {
+      "textures": "textures/blocks/plants/violet_grass"
+    },
+    "violet_grass_side": {
+      "textures": "textures/blocks/plants/violet_grass_side"
+    },
     "lotus_flower": {
       "textures": "textures/blocks/plants/lotus_flower/lotus_flower"
     },

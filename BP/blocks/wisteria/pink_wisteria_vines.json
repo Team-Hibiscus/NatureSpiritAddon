@@ -1,0 +1,122 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:block": {
+        "description": {
+            "identifier": "nature:pink_wisteria_vines",
+            "menu_category": {
+                "category": "none"
+            },
+            "properties": {
+                "nature:vine": [
+                    "body",
+                    "tip"
+                ]
+            }
+        },
+        "components": {
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": [
+                            "down"
+                        ]
+                    }
+                ]
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.5
+            },
+            "minecraft:geometry": {
+                "identifier": "geometry.cross"
+            },
+            "minecraft:on_player_placing": {
+                "target": "self",
+                "event": "setup"
+            },
+            "minecraft:on_placed": {
+                "event": "placedSetup"
+            },
+            "minecraft:loot": "loot_tables/blocks/vines/pink_wisteria_vines.json",
+            "minecraft:map_color": "#52221D",
+            "minecraft:light_dampening": 0
+        },
+        "permutations": [
+            {
+                "condition": "query.block_property('nature:vine') == 'tip'",
+                "components": {
+                    "tag:vine_tip": {},
+                    "minecraft:material_instances": {
+                        "*": {
+                            "render_method": "alpha_test",
+                            "texture": "pink_wisteria_vines_tip",
+                            "face_dimming": false,
+                            "ambient_occlusion": false
+                        }
+                    },
+                    "minecraft:on_player_placing": {
+                        "target": "self",
+                        "event": "setup"
+                    }
+                }
+            },
+            {
+                "condition": "query.block_property('nature:vine') == 'body'",
+                "components": {
+                    "tag:vine_body": {},
+                    "minecraft:material_instances": {
+                        "*": {
+                            "render_method": "alpha_test",
+                            "texture": "pink_wisteria_vines",
+                            "face_dimming": false,
+                            "ambient_occlusion": false
+                        }
+                    },
+                    "minecraft:on_player_placing": {
+                        "target": "self",
+                        "event": "setup"
+                    }
+                }
+            }
+        ],
+        "events": {
+            "setup": {
+                "sequence": [
+                    {
+                        "condition": "q.block_neighbor_has_any_tag(0,1,0, 'vine_tip')",
+                        "set_block_property": {
+                            "nature:vine": "'tip'"
+                        },
+                        "trigger": "setVine"
+                    }
+                ]
+            },
+            "placedSetup": {
+                "sequence": [
+                    {
+                        "condition": "q.block_neighbor_has_any_tag(0,1,0, 'vine_tip')",
+                        "trigger": "setVine"
+                    },
+                    {
+                        "condition": "q.block_neighbor_has_any_tag(0,-1,0, 'vine_tip')",
+                        "set_block_property": {
+                            "nature:vine": "'body'"
+                        }
+                    },
+                    {
+                        "condition": "!q.block_neighbor_has_any_tag(0,1,0, 'vine_tip') && !q.block_neighbor_has_any_tag(0,-1,0, 'vine_tip')",
+                        "set_block_property": {
+                            "nature:vine": "'tip'"
+                        }
+                    }
+                ]
+            },
+            "setVine": {
+                "run_command": {
+                    "command": [
+                        "setblock ~~1~ nature:pink_wisteria_vines"
+                    ]
+                }
+            }
+        }
+    }
+}
