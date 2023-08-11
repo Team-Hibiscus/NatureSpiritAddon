@@ -2,3 +2,4 @@
 .mcattributes
 config.json
 /builds
+deno.json
