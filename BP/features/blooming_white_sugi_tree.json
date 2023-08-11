@@ -2,9 +2,9 @@
 	"format_version": "1.16.200",
 	"minecraft:structure_template_feature": {
 		"description": {
-			"identifier": "nature:white_sakura_tree"
+			"identifier": "nature:blooming_white_sugi_tree"
 		},
-		"structure_name": "mystructure:white_sakura_tree",
+		"structure_name": "mystructure:blooming_white_sugi_tree",
 		"adjustment_radius": 8,
 		"facing_direction": "south",
 		"constraints": {

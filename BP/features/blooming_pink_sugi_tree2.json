@@ -2,9 +2,9 @@
 	"format_version": "1.16.200",
 	"minecraft:structure_template_feature": {
 		"description": {
-			"identifier": "nature:pink_sakura_tree2"
+			"identifier": "nature:blooming_pink_sugi_tree2"
 		},
-		"structure_name": "mystructure:pink_sakura_tree2",
+		"structure_name": "mystructure:blooming_pink_sugi_tree2",
 		"adjustment_radius": 8,
 		"facing_direction": "south",
 		"constraints": {
