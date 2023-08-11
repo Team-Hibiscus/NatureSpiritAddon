@@ -2,3 +2,10 @@
 .mcattributes
 config.json
 /builds
+.bridge
+.bridge\.dash.development.json
+.bridge\.lightningCache
+.bridge\openedFiles_0.json
+.bridge/.lightningCache
+.bridge/openedFiles_0.json
+.bridge/.dash.development.json
