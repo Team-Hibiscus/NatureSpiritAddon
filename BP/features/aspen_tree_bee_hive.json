@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "nature:aspen_tree_bee_hive"
 		},
-		"structure_name": "mystructure:aspen_tree_bee_hive",
+		"structure_name": "mystructure:trees/aspen_tree_bee_hive",
 		"adjustment_radius": 2,
 		"facing_direction": "south",
 		"constraints": {

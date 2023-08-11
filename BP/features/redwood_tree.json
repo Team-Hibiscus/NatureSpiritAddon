@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "nature:redwood_tree"
 		},
-		"structure_name": "mystructure:redwood_tree",
+		"structure_name": "mystructure:trees/redwood_tree",
 		"adjustment_radius": 2,
 		"facing_direction": "south",
 		"constraints": {

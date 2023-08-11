@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "nature:pine_tree_2"
 		},
-		"structure_name": "mystructure:pine_tree_2",
+		"structure_name": "mystructure:trees/pine_tree_2",
 		"adjustment_radius": 2,
 		"facing_direction": "south",
 		"constraints": {

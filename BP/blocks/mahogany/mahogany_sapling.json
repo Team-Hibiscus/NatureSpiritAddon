@@ -86,7 +86,7 @@
 						"weight": 1,
 						"run_command": {
 							"command": [
-								"structure load mahogany_tree ~-6 ~ ~-5 0_degrees"
+								"structure load trees:mahogany_tree ~-6 ~ ~-5 0_degrees"
 							]
 						}
 					},
@@ -97,7 +97,7 @@
 						"weight": 1,
 						"run_command": {
 							"command": [
-								"structure load mahogany_tree_2 ~-7 ~ ~-6 0_degrees"
+								"structure load trees:mahogany_tree_2 ~-7 ~ ~-6 0_degrees"
 							]
 						}
 					}

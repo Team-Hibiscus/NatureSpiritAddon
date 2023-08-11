@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "nature:mahogany_tree"
 		},
-		"structure_name": "mystructure:mahogany_tree",
+		"structure_name": "mystructure:trees/mahogany_tree",
 		"adjustment_radius": 16,
 		"facing_direction": "south",
 		"constraints": {

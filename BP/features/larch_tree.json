@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "nature:larch_tree"
 		},
-		"structure_name": "mystructure:larch_tree",
+		"structure_name": "mystructure:trees/larch_tree",
 		"adjustment_radius": 8,
 		"facing_direction": "south",
 		"constraints": {

@@ -86,7 +86,7 @@
             "weight": 1,
             "run_command": {
               "command": [
-                "structure load redwood_tree ~-8 ~ ~-9"
+                "structure load trees:redwood_tree ~-8 ~ ~-9"
               ]
             }
           },
@@ -97,7 +97,7 @@
             "weight": 1,
             "run_command": {
               "command": [
-                "structure load redwood_tree_2 ~-8 ~ ~-9"
+                "structure load trees:redwood_tree_2 ~-8 ~ ~-9"
               ]
             }
           },
@@ -105,7 +105,7 @@
             "weight": 1,
             "run_command": {
               "command": [
-                "structure load redwood_tree_3 ~-8 ~ ~-9"
+                "structure load trees:redwood_tree_3 ~-8 ~ ~-9"
               ]
             }
           },
@@ -113,7 +113,7 @@
             "weight": 1,
             "run_command": {
               "command": [
-                "structure load redwood_tree_4 ~-8 ~ ~-9"
+                "structure load trees:redwood_tree_4 ~-8 ~ ~-9"
               ]
             }
           },
@@ -121,7 +121,7 @@
             "weight": 1,
             "run_command": {
               "command": [
-                "structure load redwood_tree_5 ~-8 ~ ~-9"
+                "structure load trees:redwood_tree_5 ~-8 ~ ~-9"
               ]
             }
           }

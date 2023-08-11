@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "nature:baobab_tree"
 		},
-		"structure_name": "mystructure:baobab_tree",
+		"structure_name": "mystructure:trees/baobab_tree",
 		"adjustment_radius": 4,
 		"facing_direction": "south",
 		"constraints": {

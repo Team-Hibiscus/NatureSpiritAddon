@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "nature:jacaranda_tree"
 		},
-		"structure_name": "mystructure:jacaranda_tree",
+		"structure_name": "mystructure:trees/jacaranda_tree",
 		"adjustment_radius": 2,
 		"facing_direction": "south",
 		"constraints": {

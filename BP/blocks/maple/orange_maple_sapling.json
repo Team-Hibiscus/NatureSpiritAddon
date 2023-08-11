@@ -86,7 +86,7 @@
 						"weight": 1,
 						"run_command": {
 							"command": [
-								"structure load orange_maple_tree ~-6 ~ ~-6 0_degrees"
+								"structure load trees:orange_maple_tree ~-6 ~ ~-6 0_degrees"
 							]
 						}
 					},
@@ -97,7 +97,7 @@
 						"weight": 1,
 						"run_command": {
 							"command": [
-								"structure load orange_maple_tree_2 ~-6 ~ ~-6 0_degrees"
+								"structure load trees:orange_maple_tree_2 ~-6 ~ ~-6 0_degrees"
 							]
 						}
 					}

@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "nature:enchanted_tree"
 		},
-		"structure_name": "mystructure:enchanted_tree",
+		"structure_name": "mystructure:trees/enchanted_tree",
 		"adjustment_radius": 2,
 		"facing_direction": "south",
 		"constraints": {

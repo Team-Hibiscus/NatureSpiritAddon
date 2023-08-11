@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "nature:willow_tree"
 		},
-		"structure_name": "mystructure:willow_tree",
+		"structure_name": "mystructure:trees/willow_tree",
 		"adjustment_radius": 16,
 		"facing_direction": "south",
 		"constraints": {

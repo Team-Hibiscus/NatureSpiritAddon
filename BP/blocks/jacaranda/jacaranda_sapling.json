@@ -86,7 +86,7 @@
 						"weight": 1,
 						"run_command": {
 							"command": [
-								"structure load jacaranda_tree ~-7 ~ ~-6"
+								"structure load trees:jacaranda_tree ~-7 ~ ~-6"
 							]
 						}
 					},
@@ -97,7 +97,7 @@
 						"weight": 1,
 						"run_command": {
 							"command": [
-								"structure load jacaranda_tree_2 ~-6 ~ ~-6"
+								"structure load trees:jacaranda_tree_2 ~-6 ~ ~-6"
 							]
 						}
 					}

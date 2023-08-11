@@ -73,7 +73,7 @@
           {
             "weight": 1,
             "run_command": {
-              "command": ["structure load palo_verde_tree ~-4 ~ ~-2 0_degrees"]
+              "command": ["structure load trees:palo_verde_tree ~-4 ~ ~-2 0_degrees"]
             }
           },
           {
@@ -83,7 +83,7 @@
             "weight": 1,
             "run_command": {
               "command": [
-                "structure load palo_verde_tree_2 ~-4 ~ ~-4 0_degrees"
+                "structure load trees:palo_verde_tree_2 ~-4 ~ ~-4 0_degrees"
               ]
             }
           }

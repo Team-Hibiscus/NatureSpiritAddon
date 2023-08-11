@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "nature:fir_tree"
 		},
-		"structure_name": "mystructure:fir_tree",
+		"structure_name": "mystructure:trees/fir_tree",
 		"adjustment_radius": 2,
 		"facing_direction": "south",
 		"constraints": {

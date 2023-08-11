@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "nature:ebony_tree"
 		},
-		"structure_name": "mystructure:ebony_tree",
+		"structure_name": "mystructure:trees/ebony_tree",
 		"adjustment_radius": 2,
 		"facing_direction": "south",
 		"constraints": {

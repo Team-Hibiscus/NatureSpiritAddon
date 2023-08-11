@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "nature:red_maple_tree"
 		},
-		"structure_name": "mystructure:red_maple_tree",
+		"structure_name": "mystructure:trees/red_maple_tree",
 		"adjustment_radius": 8,
 		"facing_direction": "south",
 		"constraints": {

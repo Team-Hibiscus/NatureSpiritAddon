@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "nature:palm_tree_3"
 		},
-		"structure_name": "mystructure:palm_tree_3",
+		"structure_name": "mystructure:trees/palm_tree_3",
 		"adjustment_radius": 16,
 		"facing_direction": "south",
 		"constraints": {
