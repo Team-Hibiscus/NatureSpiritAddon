@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "nature:blooming_white_sugi_tree"
 		},
-		"structure_name": "mystructure:blooming_white_sugi_tree",
+		"structure_name": "mystructure:trees/blooming_white_sugi_tree",
 		"adjustment_radius": 8,
 		"facing_direction": "south",
 		"constraints": {
