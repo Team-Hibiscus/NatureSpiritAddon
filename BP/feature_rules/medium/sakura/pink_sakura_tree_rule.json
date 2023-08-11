@@ -2,8 +2,8 @@
   "format_version": "1.13.0",
   "minecraft:feature_rules": {
     "description": {
-      "identifier": "nature:pink_sakura_tree_rule",
-      "places_feature": "nature:pink_sakura_tree"
+      "identifier": "nature:blooming_pink_sugi_tree_rule",
+      "places_feature": "nature:blooming_pink_sugi_tree"
     },
     "conditions": {
       "placement_pass": "surface_pass",
