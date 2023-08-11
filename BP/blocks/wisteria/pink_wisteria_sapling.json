@@ -102,33 +102,6 @@
                 "setblock ~ ~ ~ air"
               ]
             }
-          },
-          {
-            "weight": 1,
-            "run_command": {
-              "command": [
-                "structure load trees:pink_wisteria_tree_3 ~-1 ~ ~-1",
-                "setblock ~ ~ ~ air"
-              ]
-            }
-          },
-          {
-            "weight": 1,
-            "run_command": {
-              "command": [
-                "structure load trees:pink_wisteria_tree_4 ~-6 ~ ~-4",
-                "setblock ~ ~ ~ air"
-              ]
-            }
-          },
-          {
-            "weight": 1,
-            "run_command": {
-              "command": [
-                "structure load trees:pink_wisteria_tree_5 ~-3 ~ ~-5",
-                "setblock ~ ~ ~ air"
-              ]
-            }
           }
         ]
       }
