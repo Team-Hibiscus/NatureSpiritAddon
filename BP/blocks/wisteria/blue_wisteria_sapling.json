@@ -98,7 +98,7 @@
             "weight": 1,
             "run_command": {
               "command": [
-                "structure load trees:blue_wisteria_tree_2 ~-2 ~ ~-2",
+                "structure load trees:blue_wisteria_tree2 ~-2 ~ ~-2",
                 "setblock ~ ~ ~ air"
               ]
             }
