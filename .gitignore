@@ -9,3 +9,5 @@ config.json
 .bridge/.lightningCache
 .bridge/openedFiles_0.json
 .bridge/.dash.development.json
+deno.json
+7b5d12705970885f97c4b1b1bb66933b6ca5c2d4

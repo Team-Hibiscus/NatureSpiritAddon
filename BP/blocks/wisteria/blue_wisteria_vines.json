@@ -229,7 +229,9 @@
                         "condition": "q.is_item_name_any('slot.weapon.mainhand', 'minecraft:shears')",
                         "trigger": "set_ungrowable",
                         "damage": {
-                            "amount": 1
+                            "amount": 1,
+                            "type": "durability",
+                            "target": "item"
                         }
                     },
                     {
