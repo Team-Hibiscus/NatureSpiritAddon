@@ -39,7 +39,7 @@
 				"seconds_to_destroy": 0
 			},
 			"minecraft:geometry": {
-				"identifier": "geometry.cross"
+				"identifier": "geometry.crop"
 			},
 			"minecraft:on_player_placing": {
 				"target": "self",
