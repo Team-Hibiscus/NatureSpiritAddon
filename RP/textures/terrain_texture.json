@@ -511,7 +511,10 @@
       "textures": "textures/blocks/trees/sugi/stripped_sugi_log_top"
     },
     "sugi_leaves": {
-      "textures": "textures/blocks/trees/sugi/leaves_sugi"
+      "textures": {
+        "overlay_color": "#299f3a",
+        "path": "textures/blocks/trees/sugi/leaves_sugi"
+      }
     },
     "blooming_pink_sugi_leaves": {
       "textures": "textures/blocks/trees/sugi/leaves_blooming_pink_sugi"

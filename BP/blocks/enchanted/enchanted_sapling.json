@@ -87,7 +87,7 @@
             "run_command": {
               "command": [
                 "structure load trees:enchanted_tree_3 ~-9 ~ ~-7",
-                "fill ~-5 ~-4 ~-5 ~5 ~5 ~5 nature:enchanted_grass 0 replace tallgrass 1"
+                "fill ~-5 ~-4 ~-5 ~5 ~5 ~5 nature:enchanted_grass replace tallgrass"
               ]
             }
           },
@@ -99,7 +99,7 @@
             "run_command": {
               "command": [
                 "structure load trees:enchanted_tree ~-3 ~ ~-4",
-                "fill ~-5 ~-4 ~-5 ~5 ~5 ~5 nature:enchanted_grass 0 replace tallgrass 1"
+                "fill ~-5 ~-4 ~-5 ~5 ~5 ~5 nature:enchanted_grass replace tallgrass"
               ]
             }
           },
@@ -108,7 +108,7 @@
             "run_command": {
               "command": [
                 "structure load trees:enchanted_tree_2 ~-7 ~ ~-5",
-                "fill ~-5 ~-4 ~-5 ~5 ~5 ~5 nature:enchanted_grass 0 replace tallgrass 1"
+                "fill ~-5 ~-4 ~-5 ~5 ~5 ~5 nature:enchanted_grass replace tallgrass"
               ]
             }
           }

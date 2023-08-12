@@ -43,7 +43,9 @@
 							"minecraft:dirt",
 							"minecraft:grass",
 							"minecraft:podzol",
-							"minecraft:moss_block"
+							"minecraft:moss_block",
+							"minecraft:hardened_clay",
+							"minecraft:sand"
 						],
 						"allowed_faces": [
 							"up"

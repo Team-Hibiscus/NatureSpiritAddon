@@ -13,7 +13,6 @@
           "ambient_occlusion": false
         }
       },
-
       "minecraft:map_color": "#569F1B",
       "minecraft:creative_category": {
         "category": "none"
@@ -24,7 +23,10 @@
       },
       "minecraft:queued_ticking": {
         "looping": true,
-        "interval_range": [20000, 25000],
+        "interval_range": [
+          20000,
+          25000
+        ],
         "on_tick": {
           "event": "grow"
         }
@@ -41,15 +43,26 @@
               "minecraft:dirt",
               "minecraft:grass",
               "minecraft:podzol",
-              "minecraft:moss_block"
+              "minecraft:moss_block",
+              "minecraft:sand"
             ],
-            "allowed_faces": ["up"]
+            "allowed_faces": [
+              "up"
+            ]
           }
         ]
       },
       "minecraft:selection_box": {
-        "origin": [-6, 0, -6],
-        "size": [12, 13, 12]
+        "origin": [
+          -6,
+          0,
+          -6
+        ],
+        "size": [
+          12,
+          13,
+          12
+        ]
       }
     },
     "events": {
@@ -73,7 +86,9 @@
           {
             "weight": 1,
             "run_command": {
-              "command": ["structure load trees:palm_tree ~-6 ~ ~-6 0_degrees"]
+              "command": [
+                "structure load trees:palm_tree ~-6 ~ ~-6 0_degrees"
+              ]
             }
           },
           {
@@ -82,25 +97,33 @@
           {
             "weight": 1,
             "run_command": {
-              "command": ["structure load trees:palm_tree_4 ~-7 ~ ~-6 0_degrees"]
+              "command": [
+                "structure load trees:palm_tree_4 ~-7 ~ ~-6 0_degrees"
+              ]
             }
           },
           {
             "weight": 2,
             "run_command": {
-              "command": ["structure load trees:palm_tree_2 ~-6 ~ ~-5 0_degrees"]
+              "command": [
+                "structure load trees:palm_tree_2 ~-6 ~ ~-5 0_degrees"
+              ]
             }
           },
           {
             "weight": 2,
             "run_command": {
-              "command": ["structure load trees:palm_tree_3 ~-5 ~ ~-4 0_degrees"]
+              "command": [
+                "structure load trees:palm_tree_3 ~-5 ~ ~-4 0_degrees"
+              ]
             }
           },
           {
             "weight": 1,
             "run_command": {
-              "command": ["structure load trees:palm_tree_5 ~-2 ~ ~-7 0_degrees"]
+              "command": [
+                "structure load trees:palm_tree_5 ~-2 ~ ~-7 0_degrees"
+              ]
             }
           }
         ]

@@ -116,7 +116,11 @@
             {
                 "condition": "query.block_property('nature:growable') && query.block_property('nature:vine') == 'tip'",
                 "components": {
-                    "minecraft:random_ticking": {
+                    "minecraft:queued_ticking": {
+                        "interval_range": [
+                            30,
+                            120
+                        ],
                         "on_tick": {
                             "event": "grow"
                         }

@@ -12,7 +12,8 @@
 					"grass",
 					"dirt",
 					"podzol",
-					"moss_block"
+					"moss_block",
+					"sand"
 				]
 			},
 			"minecraft:icon": {
@@ -25,7 +26,7 @@
 			"minecraft:stacked_by_data": true,
 			"minecraft:display_name": {
 				"value": "Palm Sapling"
-			  },
+			},
 			"minecraft:on_use_on": {
 				"on_use_on": {
 					"event": "sound"
@@ -43,5 +44,3 @@
 		}
 	}
 }
-
-
