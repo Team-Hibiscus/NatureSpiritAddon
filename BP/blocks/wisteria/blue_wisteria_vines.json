@@ -118,8 +118,8 @@
                 "components": {
                     "minecraft:queued_ticking": {
                         "interval_range": [
-                            30,
-                            120
+                            13000,
+                            15000
                         ],
                         "on_tick": {
                             "event": "grow"

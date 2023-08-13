@@ -86,8 +86,7 @@
             "weight": 1,
             "run_command": {
               "command": [
-                "structure load trees:purple_wisteria_tree ~-3 ~ ~-4",
-                "setblock ~ ~ ~ air"
+                "structure load trees:purple_wisteria_tree ~-5 ~ ~-6"
               ]
             }
           },
@@ -98,8 +97,7 @@
             "weight": 1,
             "run_command": {
               "command": [
-                "structure load trees:purple_wisteria_tree2 ~-2 ~ ~-2",
-                "setblock ~ ~ ~ air"
+                "structure load trees:purple_wisteria_tree2 ~-6 ~ ~-5"
               ]
             }
           }

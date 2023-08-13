@@ -86,8 +86,7 @@
             "weight": 1,
             "run_command": {
               "command": [
-                "structure load trees:olive_tree ~-3 ~ ~-4",
-                "setblock ~ ~ ~ air"
+                "structure load trees:olive_tree ~-4 ~ ~-4"
               ]
             }
           },
@@ -98,8 +97,7 @@
             "weight": 1,
             "run_command": {
               "command": [
-                "structure load trees:olive_tree_2 ~-2 ~ ~-2",
-                "setblock ~ ~ ~ air"
+                "structure load trees:olive_tree_2 ~-4 ~ ~-3"
               ]
             }
           }

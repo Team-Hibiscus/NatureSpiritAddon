@@ -14,12 +14,7 @@
               "test": "has_biome_tag",
               "operator": "==",
               "value": "jungle"
-            },
-                        {
-                            "test": "has_biome_tag",
-                            "operator": "!=",
-                            "value": "bamboo"
-                        }
+            }
           ]
         }
       ]
@@ -28,15 +23,24 @@
       "iterations": 50,
       "x": {
         "distribution": "uniform",
-        "extent": [ 0, 16 ]
+        "extent": [
+          0,
+          16
+        ]
       },
       "y": {
         "distribution": "uniform",
-        "extent": [ 0, "query.heightmap(variable.worldx, variable.worldz) + 32" ]
+        "extent": [
+          0,
+          "query.heightmap(variable.worldx, variable.worldz) + 32"
+        ]
       },
       "z": {
         "distribution": "uniform",
-        "extent": [ 0, 16 ]
+        "extent": [
+          0,
+          16
+        ]
       }
     }
   }

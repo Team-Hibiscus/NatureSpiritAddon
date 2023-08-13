@@ -239,19 +239,19 @@
       "textures": "textures/blocks/trees/violet/grieving_vines"
     },
     "willow_vines_item": {
-      "textures": "textures/blocks/trees/willow/willow_vines"
+      "textures": "textures/blocks/trees/willow/willow_vines_plant"
     },
     "blue_wisteria_vines_item": {
-      "textures": "textures/blocks/trees/wisteria/blue_wisteria_vines"
+      "textures": "textures/blocks/trees/wisteria/blue_wisteria_vines_plant"
     },
     "pink_wisteria_vines_item": {
-      "textures": "textures/blocks/trees/wisteria/pink_wisteria_vines"
+      "textures": "textures/blocks/trees/wisteria/pink_wisteria_vines_plant"
     },
     "purple_wisteria_vines_item": {
-      "textures": "textures/blocks/trees/wisteria/purple_wisteria_vines"
+      "textures": "textures/blocks/trees/wisteria/purple_wisteria_vines_plant"
     },
     "white_wisteria_vines_item": {
-      "textures": "textures/blocks/trees/wisteria/white_wisteria_vines"
+      "textures": "textures/blocks/trees/wisteria/white_wisteria_vines_plant"
     },
     "grieving_rose": {
       "textures": "textures/blocks/plants/grieving_rose/grieving_rose"
