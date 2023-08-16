@@ -54,7 +54,8 @@
 				"*": {
 					"texture": "yellow_maple_leaves",
 					"render_method": "blend",
-					"face_dimming": false
+					"ambient_occlusion": true,
+					"face_dimming": true
 				}
 			}
 		},
