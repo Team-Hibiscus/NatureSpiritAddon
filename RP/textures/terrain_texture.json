@@ -969,6 +969,9 @@
     "white_rose_short": {
       "textures": "textures/blocks/plants/white_rose/white_rose_short"
     },
+        "goombashroom": {
+      "textures": "textures/blocks/plants/mushroom/goombashroom"
+    },
     "blue_bleeding_heart": {
       "textures": "textures/blocks/plants/blue_bleeding_heart/blue_bleeding_heart"
     },
