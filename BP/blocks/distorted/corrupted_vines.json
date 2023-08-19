@@ -112,20 +112,6 @@
 						"event": "setup"
 					}
 				}
-			},
-			{
-				"condition": "query.block_property('nature:growable') && query.block_property('nature:vine') == 'tip'",
-				"components": {
-					"minecraft:queued_ticking": {
-						"interval_range": [
-							13000,
-							15000
-						],
-						"on_tick": {
-							"event": "grow"
-						}
-					}
-				}
 			}
 		],
 		"events": {
