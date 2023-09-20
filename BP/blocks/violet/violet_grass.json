@@ -46,7 +46,6 @@
 			}
 		},
 		"events": {
-			//bonemeal
 			"grow_stage_2": {
 				"sequence": [
 					{

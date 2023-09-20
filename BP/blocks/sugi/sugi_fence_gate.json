@@ -148,7 +148,7 @@
 			"tag:fence": {},
 			"minecraft:destroy_time": 1,
 			"minecraft:light_dampening": 0,
-			"minecraft:light_emission": 0.0,
+			"minecraft:light_emission": 0,
 			"minecraft:loot": "loot_tables/blocks/fences/sugi_fence_gate.json",
 			"minecraft:geometry": "geometry.fence_gate",
 			"minecraft:creative_category": {
@@ -177,13 +177,13 @@
 			"open": {
 				"sequence": [
 					{
-						"condition": "q.block_property('nature:open') == 0",
+						"condition": "q.block_property('nature:open')==0",
 						"set_block_property": {
 							"nature:open": "query.cardinal_facing_2d"
 						}
 					},
 					{
-						"condition": "q.block_property('nature:open') >= 1",
+						"condition": "q.block_property('nature:open')>=1",
 						"set_block_property": {
 							"nature:open": 0
 						}

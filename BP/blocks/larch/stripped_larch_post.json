@@ -107,7 +107,7 @@
 		"events": {
 			"update_facing_direction": {
 				"set_block_property": {
-					"nature:direction": "math.floor(query.cardinal_block_face_placed_on / 2.0)"
+					"nature:direction": "math.floor(query.cardinal_block_face_placed_on/2)"
 				}
 			}
 		}

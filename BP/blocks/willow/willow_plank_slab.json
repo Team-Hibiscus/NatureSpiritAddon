@@ -6,7 +6,7 @@
 			"menu_category": {
 				"group": "itemGroup.name.slab",
 				"category": "construction"
-			  },
+			},
 			"properties": {
 				"mbms:slab_type": [
 					"base",
@@ -78,7 +78,7 @@
 				"components": {
 					"minecraft:geometry": "geometry.custom_slab_lower",
 					"minecraft:on_interact": {
-						"condition": "query.get_equipped_item_name =='willow_plank_slab' && query.block_property('mbms:slab_type') != 'double'",
+						"condition": "query.get_equipped_item_name=='willow_plank_slab'&&query.block_property('mbms:slab_type')!='double'",
 						"event": "double"
 					},
 					"minecraft:collision_box": {
@@ -112,7 +112,7 @@
 				"components": {
 					"minecraft:geometry": "geometry.custom_slab_upper",
 					"minecraft:on_interact": {
-						"condition": "query.get_equipped_item_name =='willow_plank_slab' && query.block_property('mbms:slab_type') != 'double'",
+						"condition": "query.get_equipped_item_name=='willow_plank_slab'&&query.block_property('mbms:slab_type')!='double'",
 						"event": "double"
 					},
 					"minecraft:collision_box": {

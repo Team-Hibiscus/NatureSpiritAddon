@@ -1,4 +1,4 @@
-	{
+{
 	"format_version": "1.20",
 	"minecraft:block": {
 		"description": {
@@ -272,14 +272,14 @@
 			"nature:dir0_check": {
 				"sequence": [
 					{
-						"condition": "query.block_property('nature:doubledoor')==false && q.block_neighbor_has_any_tag(1,0,0,'nature_violet_door') && q.block_neighbor_has_any_tag(1,0,0,'naturedir_0') && (!q.block_neighbor_has_any_tag(1,0,0,'nature_door_paired'))",
+						"condition": "query.block_property('nature:doubledoor')==false&&q.block_neighbor_has_any_tag(1,0,0,'nature_violet_door')&&q.block_neighbor_has_any_tag(1,0,0,'naturedir_0')&&(!q.block_neighbor_has_any_tag(1,0,0,'nature_door_paired'))",
 						"trigger": {
 							"event": "nature:init_doubledoor0",
 							"target": "self"
 						}
 					},
 					{
-						"condition": "query.block_property('nature:doubledoor')==true && !q.block_neighbor_has_any_tag(1,0,0,'nature_violet_door_flipped')",
+						"condition": "query.block_property('nature:doubledoor')==true&&!q.block_neighbor_has_any_tag(1,0,0,'nature_violet_door_flipped')",
 						"set_block_property": {
 							"nature:doubledoor": false
 						}
@@ -289,14 +289,14 @@
 			"nature:dir1_check": {
 				"sequence": [
 					{
-						"condition": "query.block_property('nature:doubledoor')==false && q.block_neighbor_has_any_tag(-1,0,0,'nature_violet_door') && q.block_neighbor_has_any_tag(-1,0,0,'naturedir_1') && (!q.block_neighbor_has_any_tag(-1,0,0,'nature_door_paired'))",
+						"condition": "query.block_property('nature:doubledoor')==false&&q.block_neighbor_has_any_tag(-1,0,0,'nature_violet_door')&&q.block_neighbor_has_any_tag(-1,0,0,'naturedir_1')&&(!q.block_neighbor_has_any_tag(-1,0,0,'nature_door_paired'))",
 						"trigger": {
 							"event": "nature:init_doubledoor1",
 							"target": "self"
 						}
 					},
 					{
-						"condition": "query.block_property('nature:doubledoor')==true && !q.block_neighbor_has_any_tag(-1,0,0,'nature_violet_door_flipped')",
+						"condition": "query.block_property('nature:doubledoor')==true&&!q.block_neighbor_has_any_tag(-1,0,0,'nature_violet_door_flipped')",
 						"set_block_property": {
 							"nature:doubledoor": false
 						}
@@ -306,14 +306,14 @@
 			"nature:dir2_check": {
 				"sequence": [
 					{
-						"condition": "query.block_property('nature:doubledoor')==false && q.block_neighbor_has_any_tag(0,0,-1,'nature_violet_door') && q.block_neighbor_has_any_tag(0,0,-1,'naturedir_2') && (!q.block_neighbor_has_any_tag(0,0,-1,'nature_door_paired'))",
+						"condition": "query.block_property('nature:doubledoor')==false&&q.block_neighbor_has_any_tag(0,0,-1,'nature_violet_door')&&q.block_neighbor_has_any_tag(0,0,-1,'naturedir_2')&&(!q.block_neighbor_has_any_tag(0,0,-1,'nature_door_paired'))",
 						"trigger": {
 							"event": "nature:init_doubledoor2",
 							"target": "self"
 						}
 					},
 					{
-						"condition": "query.block_property('nature:doubledoor')==true && !q.block_neighbor_has_any_tag(0,0,-1,'nature_violet_door_flipped')",
+						"condition": "query.block_property('nature:doubledoor')==true&&!q.block_neighbor_has_any_tag(0,0,-1,'nature_violet_door_flipped')",
 						"set_block_property": {
 							"nature:doubledoor": false
 						}
@@ -323,14 +323,14 @@
 			"nature:dir3_check": {
 				"sequence": [
 					{
-						"condition": "query.block_property('nature:doubledoor')==false && q.block_neighbor_has_any_tag(0,0,1,'nature_violet_door') && q.block_neighbor_has_any_tag(0,0,1,'naturedir_3') && (!q.block_neighbor_has_any_tag(0,0,1,'nature_door_paired'))",
+						"condition": "query.block_property('nature:doubledoor')==false&&q.block_neighbor_has_any_tag(0,0,1,'nature_violet_door')&&q.block_neighbor_has_any_tag(0,0,1,'naturedir_3')&&(!q.block_neighbor_has_any_tag(0,0,1,'nature_door_paired'))",
 						"trigger": {
 							"event": "nature:init_doubledoor3",
 							"target": "self"
 						}
 					},
 					{
-						"condition": "query.block_property('nature:doubledoor')==true && !q.block_neighbor_has_any_tag(0,0,1,'nature_violet_door_flipped')",
+						"condition": "query.block_property('nature:doubledoor')==true&&!q.block_neighbor_has_any_tag(0,0,1,'nature_violet_door_flipped')",
 						"set_block_property": {
 							"nature:doubledoor": false
 						}

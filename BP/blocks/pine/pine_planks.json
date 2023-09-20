@@ -5,7 +5,7 @@
 			"identifier": "nature:pine_planks"
 		},
 		"components": {
-			"tag:wood":{},
+			"tag:wood": {},
 			"minecraft:flammable": {
 				"burn_odds": 20,
 				"flame_odds": 5

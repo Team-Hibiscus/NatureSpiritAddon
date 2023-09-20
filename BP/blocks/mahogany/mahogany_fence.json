@@ -1,4 +1,4 @@
-	{
+{
 	"format_version": "1.20",
 	"minecraft:block": {
 		"description": {
@@ -115,9 +115,9 @@
 					},
 					"minecraft:transformation": {
 						"translation": [
-							0.0,
+							0,
 							0.255,
-							0.0
+							0
 						]
 					}
 				}
@@ -138,9 +138,9 @@
 					},
 					"minecraft:transformation": {
 						"translation": [
-							0.0,
+							0,
 							0.255,
-							0.0
+							0
 						]
 					}
 				}
@@ -161,9 +161,9 @@
 					},
 					"minecraft:transformation": {
 						"translation": [
-							0.0,
+							0,
 							0.255,
-							0.0
+							0
 						]
 					}
 				}
@@ -184,9 +184,9 @@
 					},
 					"minecraft:transformation": {
 						"translation": [
-							0.0,
+							0,
 							0.255,
-							0.0
+							0
 						]
 					}
 				}
@@ -207,9 +207,9 @@
 					},
 					"minecraft:transformation": {
 						"translation": [
-							0.0,
+							0,
 							0.255,
-							0.0
+							0
 						]
 					}
 				}
@@ -230,9 +230,9 @@
 					},
 					"minecraft:transformation": {
 						"translation": [
-							0.0,
+							0,
 							0.255,
-							0.0
+							0
 						]
 					}
 				}
@@ -253,9 +253,9 @@
 					},
 					"minecraft:transformation": {
 						"translation": [
-							0.0,
+							0,
 							0.255,
-							0.0
+							0
 						]
 					}
 				}
@@ -276,9 +276,9 @@
 					},
 					"minecraft:transformation": {
 						"translation": [
-							0.0,
+							0,
 							0.255,
-							0.0
+							0
 						]
 					}
 				}
@@ -299,9 +299,9 @@
 					},
 					"minecraft:transformation": {
 						"translation": [
-							0.0,
+							0,
 							0.255,
-							0.0
+							0
 						]
 					}
 				}
@@ -322,9 +322,9 @@
 					},
 					"minecraft:transformation": {
 						"translation": [
-							0.0,
+							0,
 							0.255,
-							0.0
+							0
 						]
 					}
 				}
@@ -345,9 +345,9 @@
 					},
 					"minecraft:transformation": {
 						"translation": [
-							0.0,
+							0,
 							0.255,
-							0.0
+							0
 						]
 					}
 				}
@@ -368,9 +368,9 @@
 					},
 					"minecraft:transformation": {
 						"translation": [
-							0.0,
+							0,
 							0.255,
-							0.0
+							0
 						]
 					}
 				}
@@ -391,9 +391,9 @@
 					},
 					"minecraft:transformation": {
 						"translation": [
-							0.0,
+							0,
 							0.255,
-							0.0
+							0
 						]
 					}
 				}
@@ -414,9 +414,9 @@
 					},
 					"minecraft:transformation": {
 						"translation": [
-							0.0,
+							0,
 							0.255,
-							0.0
+							0
 						]
 					}
 				}
@@ -437,9 +437,9 @@
 					},
 					"minecraft:transformation": {
 						"translation": [
-							0.0,
+							0,
 							0.255,
-							0.0
+							0
 						]
 					}
 				}
@@ -460,9 +460,9 @@
 					},
 					"minecraft:transformation": {
 						"translation": [
-							0.0,
+							0,
 							0.255,
-							0.0
+							0
 						]
 					}
 				}
