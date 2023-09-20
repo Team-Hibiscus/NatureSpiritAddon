@@ -1,4 +1,4 @@
-	{
+{
 	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
@@ -148,7 +148,7 @@
 			"tag:fence": {},
 			"minecraft:destroy_time": 1,
 			"minecraft:block_light_absorption": 0,
-			"minecraft:block_light_emission": 0.0,
+			"minecraft:block_light_emission": 0,
 			"minecraft:geometry": "geometry.fence_gate",
 			"minecraft:loot": "loot_tables/blocks/fences/distorted_fence_gate.json",
 			"minecraft:creative_category": {
@@ -177,13 +177,13 @@
 			"open": {
 				"sequence": [
 					{
-						"condition": "q.block_property('nature:open') == 0",
+						"condition": "q.block_property('nature:open')==0",
 						"set_block_property": {
 							"nature:open": "query.cardinal_facing_2d"
 						}
 					},
 					{
-						"condition": "q.block_property('nature:open') >= 1",
+						"condition": "q.block_property('nature:open')>=1",
 						"set_block_property": {
 							"nature:open": 0
 						}

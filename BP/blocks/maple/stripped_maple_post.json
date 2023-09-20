@@ -4,7 +4,12 @@
 		"description": {
 			"identifier": "nature:stripped_maple_post",
 			"properties": {
-				"nature:direction": [0, 1, 2, 3]
+				"nature:direction": [
+					0,
+					1,
+					2,
+					3
+				]
 			}
 		},
 		"permutations": [
@@ -40,7 +45,7 @@
 			}
 		],
 		"components": {
-			"tag:wood":{},
+			"tag:wood": {},
 			"minecraft:light_dampening": 1,
 			"minecraft:collision_box": {
 				"origin": [
@@ -102,7 +107,7 @@
 		"events": {
 			"update_facing_direction": {
 				"set_block_property": {
-					"nature:direction": "math.floor(query.cardinal_block_face_placed_on / 2.0)"
+					"nature:direction": "math.floor(query.cardinal_block_face_placed_on/2)"
 				}
 			}
 		}

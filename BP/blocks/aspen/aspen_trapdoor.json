@@ -246,7 +246,7 @@
 						}
 					},
 					{
-						"condition": "query.target_x_rotation <=0",
+						"condition": "query.target_x_rotation<=0",
 						"trigger": {
 							"event": "up"
 						}

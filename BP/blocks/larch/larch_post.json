@@ -129,7 +129,7 @@
 				"east": "side"
 			},
 			"minecraft:on_interact": {
-				"condition": "q.get_equipped_item_name=='wooden_axe' || q.get_equipped_item_name=='iron_axe' || q.get_equipped_item_name=='golden_axe' || q.get_equipped_item_name=='stone_axe' || q.get_equipped_item_name=='netherite_axe' || q.get_equipped_item_name=='diamond_axe'",
+				"condition": "q.get_equipped_item_name=='wooden_axe'||q.get_equipped_item_name=='iron_axe'||q.get_equipped_item_name=='golden_axe'||q.get_equipped_item_name=='stone_axe'||q.get_equipped_item_name=='netherite_axe'||q.get_equipped_item_name=='diamond_axe'",
 				"event": "update_texture"
 			},
 			"minecraft:on_player_placing": {
@@ -139,7 +139,7 @@
 		"events": {
 			"update_facing_direction": {
 				"set_block_property": {
-					"nature:direction": "math.floor(query.cardinal_block_face_placed_on / 2.0)"
+					"nature:direction": "math.floor(query.cardinal_block_face_placed_on/2)"
 				}
 			},
 			"update_texture": {

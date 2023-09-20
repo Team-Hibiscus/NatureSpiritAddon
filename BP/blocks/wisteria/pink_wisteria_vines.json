@@ -1,274 +1,274 @@
 {
-    "format_version": "1.20.10",
-    "minecraft:block": {
-        "description": {
-            "identifier": "nature:pink_wisteria_vines",
-            "menu_category": {
-                "category": "none"
-            },
-            "properties": {
-                "nature:vine": [
-                    "body",
-                    "tip"
-                ],
-                "nature:growable": [
-                    true,
-                    false
-                ],
-                "nature:interaction_pass": [
-                    false,
-                    true
-                ],
-                "nature:destroy": [
-                    false,
-                    true
-                ]
-            }
-        },
-        "components": {
-            "minecraft:placement_filter": {
-                "conditions": [
-                    {
-                        "allowed_faces": [
-                            "down"
-                        ]
-                    }
-                ]
-            },
-            "minecraft:destructible_by_mining": {
-                "seconds_to_destroy": 0
-            },
-            "minecraft:geometry": {
-                "identifier": "geometry.crop"
-            },
-            "minecraft:on_player_placing": {
-                "target": "self",
-                "event": "setup"
-            },
-            "minecraft:on_placed": {
-                "event": "placedSetup"
-            },
-            "minecraft:collision_box": false,
-            "minecraft:loot": "loot_tables/blocks/vines/pink_wisteria_vines.json",
-            "minecraft:map_color": "#52221D",
-            "minecraft:light_dampening": 0,
-            "minecraft:on_interact": {
-                "condition": "(query.block_property('nature:vine') == 'tip' && q.is_item_name_any('slot.weapon.mainhand', 'minecraft:shears')) || q.is_item_name_any('slot.weapon.mainhand', 'minecraft:bone_meal')",
-                "event": "interact"
-            },
-            "minecraft:on_player_destroyed": {
-                "event": "destroy"
-            }
-        },
-        "permutations": [
-            {
-                "condition": "query.block_property('nature:destroy')",
-                "components": {
-                    "minecraft:on_placed": {
-                        "event": "destroy"
-                    }
-                }
-            },
-            {
-                "condition": "query.block_property('nature:interaction_pass')",
-                "components": {
-                    "minecraft:on_placed": {
-                        "event": "placedSetupForInteractionPass"
-                    }
-                }
-            },
-            {
-                "condition": "query.block_property('nature:vine') == 'tip'",
-                "components": {
-                    "tag:vine_tip": {},
-                    "minecraft:material_instances": {
-                        "*": {
-                            "render_method": "alpha_test",
-                            "texture": "pink_wisteria_vines_tip",
-                            "face_dimming": false,
-                            "ambient_occlusion": false
-                        }
-                    },
-                    "minecraft:on_player_placing": {
-                        "target": "self",
-                        "event": "setup"
-                    }
-                }
-            },
-            {
-                "condition": "query.block_property('nature:vine') == 'body'",
-                "components": {
-                    "tag:vine_body": {},
-                    "minecraft:material_instances": {
-                        "*": {
-                            "render_method": "alpha_test",
-                            "texture": "pink_wisteria_vines",
-                            "face_dimming": false,
-                            "ambient_occlusion": false
-                        }
-                    },
-                    "minecraft:on_player_placing": {
-                        "target": "self",
-                        "event": "setup"
-                    }
-                }
-            },
-            {
-                "condition": "query.block_property('nature:growable') && query.block_property('nature:vine') == 'tip'",
-                "components": {
-                    "minecraft:queued_ticking": {
-                        "interval_range": [
-                            13000,
-                            15000
-                        ],
-                        "on_tick": {
-                            "event": "grow"
-                        }
-                    }
-                }
-            }
-        ],
-        "events": {
-            "setup": {
-                "sequence": [
-                    {
-                        "condition": "q.block_neighbor_has_any_tag(0,1,0, 'vine_tip')",
-                        "set_block_property": {
-                            "nature:vine": "'tip'"
-                        },
-                        "trigger": "setVine"
-                    }
-                ]
-            },
-            "placedSetup": {
-                "sequence": [
-                    {
-                        "condition": "q.block_neighbor_has_any_tag(0,1,0, 'vine_tip')",
-                        "set_block_property": {
-                            "nature:vine": "'tip'"
-                        },
-                        "trigger": "setVine"
-                    },
-                    {
-                        "condition": "q.block_neighbor_has_any_tag(0,-1,0, 'vine_tip')",
-                        "set_block_property": {
-                            "nature:vine": "'body'"
-                        }
-                    },
-                    {
-                        "condition": "!q.block_neighbor_has_any_tag(0,1,0, 'vine_tip') && !q.block_neighbor_has_any_tag(0,-1,0, 'vine_tip') && !q.block_neighbor_has_any_tag(0,-1,0, 'vine_body')",
-                        "set_block_property": {
-                            "nature:vine": "'tip'"
-                        }
-                    }
-                ]
-            },
-            "placedSetupForInteractionPass": {
-                "sequence": [
-                    {
-                        "trigger": "setVine"
-                    },
-                    {
-                        "condition": "q.block_neighbor_has_any_tag(0,-1,0, 'vine_tip')",
-                        "set_block_property": {
-                            "nature:vine": "'body'"
-                        }
-                    },
-                    {
-                        "condition": "query.block_property('nature:vine') == 'body' || query.block_property('nature:vine') == 'init'",
-                        "trigger": "pass_interaction_bone_meal_down"
-                    },
-                    {
-                        "condition": "query.block_property('nature:vine') == 'tip'",
-                        "set_block_property": {
-                            "nature:interaction_pass": false
-                        }
-                    }
-                ]
-            },
-            "destroy": {
-                "sequence": [
-                    {
-                        "run_command": {
-                            "command": [
-                                "execute if block ~ ~-1 ~ nature:pink_wisteria_vines run setblock ~ ~-1 ~ nature:pink_wisteria_vines[\"nature:destroy\"=true]"
-                            ]
-                        }
-                    },
-                    {
-                        "condition": "!query.block_property('nature:destroy')",
-                        "run_command": {
-                            "command": [
-                                "execute if block ~ ~1 ~ nature:pink_wisteria_vines run setblock ~~1~ nature:pink_wisteria_vines[\"nature:vine\"=\"tip\"]"
-                            ]
-                        }
-                    },
-                    {
-                        "condition": "query.block_property('nature:destroy')",
-                        "run_command": {
-                            "command": [
-                                "setblock ~~~ air"
-                            ]
-                        }
-                    }
-                ]
-            },
-            "setVine": {
-                "run_command": {
-                    "command": [
-                        "setblock ~~1~ nature:pink_wisteria_vines"
-                    ]
-                }
-            },
-            "grow": {
-                "run_command": {
-                    "command": [
-                        "execute if block ~ ~-1 ~ air run setblock ~~-1~ nature:pink_wisteria_vines"
-                    ]
-                }
-            },
-            "interact": {
-                "sequence": [
-                    {
-                        "condition": "q.is_item_name_any('slot.weapon.mainhand', 'minecraft:shears')",
-                        "trigger": "set_ungrowable",
-                        "damage": {
-                            "amount": 1,
-                            "type": "durability",
-                            "target": "item"
-                        }
-                    },
-                    {
-                        "condition": "q.is_item_name_any('slot.weapon.mainhand', 'minecraft:bone_meal')",
-                        "trigger": "pass_interaction_bone_meal_down",
-                        "decrement_stack": {},
-                        "run_command": {
-                            "command": [
-                                "particle minecraft:crop_growth_emitter ~ ~ ~"
-                            ]
-                        }
-                    }
-                ]
-            },
-            "set_ungrowable": {
-                "set_block_property": {
-                    "nature:growable": false
-                }
-            },
-            "pass_interaction_bone_meal_down": {
-                "sequence": [
-                    {
-                        "run_command": {
-                            "command": [
-                                "execute if block ~ ~-1 ~ nature:pink_wisteria_vines run setblock ~~-1~ nature:pink_wisteria_vines[\"nature:interaction_pass\"=true]",
-                                "execute if block ~ ~-1 ~ air run setblock ~~-1~ nature:pink_wisteria_vines[\"nature:interaction_pass\"=true, \"nature:vine\"=\"tip\"]",
-                                "execute if block ~ ~-1 ~ air run execute if block ~ ~-2 ~ air run setblock ~~-2~ nature:pink_wisteria_vines[\"nature:interaction_pass\"=true, \"nature:vine\"=\"tip\"]",
-                                "execute if block ~ ~-1 ~ air run execute if block ~ ~-2 ~ air run execute if block ~ ~-3 ~ air run setblock ~~-3~ nature:pink_wisteria_vines[\"nature:interaction_pass\"=true, \"nature:vine\"=\"tip\"]"
-                            ]
-                        }
-                    }
-                ]
-            }
-        }
-    }
+	"format_version": "1.20.10",
+	"minecraft:block": {
+		"description": {
+			"identifier": "nature:pink_wisteria_vines",
+			"menu_category": {
+				"category": "none"
+			},
+			"properties": {
+				"nature:vine": [
+					"body",
+					"tip"
+				],
+				"nature:growable": [
+					true,
+					false
+				],
+				"nature:interaction_pass": [
+					false,
+					true
+				],
+				"nature:destroy": [
+					false,
+					true
+				]
+			}
+		},
+		"components": {
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"down"
+						]
+					}
+				]
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0
+			},
+			"minecraft:geometry": {
+				"identifier": "geometry.crop"
+			},
+			"minecraft:on_player_placing": {
+				"target": "self",
+				"event": "setup"
+			},
+			"minecraft:on_placed": {
+				"event": "placedSetup"
+			},
+			"minecraft:collision_box": false,
+			"minecraft:loot": "loot_tables/blocks/vines/pink_wisteria_vines.json",
+			"minecraft:map_color": "#52221D",
+			"minecraft:light_dampening": 0,
+			"minecraft:on_interact": {
+				"condition": "(query.block_property('nature:vine')=='tip'&&q.is_item_name_any('slot.weapon.mainhand','minecraft:shears'))||q.is_item_name_any('slot.weapon.mainhand','minecraft:bone_meal')",
+				"event": "interact"
+			},
+			"minecraft:on_player_destroyed": {
+				"event": "destroy"
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('nature:destroy')",
+				"components": {
+					"minecraft:on_placed": {
+						"event": "destroy"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('nature:interaction_pass')",
+				"components": {
+					"minecraft:on_placed": {
+						"event": "placedSetupForInteractionPass"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('nature:vine') == 'tip'",
+				"components": {
+					"tag:vine_tip": {},
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "alpha_test",
+							"texture": "pink_wisteria_vines_tip",
+							"face_dimming": false,
+							"ambient_occlusion": false
+						}
+					},
+					"minecraft:on_player_placing": {
+						"target": "self",
+						"event": "setup"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('nature:vine') == 'body'",
+				"components": {
+					"tag:vine_body": {},
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "alpha_test",
+							"texture": "pink_wisteria_vines",
+							"face_dimming": false,
+							"ambient_occlusion": false
+						}
+					},
+					"minecraft:on_player_placing": {
+						"target": "self",
+						"event": "setup"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('nature:growable') && query.block_property('nature:vine') == 'tip'",
+				"components": {
+					"minecraft:queued_ticking": {
+						"interval_range": [
+							13000,
+							15000
+						],
+						"on_tick": {
+							"event": "grow"
+						}
+					}
+				}
+			}
+		],
+		"events": {
+			"setup": {
+				"sequence": [
+					{
+						"condition": "q.block_neighbor_has_any_tag(0,1,0,'vine_tip')",
+						"set_block_property": {
+							"nature:vine": "'tip'"
+						},
+						"trigger": "setVine"
+					}
+				]
+			},
+			"placedSetup": {
+				"sequence": [
+					{
+						"condition": "q.block_neighbor_has_any_tag(0,1,0,'vine_tip')",
+						"set_block_property": {
+							"nature:vine": "'tip'"
+						},
+						"trigger": "setVine"
+					},
+					{
+						"condition": "q.block_neighbor_has_any_tag(0,-1,0,'vine_tip')",
+						"set_block_property": {
+							"nature:vine": "'body'"
+						}
+					},
+					{
+						"condition": "!q.block_neighbor_has_any_tag(0,1,0,'vine_tip')&&!q.block_neighbor_has_any_tag(0,-1,0,'vine_tip')&&!q.block_neighbor_has_any_tag(0,-1,0,'vine_body')",
+						"set_block_property": {
+							"nature:vine": "'tip'"
+						}
+					}
+				]
+			},
+			"placedSetupForInteractionPass": {
+				"sequence": [
+					{
+						"trigger": "setVine"
+					},
+					{
+						"condition": "q.block_neighbor_has_any_tag(0,-1,0,'vine_tip')",
+						"set_block_property": {
+							"nature:vine": "'body'"
+						}
+					},
+					{
+						"condition": "query.block_property('nature:vine')=='body'||query.block_property('nature:vine')=='init'",
+						"trigger": "pass_interaction_bone_meal_down"
+					},
+					{
+						"condition": "query.block_property('nature:vine')=='tip'",
+						"set_block_property": {
+							"nature:interaction_pass": false
+						}
+					}
+				]
+			},
+			"destroy": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"execute if block ~ ~-1 ~ nature:pink_wisteria_vines run setblock ~ ~-1 ~ nature:pink_wisteria_vines[\"nature:destroy\"=true]"
+							]
+						}
+					},
+					{
+						"condition": "!query.block_property('nature:destroy')",
+						"run_command": {
+							"command": [
+								"execute if block ~ ~1 ~ nature:pink_wisteria_vines run setblock ~~1~ nature:pink_wisteria_vines[\"nature:vine\"=\"tip\"]"
+							]
+						}
+					},
+					{
+						"condition": "query.block_property('nature:destroy')",
+						"run_command": {
+							"command": [
+								"setblock ~~~ air"
+							]
+						}
+					}
+				]
+			},
+			"setVine": {
+				"run_command": {
+					"command": [
+						"setblock ~~1~ nature:pink_wisteria_vines"
+					]
+				}
+			},
+			"grow": {
+				"run_command": {
+					"command": [
+						"execute if block ~ ~-1 ~ air run setblock ~~-1~ nature:pink_wisteria_vines"
+					]
+				}
+			},
+			"interact": {
+				"sequence": [
+					{
+						"condition": "q.is_item_name_any('slot.weapon.mainhand','minecraft:shears')",
+						"trigger": "set_ungrowable",
+						"damage": {
+							"amount": 1,
+							"type": "durability",
+							"target": "item"
+						}
+					},
+					{
+						"condition": "q.is_item_name_any('slot.weapon.mainhand','minecraft:bone_meal')",
+						"trigger": "pass_interaction_bone_meal_down",
+						"decrement_stack": {},
+						"run_command": {
+							"command": [
+								"particle minecraft:crop_growth_emitter ~ ~ ~"
+							]
+						}
+					}
+				]
+			},
+			"set_ungrowable": {
+				"set_block_property": {
+					"nature:growable": false
+				}
+			},
+			"pass_interaction_bone_meal_down": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"execute if block ~ ~-1 ~ nature:pink_wisteria_vines run setblock ~~-1~ nature:pink_wisteria_vines[\"nature:interaction_pass\"=true]",
+								"execute if block ~ ~-1 ~ air run setblock ~~-1~ nature:pink_wisteria_vines[\"nature:interaction_pass\"=true, \"nature:vine\"=\"tip\"]",
+								"execute if block ~ ~-1 ~ air run execute if block ~ ~-2 ~ air run setblock ~~-2~ nature:pink_wisteria_vines[\"nature:interaction_pass\"=true, \"nature:vine\"=\"tip\"]",
+								"execute if block ~ ~-1 ~ air run execute if block ~ ~-2 ~ air run execute if block ~ ~-3 ~ air run setblock ~~-3~ nature:pink_wisteria_vines[\"nature:interaction_pass\"=true, \"nature:vine\"=\"tip\"]"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
 }

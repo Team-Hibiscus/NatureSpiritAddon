@@ -87,7 +87,7 @@
 				}
 			},
 			"minecraft:on_interact": {
-				"condition": "q.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_axe')",
+				"condition": "q.equipped_item_any_tag('slot.weapon.mainhand','minecraft:is_axe')",
 				"event": "update_texture"
 			},
 			"minecraft:on_player_placing": {
@@ -97,7 +97,7 @@
 		"events": {
 			"update_facing_direction": {
 				"set_block_property": {
-					"custom:facing_direction": "math.floor(query.cardinal_block_face_placed_on / 2.0)"
+					"custom:facing_direction": "math.floor(query.cardinal_block_face_placed_on/2)"
 				}
 			},
 			"update_texture": {

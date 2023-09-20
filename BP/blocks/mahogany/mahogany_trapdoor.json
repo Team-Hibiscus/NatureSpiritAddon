@@ -194,7 +194,7 @@
 			}
 		],
 		"components": {
-			"tag:wood":{},
+			"tag:wood": {},
 			"minecraft:loot": "loot_tables/blocks/trapdoors/trapdoor_mahogany.json",
 			"minecraft:collision_box": {
 				"origin": [
@@ -246,7 +246,7 @@
 						}
 					},
 					{
-						"condition": "query.target_x_rotation <=0",
+						"condition": "query.target_x_rotation<=0",
 						"trigger": {
 							"event": "up"
 						}
