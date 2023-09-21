@@ -1,49 +1,29 @@
 {
-	"format_version": 2,
-	"header": {
-		"name": "Nature's Spirit Survival Compatibility (v5.2.1)",
-		"description": "Nature's Spirit, now with new biomes everywhere! By Eko0087, Goofy, and Rewby23. Credit to clouddspider for the door and fence code!",
-		"uuid": "34f09633-6fec-4c72-82fb-07fbdf1f5d24",
-		"version": [
-			5,
-			2,
-			1
-		],
-		"min_engine_version": [
-			1,
-			20,
-			0
-		]
-	},
-	"modules": [
-		{
-			"type": "data",
-			"uuid": "5d7db201-5218-4ac2-96b0-212e1ad2851f",
-			"version": [
-				5,
-				2,
-				1
-			]
-		}
-	],
-	"dependencies": [
-		{
-			"version": [
-				5,
-				2,
-				1
-			],
-			"uuid": "2a37fd26-9076-4dbc-a0fb-49273e28bc5a"
-		}
-	],
-	"metadata": {
-		"generated_with": {
-			"bridge": [
-				"2.6.1"
-			],
-			"dash": [
-				"0.10.10"
-			]
-		}
-	}
+  "format_version": 2,
+  "header": {
+    "name": "Nature's Spirit Hotfix (v5.2.2)",
+    "description": "Nature's Spirit, now with new biomes everywhere! By Eko0087, Goofy, and Rewby23.",
+    "uuid": "34f09633-6fec-4c72-82fb-07fbdf1f5d24",
+    "version": [5, 2, 2],
+    "min_engine_version": [1, 20, 20]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "5d7db201-5218-4ac2-96b0-212e1ad2851f",
+      "version": [5, 2, 2]
+    }
+  ],
+  "dependencies": [
+    {
+      "version": [5, 2, 2],
+      "uuid": "2a37fd26-9076-4dbc-a0fb-49273e28bc5a"
+    }
+  ],
+  "metadata": {
+    "generated_with": {
+      "bridge": ["2.6.1"],
+      "dash": ["0.10.10"]
+    }
+  }
 }
