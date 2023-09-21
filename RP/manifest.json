@@ -5,7 +5,7 @@
     "name": "Nature's Spirit Hotfix (v5.2.2)",
     "uuid": "2a37fd26-9076-4dbc-a0fb-49273e28bc5a",
     "version": [5, 2, 2],
-    "min_engine_version": [1, 19, 0]
+    "min_engine_version": [1, 20, 30]
   },
   "modules": [
     {
