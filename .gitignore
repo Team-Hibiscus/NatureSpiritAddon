@@ -14,3 +14,9 @@ deno.json
 .bridge/.dash.development.json
 .bridge/.lightningCache
 .bridge/openedFiles_0.json
+/node_modules
+creation/paper_lantern.js
+bun.lockb
+index.ts
+package.json
+tsconfig.json

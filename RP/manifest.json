@@ -1,23 +1,28 @@
 {
   "format_version": 2,
+  "metadata": {
+    "authors": ["Goofy", "Rewby23", "Eko0087"],
+    "license": "Team Hibiscus",
+    "url": "https://github.com/Team-Hibiscus/NatureSpiritAddon"
+  },
   "header": {
-    "description": "Resource Pack for Nature's Spirit Beta, by Eko0087, Goofy, and Rewby23.",
-    "name": "Nature's Spirit Hotfix (v5.2.2)",
-    "uuid": "2a37fd26-9076-4dbc-a0fb-49273e28bc5a",
-    "version": [5, 2, 2],
-    "min_engine_version": [1, 20, 30]
+    "name": "Nature's Spirit: A New Upbringing (v5.3.0)",
+    "description": "Nature's Spirit, now with new biomes everywhere! By Eko0087, Goofy, and Rewby23.",
+    "min_engine_version": [1, 21, 0],
+    "uuid": "bd722575-92d9-43e6-ab67-9b6ea6447891",
+    "version": [5, 3, 0]
   },
   "modules": [
     {
       "type": "resources",
-      "uuid": "d280500d-0063-4b23-bf5b-791428a3c408",
-      "version": [5, 2, 2]
+      "uuid": "eb6e7d22-3051-40c2-9f1c-0ae2acf56eed",
+      "version": [5, 3, 0]
     }
   ],
-  "metadata": {
-    "generated_with": {
-      "bridge": ["2.6.1"],
-      "dash": ["0.10.10"]
+  "dependencies": [
+    {
+      "uuid": "55b261ef-3483-4816-81e8-4ea215a7bf33",
+      "version": [5, 3, 0]
     }
-  }
+  ]
 }

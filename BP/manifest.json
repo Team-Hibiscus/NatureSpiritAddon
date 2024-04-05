@@ -1,29 +1,39 @@
 {
   "format_version": 2,
+  "metadata": {
+    "authors": ["Goofy", "Rewby23", "Eko0087"],
+    "license": "Team Hibiscus",
+    "url": "https://github.com/Team-Hibiscus/NatureSpiritAddon"
+  },
   "header": {
-    "name": "Nature's Spirit Hotfix (v5.2.2)",
+    "name": "Nature's Spirit: A New Upbringing (v5.3.0)",
     "description": "Nature's Spirit, now with new biomes everywhere! By Eko0087, Goofy, and Rewby23.",
-    "uuid": "34f09633-6fec-4c72-82fb-07fbdf1f5d24",
-    "version": [5, 2, 2],
-    "min_engine_version": [1, 20, 30]
+    "min_engine_version": [1, 21, 0],
+    "uuid": "55b261ef-3483-4816-81e8-4ea215a7bf33",
+    "version": [5, 3, 0]
   },
   "modules": [
     {
       "type": "data",
-      "uuid": "5d7db201-5218-4ac2-96b0-212e1ad2851f",
-      "version": [5, 2, 2]
+      "uuid": "263c7143-3de1-4bec-bfe6-39a9c07f114f",
+      "version": [5, 3, 0]
+    },
+    {
+      "version": [5, 3, 0],
+      "uuid": "390509e9-36a3-4af6-b4f5-b6079b8c8fc3",
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js"
     }
   ],
   "dependencies": [
     {
-      "version": [5, 2, 2],
-      "uuid": "2a37fd26-9076-4dbc-a0fb-49273e28bc5a"
+      "uuid": "bd722575-92d9-43e6-ab67-9b6ea6447891",
+      "version": [5, 3, 0]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.12.0-beta"
     }
-  ],
-  "metadata": {
-    "generated_with": {
-      "bridge": ["2.6.1"],
-      "dash": ["0.10.10"]
-    }
-  }
+  ]
 }

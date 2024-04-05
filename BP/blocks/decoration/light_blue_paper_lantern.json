@@ -1,0 +1,84 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "natures_spirit:light_blue_paper_lantern",
+      "states": {
+        "natures_spirit:hanging": [false, true]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('natures_spirit:hanging')",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "render_method": "alpha_test",
+              "texture": "invisible"
+            },
+            "paper_lantern_chain": {
+              "render_method": "alpha_test",
+              "texture": "invisible"
+            },
+            "paper_lantern_hanging_chain": {
+              "render_method": "alpha_test",
+              "texture": "paper_lantern_hanging_chain"
+            },
+            "paper_lantern_top": {
+              "render_method": "alpha_test",
+              "texture": "light_blue_paper_lantern_top"
+            },
+            "paper_lantern": {
+              "render_method": "alpha_test",
+              "texture": "light_blue_paper_lantern"
+            }
+          }
+        }
+      }
+    ],
+    "components": {
+      "minecraft:light_emission": 15,
+      "minecraft:custom_components": ["natures_spirit:block_face_2"],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 2
+      },
+      "minecraft:collision_box": {
+        "size": [12.0, 12.0, 12.0],
+        "origin": [-6.0, 0.0, -6.0]
+      },
+      "minecraft:selection_box": {
+        "size": [12.0, 12.0, 12.0],
+        "origin": [-6.0, 0.0, -6.0]
+      },
+      "minecraft:geometry": {
+        "identifier": "geometry.paper_lantern",
+        "bone_visibility": {
+          "base": "!q.block_state('natures_spirit:hanging')",
+          "hanging": "q.block_state('natures_spirit:hanging')"
+        }
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "render_method": "alpha_test",
+          "texture": "invisible"
+        },
+        "paper_lantern_chain": {
+          "render_method": "alpha_test",
+          "texture": "paper_lantern_chain"
+        },
+        "paper_lantern_hanging_chain": {
+          "render_method": "alpha_test",
+          "texture": "invisible"
+        },
+        "paper_lantern_top": {
+          "render_method": "alpha_test",
+          "texture": "light_blue_paper_lantern_top"
+        },
+        "paper_lantern": {
+          "render_method": "alpha_test",
+          "texture": "light_blue_paper_lantern"
+        }
+      }
+    }
+  }
+}
