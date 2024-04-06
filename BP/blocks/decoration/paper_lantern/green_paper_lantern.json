@@ -43,6 +43,7 @@
     "components": {
       "minecraft:light_emission": 15,
       "minecraft:custom_components": ["natures_spirit:block_face_2"],
+      "minecraft:loot": "loot_tables/blocks/decoration/green_paper_lantern.json",
       "minecraft:destructible_by_mining": {
         "seconds_to_destroy": 2
       },

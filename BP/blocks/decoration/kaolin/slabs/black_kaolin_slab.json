@@ -47,13 +47,16 @@
         "condition": "q.block_state('natures_spirit:double')",
         "components": {
           "minecraft:geometry": {
-            "identifier": "minecraft:geometry.full_block"
+            "identifier": "minecraft:geometry.full_block",
+            "minecraft:loot": "loot_tables/blocks/decoration/black_kaolin_double_slab.json"
           }
         }
       }
     ],
     "components": {
+            "tag:slab_stone": {},
       "minecraft:custom_components": ["natures_spirit:slab"],
+      "minecraft:loot": "loot_tables/blocks/decoration/black_kaolin_slab.json",
       "minecraft:destructible_by_mining": {
         "seconds_to_destroy": 2
       },
