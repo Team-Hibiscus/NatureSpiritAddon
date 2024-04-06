@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "natures_spirit:stonecutter_light_blue_kaolin_bricks"
+    },
+    "tags": [ "stonecutter" ],
+    "priority": 5,
+    "ingredients": [
+      {
+        "item": "natures_spirit:light_blue_kaolin"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "natures_spirit:light_blue_kaolin"
+      }
+    ],
+    "result": {
+      "item": "natures_spirit:light_blue_kaolin_bricks",
+      "count": 1
+    }
+  }
+}

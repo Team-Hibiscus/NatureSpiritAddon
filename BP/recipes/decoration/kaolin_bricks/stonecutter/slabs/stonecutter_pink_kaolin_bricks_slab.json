@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "natures_spirit:stonecutter_pink_kaolin_bricks_to_pink_kaolin_bricks_slab"
+    },
+    "tags": [ "stonecutter" ],
+    "priority": 5,
+    "ingredients": [
+      {
+        "item": "natures_spirit:pink_kaolin_bricks"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "natures_spirit:pink_kaolin_bricks"
+      }
+    ],
+    "result": {
+      "item": "natures_spirit:pink_kaolin_bricks_slab",
+      "count": 2
+    }
+  }
+}

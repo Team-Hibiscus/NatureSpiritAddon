@@ -1,0 +1,25 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "natures_spirit:light_gray_kaolin_bricks_to_light_gray_kaolin_bricks_slab"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["BBB"],
+    "key": {
+      "B": {
+        "item": "natures_spirit:light_gray_kaolin_bricks"
+      }
+    },
+    "unlock": [
+      {
+        "item": "natures_spirit:light_gray_kaolin_bricks"
+      }
+    ],
+    "result": {
+      "item": "natures_spirit:light_gray_kaolin_bricks_slab",
+      "count": 6
+    },
+    "priority": 2
+  }
+}

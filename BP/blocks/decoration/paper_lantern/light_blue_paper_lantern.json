@@ -18,7 +18,7 @@
           "minecraft:material_instances": {
             "*": {
               "render_method": "alpha_test",
-              "texture": "invisible"
+              "texture": "light_blue_paper_lantern"
             },
             "paper_lantern_chain": {
               "render_method": "alpha_test",
@@ -64,7 +64,7 @@
       "minecraft:material_instances": {
         "*": {
           "render_method": "alpha_test",
-          "texture": "invisible"
+          "texture": "light_blue_paper_lantern"
         },
         "paper_lantern_chain": {
           "render_method": "alpha_test",

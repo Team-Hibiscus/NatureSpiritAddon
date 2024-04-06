@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "natures_spirit:stonecutter_red_chalk_to_red_chalk_slab"
+    },
+    "tags": [ "stonecutter" ],
+    "priority": 5,
+    "ingredients": [
+      {
+        "item": "natures_spirit:red_chalk"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "natures_spirit:red_chalk"
+      }
+    ],
+    "result": {
+      "item": "natures_spirit:red_chalk_slab",
+      "count": 2
+    }
+  }
+}
