@@ -57,7 +57,7 @@
       "minecraft:custom_components": ["natures_spirit:slab"],
       "minecraft:loot": "loot_tables/blocks/decoration/brown_chalk_slab.json",
       "minecraft:destructible_by_mining": {
-        "seconds_to_destroy": 7
+        "seconds_to_destroy": 2
       },
       "minecraft:destructible_by_explosion": {
         "explosion_resistance": 6
