@@ -1,0 +1,79 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "natures_spirit:red_chalk_slab",
+      "menu_category": {
+        "category": "construction",
+        "group": "itemGroup.name.slab"
+      },
+      "traits": {
+        "minecraft:placement_position": {
+          "enabled_states": ["minecraft:vertical_half"]
+        }
+      },
+      "states": {
+        "natures_spirit:double": [false, true]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && !q.block_state('natures_spirit:double')",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [-8, 0, -8],
+            "size": [16, 8, 16]
+          },
+          "minecraft:selection_box": {
+            "origin": [-8, 0, -8],
+            "size": [16, 8, 16]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:vertical_half') == 'top' && !q.block_state('natures_spirit:double')",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [-8, 8, -8],
+            "size": [16, 8, 16]
+          },
+          "minecraft:selection_box": {
+            "origin": [-8, 8, -8],
+            "size": [16, 8, 16]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('natures_spirit:double')",
+        "components": {
+          "minecraft:geometry": {
+            "identifier": "minecraft:geometry.full_block",
+            "minecraft:loot": "loot_tables/blocks/decoration/red_chalk_double_slab.json"
+          }
+        }
+      }
+    ],
+    "components": {
+      "minecraft:custom_components": ["natures_spirit:slab"],
+      "minecraft:loot": "loot_tables/blocks/decoration/red_chalk_slab.json",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 7
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 6
+      },
+      "minecraft:geometry": {
+        "identifier": "geometry.slab",
+        "bone_visibility": {
+          "bottom_slab": "q.block_state('minecraft:vertical_half') == 'bottom'",
+          "top_slab": "q.block_state('minecraft:vertical_half') == 'top'"
+        }
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "red_chalk"
+        }
+      }
+    }
+  }
+}
