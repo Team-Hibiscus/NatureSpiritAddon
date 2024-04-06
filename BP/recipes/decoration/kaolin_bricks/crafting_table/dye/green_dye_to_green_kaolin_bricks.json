@@ -1,0 +1,52 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "natures_spirit:kaolin_bricks_w_green_dye_to_green_kaolin_bricks"
+    },
+    "tags": ["crafting_table"],
+    "ingredients": [
+      {
+        "item": "natures_spirit:kaolin_bricks"
+      },
+      {
+        "item": "natures_spirit:kaolin_bricks"
+      },
+      {
+        "item": "natures_spirit:kaolin_bricks"
+      },
+      {
+        "item": "natures_spirit:kaolin_bricks"
+      },
+      {
+        "item": "natures_spirit:kaolin_bricks"
+      },
+      {
+        "item": "natures_spirit:kaolin_bricks"
+      },
+      {
+        "item": "natures_spirit:kaolin_bricks"
+      },
+      {
+        "item": "natures_spirit:kaolin_bricks"
+      },
+      {
+        "item": "minecraft:green_dye"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:green_dye"
+      },
+      {
+        "item": "natures_spirit:kaolin_bricks"
+      }
+    ],
+    "result": {
+      "item": "natures_spirit:green_kaolin_bricks",
+      "count": 8
+    },
+    "priority": 2
+  }
+}
+

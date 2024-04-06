@@ -1,0 +1,20 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "natures_spirit:kaolin_to_kaolin_bricks"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["BB", "BB"],
+    "key": {
+      "B": {
+        "item": "natures_spirit:kaolin"
+      }
+    },
+    "result": {
+      "item": "natures_spirit:kaolin_bricks",
+      "count": 1
+    },
+    "priority": 2
+  }
+}

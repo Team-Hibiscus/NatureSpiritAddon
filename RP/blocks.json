@@ -117,5 +117,73 @@
   "natures_spirit:black_kaolin": {
     "sound": "stone",
     "textures": "black_kaolin"
+  },
+  "natures_spirit:kaolin_bricks": {
+    "sound": "stone",
+    "textures": "kaolin_bricks"
+  },
+  "natures_spirit:white_kaolin_bricks": {
+    "sound": "stone",
+    "textures": "white_kaolin_bricks"
+  },
+  "natures_spirit:blue_kaolin_bricks": {
+    "sound": "stone",
+    "textures": "blue_kaolin_bricks"
+  },
+  "natures_spirit:yellow_kaolin_bricks": {
+    "sound": "stone",
+    "textures": "yellow_kaolin_bricks"
+  },
+  "natures_spirit:red_kaolin_bricks": {
+    "sound": "stone",
+    "textures": "red_kaolin_bricks"
+  },
+  "natures_spirit:purple_kaolin_bricks": {
+    "sound": "stone",
+    "textures": "purple_kaolin_bricks"
+  },
+  "natures_spirit:pink_kaolin_bricks": {
+    "sound": "stone",
+    "textures": "pink_kaolin_bricks"
+  },
+  "natures_spirit:orange_kaolin_bricks": {
+    "sound": "stone",
+    "textures": "orange_kaolin_bricks"
+  },
+  "natures_spirit:magenta_kaolin_bricks": {
+    "sound": "stone",
+    "textures": "magenta_kaolin_bricks"
+  },
+  "natures_spirit:lime_kaolin_bricks": {
+    "sound": "stone",
+    "textures": "lime_kaolin_bricks"
+  },
+  "natures_spirit:light_gray_kaolin_bricks": {
+    "sound": "stone",
+    "textures": "light_gray_kaolin_bricks"
+  },
+  "natures_spirit:light_blue_kaolin_bricks": {
+    "sound": "stone",
+    "textures": "light_blue_kaolin_bricks"
+  },
+  "natures_spirit:green_kaolin_bricks": {
+    "sound": "stone",
+    "textures": "green_kaolin_bricks"
+  },
+  "natures_spirit:gray_kaolin_bricks": {
+    "sound": "stone",
+    "textures": "gray_kaolin_bricks"
+  },
+  "natures_spirit:cyan_kaolin_bricks": {
+    "sound": "stone",
+    "textures": "cyan_kaolin_bricks"
+  },
+  "natures_spirit:brown_kaolin_bricks": {
+    "sound": "stone",
+    "textures": "brown_kaolin_bricks"
+  },
+  "natures_spirit:black_kaolin_bricks": {
+    "sound": "stone",
+    "textures": "black_kaolin_bricks"
   }
 }

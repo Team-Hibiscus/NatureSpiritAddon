@@ -1,0 +1,52 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "natures_spirit:kaolin_w_cyan_dye_to_cyan_kaolin"
+    },
+    "tags": ["crafting_table"],
+    "ingredients": [
+      {
+        "item": "natures_spirit:kaolin"
+      },
+      {
+        "item": "natures_spirit:kaolin"
+      },
+      {
+        "item": "natures_spirit:kaolin"
+      },
+      {
+        "item": "natures_spirit:kaolin"
+      },
+      {
+        "item": "natures_spirit:kaolin"
+      },
+      {
+        "item": "natures_spirit:kaolin"
+      },
+      {
+        "item": "natures_spirit:kaolin"
+      },
+      {
+        "item": "natures_spirit:kaolin"
+      },
+      {
+        "item": "minecraft:cyan_dye"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:cyan_dye"
+      },
+      {
+        "item": "natures_spirit:kaolin"
+      }
+    ],
+    "result": {
+      "item": "natures_spirit:cyan_kaolin",
+      "count": 8
+    },
+    "priority": 2
+  }
+}
+

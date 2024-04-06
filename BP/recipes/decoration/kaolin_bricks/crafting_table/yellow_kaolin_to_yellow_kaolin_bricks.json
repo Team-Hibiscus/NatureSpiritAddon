@@ -1,0 +1,21 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "natures_spirit:yellow_kaolin_to_yellow_kaolin_bricks"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["BB", "BB"],
+    "key": {
+      "B": {
+        "item": "natures_spirit:yellow_kaolin"
+      }
+    },
+    "result": {
+      "item": "natures_spirit:yellow_kaolin_bricks",
+      "count": 1
+    },
+    "priority": 2
+  }
+}
+

@@ -1,0 +1,52 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "natures_spirit:kaolin_w_pink_dye_to_pink_kaolin"
+    },
+    "tags": ["crafting_table"],
+    "ingredients": [
+      {
+        "item": "natures_spirit:kaolin"
+      },
+      {
+        "item": "natures_spirit:kaolin"
+      },
+      {
+        "item": "natures_spirit:kaolin"
+      },
+      {
+        "item": "natures_spirit:kaolin"
+      },
+      {
+        "item": "natures_spirit:kaolin"
+      },
+      {
+        "item": "natures_spirit:kaolin"
+      },
+      {
+        "item": "natures_spirit:kaolin"
+      },
+      {
+        "item": "natures_spirit:kaolin"
+      },
+      {
+        "item": "minecraft:pink_dye"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:pink_dye"
+      },
+      {
+        "item": "natures_spirit:kaolin"
+      }
+    ],
+    "result": {
+      "item": "natures_spirit:pink_kaolin",
+      "count": 8
+    },
+    "priority": 2
+  }
+}
+

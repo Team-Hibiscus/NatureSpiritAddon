@@ -164,6 +164,57 @@
     },
     "black_kaolin": {
       "textures": "textures/blocks/black_kaolin"
+    },
+    "kaolin_bricks": {
+      "textures": "textures/blocks/kaolin_bricks"
+    },
+    "white_kaolin_bricks": {
+      "textures": "textures/blocks/white_kaolin_bricks"
+    },
+    "blue_kaolin_bricks": {
+      "textures": "textures/blocks/blue_kaolin_bricks"
+    },
+    "yellow_kaolin_bricks": {
+      "textures": "textures/blocks/yellow_kaolin_bricks"
+    },
+    "red_kaolin_bricks": {
+      "textures": "textures/blocks/red_kaolin_bricks"
+    },
+    "purple_kaolin_bricks": {
+      "textures": "textures/blocks/purple_kaolin_bricks"
+    },
+    "pink_kaolin_bricks": {
+      "textures": "textures/blocks/pink_kaolin_bricks"
+    },
+    "orange_kaolin_bricks": {
+      "textures": "textures/blocks/orange_kaolin_bricks"
+    },
+    "magenta_kaolin_bricks": {
+      "textures": "textures/blocks/magenta_kaolin_bricks"
+    },
+    "lime_kaolin_bricks": {
+      "textures": "textures/blocks/lime_kaolin_bricks"
+    },
+    "light_gray_kaolin_bricks": {
+      "textures": "textures/blocks/light_gray_kaolin_bricks"
+    },
+    "light_blue_kaolin_bricks": {
+      "textures": "textures/blocks/light_blue_kaolin_bricks"
+    },
+    "green_kaolin_bricks": {
+      "textures": "textures/blocks/green_kaolin_bricks"
+    },
+    "gray_kaolin_bricks": {
+      "textures": "textures/blocks/gray_kaolin_bricks"
+    },
+    "cyan_kaolin_bricks": {
+      "textures": "textures/blocks/cyan_kaolin_bricks"
+    },
+    "brown_kaolin_bricks": {
+      "textures": "textures/blocks/brown_kaolin_bricks"
+    },
+    "black_kaolin_bricks": {
+      "textures": "textures/blocks/black_kaolin_bricks"
     }
   },
   "texture_name": "atlas.terrain"

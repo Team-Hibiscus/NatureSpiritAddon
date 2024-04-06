@@ -20,3 +20,4 @@ bun.lockb
 index.ts
 package.json
 tsconfig.json
+creation/**/*
