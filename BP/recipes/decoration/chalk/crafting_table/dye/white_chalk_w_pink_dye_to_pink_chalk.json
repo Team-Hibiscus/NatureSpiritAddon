@@ -1,0 +1,52 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "natures_spirit:white_chalk_w_pink_dye_to_pink_chalk"
+    },
+    "tags": ["crafting_table"],
+    "ingredients": [
+      {
+        "item": "natures_spirit:white_chalk"
+      },
+      {
+        "item": "natures_spirit:white_chalk"
+      },
+      {
+        "item": "natures_spirit:white_chalk"
+      },
+      {
+        "item": "natures_spirit:white_chalk"
+      },
+      {
+        "item": "natures_spirit:white_chalk"
+      },
+      {
+        "item": "natures_spirit:white_chalk"
+      },
+      {
+        "item": "natures_spirit:white_chalk"
+      },
+      {
+        "item": "natures_spirit:white_chalk"
+      },
+      {
+        "item": "minecraft:pink_dye"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:pink_dye"
+      },
+      {
+        "item": "natures_spirit:white_chalk"
+      }
+    ],
+    "result": {
+      "item": "natures_spirit:pink_chalk",
+      "count": 8
+    },
+    "priority": 2
+  }
+}
+

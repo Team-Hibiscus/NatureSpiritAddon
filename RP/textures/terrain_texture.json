@@ -215,6 +215,54 @@
     },
     "black_kaolin_bricks": {
       "textures": "textures/blocks/black_kaolin_bricks"
+    },
+    "white_chalk": {
+      "textures": "textures/blocks/white_chalk"
+    },
+    "blue_chalk": {
+      "textures": "textures/blocks/blue_chalk"
+    },
+    "yellow_chalk": {
+      "textures": "textures/blocks/yellow_chalk"
+    },
+    "red_chalk": {
+      "textures": "textures/blocks/red_chalk"
+    },
+    "purple_chalk": {
+      "textures": "textures/blocks/purple_chalk"
+    },
+    "pink_chalk": {
+      "textures": "textures/blocks/pink_chalk"
+    },
+    "orange_chalk": {
+      "textures": "textures/blocks/orange_chalk"
+    },
+    "magenta_chalk": {
+      "textures": "textures/blocks/magenta_chalk"
+    },
+    "lime_chalk": {
+      "textures": "textures/blocks/lime_chalk"
+    },
+    "light_gray_chalk": {
+      "textures": "textures/blocks/light_gray_chalk"
+    },
+    "light_blue_chalk": {
+      "textures": "textures/blocks/light_blue_chalk"
+    },
+    "green_chalk": {
+      "textures": "textures/blocks/green_chalk"
+    },
+    "gray_chalk": {
+      "textures": "textures/blocks/gray_chalk"
+    },
+    "cyan_chalk": {
+      "textures": "textures/blocks/cyan_chalk"
+    },
+    "brown_chalk": {
+      "textures": "textures/blocks/brown_chalk"
+    },
+    "black_chalk": {
+      "textures": "textures/blocks/black_chalk"
     }
   },
   "texture_name": "atlas.terrain"

@@ -1,0 +1,52 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "natures_spirit:white_chalk_w_yellow_dye_to_yellow_chalk"
+    },
+    "tags": ["crafting_table"],
+    "ingredients": [
+      {
+        "item": "natures_spirit:white_chalk"
+      },
+      {
+        "item": "natures_spirit:white_chalk"
+      },
+      {
+        "item": "natures_spirit:white_chalk"
+      },
+      {
+        "item": "natures_spirit:white_chalk"
+      },
+      {
+        "item": "natures_spirit:white_chalk"
+      },
+      {
+        "item": "natures_spirit:white_chalk"
+      },
+      {
+        "item": "natures_spirit:white_chalk"
+      },
+      {
+        "item": "natures_spirit:white_chalk"
+      },
+      {
+        "item": "minecraft:yellow_dye"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:yellow_dye"
+      },
+      {
+        "item": "natures_spirit:white_chalk"
+      }
+    ],
+    "result": {
+      "item": "natures_spirit:yellow_chalk",
+      "count": 8
+    },
+    "priority": 2
+  }
+}
+

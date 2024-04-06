@@ -1,0 +1,25 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "natures_spirit:chalk_powder_to_white_chalk"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["BB", "BB"],
+    "key": {
+      "B": {
+        "item": "natures_spirit:chalk_powder"
+      }
+    },
+    "unlock": [
+      {
+        "item": "natures_spirit:chalk_powder"
+      }
+    ],
+    "result": {
+      "item": "natures_spirit:white_chalk",
+      "count": 1
+    },
+    "priority": 2
+  }
+}

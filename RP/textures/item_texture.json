@@ -51,6 +51,9 @@
     },
     "black_paper_lantern": {
       "textures": "textures/items/black_paper_lantern"
+    },
+    "chalk_powder": {
+      "textures": "textures/items/chalk_powder"
     }
   },
   "texture_name": "atlas.items"

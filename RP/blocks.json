@@ -185,5 +185,69 @@
   "natures_spirit:black_kaolin_bricks": {
     "sound": "stone",
     "textures": "black_kaolin_bricks"
+  },
+  "natures_spirit:white_chalk": {
+    "sound": "stone",
+    "textures": "white_chalk"
+  },
+  "natures_spirit:blue_chalk": {
+    "sound": "stone",
+    "textures": "blue_chalk"
+  },
+  "natures_spirit:yellow_chalk": {
+    "sound": "stone",
+    "textures": "yellow_chalk"
+  },
+  "natures_spirit:red_chalk": {
+    "sound": "stone",
+    "textures": "red_chalk"
+  },
+  "natures_spirit:purple_chalk": {
+    "sound": "stone",
+    "textures": "purple_chalk"
+  },
+  "natures_spirit:pink_chalk": {
+    "sound": "stone",
+    "textures": "pink_chalk"
+  },
+  "natures_spirit:orange_chalk": {
+    "sound": "stone",
+    "textures": "orange_chalk"
+  },
+  "natures_spirit:magenta_chalk": {
+    "sound": "stone",
+    "textures": "magenta_chalk"
+  },
+  "natures_spirit:lime_chalk": {
+    "sound": "stone",
+    "textures": "lime_chalk"
+  },
+  "natures_spirit:light_gray_chalk": {
+    "sound": "stone",
+    "textures": "light_gray_chalk"
+  },
+  "natures_spirit:light_blue_chalk": {
+    "sound": "stone",
+    "textures": "light_blue_chalk"
+  },
+  "natures_spirit:green_chalk": {
+    "sound": "stone",
+    "textures": "green_chalk"
+  },
+  "natures_spirit:gray_chalk": {
+    "sound": "stone",
+    "textures": "gray_chalk"
+  },
+  "natures_spirit:cyan_chalk": {
+    "sound": "stone",
+    "textures": "cyan_chalk"
+  },
+  "natures_spirit:brown_chalk": {
+    "sound": "stone",
+    "textures": "brown_chalk"
+  },
+  "natures_spirit:black_chalk": {
+    "sound": "stone",
+    "textures": "black_chalk"
   }
 }
