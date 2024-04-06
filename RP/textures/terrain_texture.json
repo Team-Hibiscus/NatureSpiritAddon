@@ -113,6 +113,57 @@
     },
     "black_paper_lantern_top": {
       "textures": "textures/blocks/black_paper_lantern_top"
+    },
+    "kaolin": {
+      "textures": "textures/blocks/kaolin"
+    },
+    "white_kaolin": {
+      "textures": "textures/blocks/white_kaolin"
+    },
+    "blue_kaolin": {
+      "textures": "textures/blocks/blue_kaolin"
+    },
+    "yellow_kaolin": {
+      "textures": "textures/blocks/yellow_kaolin"
+    },
+    "red_kaolin": {
+      "textures": "textures/blocks/red_kaolin"
+    },
+    "purple_kaolin": {
+      "textures": "textures/blocks/purple_kaolin"
+    },
+    "pink_kaolin": {
+      "textures": "textures/blocks/pink_kaolin"
+    },
+    "orange_kaolin": {
+      "textures": "textures/blocks/orange_kaolin"
+    },
+    "magenta_kaolin": {
+      "textures": "textures/blocks/magenta_kaolin"
+    },
+    "lime_kaolin": {
+      "textures": "textures/blocks/lime_kaolin"
+    },
+    "light_gray_kaolin": {
+      "textures": "textures/blocks/light_gray_kaolin"
+    },
+    "light_blue_kaolin": {
+      "textures": "textures/blocks/light_blue_kaolin"
+    },
+    "green_kaolin": {
+      "textures": "textures/blocks/green_kaolin"
+    },
+    "gray_kaolin": {
+      "textures": "textures/blocks/gray_kaolin"
+    },
+    "cyan_kaolin": {
+      "textures": "textures/blocks/cyan_kaolin"
+    },
+    "brown_kaolin": {
+      "textures": "textures/blocks/brown_kaolin"
+    },
+    "black_kaolin": {
+      "textures": "textures/blocks/black_kaolin"
     }
   },
   "texture_name": "atlas.terrain"

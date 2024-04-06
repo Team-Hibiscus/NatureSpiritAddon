@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "natures_spirit:yellow_paper_lantern_item",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 64,
+      "minecraft:block_placer": {
+        "block": "natures_spirit:yellow_paper_lantern"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "yellow_paper_lantern"
+        }
+      }
+    }
+  }
+}

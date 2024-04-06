@@ -4,6 +4,9 @@
     "paper_lantern": {
       "textures": "textures/items/paper_lantern"
     },
+    "white_paper_lantern": {
+      "textures": "textures/items/white_paper_lantern"
+    },
     "blue_paper_lantern": {
       "textures": "textures/items/blue_paper_lantern"
     },
