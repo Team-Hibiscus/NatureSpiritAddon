@@ -10,7 +10,6 @@
     },
     "components": {
       "tag:stone": {},
-      "tag:stone": {},
       "minecraft:collision_box": true,
       "minecraft:selection_box": true,
       "minecraft:loot": "loot_tables/blocks/decoration/black_chalk.json",
