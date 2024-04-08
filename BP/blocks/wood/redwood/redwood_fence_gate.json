@@ -1,0 +1,82 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:block": {
+    "description": {
+      "identifier": "natures_spirit:redwood_fence_gate",
+      "menu_category": {
+        "category": "construction",
+        "group": "itemGroup.name.fenceGate"
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": ["minecraft:cardinal_direction"]
+        }
+      },
+      "states": {
+        "natures_spirit:open": [false, true]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": { "rotation": [0, 0, 0] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": { "rotation": [0, 180, 0] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": { "rotation": [0, -90, 0] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": { "rotation": [0, 90, 0] }
+        }
+      },
+      
+      {
+        "condition": "q.block_state('natures_spirit:open')",
+        "components": {
+          "minecraft:collision_box": false
+        }
+      }
+    ],
+    "components": {
+      "tag:fence_gate": {},
+      "minecraft:collision_box": {
+        "origin": [-8, 0, -1],
+        "size": [16, 16, 2]
+      },
+      "minecraft:selection_box": {
+        "origin": [-8, 0, -1],
+        "size": [16, 16, 2]
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 4.5
+      },
+      "minecraft:geometry": {
+        "identifier": "geometry.fence_gate",
+        "bone_visibility": {
+          "closed": "!q.block_state('natures_spirit:open')",
+          "open": "q.block_state('natures_spirit:open')"
+        }
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "redwood_planks",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:custom_components": ["natures_spirit:fence_gate"],
+      "minecraft:loot": "loot_tables/blocks/wood/redwood/redwood_fence_gate.json"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "natures_spirit:bowl_from_redwood_planks"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A A",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "natures_spirit:redwood_planks"
+			}
+		},
+		"result": {
+			"item": "bowl",
+			"count": 4
+		},
+		"priority": 2
+	}
+}

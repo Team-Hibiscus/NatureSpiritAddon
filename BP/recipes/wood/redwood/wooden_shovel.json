@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "natures_spirit:wooden_shovel_from_redwood_planks"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A",
+			"B",
+			"B"
+		],
+		"key": {
+			"A": {
+				"item": "natures_spirit:redwood_planks"
+			},
+			"B": {
+				"item": "stick"
+			}
+		},
+		"result": {
+			"item": "wooden_shovel",
+			"count": 1
+		},
+		"priority": 2
+	}
+}

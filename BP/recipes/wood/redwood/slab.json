@@ -1,0 +1,25 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "natures_spirit:redwood_slab"
+    },
+    "tags": ["crafting_table"],
+    "group": "wooden_slab",
+    "pattern": ["###"],
+    "key": {
+      "#": {
+        "item": "natures_spirit:redwood_planks"
+      }
+    },
+    "unlock": [
+      {
+        "item": "natures_spirit:blue_chalk"
+      }
+    ],
+    "result": {
+      "item": "natures_spirit:redwood_slab",
+      "count": 6
+    }
+  }
+}

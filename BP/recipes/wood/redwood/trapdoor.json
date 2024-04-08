@@ -1,0 +1,25 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "natures_spirit:redwood_trapdoor"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"group": "wooden_trap_door",
+		"pattern": [
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "natures_spirit:redwood_planks"
+			}
+		},
+		"result": {
+			"item": "natures_spirit:redwood_trapdoor",
+			"count": 2
+		}
+	}
+}
