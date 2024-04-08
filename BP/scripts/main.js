@@ -1,4 +1,4 @@
-import { BlockPermutation, World, world } from "@minecraft/server";
+import { BlockPermutation, ItemStack, World, world } from "@minecraft/server";
 
 const tags = [
   "fence",
@@ -15,6 +15,7 @@ const tags = [
   "gravel",
   "grass",
   "snow",
+  "fence_gate",
 ];
 
 world.beforeEvents.worldInitialize.subscribe(({ blockTypeRegistry }) => {
@@ -56,6 +57,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockTypeRegistry }) => {
     onPlayerInteract(arg) {
       const equipment = arg.player.getComponent("equippable");
       const itemStack = equipment.getEquipment("Mainhand");
+      if (itemStack == undefined) return;
       const face = arg.face;
       const block = arg.block;
       const permutation = block.permutation;
@@ -82,39 +84,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockTypeRegistry }) => {
           }
           //block.setWaterlogged(false);
         }
-
-        //   if (verticalHalfState === "top" && arg.face === "Down") {
-        //     performActions();
-        //   } else if (verticalHalfState === "bottom" && arg.face === "Up") {
-        //     performActions();
-        //   }
       }
-
-      // function performActions() {
-      //   if (arg.player.getGameMode() !== "creative") {
-      //     block.setPermutation(permutation.withState("natures_spirit:double", true));
-      //     arg.player.runCommand(`gamerule sendcommandfeedback false`);
-      //     arg.player.runCommand(`clear @s ${itemStack.typeId} 0 1`);
-      //     if (arg.block.hasTag("slab_wood")) {
-      //       arg.player.runCommand(`playsound use.wood @a ~~~ 1 0.8`);
-      //     }
-      //     if (arg.block.hasTag("slab_stone")) {
-      //       arg.player.runCommand(`playsound use.stone @a ~~~ 1 0.8`);
-      //     }
-
-      //     arg.player.runCommand(`gamerule sendcommandfeedback true`);
-      //   } else {
-      //     arg.player.runCommand(`gamerule sendcommandfeedback false`);
-      //     block.setPermutation(permutation.withState("natures_spirit:double", true));
-      //     if (arg.block.hasTag("slab_wood")) {
-      //       arg.player.runCommand(`playsound use.wood @a ~~~ 1 0.8`);
-      //     }
-      //     if (arg.block.hasTag("slab_stone")) {
-      //       arg.player.runCommand(`playsound use.stone @a ~~~ 1 0.8`);
-      //     }
-      //     arg.player.runCommand(`gamerule sendcommandfeedback true`);
-      //   }
-      // }
     },
   });
 
@@ -140,7 +110,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockTypeRegistry }) => {
       tags.forEach((tag) => {
         const block = e.block;
 
-        if (block.east().hasTag(tag)) {
+        if (block.east().hasTag(tag) && !block.east().typeId.includes("sign")) {
           const eastBlock = block.east();
           e.permutationToPlace = e.permutationToPlace.withState("natures_spirit:east", true);
           if (eastBlock.hasTag("natures_spirit:fence")) {
@@ -148,7 +118,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockTypeRegistry }) => {
           }
         }
 
-        if (block.west().hasTag(tag)) {
+        if (block.west().hasTag(tag) && !block.west().typeId.includes("sign")) {
           const westBlock = block.west();
           e.permutationToPlace = e.permutationToPlace.withState("natures_spirit:west", true);
           if (westBlock.hasTag("natures_spirit:fence")) {
@@ -156,7 +126,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockTypeRegistry }) => {
           }
         }
 
-        if (block.north().hasTag(tag)) {
+        if (block.north().hasTag(tag) && !block.north().typeId.includes("sign")) {
           const northBlock = block.north();
           e.permutationToPlace = e.permutationToPlace.withState("natures_spirit:north", true);
           if (northBlock.hasTag("natures_spirit:fence")) {
@@ -164,7 +134,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockTypeRegistry }) => {
           }
         }
 
-        if (block.south().hasTag(tag)) {
+        if (block.south().hasTag(tag) && !block.south().typeId.includes("sign")) {
           const southBlock = block.south();
           e.permutationToPlace = e.permutationToPlace.withState("natures_spirit:south", true);
           if (southBlock.hasTag("natures_spirit:fence")) {
@@ -194,11 +164,88 @@ world.beforeEvents.worldInitialize.subscribe(({ blockTypeRegistry }) => {
       }
     },
   });
+
+  blockTypeRegistry.registerCustomComponent("natures_spirit:fence_gate", {
+    onPlayerInteract(arg) {
+      const { block, player } = arg;
+      const currentState = block.permutation.getState("natures_spirit:open");
+      const newOpenState = !currentState;
+      const newPermutation = BlockPermutation.resolve(block.typeId, {
+        ...block.permutation.getAllStates(),
+        "natures_spirit:open": newOpenState,
+      });
+      block.setPermutation(newPermutation);
+      const sound = currentState ? "open.fence_gate" : "close.fence_gate";
+      player.playSound(sound);
+    },
+  });
+
+  blockTypeRegistry.registerCustomComponent("natures_spirit:log", {
+    onPlayerInteract(arg) {
+      const { block, player } = arg;
+      const equipment = player.getComponent("equippable");
+      const itemStack = equipment.getEquipment("Mainhand");
+      const namespace = block.typeId.split(":")[0];
+      const logName = block.typeId.split(":")[1];
+      if (itemStack.typeId.includes("axe")) {
+        const newPermutation = BlockPermutation.resolve(namespace + ":stripped_" + logName, {
+          ...block.permutation.getAllStates(),
+        });
+        block.setPermutation(newPermutation);
+
+        const itemEnchantmentComp = itemStack.getComponent("minecraft:enchantable");
+        const unbreakingLevel = itemEnchantmentComp?.getEnchantment("unbreaking")?.level ?? 0;
+        const breakChance = 100 / (unbreakingLevel + 1);
+        const randomizeChance = Math.random() * 100;
+        if (breakChance < randomizeChance) return;
+        const itemUsedDurabilityComp = itemStack.getComponent("durability");
+        if (!itemUsedDurabilityComp) return;
+        itemUsedDurabilityComp.damage += 1;
+        const maxDurability = itemUsedDurabilityComp.maxDurability;
+        const currentDamage = itemUsedDurabilityComp.damage;
+        if (currentDamage >= maxDurability) {
+          player.playSound("random.break", { pitch: 1, location: player.location, volume: 1 });
+          equipment.setEquipment("Mainhand", new ItemStack("minecraft:air", 1));
+        } else;
+
+        equipment.setEquipment("Mainhand", itemStack);
+      }
+    },
+  });
+
+  blockTypeRegistry.registerCustomComponent("natures_spirit:sapling", {
+    onRandomTick(arg) {
+      let { block, dimension } = arg;
+      function randomInt(min, max) {
+        return Math.floor(Math.random() * (max - min + 1) + min);
+      }
+
+      const type = block.typeId.split(":")[1].split("_sapling")[0];
+      if (!block.permutation.getState("natures_spirit:age_bit")) {
+        block.setPermutation(block.permutation.withState("natures_spirit:age_bit", true));
+      } else if (block.permutation.getState("natures_spirit:age_bit")) {
+        if (
+          type == "redwood" &&
+          block.south().typeId == "natures_spirit:redwood_sapling" &&
+          block.south().east().typeId == "natures_spirit:redwood_sapling" &&
+          block.south().east().north().typeId == "natures_spirit:redwood_sapling"
+        ) {
+          world.structureManager.place(`redwood_large_${randomInt(1, 4)}`);
+        } else {
+          world.structureManager.place(`natures_spirit:${type}_${randomInt(1, 4)}`, dimension, {
+            x: block.location.x - 3,
+            y: block.location.y,
+            z: block.location.z - 3,
+          });
+        }
+      }
+    },
+  });
 });
 
 world.afterEvents.playerPlaceBlock.subscribe(({ block }) => {
   tags.forEach((tag) => {
-    if (block.hasTag(tag)) {
+    if (block.hasTag(tag) && !block.typeId.includes("sign")) {
       if (block.east().hasTag("natures_spirit:fence")) {
         block.east().setPermutation(block.east().permutation.withState("natures_spirit:west", true));
       }
@@ -220,7 +267,7 @@ world.afterEvents.playerPlaceBlock.subscribe(({ block }) => {
 
 world.afterEvents.playerBreakBlock.subscribe(({ brokenBlockPermutation, block }) => {
   tags.forEach((tag) => {
-    if (brokenBlockPermutation.hasTag(tag)) {
+    if (brokenBlockPermutation.hasTag(tag) && !block.typeId.includes("sign")) {
       if (block.east().hasTag("natures_spirit:fence")) {
         block.east().setPermutation(block.east().permutation.withState("natures_spirit:west", false));
       }
@@ -239,5 +286,3 @@ world.afterEvents.playerBreakBlock.subscribe(({ brokenBlockPermutation, block })
     }
   });
 });
-
-//"natures_spirit:log";

@@ -54,6 +54,9 @@
     },
     "chalk_powder": {
       "textures": "textures/items/chalk_powder"
+    },
+    "redwood_sapling": {
+      "textures": "textures/blocks/redwood_sapling"
     }
   },
   "texture_name": "atlas.items"

@@ -263,6 +263,30 @@
     },
     "black_chalk": {
       "textures": "textures/blocks/black_chalk"
+    },
+    "redwood_planks": {
+      "textures": "textures/blocks/redwood_planks"
+    },
+    "redwood_leaves": {
+      "textures": "textures/blocks/redwood_leaves"
+    },
+    "redwood_sapling": {
+      "textures": "textures/blocks/redwood_sapling"
+    },
+    "redwood_trapdoor": {
+      "textures": "textures/blocks/redwood_trapdoor"
+    },
+    "redwood_log_top": {
+      "textures": "textures/blocks/redwood_log_top"
+    },
+    "redwood_log": {
+      "textures": "textures/blocks/redwood_log"
+    },
+    "stripped_redwood_log_top": {
+      "textures": "textures/blocks/stripped_redwood_log_top"
+    },
+    "stripped_redwood_log": {
+      "textures": "textures/blocks/stripped_redwood_log"
     }
   },
   "texture_name": "atlas.terrain"

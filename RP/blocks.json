@@ -399,5 +399,38 @@
   },
   "natures_spirit:black_kaolin_slab": {
     "sound": "stone"
+  },
+  "natures_spirit:redwood_log": {
+    "sound": "wood"
+  },
+  "natures_spirit:stripped_redwood_log": {
+    "sound": "wood"
+  },
+  "natures_spirit:redwood_wood": {
+    "sound": "wood"
+  },
+  "natures_spirit:stripped_redwood_wood": {
+    "sound": "wood"
+  },
+  "natures_spirit:redwood_planks": {
+    "sound": "wood"
+  },
+  "natures_spirit:redwood_trapdoor": {
+    "sound": "wood"
+  },
+  "natures_spirit:redwood_slab": {
+    "sound": "wood"
+  },
+  "natures_spirit:redwood_fence": {
+    "sound": "wood"
+  },
+  "natures_spirit:redwood_fence_gate": {
+    "sound": "wood"
+  },
+  "natures_spirit:redwood_leaves": {
+    "sound": "grass"
+  },
+  "natures_spirit:redwood_sapling": {
+    "sound": "grass"
   }
 }
