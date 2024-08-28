@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+     "target": "ES2022",
+     "moduleResolution": "Node",
+     "module": "CommonJS",
+     "declaration": true,
+     "noLib": false,
+     "emitDecoratorMetadata": true,
+     "experimentalDecorators": true,
+     "sourceMap": true,
+     "pretty": true,
+     "forceConsistentCasingInFileNames": true,
+     "strict": true,
+     "allowUnreachableCode": true,
+     "allowUnusedLabels": true,
+     "noImplicitAny": false,
+     "noImplicitReturns": false,
+     "noImplicitUseStrict": false,
+     "outDir": "lib",
+     "rootDir": ".",
+     "baseUrl": "BP/",
+     "listFiles": false,
+     "noEmitHelpers": true,
+     "skipLibCheck": true,
+     "strictPropertyInitialization": false
+  },
+  "include": [
+     "src"
+  ],
+  "exclude": [
+     "lib",
+     "dist",
+     "node_modules"
+  ],
+  "compileOnSave": false
+}

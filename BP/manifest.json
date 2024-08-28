@@ -23,7 +23,7 @@
       "uuid": "390509e9-36a3-4af6-b4f5-b6079b8c8fc3",
       "type": "script",
       "language": "javascript",
-      "entry": "scripts/main.js"
+      "entry": "scripts/index.js"
     }
   ],
   "dependencies": [
@@ -33,7 +33,7 @@
     },
     {
       "module_name": "@minecraft/server",
-      "version": "1.12.0-beta"
+      "version": "1.13.0"
     }
   ]
 }

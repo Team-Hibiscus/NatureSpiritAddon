@@ -15,7 +15,6 @@
       "tag:wood": {},
       "minecraft:custom_components": ["natures_spirit:sapling"],
       "minecraft:loot": "loot_tables/blocks/wood/redwood/redwood_sapling.json",
-      "minecraft:breathability": "air",
       "minecraft:flammable": {
         "catch_chance_modifier": 5,
         "destroy_chance_modifier": 20
@@ -32,12 +31,14 @@
         "size": [12, 13, 12]
       },
       "minecraft:geometry": {
-        "identifier": "geometry.cross_block"
+        "identifier": "geometry.tall_cross_block"
       },
       "minecraft:material_instances": {
         "*": {
           "texture": "redwood_sapling",
-          "render_method": "alpha_test"
+          "render_method": "alpha_test",
+          "ambient_occlusion": false,
+          "face_dimming": false
         }
       }
     }

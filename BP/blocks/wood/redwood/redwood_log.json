@@ -41,13 +41,13 @@
       "tag:wood": {},
       "minecraft:custom_components": ["natures_spirit:block_face_3", "natures_spirit:log"],
       "minecraft:loot": "loot_tables/blocks/wood/redwood/redwood_log.json",
-      "minecraft:destructible_by_mining": {
-        "seconds_to_destroy": 2
-      },
       "minecraft:collision_box": true,
       "minecraft:selection_box": true,
       "minecraft:geometry": {
         "identifier": "minecraft:geometry.full_block"
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 2
       },
       "minecraft:material_instances": {
             "up": {

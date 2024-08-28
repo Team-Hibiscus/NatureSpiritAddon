@@ -57,8 +57,7 @@
         }
       },
       "minecraft:loot": "loot_tables/blocks/wood/redwood/redwood_fence.json",
-      "minecraft:destructible_by_explosion": true,
-      "minecraft:breathability": "solid"
+      "minecraft:destructible_by_explosion": true
     },
     "permutations": [
       {
