@@ -20,7 +20,13 @@ item.natures_spirit:cyan_paper_lantern_item=Cyan Paper Lantern
 item.natures_spirit:brown_paper_lantern_item=Brown Paper Lantern
 item.natures_spirit:black_paper_lantern_item=Black Paper Lantern
 item.natures_spirit:chalk_powder=Chalk Powder
+
 item.natures_spirit:redwood_sapling_item=Redwood Sapling
+
+item.natures_spirit:blue_iris_item=Blue Iris
+item.natures_spirit:yellow_wildflower_item=Yellow Wildflower
+item.natures_spirit:lush_fern_item=Lush Fern
+item.natures_spirit:large_lush_fern_item=Large Lush Fern
 
 tile.natures_spirit:kaolin.name=Kaolin
 tile.natures_spirit:white_kaolin.name=White Kaolin
@@ -122,6 +128,7 @@ tile.natures_spirit:gray_kaolin_slab.name=Gray Kaolin Slab
 tile.natures_spirit:cyan_kaolin_slab.name=Cyan Kaolin Slab
 tile.natures_spirit:brown_kaolin_slab.name=Brown Kaolin Slab
 tile.natures_spirit:black_kaolin_slab.name=Black Kaolin Slab
+
 tile.natures_spirit:redwood_log.name=Redwood Log
 tile.natures_spirit:stripped_redwood_log.name=Stripped Redwood Log
 tile.natures_spirit:redwood_wood.name=Redwood Wood
@@ -132,3 +139,4 @@ tile.natures_spirit:redwood_trapdoor.name=Redwood Trapdoor
 tile.natures_spirit:redwood_fence.name=Redwood Fence
 tile.natures_spirit:redwood_fence_gate.name=Redwood Fence Gate
 tile.natures_spirit:redwood_leaves.name=Redwood Leaves
+

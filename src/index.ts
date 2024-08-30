@@ -5,3 +5,4 @@ import "./natures-spirit/blocks/Slab";
 import "./natures-spirit/blocks/Trapdoor";
 import "./natures-spirit/blocks/Sapling";
 import "./natures-spirit/blocks/Log";
+import "./natures-spirit/blocks/LargePlant";

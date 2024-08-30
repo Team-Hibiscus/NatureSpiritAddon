@@ -5,7 +5,7 @@
       "identifier": "natures_spirit:redwood_log",
       "menu_category": {
         "category": "nature",
-        "group": "itemGroup.name.wood"
+        "group": "itemGroup.name.log"
       },
       "states": {
         "natures_spirit:block_face": [0, 1, 2]

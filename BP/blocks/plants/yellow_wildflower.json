@@ -1,0 +1,52 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "natures_spirit:yellow_wildflower",
+      "menu_category": {
+        "category": "none",
+        "is_hidden_in_commands": true
+      }
+    },
+    "components": {
+      "tag:flower": {},
+      "minecraft:loot": "loot_tables/blocks/plants/flower/yellow_wildflower.json",
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0
+      },
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": {
+        "origin": [-6, 0, -6],
+        "size": [12, 13, 12]
+      },
+      "minecraft:geometry": {
+        "identifier": "geometry.tall_large_cross_block"
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "yellow_wildflower",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false,
+          "face_dimming": false
+        }
+      },
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": ["up"],
+            "block_filter": [
+              "minecraft:grass",
+              "minecraft:dirt",
+              "minecraft:podzol",
+              "minecraft:moss_block",
+              "minecraft:dirt_with_roots"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

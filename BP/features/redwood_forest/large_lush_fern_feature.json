@@ -1,0 +1,14 @@
+//bridge-file-version: #2
+{
+  "format_version": "1.21.0",
+  "minecraft:aggregate_feature": {
+    "description": {
+      "identifier": "natures_spirit:redwood_forest/large_lush_fern_feature"
+    },
+    "early_out": "first_failure",
+    "features": [
+      "natures_spirit:redwood_forest/large_lush_fern_bottom",
+      "natures_spirit:redwood_forest/large_lush_fern_top_pos"
+    ]
+  }
+}

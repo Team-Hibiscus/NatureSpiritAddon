@@ -287,6 +287,21 @@
     },
     "stripped_redwood_log": {
       "textures": "textures/blocks/stripped_redwood_log"
+    },
+    "lush_fern": {
+      "textures": "textures/blocks/lush_fern"
+    },
+    "blue_iris": {
+      "textures": "textures/blocks/blue_iris"
+    },
+    "yellow_wildflower": {
+      "textures": "textures/blocks/yellow_wildflower"
+    },
+    "large_lush_fern_bottom": {
+      "textures": "textures/blocks/large_lush_fern_bottom"
+    },
+    "large_lush_fern_top": {
+      "textures": "textures/blocks/large_lush_fern_top"
     }
   },
   "texture_name": "atlas.terrain"

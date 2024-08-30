@@ -1,13 +1,13 @@
 {
-	"format_version": "1.21.0",
-	"minecraft:scatter_feature": {
-		"description": {
-			"identifier": "natures_spirit:redwood_forest/redwood_forest_idx"
-		},
-		"places_feature": "natures_spirit:redwood_forest/grass_patch_feature",
-		"iterations": "t.natures_spirit_biome == 0",
-		"x": 0,
-		"z": 0,
-		"y": 0
-	}
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "natures_spirit:redwood_forest/redwood_forest_idx"
+    },
+    "places_feature": "natures_spirit:redwood_forest/podzol_patch_feature",
+    "iterations": "t.natures_spirit_biome == 0",
+    "x": 0,
+    "z": 0,
+    "y": 0
+  }
 }

@@ -433,5 +433,17 @@
   },
   "natures_spirit:redwood_sapling": {
     "sound": "grass"
+  },
+  "natures_spirit:lush_fern": {
+    "sound": "grass"
+  },
+  "natures_spirit:blue_iris": {
+    "sound": "grass"
+  },
+  "natures_spirit:yellow_wildflower": {
+    "sound": "grass"
+  },
+  "natures_spirit:large_lush_fern": {
+    "sound": "grass"
   }
 }

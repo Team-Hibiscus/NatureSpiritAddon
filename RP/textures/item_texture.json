@@ -57,6 +57,18 @@
     },
     "redwood_sapling": {
       "textures": "textures/items/redwood_sapling"
+    },
+    "lush_fern": {
+      "textures": "textures/items/lush_fern"
+    },
+    "blue_iris": {
+      "textures": "textures/blocks/blue_iris"
+    },
+    "yellow_wildflower": {
+      "textures": "textures/items/yellow_wildflower"
+    },
+    "large_lush_fern": {
+      "textures": "textures/items/large_lush_fern"
     }
   },
   "texture_name": "atlas.items"

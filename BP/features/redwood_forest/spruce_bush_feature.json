@@ -1,0 +1,94 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:tree_feature": {
+    "description": {
+      "identifier": "natures_spirit:redwood_forest/spruce_bush_feature"
+    },
+    "trunk": {
+      "trunk_height": 1,
+      "trunk_block": {
+        "name": "minecraft:spruce_log"
+      },
+      "can_be_submerged": {
+        "max_depth": 1
+      }
+    },
+    "canopy": {
+      "canopy_offset": {
+        "min": -1,
+        "max": 0
+      },
+      "leaf_block": {
+        "name": "minecraft:spruce_leaves"
+      },
+      "min_width": 2,
+      "canopy_slope": {
+        "rise": 5,
+        "run": 2
+      },
+      "variation_chance": {
+        "numerator": 3,
+        "denominator": 4
+      }
+    },
+    "base_block": [
+      "minecraft:podzol",
+      {
+        "name": "minecraft:dirt",
+        "states": {
+          "dirt_type": "coarse"
+        }
+      }
+    ],
+    "may_grow_on": [
+      "minecraft:grass",
+      "minecraft:dirt",
+      "minecraft:podzol",
+      {
+        "name": "minecraft:dirt",
+        "states": {
+          "dirt_type": "coarse"
+        }
+      }
+    ],
+    "may_replace": [
+      "minecraft:air",
+      {
+        "name": "minecraft:leaves",
+        "states": {
+          "old_leaf_type": "oak"
+        }
+      },
+      {
+        "name": "minecraft:leaves",
+        "states": {
+          "old_leaf_type": "spruce"
+        }
+      },
+      {
+        "name": "minecraft:leaves",
+        "states": {
+          "old_leaf_type": "birch"
+        }
+      },
+      {
+        "name": "minecraft:leaves",
+        "states": {
+          "old_leaf_type": "jungle"
+        }
+      },
+      {
+        "name": "minecraft:leaves2",
+        "states": {
+          "new_leaf_type": "acacia"
+        }
+      },
+      {
+        "name": "minecraft:leaves2",
+        "states": {
+          "new_leaf_type": "dark_oak"
+        }
+      }
+    ]
+  }
+}

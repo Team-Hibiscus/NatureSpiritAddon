@@ -1,14 +1,25 @@
 {
-	"format_version": "1.21.0",
-	"minecraft:weighted_random_feature": {
-		"description": {
-			"identifier": "natures_spirit:redwood_forest/plants_weighted_random_feature"
-		},
-		"features": [
-			[
-				"natures_spirit:redwood_forest/redwood_tree",
-				1
-			]
-		]
-	}
+  "format_version": "1.21.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "natures_spirit:redwood_forest/plants_weighted_random_feature"
+    },
+    "features": [
+      ["natures_spirit:redwood_forest/mega_redwood_tree", 8],
+      ["natures_spirit:redwood_forest/redwood_tree", 7],
+      ["natures_spirit:redwood_forest/tuff_rock_feature", 10],
+      ["natures_spirit:redwood_forest/coarse_patch_feature", 2],
+      ["natures_spirit:redwood_forest/grass_block_patch_feature", 1],
+      ["natures_spirit:redwood_forest/grass_feature", 15],
+      ["natures_spirit:redwood_forest/blue_iris_patch_feature", 1],
+      ["natures_spirit:redwood_forest/yellow_wildflower_patch_feature", 1],
+      ["natures_spirit:redwood_forest/lush_fern_feature", 10],
+      ["natures_spirit:redwood_forest/large_lush_fern_feature", 7],
+      ["natures_spirit:redwood_forest/deadbush_feature", 4],
+      ["natures_spirit:redwood_forest/brown_mushroom_feature", 7],
+      ["natures_spirit:redwood_forest/spruce_bush_feature", 4],
+      ["minecraft:tall_grass_feature", 10],
+      ["minecraft:grass_double_plant_feature", 5]
+    ]
+  }
 }

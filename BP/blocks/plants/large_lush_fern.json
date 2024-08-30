@@ -1,0 +1,82 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "natures_spirit:large_lush_fern",
+      "menu_category": {
+        "category": "none",
+        "is_hidden_in_commands": true
+      },
+      "states": {
+        "natures_spirit:top_bit": [false, true]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "!q.block_state('natures_spirit:top_bit')",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "large_lush_fern_bottom",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('natures_spirit:top_bit')",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "large_lush_fern_top",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      }
+    ],
+    "components": {
+      "tag:fern": {},
+      "minecraft:custom_components": ["natures_spirit:large_plant"],
+      "minecraft:loot": "loot_tables/blocks/plants/fern/large_lush_fern.json",
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0
+      },
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": {
+        "origin": [-6, 0, -6],
+        "size": [12, 13, 12]
+      },
+      "minecraft:geometry": {
+        "identifier": "geometry.large_cross_block"
+      },
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": ["up"],
+            "block_filter": [
+              "minecraft:grass",
+              "minecraft:dirt",
+              "minecraft:podzol",
+              "minecraft:moss_block",
+              "minecraft:dirt_with_roots",
+              {
+                "name": "natures_spirit:large_lush_fern",
+                "states": {
+                  "natures_spirit:top_bit": false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
