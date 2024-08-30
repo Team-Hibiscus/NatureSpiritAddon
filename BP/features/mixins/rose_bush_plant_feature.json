@@ -1,0 +1,13 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "natures_spirit:mixins/rose_bush_plant_feature"
+		},
+		"early_out": "first_failure",
+		"features": [
+			"natures_spirit:mixins/rose_bush_plant_bottom",
+			"natures_spirit:mixins/rose_bush_plant_top_pos"
+		]
+	}
+}

@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "natures_spirit:aspen_forest/plants_weighted_random_feature"
+    },
+    "features": [
+      ["natures_spirit:aspen_forest/aspen_tree", 8],
+      ["natures_spirit:aspen_forest/aspen_tree_beehive", 1],
+      ["natures_spirit:aspen_forest/dandelion_feature", 5],
+      ["natures_spirit:aspen_forest/orange_tulip_feature", 3],
+      ["natures_spirit:mixins/rose_bush_plant_feature", 1],
+      ["natures_spirit:aspen_forest/marigold_feature", 1],
+      ["natures_spirit:mixins/grass_feature", 15],
+      ["minecraft:tall_grass_feature", 10],
+      ["minecraft:grass_double_plant_feature", 5]
+    ]
+  }
+}

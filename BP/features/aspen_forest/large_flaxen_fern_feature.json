@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:aggregate_feature": {
+    "description": {
+      "identifier": "natures_spirit:aspen_forest/large_flaxen_fern_feature"
+    },
+    "early_out": "first_failure",
+    "features": [
+      "natures_spirit:aspen_forest/large_flaxen_fern_bottom",
+      "natures_spirit:aspen_forest/large_flaxen_fern_top_pos"
+    ]
+  }
+}

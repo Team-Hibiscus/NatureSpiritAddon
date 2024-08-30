@@ -401,6 +401,7 @@
   "natures_spirit:black_kaolin_slab": {
     "sound": "stone"
   },
+  //Redwood Forest
   "natures_spirit:redwood_log": {
     "sound": "wood"
   },
@@ -434,6 +435,9 @@
   "natures_spirit:redwood_sapling": {
     "sound": "grass"
   },
+  "natures_spirit:redwood_door": {
+    "sound": "wood"
+  },
   "natures_spirit:lush_fern": {
     "sound": "grass"
   },
@@ -444,6 +448,52 @@
     "sound": "grass"
   },
   "natures_spirit:large_lush_fern": {
+    "sound": "grass"
+  },
+  //Aspen Forest
+  "natures_spirit:aspen_log": {
+    "sound": "wood"
+  },
+  "natures_spirit:stripped_aspen_log": {
+    "sound": "wood"
+  },
+  "natures_spirit:aspen_wood": {
+    "sound": "wood"
+  },
+  "natures_spirit:stripped_aspen_wood": {
+    "sound": "wood"
+  },
+  "natures_spirit:aspen_planks": {
+    "sound": "wood"
+  },
+  "natures_spirit:aspen_trapdoor": {
+    "sound": "wood"
+  },
+  "natures_spirit:aspen_slab": {
+    "sound": "wood"
+  },
+  "natures_spirit:aspen_fence": {
+    "sound": "wood"
+  },
+  "natures_spirit:aspen_fence_gate": {
+    "sound": "wood"
+  },
+  "natures_spirit:aspen_leaves": {
+    "sound": "grass"
+  },
+  "natures_spirit:aspen_sapling": {
+    "sound": "grass"
+  },
+  "natures_spirit:aspen_door": {
+    "sound": "wood"
+  },
+  "natures_spirit:flaxen_fern": {
+    "sound": "grass"
+  },
+  "natures_spirit:large_flaxen_fern": {
+    "sound": "grass"
+  },
+  "natures_spirit:marigold": {
     "sound": "grass"
   }
 }

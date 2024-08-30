@@ -1,0 +1,15 @@
+//bridge-file-version: #1
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "natures_spirit:aspen_forest/large_flaxen_fern_top_pos"
+    },
+    "iterations": 1,
+    "x": 0,
+    "y": 1,
+    "z": 0,
+    "project_input_to_floor": false,
+    "places_feature": "natures_spirit:aspen_forest/large_flaxen_fern_top"
+  }
+}

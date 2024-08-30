@@ -2,7 +2,7 @@
   "format_version": "1.21.0",
   "minecraft:single_block_feature": {
     "description": {
-      "identifier": "natures_spirit:redwood_forest/grass_feature"
+      "identifier": "natures_spirit:mixins/grass_feature"
     },
     "enforce_placement_rules": true,
     "enforce_survivability_rules": true,

@@ -1,0 +1,13 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:weighted_random_feature": {
+      "description": {
+        "identifier": "natures_spirit:aspen_forest/flaxen_fern_random_feature"
+      },
+      "features": [
+        ["natures_spirit:aspen_forest/flaxen_fern_feature", 5],
+        ["natures_spirit:aspen_forest/large_flaxen_fern_feature", 5]
+      ]
+    }
+  }
+  

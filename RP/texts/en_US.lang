@@ -27,6 +27,9 @@ item.natures_spirit:blue_iris_item=Blue Iris
 item.natures_spirit:yellow_wildflower_item=Yellow Wildflower
 item.natures_spirit:lush_fern_item=Lush Fern
 item.natures_spirit:large_lush_fern_item=Large Lush Fern
+item.natures_spirit:large_flaxen_fern_item=Large Flaxen Fern
+item.natures_spirit:flaxen_fern_item=Flaxen Fern
+item.natures_spirit:marigold_item=Marigold
 
 tile.natures_spirit:kaolin.name=Kaolin
 tile.natures_spirit:white_kaolin.name=White Kaolin
@@ -140,3 +143,14 @@ tile.natures_spirit:redwood_fence.name=Redwood Fence
 tile.natures_spirit:redwood_fence_gate.name=Redwood Fence Gate
 tile.natures_spirit:redwood_leaves.name=Redwood Leaves
 
+tile.natures_spirit:aspen_log.name=Aspen Log
+tile.natures_spirit:stripped_aspen_log.name=Stripped Aspen Log
+tile.natures_spirit:aspen_wood.name=Aspen Wood
+tile.natures_spirit:stripped_aspen_wood.name=Stripped Aspen Wood
+tile.natures_spirit:aspen_planks.name=Aspen Planks
+tile.natures_spirit:aspen_slab.name=Aspen Slab
+tile.natures_spirit:aspen_trapdoor.name=Aspen Trapdoor
+tile.natures_spirit:aspen_fence.name=Aspen Fence
+tile.natures_spirit:aspen_fence_gate.name=Aspen Fence Gate
+tile.natures_spirit:aspen_leaves.name=Aspen Leaves
+item.natures_spirit:aspen_door_item=Aspen Door

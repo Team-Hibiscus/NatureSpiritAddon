@@ -264,6 +264,7 @@
     "black_chalk": {
       "textures": "textures/blocks/black_chalk"
     },
+    // Redwood Forest
     "redwood_planks": {
       "textures": "textures/blocks/redwood_planks"
     },
@@ -288,6 +289,12 @@
     "stripped_redwood_log": {
       "textures": "textures/blocks/stripped_redwood_log"
     },
+    "redwood_door_top": {
+      "textures": "textures/blocks/redwood_door_top"
+    },
+    "redwood_door_bottom": {
+      "textures": "textures/blocks/redwood_door_bottom"
+    },
     "lush_fern": {
       "textures": "textures/blocks/lush_fern"
     },
@@ -302,6 +309,52 @@
     },
     "large_lush_fern_top": {
       "textures": "textures/blocks/large_lush_fern_top"
+    },
+    // Aspen Forest
+    "aspen_planks": {
+      "textures": "textures/blocks/aspen_planks"
+    },
+    "aspen_leaves": {
+      "textures": "textures/blocks/aspen_leaves"
+    },
+    "aspen_sapling": {
+      "textures": "textures/blocks/aspen_sapling"
+    },
+    "aspen_trapdoor": {
+      "textures": "textures/blocks/aspen_trapdoor"
+    },
+    "aspen_log_top": {
+      "textures": "textures/blocks/aspen_log_top"
+    },
+    "aspen_log": {
+      "textures": "textures/blocks/aspen_log"
+    },
+    "stripped_aspen_log_top": {
+      "textures": "textures/blocks/stripped_aspen_log_top"
+    },
+    "stripped_aspen_log": {
+      "textures": "textures/blocks/stripped_aspen_log"
+    },
+    "aspen_door_top": {
+      "textures": "textures/blocks/aspen_door_top"
+    },
+    "aspen_door_bottom": {
+      "textures": "textures/blocks/aspen_door_bottom"
+    },
+    "flaxen_fern": {
+      "textures": "textures/blocks/flaxen_fern"
+    },
+    "marigold_bottom": {
+      "textures": "textures/blocks/marigold_bottom"
+    },
+    "marigold_top": {
+      "textures": "textures/blocks/marigold_top"
+    },
+    "large_flaxen_fern_bottom": {
+      "textures": "textures/blocks/large_flaxen_fern_bottom"
+    },
+    "large_flaxen_fern_top": {
+      "textures": "textures/blocks/large_flaxen_fern_top"
     }
   },
   "texture_name": "atlas.terrain"

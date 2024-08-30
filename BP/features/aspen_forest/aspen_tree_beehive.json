@@ -1,0 +1,13 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:aggregate_feature": {
+      "description": {
+        "identifier": "natures_spirit:aspen_forest/aspen_tree_beehive"
+      },
+      "early_out": "first_failure",
+      "features": [
+        "natures_spirit:aspen_forest/aspen_tree",
+        "minecraft:beehive_search_feature"
+      ]
+    }
+  }

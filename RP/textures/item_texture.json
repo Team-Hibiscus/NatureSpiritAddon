@@ -58,6 +58,9 @@
     "redwood_sapling": {
       "textures": "textures/items/redwood_sapling"
     },
+    "redwood_door": {
+      "textures": "textures/items/redwood_door"
+    },
     "lush_fern": {
       "textures": "textures/items/lush_fern"
     },
@@ -69,6 +72,21 @@
     },
     "large_lush_fern": {
       "textures": "textures/items/large_lush_fern"
+    },
+    "aspen_sapling": {
+      "textures": "textures/items/aspen_sapling"
+    },
+    "aspen_door": {
+      "textures": "textures/items/aspen_door"
+    },
+    "flaxen_fern": {
+      "textures": "textures/blocks/flaxen_fern"
+    },
+    "marigold": {
+      "textures": "textures/blocks/marigold_top"
+    },
+    "large_flaxen_fern": {
+      "textures": "textures/blocks/large_flaxen_fern_top"
     }
   },
   "texture_name": "atlas.items"

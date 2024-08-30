@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "natures_spirit:aspen_forest/pumpkin_patch_random_feature"
+    },
+    "features": [
+      ["natures_spirit:aspen_forest/pumpkin_patch_feature", 5],
+      ["natures_spirit:aspen_forest/pumpkin_patch_2_feature", 5],
+      ["natures_spirit:aspen_forest/pumpkin_patch_3_feature", 5]
+    ]
+  }
+}

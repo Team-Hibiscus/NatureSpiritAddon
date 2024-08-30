@@ -1,0 +1,14 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:scatter_feature": {
+      "description": {
+        "identifier": "natures_spirit:aspen_forest/aspen_forest_idx"
+      },
+      "places_feature": "natures_spirit:aspen_forest/grass_block_patch_feature",
+      "iterations": "t.natures_spirit_biome == 1",
+      "x": 0,
+      "z": 0,
+      "y": 0
+    }
+  }
+  

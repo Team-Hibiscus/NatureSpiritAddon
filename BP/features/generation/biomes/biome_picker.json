@@ -5,7 +5,8 @@
       "identifier": "natures_spirit:generation/biomes/biome_picker"
     },
     "features": [
-      "natures_spirit:redwood_forest/redwood_forest_idx" //0
+      "natures_spirit:redwood_forest/redwood_forest_idx", //0
+      "natures_spirit:aspen_forest/aspen_forest_idx" //1
     ],
     "early_out": "first_success"
   }

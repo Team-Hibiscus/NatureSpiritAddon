@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "natures_spirit:aspen_forest/marigold_top"
+    },
+    "enforce_placement_rules": true,
+    "enforce_survivability_rules": true,
+    "places_block": {
+      "name": "natures_spirit:marigold",
+      "states": {
+        "natures_spirit:top_bit": true
+      }
+    },
+    "may_replace": ["minecraft:air"],
+    "may_attach_to": {
+      "bottom": [
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:coarse_dirt",
+        {
+          "name": "natures_spirit:marigold",
+          "states": {
+            "natures_spirit:top_bit": false
+          }
+        }
+      ]
+    }
+  }
+}

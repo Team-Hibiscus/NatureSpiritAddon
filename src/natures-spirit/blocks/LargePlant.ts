@@ -1,4 +1,4 @@
-import { BlockPermutation, world } from "@minecraft/server";
+import { BlockPermutation, ItemStack, world } from "@minecraft/server";
 
 world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
     blockComponentRegistry.registerCustomComponent("natures_spirit:large_plant", {
@@ -23,8 +23,20 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
         onPlayerDestroy(arg) {
             const { block } = arg
-            const permutation = block.permutation.getState('natures_spirit:top_bit')
+            const permutation = arg.destroyedBlockPermutation.getState('natures_spirit:top_bit')
             block.dimension.runCommand(`setblock ${block.location.x} ${block.location.y + (permutation ? -1 : 1)} ${block.location.z} air destroy`)
+
+            const data = `${arg.destroyedBlockPermutation.type.id}_item`;
+      
+            const item = new ItemStack(data, 1);
+            const loc = block.location;
+            const itemEntity = block.dimension.spawnItem(item, {
+              x: loc.x + 0.5,
+              y: loc.y + 0.5 + 100,
+              z: loc.z + 0.5,
+            });
+          
+            itemEntity.teleport({ x: loc.x + 0.5, y: loc.y + 0.5, z: loc.z + 0.5 });
         },
     });
 });

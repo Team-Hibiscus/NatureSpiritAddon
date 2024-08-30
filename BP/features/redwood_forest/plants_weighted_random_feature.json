@@ -10,7 +10,6 @@
       ["natures_spirit:redwood_forest/tuff_rock_feature", 10],
       ["natures_spirit:redwood_forest/coarse_patch_feature", 2],
       ["natures_spirit:redwood_forest/grass_block_patch_feature", 1],
-      ["natures_spirit:redwood_forest/grass_feature", 15],
       ["natures_spirit:redwood_forest/blue_iris_patch_feature", 1],
       ["natures_spirit:redwood_forest/yellow_wildflower_patch_feature", 1],
       ["natures_spirit:redwood_forest/lush_fern_feature", 10],
@@ -18,6 +17,7 @@
       ["natures_spirit:redwood_forest/deadbush_feature", 4],
       ["natures_spirit:redwood_forest/brown_mushroom_feature", 7],
       ["natures_spirit:redwood_forest/spruce_bush_feature", 4],
+      ["natures_spirit:mixins/grass_feature", 15],
       ["minecraft:tall_grass_feature", 10],
       ["minecraft:grass_double_plant_feature", 5]
     ]

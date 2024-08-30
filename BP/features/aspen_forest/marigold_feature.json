@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:aggregate_feature": {
+    "description": {
+      "identifier": "natures_spirit:aspen_forest/marigold_feature"
+    },
+    "early_out": "first_failure",
+    "features": [
+      "natures_spirit:aspen_forest/marigold_bottom",
+      "natures_spirit:aspen_forest/marigold_top_pos"
+    ]
+  }
+}
