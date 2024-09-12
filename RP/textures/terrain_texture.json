@@ -355,6 +355,45 @@
     },
     "large_flaxen_fern_top": {
       "textures": "textures/blocks/large_flaxen_fern_top"
+    },
+    // Drylands
+    "pink_sand": {
+      "textures": "textures/blocks/pink_sand"
+    },
+    "pink_sandstone": {
+      "textures": "textures/blocks/pink_sandstone"
+    },
+    "pink_sandstone_bottom": {
+      "textures": "textures/blocks/pink_sandstone_bottom"
+    },
+    "pink_sandstone_top": {
+      "textures": "textures/blocks/pink_sandstone_top"
+    },
+
+    // Cypress Fields
+    "cypress_planks": {
+      "textures": "textures/blocks/cypress_planks"
+    },
+    "cypress_log_top": {
+      "textures": "textures/blocks/cypress_log_top"
+    },
+    "cypress_log": {
+      "textures": "textures/blocks/cypress_log"
+    },
+    "cypress_sapling": {
+      "textures": "textures/blocks/cypress_sapling"
+    },
+    "cypress_trapdoor": {
+      "textures": "textures/blocks/cypress_trapdoor"
+    },
+    "cypress_leaves": {
+      "textures": "textures/blocks/cypress_leaves"
+    },
+    "cypress_door_top": {
+      "textures": "textures/blocks/cypress_door_top"
+    },
+    "cypress_door_bottom": {
+      "textures": "textures/blocks/cypress_door_bottom"
     }
   },
   "texture_name": "atlas.terrain"

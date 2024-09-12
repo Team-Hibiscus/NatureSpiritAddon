@@ -1,0 +1,60 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "natures_spirit:cypress_wood",
+      "menu_category": {
+        "category": "nature",
+        "group": "itemGroup.name.wood"
+      },
+      "states": {
+        "natures_spirit:block_face": [0, 1, 2]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('natures_spirit:block_face') == 0",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [0, 0, 0]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('natures_spirit:block_face') == 1",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [90, 0, 90]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('natures_spirit:block_face') == 2",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [0, 0, 90]
+          }
+        }
+      }
+    ],
+    "components": {
+      "tag:wood": {},
+      "minecraft:custom_components": ["natures_spirit:block_face_3", "natures_spirit:log"],
+      "minecraft:loot": "loot_tables/blocks/wood/cypress/cypress_wood.json",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 2
+      },
+      "minecraft:collision_box": true,
+      "minecraft:selection_box": true,
+      "minecraft:geometry": {
+        "identifier": "minecraft:geometry.full_block"
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "cypress_log",
+          "render_method": "opaque"
+        }
+      }
+    }
+  }
+}

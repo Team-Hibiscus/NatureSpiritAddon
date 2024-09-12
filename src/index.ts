@@ -7,3 +7,4 @@ import "./natures-spirit/blocks/Sapling";
 import "./natures-spirit/blocks/Log";
 import "./natures-spirit/blocks/LargePlant";
 import "./natures-spirit/blocks/Door";
+import "./natures-spirit/blocks/Sand"

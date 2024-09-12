@@ -495,5 +495,10 @@
   },
   "natures_spirit:marigold": {
     "sound": "grass"
+  },
+  // Drylands
+  "natures_spirit:pink_sand": {
+    "sound": "sand",
+    "textures": "pink_sand"
   }
 }

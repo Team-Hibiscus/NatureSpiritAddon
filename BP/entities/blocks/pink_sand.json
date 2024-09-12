@@ -1,0 +1,112 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:entity": {
+      "description": {
+        "identifier": "natures_spirit:pink_sand",
+        "is_summonable": true,
+        "is_spawnable": false,
+        "is_experimental": false
+      },
+      "component_groups": {
+        "natures_spirit:on_ground": {
+          "minecraft:collision_box": {
+            "width": 0.0,
+            "height": 0.0
+          },
+          "minecraft:timer": {
+            "looping": false,
+            "time": 0.15,
+            "time_down_event": {
+              "event": "turn_into_block:event"
+            }
+          }
+        }
+      },
+      "components": {
+        "minecraft:collision_box": {
+          "width": 0.0,
+          "height": 1.0
+        },
+        "minecraft:is_stackable": {},
+        "minecraft:pushable": {
+          "is_pushable": false,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:physics": {
+          "has_collision": true,
+          "has_gravity": true
+        },
+        "minecraft:damage_sensor": {
+          "triggers": [
+            {
+              "cause": "all",
+              "deals_damage": false
+            }
+          ]
+        },
+        "minecraft:health": {
+          "value": 1,
+          "max": 1
+        },
+        "minecraft:persistent": {},
+        "minecraft:sound_volume": {
+          "value": 0.0
+        },
+        "minecraft:environment_sensor": {
+          "triggers": [
+            {
+              "filters": {
+                "any_of": [
+                  {
+                    "test": "on_ground",
+                    "value": true
+                  }
+                ]
+              },
+              "event": "falling_block:on_ground"
+            }
+          ]
+        },
+        "minecraft:despawn": {
+          "filters": {
+            "all_of": [
+              {
+                "test": "inactivity_timer",
+                "subject": "self",
+                "operator": ">=",
+                "value": 30
+              },
+              {
+                "test": "on_ground",
+                "subject": "self",
+                "value": true
+              }
+            ]
+          }
+        }
+      },
+      "events": {
+        "falling_block:on_ground": {
+          "filters": {
+            "any_of": [
+              {
+                "test": "has_component",
+                "operator": "not",
+                "value": "minecraft:timer"
+              }
+            ]
+          },
+          "add": {
+            "component_groups": [
+              "natures_spirit:on_ground"
+            ]
+          }
+        },
+        "turn_into_block:event": {
+          "queue_command": {
+            "command": "scriptevent id:turn_into_block"
+          }
+        }
+      }
+    }
+  }

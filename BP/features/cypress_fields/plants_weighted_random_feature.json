@@ -1,0 +1,11 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "natures_spirit:cypress_fields/plants_weighted_random_feature"
+    },
+    "features": [
+      ["natures_spirit:cypress_fields/cypress_tree", 8]
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:block": {
+      "description": {
+        "identifier": "natures_spirit:pink_sandstone",
+        "menu_category": {
+          "category": "construction"
+        }
+      },
+      "components": {
+        "minecraft:light_dampening": 15,
+        "minecraft:collision_box": true,
+        "minecraft:selection_box": true,
+        "minecraft:geometry": {
+          "identifier": "minecraft:geometry.full_block"
+        },
+        "minecraft:material_instances": {
+            "up": {
+              "texture": "pink_sandstone_top",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "pink_sandstone_bottom",
+              "render_method": "opaque"
+            },
+            "side": {
+              "texture": "pink_sandstone",
+              "render_method": "opaque"
+            },
+            "north": "side",
+            "south": "side",
+            "west": "side",
+            "east": "side"
+      }
+      }
+    }
+  }

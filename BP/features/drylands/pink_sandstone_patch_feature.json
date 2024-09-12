@@ -1,0 +1,29 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:vegetation_patch_feature": {
+    "description": {
+      "identifier": "natures_spirit:drylands/pink_sandstone_patch_feature"
+    },
+    "replaceable_blocks": [
+      "minecraft:grass_block",
+      "minecraft:podzol",
+      "minecraft:dirt",
+      "minecraft:stone",
+      "minecraft:gravel",
+      {
+        "name": "minecraft:dirt",
+        "states": {
+          "dirt_type": "coarse"
+        }
+      }
+    ],
+    "ground_block": "natures_spirit:pink_sandstone",
+    "surface": "floor",
+    "depth": 7,
+    "vertical_range": 8,
+    "extra_edge_column_chance": 0.7,
+    "horizontal_radius": 16,
+    "vegetation_feature": "natures_spirit:dead_patch_feature",
+    "vegetation_chance": 0.05
+  }
+}

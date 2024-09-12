@@ -1,0 +1,14 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:scatter_feature": {
+      "description": {
+        "identifier": "natures_spirit:cypress_fields/cypress_fields_idx"
+      },
+      "places_feature": "natures_spirit:cypress_fields/grass_block_patch_feature",
+      "iterations": "t.natures_spirit_biome == 2",
+      "x": 0,
+      "z": 0,
+      "y": 0
+    }
+  }
+  

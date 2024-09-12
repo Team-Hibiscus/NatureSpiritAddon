@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "natures_spirit:pink_sand",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "geometry": {
+          "default": "geometry.block.entity"
+        },
+        "textures": {
+          "default": "textures/blocks/pink_sand"
+        },
+        "render_controllers": [
+          "controller.render.falling_block"
+        ]
+      }
+    }
+  }

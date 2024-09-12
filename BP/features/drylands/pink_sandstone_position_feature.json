@@ -1,0 +1,14 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "natures_spirit:drylands/pink_sandstone_position_feature"
+    },
+    "iterations": 3,
+    "x": 0,
+    "y": -7,
+    "z": 0,
+    "project_input_to_floor": false,
+    "places_feature": "natures_spirit:drylands/pink_sandstone_patch_feature"
+  }
+}

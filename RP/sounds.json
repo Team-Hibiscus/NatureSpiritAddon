@@ -1,0 +1,17 @@
+{
+    "entity_sounds": {
+      "entities": {
+        "natures_spirit:pink_sand": {
+          "events": {
+            "fall.big": "",
+            "fall.small": "",
+            "hurt": "",
+            "hurt.in.water": "",
+            "step": "",
+            "death": ""
+          },
+          "volume": 0
+        }
+      }
+    }
+  }
